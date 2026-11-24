@@ -1,0 +1,50 @@
+{
+  "checked_at":"2026-10-23",
+  "models":[
+    {
+      "id":"vngrs/Kumru-2B","name":"Kumru-2B","category":"LLM-genel","creator":"VNGRS",
+      "plain":"Türkçe sohbet ve metin üretimi için küçük dil modeli.",
+      "claims":[{"text":"Türkçe dilbilgisi düzeltme ve özetlemede güçlü olduğunu, Cetvel'de daha büyük modelleri genel olarak geçtiğini söylüyor.","evidence":"Geliştiricinin model kartı ve görsel sonuç tablosu; kendi deneyimiz yok.","source":"https://huggingface.co/vngrs/Kumru-2B"}],
+      "training":"Kart: sıfırdan ön eğitim, 300 milyar token, ardından 1 milyon talimat örneği. Base ve Instruct ayrılmalı.",
+      "version":"2B Instruct incelendi. Aynı kartta 7B ailesi de var. Depo kimliği canlı API ile kaydedildi; aile genelinde en yeni model olduğu kanıtlanmadı.",
+      "try_it":"Kartta Transformers kodu var. Bağlantı verilen kumru.ai demosu 7B içindir; 2B deneyi yerine sayılamaz. Demo çalıştırılmadı.",
+      "independent":"Topluluk tartışmaları bulundu; bu ilk turda tekrarlanabilir bağımsız kalite sonucu doğrulanmadı.",
+      "unknowns":["Cetvel iddiasının ham çıktıları ve sürüm eşleşmesi incelenmeli.","Karttaki eski vngrs-ai kod yolu ile güncel vngrs deposu eşleştirilmeli.","YouTube/X ve geliştirici blogunun doğrudan içerik kontrolü açık."],
+      "sources":[{"url":"https://huggingface.co/vngrs/Kumru-2B","title":"Geliştirici model kartı","type":"birincil","date":"belirtilmemiş","checked_at":"2026-10-23"},{"url":"https://huggingface.co/vngrs/Kumru-2B/discussions","title":"Topluluk başlıkları; kalite testi sayılmaz","type":"topluluk","date":"değişken","checked_at":"2026-10-23"}]
+    },
+    {
+      "id":"ytu-ce-cosmos/Turkish-Gemma-9b-T1","name":"Turkish-Gemma-9b-T1","category":"LLM-genel","creator":"YTÜ COSMOS",
+      "plain":"Türkçe matematik, mantık ve çok adımlı sorular için uyarlanmış dil modeli.",
+      "claims":[{"text":"Çok adımlı düşünme, talimata uyma ve daha az uydurma cevap hedefliyor.","evidence":"Kartta 1.450 soruluk insan tercih değerlendirmesi ve 18 değerlendirici belirtiliyor. %68,65 tercih başarısı, cevapların %68,65'i doğru demek değildir.","source":"https://huggingface.co/ytu-ce-cosmos/Turkish-Gemma-9b-T1"}],
+      "training":"Turkish-Gemma-9b-v0.1 üzerine akıl yürütme uyarlaması; tabanda Gemma 2 9B ailesi. Etiketlerde SFT/DPO var; tam veri kökeni ayrıca incelenmeli.",
+      "version":"T1 deposu incelendi; kartta T0 ve v0.1 karşılaştırılıyor. Son dosya değişimi yeni ağırlık sürümü demek değil.",
+      "try_it":"Geliştirici model.cosmosytu.com sohbet demosunu ve yerel kodu gösteriyor. Demo burada denenmedi; sunulan model kimliği ayrıca doğrulanmalı.",
+      "independent":"Hedefli aramada bu ilk tur için sürümü belli bağımsız kullanıcı deneyi doğrulanmadı.",
+      "unknowns":["Hakemlerin yanıt uzunluğu ve model adı etkisine karşı nasıl korunduğu incelenmeli.","Tüm iddialar için aynı kuvvette kanıt yok; uydurma oranı ayrı ölçülmeli.","Resmî video/sosyal duyuru ve güncel aile taraması açık."],
+      "sources":[{"url":"https://huggingface.co/ytu-ce-cosmos/Turkish-Gemma-9b-T1","title":"Geliştirici kartı ve tercih yöntemi","type":"birincil","date":"belirtilmemiş","checked_at":"2026-10-23"},{"url":"https://model.cosmosytu.com/","title":"Kartın önerdiği demo; çalışması sınanmadı","type":"deneme bağlantısı","date":"bilinmiyor","checked_at":"2026-10-23"}]
+    },
+    {
+      "id":"newmindai/Mecellem-Qwen3-1.7B-TR","name":"Mecellem-Qwen3-1.7B-TR","category":"LLM-alan: hukuk","creator":"NewMind AI",
+      "plain":"Türkçe hukuk ve resmî metinler için uyarlanmış küçük dil modeli.",
+      "claims":[{"text":"Hukuk metnini tahmin etme ölçüsünde tabana göre %36,2 iyileşme; hukuk cevaplarında bir ödül modeliyle üstünlük bildiriliyor.","evidence":"Perplexity dil tahmini ölçüsüdür; %36,2 daha doğru hukuk cevabı anlamına gelmez. Muhakim puanları bağımsız insan doğrulaması değildir.","source":"https://huggingface.co/newmindai/Mecellem-Qwen3-1.7B-TR"}],
+      "training":"Qwen3-1.7B üzerinde dört aşamalı sürekli ön eğitim; genel metinden hukuk metnine geçiş.",
+      "version":"1.7B kartı incelendi. Ailenin diğer boyutları ayrı araştırılmalı; bir boyutun sonucu diğerine taşınamaz.",
+      "try_it":"Geliştirici Transformers ile metin üretme ve sohbet örneği veriyor. Bu turda bağımsız demo/API doğrulanmadı.",
+      "independent":"Bu ilk turda bağımsız uzman hukuk değerlendirmesi doğrulanmadı.",
+      "unknowns":["Kart toplam eğitim tokenını aynı satırda yaklaşık 225 milyar ve 250.739.476.454 diye veriyor; açıklama gerekiyor.","Mevzuatın güncelliği, kaynak uydurma ve genel beceri kaybı sınanmalı.","Sosyal medya, kullanıcı deneyimi ve tüm sürümler taraması açık."],
+      "sources":[{"url":"https://huggingface.co/newmindai/Mecellem-Qwen3-1.7B-TR","title":"Geliştirici kartı: eğitim ve ölçümler","type":"birincil","date":"belirtilmemiş","checked_at":"2026-10-23"},{"url":"https://arxiv.org/abs/2601.16018","title":"Kartın atıf verdiği makale; bu kartta tam metin incelemesi yapılmadı","type":"araştırma izi","date":"2026-01","checked_at":"2026-10-23"}]
+    },
+    {
+      "id":"ytu-ce-cosmos/modernbert-tr-embed","name":"ModernBERT-TR Embed","category":"Gömme/reranker","creator":"YTÜ COSMOS",
+      "plain":"Soruyla ilgili belgeyi bulmaya yarar; sohbet cevabı yazmaz.",
+      "claims":[{"text":"150 milyon parametreyle Türkçe görev ortalamasında 68,14 bildiriyor.","evidence":"Aynı tabloda belge bulma skoru 59,4; Qwen3-Embedding-4B 63,1. Yüksek genel ortalama, belge bulmada birincilik göstermiyor.","source":"https://huggingface.co/ytu-ce-cosmos/modernbert-tr-embed"}],
+      "training":"ModernBERT-TR tabanından, Qwen3-Embedding-8B öğretmeninden yaklaşık 7,9 milyon pasajla damıtma ve görev uyarlamaları.",
+      "version":"Embed deposu incelendi. Reranker ayrı model ve ayrı görev; sonuçları karıştırılmamalı.",
+      "try_it":"Kart sentence-transformers, ONNX ve başka yerel yollar tarif ediyor; kurulum yapılmadı.",
+      "independent":"Bu ilk turda bağımsız, aynı Türkçe görevde tekrar ölçümü doğrulanmadı.",
+      "unknowns":["Kart kodunda mrbesher yolu ile kurum deposu farklı; sürüm eşleşmesi kontrol edilmeli.","Sorgu öneki, belge bölme ve benzerlik ayarları sabitlenmeli.","Yazarın test sızıntısı kontrol beyanı bağımsız denetim değil."],
+      "sources":[{"url":"https://huggingface.co/ytu-ce-cosmos/modernbert-tr-embed","title":"Geliştirici kartı: görev tablosu ve kullanım","type":"birincil","date":"belirtilmemiş","checked_at":"2026-10-23"}]
+    }
+  ],
+  "search_notes":["Kumru ve Gemma için resmî kart, tartışma ve sürüm sayfaları arandı. Sosyal arama sonuçları içerikleri okunmadan kanıt sayılmadı.","Bu dosya dört örnek kartın ilk kaynak kontrolüdür; tam katalog veya bütün kanallar taraması değildir."]
+}

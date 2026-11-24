@@ -1,0 +1,191 @@
+[
+  {
+    "record_id": 37,
+    "name": "openai/whisper-large-v3",
+    "category": "ASR",
+    "url": "https://huggingface.co/openai/whisper-large-v3",
+    "dossier": "arastirma/tam-tarama/kayitlar/037.json"
+  },
+  {
+    "record_id": 38,
+    "name": "openai/whisper-large-v3-turbo",
+    "category": "ASR",
+    "url": "https://huggingface.co/openai/whisper-large-v3-turbo",
+    "dossier": "arastirma/tam-tarama/kayitlar/038.json"
+  },
+  {
+    "record_id": 39,
+    "name": "turkmedstt/whisper-large-v3-turkish-general (+ -medical)",
+    "category": "ASR",
+    "url": "https://huggingface.co/turkmedstt/whisper-large-v3-turkish-general",
+    "dossier": "arastirma/tam-tarama/kayitlar/039.json"
+  },
+  {
+    "record_id": 40,
+    "name": "BuzzASR/turkish",
+    "category": "ASR",
+    "url": "https://huggingface.co/BuzzASR/turkish",
+    "dossier": "arastirma/tam-tarama/kayitlar/040.json"
+  },
+  {
+    "record_id": 41,
+    "name": "Qwen3-ASR-1.7B / 0.6B",
+    "category": "ASR",
+    "url": "https://huggingface.co/Qwen/Qwen3-ASR-1.7B-hf",
+    "dossier": "arastirma/tam-tarama/kayitlar/041.json"
+  },
+  {
+    "record_id": 42,
+    "name": "selimc/whisper-large-v3-turbo-turkish",
+    "category": "ASR",
+    "url": "https://huggingface.co/selimc/whisper-large-v3-turbo-turkish",
+    "dossier": "arastirma/tam-tarama/kayitlar/042.json"
+  },
+  {
+    "record_id": 43,
+    "name": "ysdede/whisper-khanacademy-large-v3-turbo-tr (+ ct2, tiny/base/small)",
+    "category": "ASR",
+    "url": "https://huggingface.co/ysdede/whisper-khanacademy-large-v3-turbo-tr",
+    "dossier": "arastirma/tam-tarama/kayitlar/043.json"
+  },
+  {
+    "record_id": 44,
+    "name": "mihuai/turkish-stt (v1) ve turkish-stt-66m-v2",
+    "category": "ASR",
+    "url": "https://huggingface.co/mihuai/turkish-stt-66m-v2",
+    "dossier": "arastirma/tam-tarama/kayitlar/044.json"
+  },
+  {
+    "record_id": 45,
+    "name": "erayyapagci/balbal-v1",
+    "category": "ASR",
+    "url": "https://huggingface.co/erayyapagci/balbal-v1",
+    "dossier": "arastirma/tam-tarama/kayitlar/045.json"
+  },
+  {
+    "record_id": 46,
+    "name": "duxx/turkish-stt-zipformer",
+    "category": "ASR",
+    "url": "https://huggingface.co/duxx/turkish-stt-zipformer",
+    "dossier": "arastirma/tam-tarama/kayitlar/046.json"
+  },
+  {
+    "record_id": 47,
+    "name": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+    "category": "ASR",
+    "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+    "dossier": "arastirma/tam-tarama/kayitlar/047.json"
+  },
+  {
+    "record_id": 48,
+    "name": "facebook/omniASR-LLM-7B ve CTC/LLM 300M–7B ailesi (Omnilingual)",
+    "category": "ASR",
+    "url": "https://huggingface.co/facebook/omniASR-LLM-7B",
+    "dossier": "arastirma/tam-tarama/kayitlar/048.json"
+  },
+  {
+    "record_id": 49,
+    "name": "microsoft/VibeVoice-ASR",
+    "category": "ASR",
+    "url": "https://huggingface.co/microsoft/VibeVoice-ASR",
+    "dossier": "arastirma/tam-tarama/kayitlar/049.json"
+  },
+  {
+    "record_id": 50,
+    "name": "RsGoksel/RsGoksel_ITU_Mainframe",
+    "category": "ASR",
+    "url": "https://huggingface.co/RsGoksel/RsGoksel_ITU_Mainframe",
+    "dossier": "arastirma/tam-tarama/kayitlar/050.json"
+  },
+  {
+    "record_id": 51,
+    "name": "Cosmobillian/turkish_whisper_for_noisy_datas_v1",
+    "category": "ASR",
+    "url": "https://huggingface.co/Cosmobillian/turkish_whisper_for_noisy_datas_v1",
+    "dossier": "arastirma/tam-tarama/kayitlar/051.json"
+  },
+  {
+    "record_id": 52,
+    "name": "ysdede/Phi-4-mm-inst-asr-turkish-unf",
+    "category": "ASR",
+    "url": "https://huggingface.co/ysdede/Phi-4-mm-inst-asr-turkish-unf",
+    "dossier": "arastirma/tam-tarama/kayitlar/052.json"
+  },
+  {
+    "record_id": 53,
+    "name": "Whisper ince ayar uzun kuyruğu (81 depo: samil24 v1–v7, alikanakar 13+, Huseyin/…-finetuned, telephony-cv17, emre/whisper-medium-turkish-2…)",
+    "category": "ASR",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/053.json"
+  },
+  {
+    "record_id": 54,
+    "name": "wav2vec2 Türkçe ince ayarları (mpoyraz XLS-R-300m cv7/cv8, cahya, m3hrdadfi, ceyda, MMS-1b colab ~12)",
+    "category": "ASR",
+    "url": "https://huggingface.co/mpoyraz/wav2vec2-xls-r-300m-cv7-turkish",
+    "dossier": "arastirma/tam-tarama/kayitlar/054.json"
+  },
+  {
+    "record_id": 55,
+    "name": "Vosk Türkçe (vosk-model-small-tr)",
+    "category": "ASR",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/055.json"
+  },
+  {
+    "record_id": 56,
+    "name": "facebook/mms-1b-all, seamless-m4t-v2-large",
+    "category": "ASR",
+    "url": "https://huggingface.co/facebook/mms-1b-all",
+    "dossier": "arastirma/tam-tarama/kayitlar/056.json"
+  },
+  {
+    "record_id": 57,
+    "name": "Cohere Transcribe 03-2026",
+    "category": "ASR",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/057.json"
+  },
+  {
+    "record_id": 58,
+    "name": "Whisper GGUF/ggml sürümleri (handy-computer/whisper-*-gguf)",
+    "category": "ASR",
+    "url": "https://huggingface.co/handy-computer/whisper-large-v3-turbo-gguf",
+    "dossier": "arastirma/tam-tarama/kayitlar/058.json"
+  },
+  {
+    "record_id": 59,
+    "name": "TRWhisper (kagangungor)",
+    "category": "ASR",
+    "url": "https://github.com/kagangungor/TRWhisper",
+    "dossier": "arastirma/tam-tarama/kayitlar/059.json"
+  },
+  {
+    "record_id": 60,
+    "name": "Sestek Knovvu ASR",
+    "category": "ASR",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/060.json"
+  },
+  {
+    "record_id": 61,
+    "name": "TBMM + TÜBİTAK tutanak ASR",
+    "category": "ASR",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/061.json"
+  },
+  {
+    "record_id": 62,
+    "name": "Gazi Whisper + LoRA makalesi",
+    "category": "ASR",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/062.json"
+  },
+  {
+    "record_id": 156,
+    "name": "UYAP'ta sesle yazma (Google Dokümanlar → Sesle Yazma)",
+    "category": "ASR",
+    "url": "https://rayp.adalet.gov.tr/resimler/33/dosya/sesli-yazma26-02-20258-59-am.pdf",
+    "dossier": "arastirma/tam-tarama/kayitlar/156.json"
+  }
+]

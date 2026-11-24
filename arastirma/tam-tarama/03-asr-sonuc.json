@@ -1,0 +1,2947 @@
+{
+  "checked_at": "2026-10-23",
+  "records": [
+    {
+      "record_id": 37,
+      "id": "openai/whisper-large-v3",
+      "name": "openai/whisper-large-v3",
+      "category": "ASR",
+      "kind": "model",
+      "creator": "OpenAI",
+      "plain": "Çok dilli sesi metne çeviren temel Whisper modelidir. Türkçe, kartın desteklenen dilleri arasındadır. İnce ayarlı Türkçe modellerin atasını anlamak ve aynı seste karşılaştırma yapmak için anlamlı bir başlangıçtır. Genel çok dilli başarı iddiası, her Türkçe aksan veya toplantıda aynı doğruluk demek değildir.",
+      "claims": [
+        {
+          "text": "Large-v2'ye göre birçok dilde yüzde 10–20 daha az hata bildiriliyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/openai/whisper-large-v3/raw/main/README.md"
+        }
+      ],
+      "training": "Bir milyon saat zayıf etiketli ve dört milyon saat large-v2 ile otomatik etiketlenmiş ses; karışım üzerinde iki tur eğitim. Bu toplam yalnız Türkçe veri miktarı değildir.",
+      "version": "Aynı yazar listesinde large-v3-turbo da var; hız için alternatif, large-v3'ün her işte yerine geçmesi kanıtlanmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: 06f233fe06e710322aca913c1bc4249a0d71fce1; lastModified: 2024-08-12T10:20:10.000Z. Dosya değişimi yeniden eğitim kanıtı değildir.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir.",
+      "demo_url": null,
+      "independent": "Resmî turbo duyurusunun yorumlarında bir kullanıcı Fransızcada v3'ün tekrara düştüğünü ve v2'yi tercih ettiğini söylüyor. Bunlar kişisel deneyimlerdir; Türkçe karşılaştırma değildir. Önbellekteki son iki Hub başlığı uygulama reklamı olduğundan bağımsız kalite kanıtı sayılmadı.",
+      "unknowns": [
+        "MIT ile Hub ön bilgisindeki Apache-2.0 ayrımı tam lisans metni üzerinden ayrıca netleştirilmeli; Türkçe kişisel dikte başarısı ölçülmedi."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/openai/whisper-large-v3",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/openai/whisper-large-v3/raw/main/README.md",
+          "title": "openai/whisper-large-v3 README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=openai&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/openai/whisper-large-v3/discussions/242",
+          "title": "Hub tartışması: gerçek yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/openai/whisper-large-v3/discussions/240",
+          "title": "Hub tartışması: gerçek yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/openai/whisper/discussions/2363",
+          "title": "Whisper turbo model release ve kullanıcı yanıtları",
+          "type": "developer_community",
+          "date": "2024-10-01",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://huggingface.co/openai/whisper-large-v3/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Resmî turbo duyurusunun yorumlarında bir kullanıcı Fransızcada v3'ün tekrara düştüğünü ve v2'yi tercih ettiğini söylüyor. Bunlar kişisel deneyimlerdir; Türkçe karşılaştırma değildir. Önbellekteki son iki Hub başlığı uygulama reklamı olduğundan bağımsız kalite kanıtı sayılmadı.",
+          "urls": [
+            "https://huggingface.co/api/models/openai/whisper-large-v3/discussions/242",
+            "https://huggingface.co/api/models/openai/whisper-large-v3/discussions/240",
+            "https://github.com/openai/whisper/discussions/2363"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Aynı yazar listesinde large-v3-turbo da var; hız için alternatif, large-v3'ün her işte yerine geçmesi kanıtlanmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/openai/whisper-large-v3",
+            "https://huggingface.co/api/models?author=openai&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "Whisper large v3 turbo official announcement YouTube X review hallucination Turkish",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": []
+    },
+    {
+      "record_id": 38,
+      "id": "openai/whisper-large-v3-turbo",
+      "name": "openai/whisper-large-v3-turbo",
+      "category": "ASR",
+      "kind": "model",
+      "creator": "OpenAI",
+      "plain": "Large-v3'ün hız için küçültülmüş çözücüsüne sahip modelidir. Aynı işin daha hızlı bitmesi amaçlanır; doğruluğun bütün dillerde aynı kalacağı vaat edilmez. Ses çevirisi ile konuşmayı aynı dilde yazma ayrılmalıdır: turbo'nun ek eğitimi çeviri verisini içermez.",
+      "claims": [
+        {
+          "text": "Çözücü katmanı 32'den 4'e indirilmiş; daha hızlı çıkarım karşılığında küçük doğruluk kaybı bildiriliyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/openai/whisper-large-v3-turbo/raw/main/README.md"
+        }
+      ],
+      "training": "Budanan large-v3, aynı çok dilli transkripsiyon verisi üzerinde iki tur daha ince ayarlanmış. Distil-Whisper'dan esinlenmek, aynı damıtma yöntemini kullanmak değildir.",
+      "version": "Turbo duyurusu 1 Ekim 2024; taranan OpenAI Whisper listesinde daha yeni ad doğrulanmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: 41f01f3fe87f28c78e2fbf8b568835947dd65ed9; lastModified: 2024-10-04T14:51:11.000Z. Dosya değişimi yeniden eğitim kanıtı değildir.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir.",
+      "demo_url": null,
+      "independent": "GitHub duyurusunda bir kullanıcı özel adlarda iyileşme bildirirken FurkanGozukara kötü altyazı ve yoğun elle düzeltme gereksinimi bildiriyor. Earlyn, 60 Türkçe FLEURS klibinde turbo için yüzde 8,2, Qwen3-ASR için yüzde 10,9 WER açıklıyor; farklı kuantizasyon ve çalışma yolları hız kıyasını sınırlıyor.",
+      "unknowns": [
+        "Gerçek Türkçe toplantıda parçalama, dil algılama ve sessizlik kararları sonucu değiştirebilir; küçük örnekten genel kazanan çıkmaz."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/openai/whisper-large-v3-turbo",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/openai/whisper-large-v3-turbo/raw/main/README.md",
+          "title": "openai/whisper-large-v3-turbo README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=openai&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/openai/whisper-large-v3-turbo/discussions/93",
+          "title": "Hub tartışması: gerçek yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/openai/whisper-large-v3-turbo/discussions/91",
+          "title": "Hub tartışması: gerçek yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/openai/whisper/discussions/2363",
+          "title": "Whisper turbo model release ve kullanıcı yanıtları",
+          "type": "developer_community",
+          "date": "2024-10-01",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.earlyn.app/research/turkish-meeting-transcription",
+          "title": "Turkish speech-to-text on a Mac: Whisper vs Qwen3-ASR",
+          "type": "third_party_product_test",
+          "date": "2026-10-02",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://huggingface.co/openai/whisper-large-v3-turbo/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "GitHub duyurusunda bir kullanıcı özel adlarda iyileşme bildirirken FurkanGozukara kötü altyazı ve yoğun elle düzeltme gereksinimi bildiriyor. Earlyn, 60 Türkçe FLEURS klibinde turbo için yüzde 8,2, Qwen3-ASR için yüzde 10,9 WER açıklıyor; farklı kuantizasyon ve çalışma yolları hız kıyasını sınırlıyor.",
+          "urls": [
+            "https://huggingface.co/api/models/openai/whisper-large-v3-turbo/discussions/93",
+            "https://huggingface.co/api/models/openai/whisper-large-v3-turbo/discussions/91",
+            "https://github.com/openai/whisper/discussions/2363",
+            "https://www.earlyn.app/research/turkish-meeting-transcription"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Turbo duyurusu 1 Ekim 2024; taranan OpenAI Whisper listesinde daha yeni ad doğrulanmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/openai/whisper-large-v3-turbo",
+            "https://huggingface.co/api/models?author=openai&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "Whisper large v3 turbo official announcement YouTube X review hallucination Turkish",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": []
+    },
+    {
+      "record_id": 39,
+      "id": "turkmedstt/whisper-large-v3-turkish-general",
+      "name": "turkmedstt/whisper-large-v3-turkish-general (+ -medical)",
+      "category": "ASR",
+      "kind": "model_family",
+      "creator": "Muhammed Kumcu ve Yağmur Tuncer / TurkMedSTT",
+      "plain": "Genel Türkçe M1 ve tıbbi M2, Whisper-large-v3 tabanlı ayrı LoRA kollarıdır; iki resmî kart ve API artık okundu. M2 sentetik tıbbi örneklerle alan uyarlamasıdır. Gerçek klinik ürün kabulü yok; yayımlanmayan sesler bağımsız tekrar sınırıdır.",
+      "claims": [
+        {
+          "text": "320 gerçek genel klipte WER taban0.1213, M1 0.0792, M2 0.0795; tıbbi uyarlama genel sonucu büyük ölçüde koruyor.",
+          "evidence": "Geliştirici ölçümü; yeniden üretilmedi.",
+          "source": "https://huggingface.co/turkmedstt/whisper-large-v3-turkish-general/raw/main/README.md"
+        },
+        {
+          "text": "120 gerçek tıbbi klip/3 konuşmacı ortalama WER taban0.1060, M1 0.1176, M2 0.0854. En iyi konuşmacının0.0588 değeri genel ortalama değildir.332 sentetik doğrulamada0.0055 WER alan içi üst sınırdır, gerçek klinik başarı değildir.",
+          "evidence": "Tıbbi karttaki ayrı gerçek/sentetik testler; geliştirici ölçümü.",
+          "source": "https://huggingface.co/turkmedstt/whisper-large-v3-turkish-medical/raw/main/README.md"
+        }
+      ],
+      "training": "M1 yaklaşık140 saat Common Voice/ISSAI/OpenSLR; M2 aynı genel veriye üç kat örneklenen med-v3 sentetik tıbbi veri ekler. q_proj/v_proj LoRA r64,alpha128,dropout0.05,lr1e-4,1epoch; adaptör birleştirilmiş. Gerçek tıbbi gönüllü sesleri eğitimde kullanılmamış.",
+      "version": "General ve medical ayrı README/API ile doğrulandı; kapsam dışında en güncel garanti yok. lastModified yeni eğitim kanıtı değildir.",
+      "revision": "General ec03ccfcedc0cc1c553b47a607086f2bd7a386b2,2026-06-16T08:30:54Z; medical0e74ec8ad2e4bd62a1e8d28eda9b7455063a2cbc,2026-06-16T08:30:57Z.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir.",
+      "demo_url": null,
+      "independent": "Duyuru, LinkedIn, YouTube ve bağımsız deneyim aramaları esas olarak ekibin GitHub/Hub belgelerini getirdi. Bağımsız olumlu veya olumsuz kullanıcı deneyi bulunamadı; sonuçlar geliştiricinin kendi karşılaştırmasıdır.",
+      "unknowns": [
+        "Gerçek değerlendirme ham sesleri kamuya açılmadığından bağımsız tekrar ve terim/doz hata incelemesi açık."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/turkmedstt/whisper-large-v3-turkish-general",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/turkmedstt/whisper-large-v3-turkish-general/raw/main/README.md",
+          "title": "turkmedstt/whisper-large-v3-turkish-general (+ -medical) README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=turkmedstt&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/muhammedkumcu/turkmedstt",
+          "title": "TurkMedSTT proje ve ekip açıklaması",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/turkmedstt/whisper-large-v3-turkish-medical/raw/main/README.md",
+          "title": "TurkMedSTT medical M2 resmî kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/turkmedstt/whisper-large-v3-turkish-medical",
+          "title": "Medical canlı revizyon API",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://huggingface.co/turkmedstt/whisper-large-v3-turkish-general/raw/main/README.md",
+            "https://github.com/muhammedkumcu/turkmedstt",
+            "https://huggingface.co/turkmedstt/whisper-large-v3-turkish-medical/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Duyuru, LinkedIn, YouTube ve bağımsız deneyim aramaları esas olarak ekibin GitHub/Hub belgelerini getirdi. Bağımsız olumlu veya olumsuz kullanıcı deneyi bulunamadı; sonuçlar geliştiricinin kendi karşılaştırmasıdır.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "General ve medical ayrı README/API ile doğrulandı; kapsam dışında en güncel garanti yok. lastModified yeni eğitim kanıtı değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/turkmedstt/whisper-large-v3-turkish-general",
+            "https://huggingface.co/api/models?author=turkmedstt&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/turkmedstt/whisper-large-v3-turkish-medical"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "turkmedstt whisper turkish general medical review LinkedIn YouTube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"turkmedstt\" review sorun deneyim -site:github.com -site:huggingface.co",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "turkmedstt/whisper-large-v3-turkish-general",
+          "url": "https://huggingface.co/turkmedstt/whisper-large-v3-turkish-general",
+          "status": "ana üyenin model kartı okundu; yerel deney yapılmadı"
+        },
+        {
+          "name": "turkmedstt/whisper-large-v3-turkish-medical",
+          "url": "https://huggingface.co/turkmedstt/whisper-large-v3-turkish-medical",
+          "status": "Ayrı kamu README/API okundu; M1/M2 eğitim, gerçek/sentetik test ve hash ayrıldı."
+        }
+      ]
+    },
+    {
+      "record_id": 40,
+      "id": "BuzzASR/turkish",
+      "name": "BuzzASR/turkish",
+      "category": "ASR",
+      "kind": "model",
+      "creator": "Lemn Lab / BuzzASR ekibi",
+      "plain": "102 tek dilli modelin Türkçe üyesidir; bütün ailenin ortalama kazancı bu üyeye otomatik taşınamaz. Proje listesinde Türkçe için özgün Whisper kelime dağarcığını koruyan SFT reçetesi seçilmiş. Bu nedenle başka üyelerdeki yeni tokenizer ve hız kazanımı Türkçe için kanıt değildir.",
+      "claims": [
+        {
+          "text": "FLEURS WER yüzde 7,99, CER yüzde 2; birleşik testte CER yüzde 4,0, tabanda 4,21 bildiriliyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/BuzzASR/turkish/raw/main/README.md"
+        }
+      ],
+      "training": "Whisper-large-v3 üzerinde Türkçe FLEURS ve Common Voice 25 konuşmalarıyla ince ayar. Proje reçeteleri arasında doğrulama kümesine göre seçim var; test sonuçları kendi raporlarıdır.",
+      "version": "Resmî proje Türkçe için SFT seçmiş; FFT üyelerinin hız iddiası Türkçeye taşınmamalı. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: 928b47596e31776dab9daf1e606ecf76234b9ecd; lastModified: 2026-09-22T01:54:03.000Z. Dosya değişimi yeniden eğitim kanıtı değildir.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir.",
+      "demo_url": null,
+      "independent": "Türkçe modelin bağımsız olumlu/olumsuz kullanımı ve YouTube/X gösterimi arandı; doğrudan deney bulunamadı. Başka dilin iyi çalıştığını söyleyen bir paylaşım Türkçe kanıtı sayılmadı.",
+      "unknowns": [
+        "Gerçek gürültülü konuşma, kod geçişi ve normalizasyonun karşılaştırmayı ne ölçüde değiştirdiği ölçülmedi."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/BuzzASR/turkish",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/BuzzASR/turkish/raw/main/README.md",
+          "title": "BuzzASR/turkish README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=BuzzASR&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://lemn-lab.github.io/buzz-asr/models/",
+          "title": "BuzzASR Models: Turkish SFT seçimi",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://huggingface.co/BuzzASR/turkish/raw/main/README.md",
+            "https://lemn-lab.github.io/buzz-asr/models/"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Türkçe modelin bağımsız olumlu/olumsuz kullanımı ve YouTube/X gösterimi arandı; doğrudan deney bulunamadı. Başka dilin iyi çalıştığını söyleyen bir paylaşım Türkçe kanıtı sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Resmî proje Türkçe için SFT seçmiş; FFT üyelerinin hız iddiası Türkçeye taşınmamalı. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/BuzzASR/turkish",
+            "https://huggingface.co/api/models?author=BuzzASR&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "BuzzASR turkish model review github YouTube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"BuzzASR\" Turkish problems review -site:huggingface.co",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 41,
+      "id": "Qwen/Qwen3-ASR-1.7B-hf",
+      "name": "Qwen3-ASR-1.7B / 0.6B",
+      "category": "ASR",
+      "kind": "model_family",
+      "creator": "Alibaba Cloud Qwen ekibi",
+      "plain": "1.7B ve 0.6B boyutları bulunan çok dilli ASR ailesidir. Türkçe desteklenen 30 dil içindedir; ayrıca 22 Çin lehçesi sayılır. 52 dil/lehçe ifadesi 52 ayrı ana dil demek değildir. İncelenen ana depo 1.7B-hf; 0.6B'nin varlığı doğrulandı, ayrı kalite kartı tam incelenmedi.",
+      "claims": [
+        {
+          "text": "Dil tanıma, çevrimdışı ve akışlı işleme; karmaşık seslerde güçlü doğruluk ve 0.6B için yüksek eşzamanlı işlem kapasitesi iddia ediliyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/Qwen/Qwen3-ASR-1.7B-hf/raw/main/README.md"
+        }
+      ],
+      "training": "Qwen3-Omni ses yetenekleri ve büyük ölçekli konuşma verileri üzerine geliştirilmiş. Ayrıntılı veri karışımı bu okunan kartta yeterince açılmıyor; yüksek toplu işlem sayısı tek kullanıcının gecikmesi değildir.",
+      "version": "Aile 29 Ocak 2026; native Transformers HF sürümü 26 Haziran. HF yükleme tarihi ilk eğitim tarihi değil. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: bcd2b5b7f32b480ab5790554cfa8347f246a14f3; lastModified: 2026-07-22T11:58:31.000Z. Dosya değişimi yeniden eğitim kanıtı değildir.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir. Demo bağlantısı bulundu; çalışma/çıktı doğrulaması yapılmadı.",
+      "demo_url": "https://huggingface.co/spaces/hugging-apps/qwen3-asr-1-7b-demo",
+      "independent": "Hub #3 gerçek kullanıcı metninde accelerate/librosa eksikleri ve modelin diske taşınması hatası var. Earlyn'in küçük Türkçe testinde turbo daha düşük WER üretmiş; bu, Qwen'in bütün işlerde zayıf olduğunu göstermez.",
+      "unknowns": [
+        "ForcedAligner'ın 11 dil listesinde Türkçe yok; ASR dil desteğini hizalamaya taşımamak gerekir."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/Qwen/Qwen3-ASR-1.7B-hf",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Qwen/Qwen3-ASR-1.7B-hf/raw/main/README.md",
+          "title": "Qwen3-ASR-1.7B / 0.6B README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=Qwen&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Qwen/Qwen3-ASR-1.7B-hf/discussions/3",
+          "title": "Hub tartışması: gerçek yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Qwen/Qwen3-ASR-1.7B-hf/discussions/1",
+          "title": "Hub tartışması: gerçek yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/QwenLM/Qwen3-ASR",
+          "title": "Qwen3-ASR resmî kod ve duyuru tarihleri",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.earlyn.app/research/turkish-meeting-transcription",
+          "title": "Whisper vs Qwen3-ASR Türkçe küçük deney",
+          "type": "third_party_product_test",
+          "date": "2026-10-02",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://huggingface.co/Qwen/Qwen3-ASR-1.7B-hf/raw/main/README.md",
+            "https://github.com/QwenLM/Qwen3-ASR"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Hub #3 gerçek kullanıcı metninde accelerate/librosa eksikleri ve modelin diske taşınması hatası var. Earlyn'in küçük Türkçe testinde turbo daha düşük WER üretmiş; bu, Qwen'in bütün işlerde zayıf olduğunu göstermez.",
+          "urls": [
+            "https://huggingface.co/api/models/Qwen/Qwen3-ASR-1.7B-hf/discussions/3",
+            "https://huggingface.co/api/models/Qwen/Qwen3-ASR-1.7B-hf/discussions/1",
+            "https://www.earlyn.app/research/turkish-meeting-transcription"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Aile 29 Ocak 2026; native Transformers HF sürümü 26 Haziran. HF yükleme tarihi ilk eğitim tarihi değil. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/Qwen/Qwen3-ASR-1.7B-hf",
+            "https://huggingface.co/api/models?author=Qwen&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "Qwen3 ASR official blog YouTube X review Turkish problems",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "Qwen/Qwen3-ASR-1.7B-hf",
+          "url": "https://huggingface.co/Qwen/Qwen3-ASR-1.7B-hf",
+          "status": "ana üyenin model kartı okundu; yerel deney yapılmadı"
+        },
+        {
+          "name": "Qwen/Qwen3-ASR-0.6B-hf",
+          "url": "https://huggingface.co/Qwen/Qwen3-ASR-0.6B-hf",
+          "status": "ana kart/yazar listesinde görüldü; ayrı değerlendirme açık"
+        }
+      ]
+    },
+    {
+      "record_id": 42,
+      "id": "selimc/whisper-large-v3-turbo-turkish",
+      "name": "selimc/whisper-large-v3-turbo-turkish",
+      "category": "ASR",
+      "kind": "model",
+      "creator": "Selim Çavaş / selimc",
+      "plain": "Whisper-large-v3-turbo'nun Common Voice Türkçe verisiyle uyarlanmış sürümüdür. LinkedIn duyurusu geliştiricinin kimliğini ve ince ayar amacını destekliyor; duyuru bağımsız karşılaştırma değildir. Geçmiş katalogdaki taban tutarsızlığı bu turda okunan güncel README'de görülmedi: taban turbo olarak açıkça yazılı.",
+      "claims": [
+        {
+          "text": "Common Voice 17 değerlendirmesinde yüzde 18,9229 WER ve 0,3123 kayıp bildiriliyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/selimc/whisper-large-v3-turbo-turkish/raw/main/README.md"
+        }
+      ],
+      "training": "GPU/kota sınırı yüzünden Türkçe Common Voice 17 verisinin yalnız yüzde 25'i kullanılmış; 4000 adım, 1e-5 öğrenme oranı. Eğitimde 6,4 turdaki sonuç seçilmiş.",
+      "version": "Bu depo ve yazarın erişilen ilk 40 model kaydı kontrol edildi; aynı adın yeni eğitim sonucu doğrulanmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: e914cebbaa5f7eefd2b77c2441f2d9a5e30e0286; lastModified: 2025-03-17T20:48:47.000Z. Dosya değişimi yeniden eğitim kanıtı değildir.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir.",
+      "demo_url": null,
+      "independent": "Hub #4'te kullanıcı whisper.cpp için ggml dosyası istiyor; geliştirici dönüştürme yolunu veriyor. #7'de eğitim kodu/GPU talebi ve geliştiricinin A100 kullandığını açıklaması var. Bunlar kullanılabilirlik kanıtı; olumlu doğruluk deneyi değildir.",
+      "unknowns": [
+        "Tabana karşı aynı testte iyileşme, gündelik konuşma ve farklı konuşmacılara genelleme gösterilmemiş."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/selimc/whisper-large-v3-turbo-turkish",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/selimc/whisper-large-v3-turbo-turkish/raw/main/README.md",
+          "title": "selimc/whisper-large-v3-turbo-turkish README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=selimc&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/selimc/whisper-large-v3-turbo-turkish/discussions/7",
+          "title": "Hub tartışması: gerçek yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/selimc/whisper-large-v3-turbo-turkish/discussions/4",
+          "title": "Hub tartışması: gerçek yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/selimcavas_selimcwhisper-large-v3-turbo-turkish-hugging-activity-7250519484044619776-Osne",
+          "title": "Selim Çavaş Türkçe Whisper ince ayar duyurusu",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://huggingface.co/selimc/whisper-large-v3-turbo-turkish/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Hub #4'te kullanıcı whisper.cpp için ggml dosyası istiyor; geliştirici dönüştürme yolunu veriyor. #7'de eğitim kodu/GPU talebi ve geliştiricinin A100 kullandığını açıklaması var. Bunlar kullanılabilirlik kanıtı; olumlu doğruluk deneyi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/selimc/whisper-large-v3-turbo-turkish/discussions/7",
+            "https://huggingface.co/api/models/selimc/whisper-large-v3-turbo-turkish/discussions/4"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Sosyal duyuru okundu; bağımsız video deneyi değil.",
+          "urls": [
+            "https://tr.linkedin.com/posts/selimcavas_selimcwhisper-large-v3-turbo-turkish-hugging-activity-7250519484044619776-Osne"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Bu depo ve yazarın erişilen ilk 40 model kaydı kontrol edildi; aynı adın yeni eğitim sonucu doğrulanmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/selimc/whisper-large-v3-turbo-turkish",
+            "https://huggingface.co/api/models?author=selimc&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"selimc/whisper-large-v3-turbo-turkish\" review YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": []
+    },
+    {
+      "record_id": 43,
+      "id": "ysdede/whisper-khanacademy-large-v3-turbo-tr",
+      "name": "ysdede/whisper-khanacademy-large-v3-turbo-tr (+ ct2, tiny/base/small)",
+      "category": "ASR",
+      "kind": "model_family",
+      "creator": "Yunus Dede / ysdede",
+      "plain": "Khan Academy Türkçe ders anlatımına uyarlanmış Whisper grubudur. Ayrıntılı okunan üye large-v3-turbo-tr; CT2'nin varlığı ve kullanım yolu geliştirici yanıtında doğrulandı. Tiny/base/small üyelerinin bütün eğitimleri ve sonuçları ayrı ayrı incelenmedi. Ders anlatımındaki uzmanlaşma gündelik dikteye üstünlük garantisi değildir.",
+      "claims": [
+        {
+          "text": "Ana kart değerlendirme WER'ini yüzde 15,6951 olarak veriyor; genel amaçlı tabanla eş koşullu üstünlük tablosu yok.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/ysdede/whisper-khanacademy-large-v3-turbo-tr/raw/main/README.md"
+        }
+      ],
+      "training": "Whisper-large-v3-turbo, ysdede/khanacademy-turkish ile ince ayarlı; 1204 adım ve 5e-6 öğrenme oranı belirtilmiş. Kartın veri ayrımı ve sınırlama bölümleri eksik bırakılmış.",
+      "version": "CT2 resmî yanıtta doğrulandı; yazarın ONNX depoları aynı uyarlamanın halefi sayılmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: 81c4c2d0137bd97a3940c5aaae77dfa7dfdb06bf; lastModified: 2025-04-23T19:27:11.000Z. Dosya değişimi yeniden eğitim kanıtı değildir.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir.",
+      "demo_url": null,
+      "independent": "Hub #1'de kullanıcı whisper.load_model ile çalıştıramadığını yazıyor. Geliştirici Transformers/CT2 yolunu açıklıyor ve genel Türkçede vanilla large-v3'ten üstün olmadığını söylüyor. Kullanıcı kendi örneğinde WhisperX'i en doğru, Transformers'ı en zayıf bulmuş; ayarlar eşitlenmiş deney değil.",
+      "unknowns": [
+        "Ders verisindeki konuşmacı dağılımı ve test sızıntısı açıklaması tamamlanmalı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/ysdede/whisper-khanacademy-large-v3-turbo-tr",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ysdede/whisper-khanacademy-large-v3-turbo-tr/raw/main/README.md",
+          "title": "ysdede/whisper-khanacademy-large-v3-turbo-tr (+ ct2, tiny/base/small) README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=ysdede&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ysdede/whisper-khanacademy-large-v3-turbo-tr/discussions/1",
+          "title": "Hub tartışması: gerçek yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ysdede/whisper-khanacademy-large-v3-turbo-tr/discussions/1",
+          "title": "How to? Kullanıcı sorunu, geliştirici yanıtı ve deneyim",
+          "type": "community",
+          "date": "2025-04-23",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://huggingface.co/ysdede/whisper-khanacademy-large-v3-turbo-tr/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Hub #1'de kullanıcı whisper.load_model ile çalıştıramadığını yazıyor. Geliştirici Transformers/CT2 yolunu açıklıyor ve genel Türkçede vanilla large-v3'ten üstün olmadığını söylüyor. Kullanıcı kendi örneğinde WhisperX'i en doğru, Transformers'ı en zayıf bulmuş; ayarlar eşitlenmiş deney değil.",
+          "urls": [
+            "https://huggingface.co/api/models/ysdede/whisper-khanacademy-large-v3-turbo-tr/discussions/1",
+            "https://huggingface.co/ysdede/whisper-khanacademy-large-v3-turbo-tr/discussions/1"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "CT2 resmî yanıtta doğrulandı; yazarın ONNX depoları aynı uyarlamanın halefi sayılmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/ysdede/whisper-khanacademy-large-v3-turbo-tr",
+            "https://huggingface.co/api/models?author=ysdede&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"ysdede\" \"whisper-khanacademy\" review YouTube X",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"ysdede\" \"whisper-khanacademy\" sorun deneyim",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "ysdede/whisper-khanacademy-large-v3-turbo-tr",
+          "url": "https://huggingface.co/ysdede/whisper-khanacademy-large-v3-turbo-tr",
+          "status": "ana üyenin model kartı okundu; yerel deney yapılmadı"
+        },
+        {
+          "name": "ysdede/whisper-khanacademy-large-v3-turbo-tr-ct2",
+          "url": "https://huggingface.co/ysdede/whisper-khanacademy-large-v3-turbo-tr-ct2",
+          "status": "resmî yanıtta kullanım yolu doğrulandı; ayrı hash/eşdeğerlik açık"
+        },
+        {
+          "name": "tiny/base/small üyeleri",
+          "url": null,
+          "status": "tüm üye kartları ayrı incelenmedi"
+        }
+      ]
+    },
+    {
+      "record_id": 44,
+      "id": "mihuai/turkish-stt-66m-v2",
+      "name": "mihuai/turkish-stt (v1) ve turkish-stt-66m-v2",
+      "category": "ASR",
+      "kind": "model_family",
+      "creator": "Mihu AI / mihuai",
+      "plain": "Türkçe için küçük, CPU üzerinde konuşma sürerken ara metin veren Zipformer ailesidir. İncelenen ana üye 66m-v2; v1 önceki sürüm olarak halen yayında. Kart, v2'yi aynı boyut/mimariyle yeniden eğitilmiş sürüm diye tanımlıyor. Küçük dosya boyutu ile kullanım lisansı ayrı değerlendirilmelidir.",
+      "claims": [
+        {
+          "text": "Damga normalizasyonunda FLEURS WER v1 için yüzde 9,38, v2 için yüzde 6,21; yaklaşık yüzde 34 bağıl azalma bildiriliyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/mihuai/turkish-stt-66m-v2/raw/main/README.md"
+        }
+      ],
+      "training": "66 milyon parametre, yaklaşık 68 MB INT8. Kart eğitim verisini yalnız Türkçe konuşma olarak tanımlıyor; tam kaynak/saat karışımı açıklanmıyor. mihu Community License özel koşulları var.",
+      "version": "v2 yeniden eğitim diye açıklanıyor; hız tablosu v1 ölçümünden aktarılmış. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: e339b08546f464bcd907cb0627d40480c3c307d0; lastModified: 2026-10-20T02:27:40.000Z. Dosya değişimi yeniden eğitim kanıtı değildir.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir.",
+      "demo_url": null,
+      "independent": "Resmî GitHub/profil, video/X ve bağımsız sorun/deneyim aramaları yapıldı. Okunan sonuçlar geliştiricinin kendi değerlendirmelerine dayanıyor; bağımsız v2 doğrulaması bulunamadı. Eski v1 kartındaki farklı normalizasyon puanları v2 ile doğrudan karıştırılmamalı.",
+      "unknowns": [
+        "Hızın v1'den değişmediği mimari gerekçeyle ileri sürülmüş; bu oturumda v2 çalışma ölçümü yapılmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/mihuai/turkish-stt-66m-v2",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/mihuai/turkish-stt-66m-v2/raw/main/README.md",
+          "title": "mihuai/turkish-stt (v1) ve turkish-stt-66m-v2 README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=mihuai&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://huggingface.co/mihuai/turkish-stt-66m-v2/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Resmî GitHub/profil, video/X ve bağımsız sorun/deneyim aramaları yapıldı. Okunan sonuçlar geliştiricinin kendi değerlendirmelerine dayanıyor; bağımsız v2 doğrulaması bulunamadı. Eski v1 kartındaki farklı normalizasyon puanları v2 ile doğrudan karıştırılmamalı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "v2 yeniden eğitim diye açıklanıyor; hız tablosu v1 ölçümünden aktarılmış. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/mihuai/turkish-stt-66m-v2",
+            "https://huggingface.co/api/models?author=mihuai&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"mihuai\" \"turkish-stt\" review problems YouTube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"mihuai\" \"turkish-stt-66m-v2\" review sorun",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "mihuai/turkish-stt-66m-v2",
+          "url": "https://huggingface.co/mihuai/turkish-stt-66m-v2",
+          "status": "ana üyenin model kartı okundu; yerel deney yapılmadı"
+        },
+        {
+          "name": "mihuai/turkish-stt",
+          "url": "https://huggingface.co/mihuai/turkish-stt",
+          "status": "v2 kartında önceki sürüm ve karşılaştırma; ayrı tam ağırlık denetimi yapılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 45,
+      "id": "erayyapagci/balbal-v1",
+      "name": "erayyapagci/balbal-v1",
+      "category": "ASR",
+      "kind": "model",
+      "creator": "Eray Yapagci / erayyapagci",
+      "plain": "CPU için küçük Türkçe Conformer-CTC modelidir. Saklanan yaklaşık 45 milyon parametrenin her karede yaklaşık 15 milyonu etkin kullanılıyor; bu iki sayı çelişmez. Ek akustik bellek, tekrarlı iyileştirici ve KenLM çözücüsü tüm sistemin parçasıdır. Ağırlık lisansı, Apache lisanslı kaynak kodundan farklıdır.",
+      "claims": [
+        {
+          "text": "FLEURS'te yüzde 6,54, resmi Mu-Bench puanlamasında yüzde 11,93 WER; Ryzen AI Max+395 üzerinde 8 iş parçacığında 96 kat gerçek zaman hızı bildiriliyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/erayyapagci/balbal-v1/raw/main/README.md"
+        }
+      ],
+      "training": "Metadata tabanı nvidia/stt_en_conformer_ctc_small. Model kartı mimariyi ve çıkarım ayarlarını açıklıyor; ayrıntılı eğitim reçetesi için geliştirici blog/kodu işaret ediliyor. Bu tur tam eğitim verisi denetimi yapılmadı.",
+      "version": "Bu depo ve yazarın erişilen ilk 40 model kaydı kontrol edildi; aynı adın yeni eğitim sonucu doğrulanmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: 41449740fc9dfcb1679f9852ad8c6b4d002fd895; lastModified: 2026-10-22T20:10:29.000Z. Dosya değişimi yeniden eğitim kanıtı değildir.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir. Demo bağlantısı bulundu; çalışma/çıktı doğrulaması yapılmadı.",
+      "demo_url": "https://huggingface.co/spaces/erayyapagci/balbal-v1-demo",
+      "independent": "22 Ekim Reddit duyurusunda geliştirici sonuçlarını paylaşmış. Okunan yanıtlar tebrik ve deneyeceğim düzeyinde; bağımsız başarılı kullanım sayılmadı. Olumsuz doğruluk deneyi de bulunamadı.",
+      "unknowns": [
+        "Rakam/kodlar yazıyla çıkıyor, ters metin normalizasyonu yok. Özel balbal Community License ticari kullanım koşulları ayrıca okunmalı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/erayyapagci/balbal-v1",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/erayyapagci/balbal-v1/raw/main/README.md",
+          "title": "erayyapagci/balbal-v1 README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=erayyapagci&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.reddit.com/r/CodingTR/comments/1xcnwcb/15_milyon_aktif_parametreli_cpuda_ger%C3%A7ek_zaman%C4%B1n/",
+          "title": "balbal-v1 geliştirici duyurusu ve yanıtlar",
+          "type": "developer_community",
+          "date": "2026-10-22",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://huggingface.co/erayyapagci/balbal-v1/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "22 Ekim Reddit duyurusunda geliştirici sonuçlarını paylaşmış. Okunan yanıtlar tebrik ve deneyeceğim düzeyinde; bağımsız başarılı kullanım sayılmadı. Olumsuz doğruluk deneyi de bulunamadı.",
+          "urls": [
+            "https://www.reddit.com/r/CodingTR/comments/1xcnwcb/15_milyon_aktif_parametreli_cpuda_ger%C3%A7ek_zaman%C4%B1n/"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Sosyal duyuru okundu; bağımsız video deneyi değil.",
+          "urls": [
+            "https://www.reddit.com/r/CodingTR/comments/1xcnwcb/15_milyon_aktif_parametreli_cpuda_ger%C3%A7ek_zaman%C4%B1n/"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Bu depo ve yazarın erişilen ilk 40 model kaydı kontrol edildi; aynı adın yeni eğitim sonucu doğrulanmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/erayyapagci/balbal-v1",
+            "https://huggingface.co/api/models?author=erayyapagci&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"balbal-v1\" model review YouTube X",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 46,
+      "id": "duxx/turkish-stt-zipformer",
+      "name": "duxx/turkish-stt-zipformer",
+      "category": "ASR",
+      "kind": "model",
+      "creator": "batu / duxx",
+      "plain": "Türkçe konuşmayı düşük gecikmeyle CPU'da metne çeviren 23,6 milyon parametreli akışlı Zipformer modelidir. ONNX FP32 ve yaklaşık 27 MB INT8 dışa aktarımları vardır. Küçüklük bir doğruluk sıralaması değildir; aynı dilde farklı konuşma alanlarında hatalar değişebilir.",
+      "claims": [
+        {
+          "text": "Geliştirme kümelerinde Common Voice 17 WER yüzde 13,09, günlük kullanım yüzde 17,39, FLEURS validation yüzde 20,16 bildiriliyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/duxx/turkish-stt-zipformer/raw/main/README.md"
+        }
+      ],
+      "training": "Common Voice, ISSAI, günlük konuşma, denetlenmiş otomatik etiketli/sentetik ses, WorldSpeech ve FLEURS train karışımı. Kart bunların checkpoint seçme puanları olduğunu açıkça söylüyor. WorldSpeech nedeniyle ağırlık lisansı CC BY-NC 4.0.",
+      "version": "Bu depo ve yazarın erişilen ilk 40 model kaydı kontrol edildi; aynı adın yeni eğitim sonucu doğrulanmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: cebec199e0a9a1bdcd195b9124922b4a33e98bc8; lastModified: 2026-08-04T14:26:58.000Z. Dosya değişimi yeniden eğitim kanıtı değildir.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir. Demo bağlantısı bulundu; çalışma/çıktı doğrulaması yapılmadı.",
+      "demo_url": "https://huggingface.co/spaces/duxx/turkish-stt-zipformer",
+      "independent": "Profil ve model adıyla resmî duyuru, video ve bağımsız olumlu/olumsuz deneyim arandı; ayrıntılı üçüncü taraf kalite deneyi bulunamadı. Hub profilinde modelle aynı isimli Space keşfedildi; çalıştırılmadı.",
+      "unknowns": [
+        "Mühürlü test sonucu yok. Ticari olmayan lisans, eski katalogdaki serbest ticari kullanım varsayımına taşınmamalı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/duxx/turkish-stt-zipformer",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/duxx/turkish-stt-zipformer/raw/main/README.md",
+          "title": "duxx/turkish-stt-zipformer README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=duxx&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://huggingface.co/duxx/turkish-stt-zipformer/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Profil ve model adıyla resmî duyuru, video ve bağımsız olumlu/olumsuz deneyim arandı; ayrıntılı üçüncü taraf kalite deneyi bulunamadı. Hub profilinde modelle aynı isimli Space keşfedildi; çalıştırılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Bu depo ve yazarın erişilen ilk 40 model kaydı kontrol edildi; aynı adın yeni eğitim sonucu doğrulanmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/duxx/turkish-stt-zipformer",
+            "https://huggingface.co/api/models?author=duxx&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"duxx\" \"turkish-stt-zipformer\" review YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 47,
+      "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+      "name": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+      "category": "ASR",
+      "kind": "model",
+      "creator": "NVIDIA",
+      "plain": "40 dil/bölge etiketi sunan akışlı FastConformer-RNNT modelidir. Türkçe doğrudan transkripsiyona hazır gruptadır; bütün 40 etiket aynı hazırlık düzeyinde değildir. Sekiz etiket için alan uyarlaması gerektiği belirtilir. Ses parçası uzunluğu gecikme ile doğruluk arasında seçim sağlar.",
+      "claims": [
+        {
+          "text": "80–1120 ms parça seçenekleri; Türkçe FLEURS tablosunda dil verilince yüzde 12,34'ten 11,17'ye uzanan WER değerleri bildiriliyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b/raw/main/README.md"
+        }
+      ],
+      "training": "Kamu ve özel Riva konuşmaları; Granary, MLS, Common Voice, FLEURS, VoxPopuli/Europarl. İnsan ve otomatik etiketler karışık; açıklanan saat aralığı çok geniş. OpenMDW-1.1 lisansı belirtiliyor.",
+      "version": "Bu depo ve yazarın erişilen ilk 40 model kaydı kontrol edildi; aynı adın yeni eğitim sonucu doğrulanmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: ea30d66debe3740a08b573244286791d423d6b3e; lastModified: 2026-09-10T16:49:07.000Z. Dosya değişimi yeniden eğitim kanıtı değildir.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir.",
+      "demo_url": null,
+      "independent": "Hub #30'da kullanıcı gecikme ölçüm betiğini istiyor; yanıt dosya RTF'inin sözcük çıkış gecikmesiyle aynı olmadığını açıklıyor. #33 yalnız entegrasyon deposu bağlantısı. Bunlar Türkçe doğruluğunu bağımsız onaylamıyor.",
+      "unknowns": [
+        "H100 toplu işlem kapasitesi kullanıcı bilgisayarına taşınamaz; Türkçe gerçek mikrofon gecikmesi ve özel ad başarısı ölçülmedi."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/nvidia/nemotron-3.5-asr-streaming-0.6b",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b/raw/main/README.md",
+          "title": "nvidia/nemotron-3.5-asr-streaming-0.6b README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=nvidia&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/nvidia/nemotron-3.5-asr-streaming-0.6b/discussions/33",
+          "title": "Hub tartışması: gerçek yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/nvidia/nemotron-3.5-asr-streaming-0.6b/discussions/30",
+          "title": "Hub tartışması: gerçek yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Hub #30'da kullanıcı gecikme ölçüm betiğini istiyor; yanıt dosya RTF'inin sözcük çıkış gecikmesiyle aynı olmadığını açıklıyor. #33 yalnız entegrasyon deposu bağlantısı. Bunlar Türkçe doğruluğunu bağımsız onaylamıyor.",
+          "urls": [
+            "https://huggingface.co/api/models/nvidia/nemotron-3.5-asr-streaming-0.6b/discussions/33",
+            "https://huggingface.co/api/models/nvidia/nemotron-3.5-asr-streaming-0.6b/discussions/30"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Bu depo ve yazarın erişilen ilk 40 model kaydı kontrol edildi; aynı adın yeni eğitim sonucu doğrulanmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/nvidia/nemotron-3.5-asr-streaming-0.6b",
+            "https://huggingface.co/api/models?author=nvidia&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"nemotron-3.5-asr\" official review Turkish YouTube X problems",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"nemotron-3.5-asr\" Turkish review -site:huggingface.co",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": []
+    },
+    {
+      "record_id": 48,
+      "id": "facebook/omniASR-LLM-7B",
+      "name": "facebook/omniASR-LLM-7B ve CTC/LLM 300M–7B ailesi (Omnilingual)",
+      "category": "ASR",
+      "kind": "model_family",
+      "creator": "Meta AI / Omnilingual ASR ekibi",
+      "plain": "1600'den fazla dili hedefleyen ailede CTC ve LLM başlıklı ASR modelleri yanında yalnız ön eğitim temsili üreten W2V üyeleri de var. Ayrıntılı incelenen depo omniASR-LLM-7B. W2V ağırlığını hazır konuşma yazıcısıyla eş tutmamak gerekir; bütün aile tek model değildir.",
+      "claims": [
+        {
+          "text": "Ana kart 7B LLM üyesi için yaklaşık 7,8 milyar gerçek parametre ve örnek A100 koşulunda yaklaşık 17 GiB çıkarım belleği listeliyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/facebook/omniASR-LLM-7B/raw/main/README.md"
+        }
+      ],
+      "training": "Kart fairseq2/omnilingual-asr çıkarım ve ince ayar reçetelerine bağlı; bu tur temel ön eğitim veri karışımı ve her dilin veri saati tam çıkarılmadı. Apache-2.0 belirtiliyor.",
+      "version": "Bu depo ve yazarın erişilen ilk 40 model kaydı kontrol edildi; aynı adın yeni eğitim sonucu doğrulanmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: 4b0bada258b398cb7e6c5b3a6ed5448fb914385b; lastModified: 2025-11-28T07:26:06.000Z. Dosya değişimi yeniden eğitim kanıtı değildir.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir. Demo bağlantısı bulundu; çalışma/çıktı doğrulaması yapılmadı.",
+      "demo_url": "https://huggingface.co/spaces/facebook/omniasr-transcriptions",
+      "independent": "Hub #2'de kullanıcı eğitim belgelerindeki kırık bağlantıları bildiriyor; #1 Transformers Trainer/Accelerate desteğini soruyor. Bunlar erişim/uyumluluk sürtünmesi. Türkçe bağımsız olumlu/olumsuz kullanım ve sosyal video aramasında doğrulanabilir deney bulunamadı.",
+      "unknowns": [
+        "300M–7B etiketleri tüm bileşenlerin toplam parametresiyle birebir örtüşmeyebilir. Diğer aile üyelerinin kalite ve sürüm kontrolü açık."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/facebook/omniASR-LLM-7B",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/facebook/omniASR-LLM-7B/raw/main/README.md",
+          "title": "facebook/omniASR-LLM-7B ve CTC/LLM 300M–7B ailesi (Omnilingual) README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=facebook&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/facebook/omniASR-LLM-7B/discussions/2",
+          "title": "Hub tartışması: gerçek yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/facebook/omniASR-LLM-7B/discussions/1",
+          "title": "Hub tartışması: gerçek yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://huggingface.co/facebook/omniASR-LLM-7B/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Hub #2'de kullanıcı eğitim belgelerindeki kırık bağlantıları bildiriyor; #1 Transformers Trainer/Accelerate desteğini soruyor. Bunlar erişim/uyumluluk sürtünmesi. Türkçe bağımsız olumlu/olumsuz kullanım ve sosyal video aramasında doğrulanabilir deney bulunamadı.",
+          "urls": [
+            "https://huggingface.co/api/models/facebook/omniASR-LLM-7B/discussions/2",
+            "https://huggingface.co/api/models/facebook/omniASR-LLM-7B/discussions/1"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Bu depo ve yazarın erişilen ilk 40 model kaydı kontrol edildi; aynı adın yeni eğitim sonucu doğrulanmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/facebook/omniASR-LLM-7B",
+            "https://huggingface.co/api/models?author=facebook&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"omniASR\" \"Turkish\" review YouTube problems",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"omniASR\" Turkish review problems -site:huggingface.co",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "facebook/omniASR-LLM-7B",
+          "url": "https://huggingface.co/facebook/omniASR-LLM-7B",
+          "status": "ana üyenin model kartı okundu; yerel deney yapılmadı"
+        },
+        {
+          "name": "CTC 300M/1B/3B/7B",
+          "url": "https://huggingface.co/facebook/omniASR-CTC-300M",
+          "status": "aile tablosunda görüldü; her üye ayrı incelenmedi"
+        },
+        {
+          "name": "W2V, diğer LLM ve 7B-ZS üyeleri",
+          "url": null,
+          "status": "aile tablosunda görüldü; W2V hazır ASR değil; ayrı inceleme açık"
+        }
+      ]
+    },
+    {
+      "record_id": 49,
+      "id": "microsoft/VibeVoice-ASR",
+      "name": "microsoft/VibeVoice-ASR",
+      "category": "ASR",
+      "kind": "model",
+      "creator": "Microsoft Research",
+      "plain": "Uzun kayıtta kimin neyi ne zaman söylediğini birlikte üretmeyi amaçlayan VibeVoice-ASR modelidir. Kart 60 dakikayı tek geçişte, 64K bağlamda işleme ve özel sözcük desteğini anlatıyor. Bu özgün model ile daha sonra yayımlanan streaming üyeler aynı sürüm sayılmaz.",
+      "claims": [
+        {
+          "text": "50'den fazla dil, konuşmacı ayrımı, zaman damgası ve dil geçişlerini birlikte işleme iddia ediliyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/microsoft/VibeVoice-ASR/raw/main/README.md"
+        }
+      ],
+      "training": "Okunan ana kart eğitim verisi karışımını ayrıntılandırmıyor; teknik rapora ve ince ayar rehberine bağlı. MIT lisansı belirtilmiş. Grafikteki değerlendirmelerden görülmeyen sayısal Türkçe sonuç türetilmedi.",
+      "version": "Yazar listesinde ASR-BitNet ve Eylül 2026 Streaming-1.5B/7B var; ayrı Türkçe inceleme bekliyor. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: d0c9efdb8d614685062c04425d91e01b6f37d944; lastModified: 2026-01-27T13:12:22.000Z. Dosya değişimi yeniden eğitim kanıtı değildir.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir. Demo bağlantısı bulundu; çalışma/çıktı doğrulaması yapılmadı.",
+      "demo_url": "https://aka.ms/vibevoice-asr",
+      "independent": "GitHub #257'de kullanıcı 12 uzun kayıt işinin 4'ünde şişen girdi tokenları ve eksik metin bildiriyor; kalan 8'i başarılı. Bu kendi vLLM/96 GB GPU kurulumuna ait. Hub #27'de sağlayıcı özgün mimarinin tüm sesi önce kodladığını açıklıyor.",
+      "unknowns": [
+        "Takip sürümleri BitNet ile Eylül 2026 Streaming-1.5B/7B listede görüldü; onların Türkçe desteği ve kalitesi ayrıca incelenmedi."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/microsoft/VibeVoice-ASR",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/microsoft/VibeVoice-ASR/raw/main/README.md",
+          "title": "microsoft/VibeVoice-ASR README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=microsoft&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/microsoft/VibeVoice-ASR/discussions/28",
+          "title": "Hub tartışması: gerçek yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/microsoft/VibeVoice-ASR/discussions/27",
+          "title": "Hub tartışması: gerçek yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/microsoft/VibeVoice/issues/257",
+          "title": "Inconsistent VibeVoice-ASR Performance: eksik uzun transkriptler",
+          "type": "community",
+          "date": "2026-03-11",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://huggingface.co/microsoft/VibeVoice-ASR/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "GitHub #257'de kullanıcı 12 uzun kayıt işinin 4'ünde şişen girdi tokenları ve eksik metin bildiriyor; kalan 8'i başarılı. Bu kendi vLLM/96 GB GPU kurulumuna ait. Hub #27'de sağlayıcı özgün mimarinin tüm sesi önce kodladığını açıklıyor.",
+          "urls": [
+            "https://huggingface.co/api/models/microsoft/VibeVoice-ASR/discussions/28",
+            "https://huggingface.co/api/models/microsoft/VibeVoice-ASR/discussions/27",
+            "https://github.com/microsoft/VibeVoice/issues/257"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Yazar listesinde ASR-BitNet ve Eylül 2026 Streaming-1.5B/7B var; ayrı Türkçe inceleme bekliyor. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/microsoft/VibeVoice-ASR",
+            "https://huggingface.co/api/models?author=microsoft&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"VibeVoice-ASR\" review problems YouTube Microsoft",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": []
+    },
+    {
+      "record_id": 50,
+      "id": "RsGoksel/RsGoksel_ITU_Mainframe",
+      "name": "RsGoksel/RsGoksel_ITU_Mainframe",
+      "category": "ASR",
+      "kind": "model",
+      "creator": "RsGoksel hesabı",
+      "plain": "Türkçe Whisper uyarlaması olarak yayımlanan birleştirilmiş LoRA modelidir. README çok alanlı, gürültüye dayanıklı ve tıbbi uyarlamadan söz ediyor; açıklama kısa ve sonuç tablosu yok. Depo adındaki İTÜ ifadesi tek başına üniversitenin kurumsal sahipliğini kanıtlamaz.",
+      "claims": [
+        {
+          "text": "Genel görülmemiş ys-0 alanına odaklanma ve Türkçe normalizasyon sonrası cümle başına ortalama WER yöntemi belirtiliyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/RsGoksel/RsGoksel_ITU_Mainframe/raw/main/README.md"
+        }
+      ],
+      "training": "Metadata tabanı openai/whisper-large-v3-turbo ve MIT lisansı. LoRA'nın birleştirildiği yazılı; saat, kaynak dağılımı, eğitim adımı ve ayrılmış test sınırı okunan belgede açıklanmıyor.",
+      "version": "Bu depo ve yazarın erişilen ilk 40 model kaydı kontrol edildi; aynı adın yeni eğitim sonucu doğrulanmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: 99ff2f420bf17a1939a40a0f0e82d81458f6141b; lastModified: 2026-06-29T17:05:10.000Z. Dosya değişimi yeniden eğitim kanıtı değildir.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir.",
+      "demo_url": null,
+      "independent": "Tam depo adıyla geliştirici profili, YouTube/X ve olumlu/olumsuz deneyim araması ağırlıkla aynı Hub kartını getirdi. Bağımsız kullanıcı kalite yorumu bulunamadı. Kaynak yokluğu, modelin kötü olduğunu göstermez; iddianın denetlenebilirliğini sınırlar.",
+      "unknowns": [
+        "CTranslate2 kardeş depo README'de bağlantılı; onun ayrı ağırlık hash'i, eşdeğerliği ve dönüşüm kaybı bu tur kontrol edilmedi."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/RsGoksel/RsGoksel_ITU_Mainframe",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/RsGoksel/RsGoksel_ITU_Mainframe/raw/main/README.md",
+          "title": "RsGoksel/RsGoksel_ITU_Mainframe README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=RsGoksel&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://huggingface.co/RsGoksel/RsGoksel_ITU_Mainframe/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Tam depo adıyla geliştirici profili, YouTube/X ve olumlu/olumsuz deneyim araması ağırlıkla aynı Hub kartını getirdi. Bağımsız kullanıcı kalite yorumu bulunamadı. Kaynak yokluğu, modelin kötü olduğunu göstermez; iddianın denetlenebilirliğini sınırlar.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Bu depo ve yazarın erişilen ilk 40 model kaydı kontrol edildi; aynı adın yeni eğitim sonucu doğrulanmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/RsGoksel/RsGoksel_ITU_Mainframe",
+            "https://huggingface.co/api/models?author=RsGoksel&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"RsGoksel_ITU_Mainframe\" review YouTube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"RsGoksel_ITU_Mainframe\" (review OR sorun OR deneyim OR YouTube OR X)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 51,
+      "id": "Cosmobillian/turkish_whisper_for_noisy_datas_v1",
+      "name": "Cosmobillian/turkish_whisper_for_noisy_datas_v1",
+      "category": "ASR",
+      "kind": "model",
+      "creator": "Cosmobillian hesabı",
+      "plain": "Gürültülü kısa Türkçe konuşmalar için large-v3 uyarlamasıdır. Amaç sokak, telefon mikrofonu ve yankı gibi koşullara dayanıklılık; genel çok dilli modelin yeteneklerini aynen korumak değildir. Kart yaklaşık 3–8 saniyelik girdileri öne çıkarıyor ve Türkçeye güçlü yönelim olduğunu söylüyor.",
+      "claims": [
+        {
+          "text": "Geliştirici kendi gürültülü örneklerinde tabandan daha dayanıklı gördüğünü söylüyor; kamuya açık resmi WER ölçümü olmadığını da açıkça belirtiyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/Cosmobillian/turkish_whisper_for_noisy_datas_v1/raw/main/README.md"
+        }
+      ],
+      "training": "Özel, elle yazılmış yaklaşık beş saniyelik ses çiftleri; ses kodlayıcı dondurulmuş, çözücü bir tur uyarlanmış. Veri kamuya açık değil. Yöntemin decoder-focused olması bütün ağırlıkların eğitim gördüğü anlamına gelmez.",
+      "version": "Ocak 2026 turkish-asr-whisper-llm başka aday; _v1'in kanıtlanmış devamı değil. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: a602a7bcdacae7f24dcde36f2560ce3e766f8d7f; lastModified: 2025-12-09T18:28:02.000Z. Dosya değişimi yeniden eğitim kanıtı değildir.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir.",
+      "demo_url": null,
+      "independent": "Bağımsız deneyim, olumsuz sorun ve sosyal video aramaları yapıldı; okunabilir üçüncü taraf doğruluk kanıtı bulunamadı. Nitel geliştirici gözlemi kontrollü deney diye aktarılmadı.",
+      "unknowns": [
+        "README örnek kodunda _v1 içermeyen eski depo kimliği var. Ocak 2026 turkish-asr-whisper-llm başka aday; bu modelin kanıtlanmış halefi sayılmadı. Lisans belirsiz."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/Cosmobillian/turkish_whisper_for_noisy_datas_v1",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Cosmobillian/turkish_whisper_for_noisy_datas_v1/raw/main/README.md",
+          "title": "Cosmobillian/turkish_whisper_for_noisy_datas_v1 README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=Cosmobillian&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://huggingface.co/Cosmobillian/turkish_whisper_for_noisy_datas_v1/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Bağımsız deneyim, olumsuz sorun ve sosyal video aramaları yapıldı; okunabilir üçüncü taraf doğruluk kanıtı bulunamadı. Nitel geliştirici gözlemi kontrollü deney diye aktarılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Ocak 2026 turkish-asr-whisper-llm başka aday; _v1'in kanıtlanmış devamı değil. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/Cosmobillian/turkish_whisper_for_noisy_datas_v1",
+            "https://huggingface.co/api/models?author=Cosmobillian&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Cosmobillian\" \"turkish_whisper\" review announcement YouTube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Cosmobillian\" \"turkish_whisper\" (sorun OR review OR YouTube)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 52,
+      "id": "ysdede/Phi-4-mm-inst-asr-turkish-unf",
+      "name": "ysdede/Phi-4-mm-inst-asr-turkish-unf",
+      "category": "ASR",
+      "kind": "model",
+      "creator": "Yunus Dede / ysdede",
+      "plain": "Phi-4-multimodal-instruct'un Türkçe ASR uyarlamasıdır; özgün çok kipli modelden farklı bir deney koludur. Kart, başlangıçta Türkçe ASR desteğinin bulunmadığını ve uyarlama sonrası iyileşme gördüğünü söylüyor. Temiz kısa okuma ile gürültülü konuşma arasındaki farkları saklamaması araştırma açısından yararlıdır.",
+      "claims": [
+        {
+          "text": "Common Voice'ta yüzde 9,7 WER; MediaSpeech'te yüzde 25,48, zor gürültülü kümede yüzde 39,4 bildiriliyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/ysdede/Phi-4-mm-inst-asr-turkish-unf/raw/main/README.md"
+        }
+      ],
+      "training": "Kodlayıcı katmanları açılarak Türkçe ses/metin çiftleriyle bir tur ince ayar. Common Voice yeniden karıştırılmış ayrımlarda aynı konuşmacının iki tarafta bulunabileceği açıkça kabul edilmiş; sentetik değerlendirme ayrı işaretlenmiş.",
+      "version": "Yazar listesinde turkish, turkish-3 ve unf ayrı depoları görüldü; diğer üyeler ayrı incelenmedi. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: cb293b2ab4ade000eff1c24a6caf93bbf3627a71; lastModified: 2025-03-08T16:07:16.000Z. Dosya değişimi yeniden eğitim kanıtı değildir.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir.",
+      "demo_url": null,
+      "independent": "Tam model adı, geliştirici, video/X ve sorun/deneyim aramalarında bağımsız kalite yorumu bulunamadı. Geliştiricinin benchmark deposu onun kendi ölçümünün devamıdır; bağımsız sayılmadı.",
+      "unknowns": [
+        "Yüzde 9,7'yi yeni konuşmacıda beklenen hata sanmamak gerekir. Normalizasyon, sızıntı ve gürültü dağılımı etkiyi değiştirir; tüm Türkçe ailesi incelenmedi."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/ysdede/Phi-4-mm-inst-asr-turkish-unf",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ysdede/Phi-4-mm-inst-asr-turkish-unf/raw/main/README.md",
+          "title": "ysdede/Phi-4-mm-inst-asr-turkish-unf README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=ysdede&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://huggingface.co/ysdede/Phi-4-mm-inst-asr-turkish-unf/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Tam model adı, geliştirici, video/X ve sorun/deneyim aramalarında bağımsız kalite yorumu bulunamadı. Geliştiricinin benchmark deposu onun kendi ölçümünün devamıdır; bağımsız sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Yazar listesinde turkish, turkish-3 ve unf ayrı depoları görüldü; diğer üyeler ayrı incelenmedi. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/ysdede/Phi-4-mm-inst-asr-turkish-unf",
+            "https://huggingface.co/api/models?author=ysdede&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Phi-4-mm-inst-asr-turkish-unf\" review YouTube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Phi-4-mm-inst-asr-turkish-unf\" (review OR sorun OR YouTube)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 53,
+      "id": "catalog-053",
+      "name": "Whisper ince ayar uzun kuyruğu (81 depo: samil24 v1–v7, alikanakar 13+, Huseyin/…-finetuned, telephony-cv17, emre/whisper-medium-turkish-2…)",
+      "category": "ASR",
+      "kind": "model_family",
+      "creator": "Birden çok Hub hesabı; tek geliştirici yok",
+      "plain": "Katalogdaki 81 depo ifadesi tek bir model kimliği değildir. Bu tur örnek üye olarak samil24/whisper-large-turkish-v7 kartı açıldı. Samil profilinde v6/v7 bulundu; alikanakar, Huseyin, telephony ve emre kollarının bütün üyeleri tek tek doğrulanmadı. Sayı, güncel ve eksiksiz aile envanteri olarak kabul edilmemeli.",
+      "claims": [
+        {
+          "text": "Okunan v7 kartı değerlendirmede yüzde 14,2172 WER veriyor. Bu sayı diğer 80 deponun başarısı veya bütün ailenin ortalaması değildir.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/samil24/whisper-large-turkish-v7"
+        }
+      ],
+      "training": "v7, Whisper-large-v3 ve Common Voice 17 ince ayarı; 12 tur, 1e-5 öğrenme oranı. Kullanım/sınırlama ve veri ayrımı bölümleri otomatik kartta eksik bırakılmış.",
+      "version": "Örnek v7 sha f3b8a39990e3e3f6b9ed69aad8fddd5fd6e7ceea; lastModified 2025-09-20T23:19:53.000Z. Profilde v6'ya sonradan dokunulmuş. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Canlı örnek üye hash'i sürüm alanında; bütün grup için ortak checkpoint yok.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir.",
+      "demo_url": null,
+      "independent": "Samil/alikanakar adlarıyla resmî profil, YouTube/X ve olumlu/olumsuz kullanıcı araması yapıldı. Bu örnek üye için bağımsız kalite deneyimi bulunamadı. Ailedeki hiçbir üye kazanan ilan edilmedi.",
+      "unknowns": [
+        "Katalogdaki bütün üye bağlantıları, v1–v7 arasındaki veri/ayar farkları ve tarih sırası açık; sürüm numarası daha iyi kaliteyi kanıtlamaz."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/samil24/whisper-large-turkish-v7",
+          "title": "Whisper large Turkish v7 model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/samil24/whisper-large-turkish-v7",
+          "title": "v7 canlı depo metadata",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/samil24",
+          "title": "Samil Hub profili: v6/v7 keşfi",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://huggingface.co/samil24/whisper-large-turkish-v7"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Samil/alikanakar adlarıyla resmî profil, YouTube/X ve olumlu/olumsuz kullanıcı araması yapıldı. Bu örnek üye için bağımsız kalite deneyimi bulunamadı. Ailedeki hiçbir üye kazanan ilan edilmedi.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Örnek v7 sha f3b8a39990e3e3f6b9ed69aad8fddd5fd6e7ceea; lastModified 2025-09-20T23:19:53.000Z. Profilde v6'ya sonradan dokunulmuş. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/samil24/whisper-large-turkish-v7"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"samil24\" whisper Turkish review \"alikanakar\"",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"samil24\" \"whisper\" Turkish",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"samil24\" whisper review problems YouTube X alikanakar",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "samil24/whisper-large-turkish-v7",
+          "url": "https://huggingface.co/samil24/whisper-large-turkish-v7",
+          "status": "ana üyenin model kartı okundu; yerel deney yapılmadı"
+        },
+        {
+          "name": "samil24 v1–v6",
+          "url": "https://huggingface.co/samil24",
+          "status": "profilde v6 görüldü; bütün geçmiş üyeler ayrı incelenmedi"
+        },
+        {
+          "name": "alikanakar, Huseyin, telephony-cv17, emre",
+          "url": null,
+          "status": "katalog etiketleri; ayrı kimlik/kart/sürüm araştırması açık"
+        }
+      ]
+    },
+    {
+      "record_id": 54,
+      "id": "mpoyraz/wav2vec2-xls-r-300m-cv7-turkish",
+      "name": "wav2vec2 Türkçe ince ayarları (mpoyraz XLS-R-300m cv7/cv8, cahya, m3hrdadfi, ceyda, MMS-1b colab ~12)",
+      "category": "ASR",
+      "kind": "model_family",
+      "creator": "Muhammet Poyraz ve katalogdaki başka araştırmacılar",
+      "plain": "wav2vec2/XLS-R tabanlı Türkçe uyarlamalar grubudur. Ayrıntılı incelenen örnek mpoyraz cv7; cv6/cv8'in varlığı resmî kod deposunda doğrulandı. Cahya, m3hrdadfi, ceyda ve MMS kollarının tümü bu kartla araştırılmış sayılmaz. Aynı mimariyi paylaşmak aynı veri ve sonucu paylaşmak değildir.",
+      "claims": [
+        {
+          "text": "cv7 kartında Common Voice 7 test WER yüzde 8,62; Speech Recognition Community geliştirme verisinde yüzde 30,87 bildiriliyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/mpoyraz/wav2vec2-xls-r-300m-cv7-turkish/raw/main/README.md"
+        }
+      ],
+      "training": "XLS-R-300m; Common Voice 7 Türkçe ve MediaSpeech ile 10 tur uyarlama. Türkçe Vikipedi'den KenLM dil modeli ayrıca açıklanmış. cv7 model lisansı metadata'da CC BY 4.0.",
+      "version": "Bu depo ve yazarın erişilen ilk 40 model kaydı kontrol edildi; aynı adın yeni eğitim sonucu doğrulanmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: 708639f50559d7970f462e13ec64d3f059ca89f6; lastModified: 2022-03-23T18:28:32.000Z. Dosya değişimi yeniden eğitim kanıtı değildir.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir.",
+      "demo_url": null,
+      "independent": "Hub #2 gerçek kullanıcı örnek kullanım kodu istiyor, geliştirici değerlendirme/LM bağlantıları veriyor. #3'te çok dillilikten söz eden tanıtım mesajı Türkçe modelin kanıtı sayılmadı. Bağımsız doğrudan kalite deneyi bulunamadı.",
+      "unknowns": [
+        "Temiz okuma puanı alan dışı konuşmaya taşınamaz; CTC hizalama için kullanılması ASR doğruluğunun ayrıca onaylandığı anlamına gelmez."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/mpoyraz/wav2vec2-xls-r-300m-cv7-turkish",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/mpoyraz/wav2vec2-xls-r-300m-cv7-turkish/raw/main/README.md",
+          "title": "wav2vec2 Türkçe ince ayarları (mpoyraz XLS-R-300m cv7/cv8, cahya, m3hrdadfi, ceyda, MMS-1b colab ~12) README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=mpoyraz&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/mpoyraz/wav2vec2-xls-r-300m-cv7-turkish/discussions/3",
+          "title": "Hub tartışması: gerçek yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/mpoyraz/wav2vec2-xls-r-300m-cv7-turkish/discussions/2",
+          "title": "Hub tartışması: gerçek yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://huggingface.co/mpoyraz/wav2vec2-xls-r-300m-cv7-turkish/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Hub #2 gerçek kullanıcı örnek kullanım kodu istiyor, geliştirici değerlendirme/LM bağlantıları veriyor. #3'te çok dillilikten söz eden tanıtım mesajı Türkçe modelin kanıtı sayılmadı. Bağımsız doğrudan kalite deneyi bulunamadı.",
+          "urls": [
+            "https://huggingface.co/api/models/mpoyraz/wav2vec2-xls-r-300m-cv7-turkish/discussions/3",
+            "https://huggingface.co/api/models/mpoyraz/wav2vec2-xls-r-300m-cv7-turkish/discussions/2"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Bu depo ve yazarın erişilen ilk 40 model kaydı kontrol edildi; aynı adın yeni eğitim sonucu doğrulanmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/mpoyraz/wav2vec2-xls-r-300m-cv7-turkish",
+            "https://huggingface.co/api/models?author=mpoyraz&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"mpoyraz\" wav2vec2 Turkish review YouTube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"mpoyraz\" wav2vec2 review problems YouTube X",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "mpoyraz/wav2vec2-xls-r-300m-cv7-turkish",
+          "url": "https://huggingface.co/mpoyraz/wav2vec2-xls-r-300m-cv7-turkish",
+          "status": "ana üyenin model kartı okundu; yerel deney yapılmadı"
+        },
+        {
+          "name": "mpoyraz cv6/cv8",
+          "url": "https://github.com/mpoyraz/wav2vec2-turkish",
+          "status": "resmî kod deposu aramasında görüldü; ayrı metadata açık"
+        },
+        {
+          "name": "cahya, m3hrdadfi, ceyda, MMS uyarlamaları",
+          "url": null,
+          "status": "ayrı üye araştırması açık"
+        }
+      ]
+    },
+    {
+      "record_id": 55,
+      "id": "vosk-model-small-tr-0.3",
+      "name": "Vosk Türkçe (vosk-model-small-tr)",
+      "category": "ASR",
+      "kind": "model",
+      "creator": "Alpha Cephei / Vosk",
+      "plain": "Hafif ve çevrimdışı Türkçe konuşma tanıma modelidir. Resmî listede somut kimlik vosk-model-small-tr-0.3, boyut yaklaşık 35 MB, Android/Raspberry Pi sınıfı kullanım ve Apache 2.0 lisansı var. Dosyanın MB boyutu parametre sayısı değildir; listede M birimi dosya boyutunu anlatır.",
+      "claims": [
+        {
+          "text": "Resmî Türkçe satırındaki doğruluk değeri TBD; geliştirici bu satırda sayısal Türkçe WER vermiyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://alphacephei.com/vosk/models"
+        }
+      ],
+      "training": "Vosk, Kaldi temelli çalışma altyapısı sağlıyor. Türkçe modelin tam eğitim kaynakları/saatleri okunan model listesinde açıklanmıyor. Küçük modellerde çalışma sırasında sözlük uyarlama olanağı genel ürün özelliğidir.",
+      "version": "Resmî Türkçe listesinde small-tr-0.3 var. ZIP indirilmedi; dosya hash'i alınmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Ağırlık/checkpoint revizyonu açıklanmadı veya doğrulanamadı; belge tarihi model hash'i değildir.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir.",
+      "demo_url": null,
+      "independent": "25 Haziran 2026 tarihli R10 başlığında kullanıcı küçük Türkçe modelin sözlük ve isabetini kendi sesli komut projesi için yetersiz bulmuş; daha büyük model arıyor. Bu somut olumsuz deneyimdir, standart karşılaştırma değildir.",
+      "unknowns": [
+        "İddia edilen büyük Türkçe eski arşivin kökeni doğrulanmadı. Üçüncü taraf arşiv indirilmedi; yalnız resmî 0.3 bulundu. Olumlu Türkçe deneyim bulunamadı."
+      ],
+      "sources": [
+        {
+          "url": "https://alphacephei.com/vosk/models",
+          "title": "VOSK Models: Türkçe 0.3",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.r10.net/sorum-var/4810047-vosk-sesli-komut-yedek-olan-varmi.html",
+          "title": "Vosk Türkçe küçük model için kullanıcı deneyimi",
+          "type": "community",
+          "date": "2026-06-25",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://alphacephei.com/vosk/models"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "25 Haziran 2026 tarihli R10 başlığında kullanıcı küçük Türkçe modelin sözlük ve isabetini kendi sesli komut projesi için yetersiz bulmuş; daha büyük model arıyor. Bu somut olumsuz deneyimdir, standart karşılaştırma değildir.",
+          "urls": [
+            "https://www.r10.net/sorum-var/4810047-vosk-sesli-komut-yedek-olan-varmi.html"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Resmî Türkçe listesinde small-tr-0.3 var. ZIP indirilmedi; dosya hash'i alınmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "Vosk Turkish small model official alphacephei review accuracy YouTube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"vosk-model-small-tr\" review accuracy github issues",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": []
+    },
+    {
+      "record_id": 56,
+      "id": "facebook/mms-1b-all",
+      "name": "facebook/mms-1b-all, seamless-m4t-v2-large",
+      "category": "ASR",
+      "kind": "model_family",
+      "creator": "Meta / Facebook AI",
+      "plain": "Bu satır aslında iki farklı sistem içeriyor: MMS-1b-all konuşma yazıcısı, SeamlessM4T-v2-large ise konuşma/metin çevirisi ve ASR yapan çok görevli model. Aynı aile veya birbirinin sürümü değiller. Ana ayrıntılı önbellek MMS; Seamless'in ayrıca model kartı açıldı.",
+      "claims": [
+        {
+          "text": "MMS kartı 1162 dile uyarlanmış bir milyar parametreli CTC modelini; Seamless kartı 2,3 milyar parametreli v2 ve 101 konuşma girdi dilini açıklıyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/facebook/mms-1b-all/raw/main/README.md"
+        }
+      ],
+      "training": "MMS, wav2vec2 tabanı ve dile özgü adaptörler kullanıyor. Seamless v2, UnitY2 mimarisiyle v1'i geliştiriyor. İkisinin de metadata/kartında CC BY-NC 4.0 var; otomatik ticari serbestlik çıkarılmaz.",
+      "version": "Seamless v2 sha 5f8cc790b19fc3f67a61c105133b20b34e3dcb76; lastModified 2024-01-04T12:48:26.000Z. MMS'in takip sürümü değildir. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: 3d33597edbdaaba14a8e858e2c8caa76e3cec0cd; lastModified: 2023-06-15T10:45:44.000Z. Dosya değişimi yeniden eğitim kanıtı değildir.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir.",
+      "demo_url": null,
+      "independent": "MMS Hub #19'da kullanıcı sesi başka dilde metne çevirmeyi soruyor; yanıt modelin yalnız transkripsiyon eğitimi aldığını açıklıyor. Türkçe bağımsız karşılaştırma ve sosyal kullanım arandı; doğrudan doğrulanabilir deney bulunamadı.",
+      "unknowns": [
+        "ASR diliyle konuşma çıktısı dili farklı listeler olabilir. İki sistemin tüm Türkçe alt görevleri ve yeni aile üyeleri tam taranmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/facebook/mms-1b-all",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/facebook/mms-1b-all/raw/main/README.md",
+          "title": "facebook/mms-1b-all, seamless-m4t-v2-large README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=facebook&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/facebook/mms-1b-all/discussions/19",
+          "title": "Hub tartışması: gerçek yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/facebook/mms-1b-all/discussions/18",
+          "title": "Hub tartışması: gerçek yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/facebook/seamless-m4t-v2-large",
+          "title": "SeamlessM4T v2 model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/facebook/seamless-m4t-v2-large",
+          "title": "SeamlessM4T v2 canlı depo metadata",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://huggingface.co/facebook/mms-1b-all/raw/main/README.md",
+            "https://huggingface.co/facebook/seamless-m4t-v2-large"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "MMS Hub #19'da kullanıcı sesi başka dilde metne çevirmeyi soruyor; yanıt modelin yalnız transkripsiyon eğitimi aldığını açıklıyor. Türkçe bağımsız karşılaştırma ve sosyal kullanım arandı; doğrudan doğrulanabilir deney bulunamadı.",
+          "urls": [
+            "https://huggingface.co/api/models/facebook/mms-1b-all/discussions/19",
+            "https://huggingface.co/api/models/facebook/mms-1b-all/discussions/18"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Seamless v2 sha 5f8cc790b19fc3f67a61c105133b20b34e3dcb76; lastModified 2024-01-04T12:48:26.000Z. MMS'in takip sürümü değildir. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/facebook/mms-1b-all",
+            "https://huggingface.co/api/models?author=facebook&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/facebook/seamless-m4t-v2-large"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "facebook MMS seamless m4t v2 Turkish review YouTube X",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"facebook/mms-1b-all\" \"seamless\" Turkish review problems YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "facebook/mms-1b-all",
+          "url": "https://huggingface.co/facebook/mms-1b-all",
+          "status": "ana üyenin model kartı okundu; yerel deney yapılmadı"
+        },
+        {
+          "name": "facebook/seamless-m4t-v2-large",
+          "url": "https://huggingface.co/facebook/seamless-m4t-v2-large",
+          "status": "model kartı ve canlı API metadata okundu; MMS'in sürümü değil"
+        }
+      ]
+    },
+    {
+      "record_id": 57,
+      "id": "CohereLabs/cohere-transcribe-03-2026",
+      "name": "Cohere Transcribe 03-2026",
+      "category": "ASR",
+      "kind": "model",
+      "creator": "Cohere ve Cohere Labs",
+      "plain": "Mart 2026 Transcribe, iki milyar parametreli açık ağırlıklı konuşma yazıcısıdır. Resmî 14 dil listesinde Türkçe yok. Bu yüzden Türkçe aday kataloğunda kalabilir ama destekli Türkçe model gibi sunulmamalı. Kapalı API ile indirilebilir ağırlık farklı erişim yollarıdır.",
+      "claims": [
+        {
+          "text": "Geliştirici yüksek çok dilli transkripsiyon doğruluğu ve Apache 2.0 lisansı bildiriyor; listelenen başarı Türkçe başarısı değil.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026"
+        }
+      ],
+      "training": "Conformer kodlayıcı ve küçük Transformer çözücü; gözetimli token kaybıyla sıfırdan eğitim. Kamu kartı yerel çıkarım ve uzun kayıtları parçalayan işleme yolunu açıklıyor.",
+      "version": "CohereLabs/cohere-transcribe-03-2026 sha d552dadc2922ba6f6c1f994f8db904d52dcaf942; lastModified 2026-10-07T11:55:35.000Z. Arapça takip modeli yalnız keşfedildi. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Canlı örnek üye hash'i sürüm alanında; bütün grup için ortak checkpoint yok.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir.",
+      "demo_url": null,
+      "independent": "Reddit'te bir kullanıcı noktalama açısından olumlu, daha yüksek RAM açısından olumsuz deneyim bildiriyor; diğeri doğruluğu beklentinin altında ve zaman damgası yokluğunu sorun buluyor. FluidVoice #736, uzun sesin tek pencereye kesilmesini uygulama entegrasyon hatası olarak açıklıyor; modelin kendi uzun kayıt yolu tamamlıyor.",
+      "unknowns": [
+        "Bu deneyimler Türkçe testi değil. Temmuz Arapça takip modelinin varlığı keşfedildi; Türkçe ekleyen resmî sürüm doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://docs.cohere.com/changelog/cohere-transcribe-03-2026",
+          "title": "Announcing the Cohere Transcribe model",
+          "type": "developer",
+          "date": "2026-03-26",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+          "title": "Cohere Transcribe model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/CohereLabs/cohere-transcribe-03-2026",
+          "title": "Cohere Transcribe canlı metadata",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s6owds/anybody_try_transcribe/",
+          "title": "Anybody try Transcribe? Kullanıcı deneyimleri",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/altic-dev/FluidVoice/issues/736",
+          "title": "Cohere Transcribe truncates audio with fix",
+          "type": "community",
+          "date": "2026-07-29",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://docs.cohere.com/changelog/cohere-transcribe-03-2026",
+            "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Reddit'te bir kullanıcı noktalama açısından olumlu, daha yüksek RAM açısından olumsuz deneyim bildiriyor; diğeri doğruluğu beklentinin altında ve zaman damgası yokluğunu sorun buluyor. FluidVoice #736, uzun sesin tek pencereye kesilmesini uygulama entegrasyon hatası olarak açıklıyor; modelin kendi uzun kayıt yolu tamamlıyor.",
+          "urls": [
+            "https://www.reddit.com/r/LocalLLaMA/comments/1s6owds/anybody_try_transcribe/",
+            "https://github.com/altic-dev/FluidVoice/issues/736"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "CohereLabs/cohere-transcribe-03-2026 sha d552dadc2922ba6f6c1f994f8db904d52dcaf942; lastModified 2026-10-07T11:55:35.000Z. Arapça takip modeli yalnız keşfedildi. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/CohereLabs/cohere-transcribe-03-2026"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "Cohere Transcribe March 2026 official review Turkish problems YouTube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Cohere\" \"Transcribe\" \"03-2026\" Turkish",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Cohere Transcribe\" review problems Turkish YouTube X",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": []
+    },
+    {
+      "record_id": 58,
+      "id": "handy-computer/whisper-large-v3-turbo-gguf",
+      "name": "Whisper GGUF/ggml sürümleri (handy-computer/whisper-*-gguf)",
+      "category": "ASR",
+      "kind": "model_family",
+      "creator": "handy-computer; temel model OpenAI",
+      "plain": "Yeni eğitilmiş Türkçe model ailesi değil, Whisper ağırlıklarının transcribe.cpp için GGUF dönüşümleridir. Ayrıntılı incelenen üye large-v3-turbo-gguf. Diğer boyutlar ve İngilizce .en kardeşler geliştirici listesinde var; .en sürümler Türkçe amaçla seçilmemeli. GGUF dosyasını her Whisper motorunun açacağı varsayılmaz.",
+      "claims": [
+        {
+          "text": "Turbo dönüşümünde İngilizce LibriSpeech test-clean WER F16/Q8 için yüzde 2,01; Q4 için yüzde 2,04 bildiriliyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/handy-computer/whisper-large-v3-turbo-gguf/raw/main/README.md"
+        }
+      ],
+      "training": "Ek eğitim bildirilmemiş; upstream 41f01f3 commit'i 25 Nisan 2026'da sabitlenmiş, transcribe.cpp 0a26478 karşısında 13 Eylül doğrulaması kaydedilmiş. Kuantizasyon, parametreleri daha az bitle saklama işlemidir.",
+      "version": "Dönüşümün upstream sabitleme ve doğrulama tarihleri yeni eğitim anlamına gelmez. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: 18ada752005f5fddef499256f9a458d0b37a203a; lastModified: 2026-10-16T08:30:21.000Z. Dosya değişimi yeniden eğitim kanıtı değildir.",
+      "try_it": "Çalıştırılmadı ve ağırlık indirilmedi. İzinli ileriki denemede kamu Türkçe örnekleriyle, sabit normalizasyon altında atasına karşı hata ve hız ayrı incelenebilir.",
+      "demo_url": null,
+      "independent": "Bağımsız GGUF Türkçe deneyim ve video/X sorun araması yapıldı; bu belirli dönüşüme yönelik doğrudan kullanıcı doğruluk ölçümü bulunamadı. Handy uygulamasının genel incelemesi dosyanın kalite deneyi sayılmadı.",
+      "unknowns": [
+        "İngilizce dönüşüm eşdeğerliği Türkçe kuantizasyon kaybını kanıtlamaz. ggml/whisper.cpp ve GGUF/transcribe.cpp yolları karıştırılmamalı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/handy-computer/whisper-large-v3-turbo-gguf",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/handy-computer/whisper-large-v3-turbo-gguf/raw/main/README.md",
+          "title": "Whisper GGUF/ggml sürümleri (handy-computer/whisper-*-gguf) README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=handy-computer&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata / yazarın en çok 40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://huggingface.co/handy-computer/whisper-large-v3-turbo-gguf/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Bağımsız GGUF Türkçe deneyim ve video/X sorun araması yapıldı; bu belirli dönüşüme yönelik doğrudan kullanıcı doğruluk ölçümü bulunamadı. Handy uygulamasının genel incelemesi dosyanın kalite deneyi sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Dönüşümün upstream sabitleme ve doğrulama tarihleri yeni eğitim anlamına gelmez. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/handy-computer/whisper-large-v3-turbo-gguf",
+            "https://huggingface.co/api/models?author=handy-computer&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "handy computer whisper GGUF transcribe.cpp review problems YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "handy-computer/whisper-large-v3-turbo-gguf",
+          "url": "https://huggingface.co/handy-computer/whisper-large-v3-turbo-gguf",
+          "status": "ana üyenin model kartı okundu; yerel deney yapılmadı"
+        },
+        {
+          "name": "Whisper diğer GGUF boyutları",
+          "url": "https://huggingface.co/handy-computer",
+          "status": "yazar model listesinde görüldü; tek tek eşdeğerlik incelenmedi"
+        },
+        {
+          "name": "ggml/whisper.cpp dağıtımları",
+          "url": null,
+          "status": "bu GGUF/transcribe.cpp kanıtıyla araştırılmış sayılmaz"
+        }
+      ]
+    },
+    {
+      "record_id": 59,
+      "id": "kagangungor/TRWhisper",
+      "name": "TRWhisper (kagangungor)",
+      "category": "ASR",
+      "kind": "tool",
+      "creator": "Kağan Güngör / kagangungor",
+      "plain": "Windows 11 için bas-konuş dikte uygulamasıdır; ayrı eğitilmiş model değildir. Whisper.cpp/Whisper.net motoru, Silero VAD, Türkçe sözlük ve sayı normalizasyonunu bir iş akışında birleştirir. Kullanıcı açısından başarısı seçilen model kadar mikrofon, kısa yol ve metnin hedef uygulamaya aktarılmasına bağlıdır.",
+      "claims": [
+        {
+          "text": "Geliştirici yerel dikte, sözlük/jargon düzeltme ve Türkçe biçimlendirme sunuyor. Son README ayrıca isteğe bağlı yerel veya bulut LLM sağlayıcıları listeliyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://github.com/kagangungor/TRWhisper"
+        }
+      ],
+      "training": "Kendi ASR eğitim reçetesi yok; temel ses modelini kullanıyor. Kaynak kod MIT. Tamamen yerel iddiası, kullanıcının bulut LLM seçmesi halinde iş akışının tamamına otomatik uygulanamaz.",
+      "version": "Latest release API v2.2.0; published_at 2026-09-24T23:50:58Z. Kurulu uygulama sürümü ölçülmedi. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Release API etiket/tarih okundu; HEAD hash'i ve kurulu sürüm ayrı kontrol edilmedi.",
+      "try_it": "Kurulum, hesap açma ve ses gönderme yapılmadı. İleriki denemede erişim, veri işleme koşulları ve Türkçe hedef görevi belirlenmeli; belge incelemesi çalışan ürün kabulü değildir.",
+      "demo_url": null,
+      "independent": "18 Eylül DonanımHaber başlığı geliştiricinin duyurusu; RTX3050/i5 örnek süreleri kendisi vermiş. Okunan bölümde bağımsız olumlu/olumsuz kabul deneyi yok. README'deki özellikler kurulu uygulamada denenmedi.",
+      "unknowns": [
+        "Güncel sürüm API'si v2.2.0 gösteriyor. Anlam koruma, metin düzeltme modları ve sözlü noktalama yanlış dönüşümleri ölçülmedi."
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/kagangungor/TRWhisper",
+          "title": "TRWhisper (kagangungor) kaynak belgesi",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://forum.donanimhaber.com/acik-kaynak-windows-11-icin-yerel-ve-turkce-bas-konus-dikte-uygulamasi-trwhisper-cuda-whisper--164086976",
+          "title": "TRWhisper geliştirici tanıtımı",
+          "type": "developer_social",
+          "date": "2026-09-18",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/kagangungor/TRWhisper/releases/latest",
+          "title": "TRWhisper güncel release API",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://github.com/kagangungor/TRWhisper"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "18 Eylül DonanımHaber başlığı geliştiricinin duyurusu; RTX3050/i5 örnek süreleri kendisi vermiş. Okunan bölümde bağımsız olumlu/olumsuz kabul deneyi yok. README'deki özellikler kurulu uygulamada denenmedi.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Sosyal duyuru okundu; bağımsız video deneyi değil.",
+          "urls": [
+            "https://forum.donanimhaber.com/acik-kaynak-windows-11-icin-yerel-ve-turkce-bas-konus-dikte-uygulamasi-trwhisper-cuda-whisper--164086976"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Latest release API v2.2.0; published_at 2026-09-24T23:50:58Z. Kurulu uygulama sürümü ölçülmedi. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://api.github.com/repos/kagangungor/TRWhisper/releases/latest"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "TRWhisper kagangungor official review issues YouTube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"TRWhisper\" \"kagangungor\" deneyim sorun YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": []
+    },
+    {
+      "record_id": 60,
+      "id": "sestek-sr",
+      "name": "Sestek Knovvu ASR",
+      "category": "ASR",
+      "kind": "product",
+      "creator": "SESTEK",
+      "plain": "Knovvu adı altında bilinen, güncel belgelerde SESTEK SR olarak sunulan ticari konuşma tanıma ürünüdür. Kamuya açık indirilebilir tek ağırlık/model kimliği doğrulanmadı. Ürün; dar komut grameriyle tanıma ile serbest dikteyi ayrı yöntemler olarak açıklıyor. Bu ayrım doğruluk iddialarını anlamak için önemlidir.",
+      "claims": [
+        {
+          "text": "Resmî belge, önceden tanımlı gramerde daha sınırlı arama sayesinde hız ve doğruluk avantajı; dikte modunda serbest konuşma desteği iddia ediyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://www.sestek.com/demos"
+        }
+      ],
+      "training": "Şirket çeşitli konuşma verileriyle eğitimden söz ediyor; tam veri kaynakları, Türkçe saat miktarı, parametre ve ağırlık sürümü kamu belgelerinden belirlenemedi. Bulut ve kurum içi dağıtım seçenekleri var.",
+      "version": "Belge 15 Nisan 2026 güncellenmiş; ağırlık veya ürün release numarası açıklanmıyor. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Ağırlık/checkpoint revizyonu açıklanmadı veya doğrulanamadı; belge tarihi model hash'i değildir.",
+      "try_it": "Kurulum, hesap açma ve ses gönderme yapılmadı. İleriki denemede erişim, veri işleme koşulları ve Türkçe hedef görevi belirlenmeli; belge incelemesi çalışan ürün kabulü değildir. Demo bağlantısı bulundu; çalışma/çıktı doğrulaması yapılmadı.",
+      "demo_url": "https://www.sestek.com/demos",
+      "independent": "Gartner ürünü hakkında sonuç keşfedildi; asıl yorum metinleri okunmadığından kullanıcı onayı olarak aktarılmadı. Kamu kullanıcı deneyimi, sorun ve YouTube/X aramalarında bu ASR modeline özgü doğrulanmış kalite testi bulunamadı.",
+      "unknowns": [
+        "Kayıtsız tarayıcı demosu sayfası bulundu; mikrofon açılmadı veya ses gönderilmedi. Fiyat, kurulum ve ticari sözleşme bu kapsamda değil."
+      ],
+      "sources": [
+        {
+          "url": "https://www.sestek.com/demos",
+          "title": "SESTEK Product Demos",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://docs.knovvu.com/docs/sr-recognition-methods",
+          "title": "Recognition Methods: gramer ve dikte",
+          "type": "developer",
+          "date": "2026-04-15",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.gartner.com/reviews/market/speech-analytics-platforms/vendor/sestek/product/knovvu-analytics",
+          "title": "SESTEK Analytics reviews: yalnız keşif",
+          "type": "review_listing",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://www.sestek.com/demos",
+            "https://docs.knovvu.com/docs/sr-recognition-methods"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Gartner ürünü hakkında sonuç keşfedildi; asıl yorum metinleri okunmadığından kullanıcı onayı olarak aktarılmadı. Kamu kullanıcı deneyimi, sorun ve YouTube/X aramalarında bu ASR modeline özgü doğrulanmış kalite testi bulunamadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "Belge 15 Nisan 2026 güncellenmiş; ağırlık veya ürün release numarası açıklanmıyor. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "Sestek Knovvu speech recognition Turkish official review problems YouTube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Sestek\" \"Knovvu\" \"speech recognition\" review",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": []
+    },
+    {
+      "record_id": 61,
+      "id": "catalog-061",
+      "name": "TBMM + TÜBİTAK tutanak ASR",
+      "category": "ASR",
+      "kind": "product",
+      "creator": "TBMM ve TÜBİTAK iş birliği; Tutanak Bilgi Sistemi",
+      "plain": "Katalogdaki etiket açık model deposundan çok kurumsal tutanak sistemi projesine karşılık geliyor. 23 Ekim 2023 Anadolu Ajansı haberinde TBMM Tutanak Hizmetleri Başkanı doğrudan konuşarak sistemin amaçlarını anlatıyor. Gelecek zamanla yapılan duyuru, 2026'da bütün özelliklerin üretimde kabul edildiği anlamına gelmez.",
+      "claims": [
+        {
+          "text": "Milletvekilini sesinden tanıma, konuşmayı tutanağa çevirme ve uzman stenografın üretilen metni kontrol etmesi hedefleniyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://www.aa.com.tr/tr/bilim-teknoloji/meclisin-hafizasi-stenograflara-yapay-zeka-destegi-geliyor/3029658"
+        }
+      ],
+      "training": "Parametre sayısı, taban model, eğitim verisi, lisanslı ağırlık ve deneme API'si belirlenemedi. TBMM tutanaklarının kamuya açık olması eğitimde kullanılmış olduklarını tek başına kanıtlamaz.",
+      "version": "2023 proje duyurusu; 2026 üretim kabulü veya model sürümü doğrulanamadı. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Ağırlık/checkpoint revizyonu açıklanmadı veya doğrulanamadı; belge tarihi model hash'i değildir.",
+      "try_it": "Kurulum, hesap açma ve ses gönderme yapılmadı. İleriki denemede erişim, veri işleme koşulları ve Türkçe hedef görevi belirlenmeli; belge incelemesi çalışan ürün kabulü değildir.",
+      "demo_url": null,
+      "independent": "Doğrudan kurum temsilcisi, üst üste konuşulan tartışmalı oturumlarda insan stenograf gerekeceğini söylüyor. Bu önemli kapsam sınırı, bağımsız kullanıcı testi değil. Resmî/sosyal video ve bağımsız deneyim aramalarında ölçümlü kabul raporu bulunamadı.",
+      "unknowns": [
+        "Model kimliği ve güncel devreye alma durumu açık. Haber metniyle doğrulanan şey proje/amaçtır; çalışan ürün kalitesi ve 2026 sürümü değildir."
+      ],
+      "sources": [
+        {
+          "url": "https://www.aa.com.tr/tr/bilim-teknoloji/meclisin-hafizasi-stenograflara-yapay-zeka-destegi-geliyor/3029658",
+          "title": "Meclis stenograflarına yapay zekâ: kurum temsilcisi röportajı",
+          "type": "primary_interview",
+          "date": "2023-10-23",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://www.aa.com.tr/tr/bilim-teknoloji/meclisin-hafizasi-stenograflara-yapay-zeka-destegi-geliyor/3029658"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Doğrudan kurum temsilcisi, üst üste konuşulan tartışmalı oturumlarda insan stenograf gerekeceğini söylüyor. Bu önemli kapsam sınırı, bağımsız kullanıcı testi değil. Resmî/sosyal video ve bağımsız deneyim aramalarında ölçümlü kabul raporu bulunamadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "2023 proje duyurusu; 2026 üretim kabulü veya model sürümü doğrulanamadı. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "TBMM TÜBİTAK tutanak ses tanıma yapay zeka resmi proje",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"TBMM\" \"TÜBİTAK\" \"ses tanıma\"",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "TBMM TÜBİTAK tutanak bilgi sistemi YouTube X kullanıcı eleştiri",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": []
+    },
+    {
+      "record_id": 62,
+      "id": "doi:10.3390/electronics13214227",
+      "name": "Gazi Whisper + LoRA makalesi",
+      "category": "ASR",
+      "kind": "paper",
+      "creator": "Hüseyin Polat, Ali Kaan Turan, Cengiz Koçak, Hüseyin Burak Ulaş",
+      "plain": "Gazi bağlantılı Whisper+LoRA kaydı için somut kimlik 2024 Electronics makalesi olarak bulundu. Bu bir indirilebilir model adı değildir. Kurumun AVESİS kaydı başlığı, yazarları, DOI'yi ve özeti doğruluyor. Araştırma sonucu katalogdaki başka Türkçe Whisper depolarına otomatik taşınamaz.",
+      "claims": [
+        {
+          "text": "Özet beş Türkçe veri kümesinde başlangıç WER aralığını yüzde 4,3–14,2; LoRA sonrası bazı koşullarda yüzde 52,38'e varan bağıl hata azalmasını bildiriyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://avesis.gazi.edu.tr/yayin/f370e789-f23c-4749-8823-65c2ce471199/implementation-of-a-whisper-architecture-based-turkish-automatic-speech-recognition-asr-system-and-evaluation-of-the-effect-of-fine-tuning-with-a-low-rank-adaptation-lora-adapter-on-its-performance"
+        }
+      ],
+      "training": "Whisper ailesine düşük dereceli adaptörlerle ince ayar yaklaşımı. Tam makaleye erişim bu tur başarısız olduğundan bütün veri ayrımları, hiperparametreler ve en büyük kazanımın hangi koşulda çıktığı bağımsızca çözümlenmedi.",
+      "version": "2024 DOI 10.3390/electronics13214227. 2026 Gazi optimizasyon makalesi ayrı eser; aynı checkpoint sürümü değil. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Ağırlık/checkpoint revizyonu açıklanmadı veya doğrulanamadı; belge tarihi model hash'i değildir.",
+      "try_it": "Kurulum, hesap açma ve ses gönderme yapılmadı. İleriki denemede erişim, veri işleme koşulları ve Türkçe hedef görevi belirlenmeli; belge incelemesi çalışan ürün kabulü değildir.",
+      "demo_url": null,
+      "independent": "Yazar/kurum, YouTube/X ve bağımsız olumlu/olumsuz tekrar deneyi arandı; doğrudan yeniden üretim veya kullanıcı deneyi bulunamadı. 2026 tarihli başka bir Gazi Whisper optimizasyon makalesi keşfedildi; özgün çalışmanın sürümü sayılmadı.",
+      "unknowns": [
+        "Yayımlanmış checkpoint, kod ve tam tekrar reçetesi doğrulanmadı. Makale sonucunu ölçülmüş yerel performans diye sunmak doğru değil."
+      ],
+      "sources": [
+        {
+          "url": "https://avesis.gazi.edu.tr/yayin/f370e789-f23c-4749-8823-65c2ce471199/implementation-of-a-whisper-architecture-based-turkish-automatic-speech-recognition-asr-system-and-evaluation-of-the-effect-of-fine-tuning-with-a-low-rank-adaptation-lora-adapter-on-its-performance",
+          "title": "Gazi AVESİS: Whisper LoRA makalesi ve özet",
+          "type": "institutional_publication",
+          "date": "2024",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.mdpi.com/2079-9292/13/21/4227",
+          "title": "Electronics 13(21) 4227 tam metin erişim denemesi",
+          "type": "paper",
+          "date": "2024",
+          "checked_at": "2026-10-23",
+          "status": "inaccessible"
+        },
+        {
+          "url": "https://avesis.gazi.edu.tr/yayin/060bfe37-da0c-412c-a14c-01a2a8e4cfeb/optimizing-whisper-models-for-turkish-automatic-speech-recognition-a-comprehensive-study-on-parameter-efficient-fine-tuning-and-model-compression",
+          "title": "2026 Gazi Whisper optimizasyon çalışması: ayrı yayın keşfi",
+          "type": "institutional_publication",
+          "date": "2026",
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://avesis.gazi.edu.tr/yayin/f370e789-f23c-4749-8823-65c2ce471199/implementation-of-a-whisper-architecture-based-turkish-automatic-speech-recognition-asr-system-and-evaluation-of-the-effect-of-fine-tuning-with-a-low-rank-adaptation-lora-adapter-on-its-performance"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Yazar/kurum, YouTube/X ve bağımsız olumlu/olumsuz tekrar deneyi arandı; doğrudan yeniden üretim veya kullanıcı deneyi bulunamadı. 2026 tarihli başka bir Gazi Whisper optimizasyon makalesi keşfedildi; özgün çalışmanın sürümü sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "2024 DOI 10.3390/electronics13214227. 2026 Gazi optimizasyon makalesi ayrı eser; aynı checkpoint sürümü değil. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "Gazi Whisper LoRA Türkçe konuşma tanıma makale",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Gazi\" \"Whisper\" \"LoRA\" review YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": []
+    },
+    {
+      "record_id": 156,
+      "id": "google-docs-voice-typing-uyap-guide",
+      "name": "UYAP'ta sesle yazma (Google Dokümanlar → Sesle Yazma)",
+      "category": "ASR",
+      "kind": "tool",
+      "creator": "Google Dokümanlar; Adalet biriminin kullanım rehberi",
+      "plain": "UYAP'a özel eğitilmiş model adı değildir. Katalog bağlantısı Google Dokümanlar sesle yazma özelliğini anlatan Adalet alan adlı PDF'ye gidiyor. Güncel Google yardımında konuşmanın işlenmesini web tarayıcısının yönettiği ve metni Dokümanlar/Slaytlar'a ilettiği açıklanıyor. Bu, çevrimdışı veya kurum içi özel ASR garantisi değildir.",
+      "claims": [
+        {
+          "text": "Google yardım sayfası Chrome, Edge ve Safari'nin güncel sürümleriyle sesle yazmayı ve mikrofon üzerinden metin girişini anlatıyor.",
+          "evidence": "Birincil belgede bildirilen beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://support.google.com/docs/answer/4492226?hl=tr"
+        }
+      ],
+      "training": "İndirilebilir ağırlık, eğitim verisi, parametre veya sabit model sürümü açıklanmıyor; kullanılan tarayıcı/hizmet yolu belirleyici. Adalet PDF'si bu oturumda 406/erişim hatası nedeniyle tam okunamadı; arama özeti tam belge kanıtı sayılmadı.",
+      "version": "PDF URL'si 26 Şubat 2025 tarihini taşıyor; tam metin erişilemedi. Google hizmetinin sabit model etiketi yok. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Ağırlık/checkpoint revizyonu açıklanmadı veya doğrulanamadı; belge tarihi model hash'i değildir.",
+      "try_it": "Kurulum, hesap açma ve ses gönderme yapılmadı. İleriki denemede erişim, veri işleme koşulları ve Türkçe hedef görevi belirlenmeli; belge incelemesi çalışan ürün kabulü değildir.",
+      "demo_url": null,
+      "independent": "UYAP sesle yazma ve Google Dokümanlar deneyim/sorun/video aramaları yapıldı; bu tam iş akışına ait karşılaştırılabilir bağımsız olumlu veya olumsuz doğruluk deneyi bulunamadı. UYAP mobil editör yorumları alakasız olduğu için katılmadı.",
+      "unknowns": [
+        "Gizlilik, kuruluş politikası ve kurulu UYAP'ta çalışırlık ayrıca doğrulanmalı; hesap/mikrofon açılmadı ve içerik yüklenmedi."
+      ],
+      "sources": [
+        {
+          "url": "https://rayp.adalet.gov.tr/resimler/33/dosya/sesli-yazma26-02-20258-59-am.pdf",
+          "title": "UYAP'ta sesle yazma (Google Dokümanlar → Sesle Yazma) kaynak belgesi",
+          "type": "official_guide",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "inaccessible"
+        },
+        {
+          "url": "https://support.google.com/docs/answer/4492226?hl=tr",
+          "title": "Sesinizle yazma ve düzenleme: Google yardım",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kimliği belirli birincil model/ürün veya kurum kaynağı okundu; iddialar geliştiriciye ait.",
+          "urls": [
+            "https://support.google.com/docs/answer/4492226?hl=tr"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "UYAP sesle yazma ve Google Dokümanlar deneyim/sorun/video aramaları yapıldı; bu tam iş akışına ait karşılaştırılabilir bağımsız olumlu veya olumsuz doğruluk deneyi bulunamadı. UYAP mobil editör yorumları alakasız olduğu için katılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye, duyuru, YouTube/X ve deneyim/sorun terimleriyle web taraması yapıldı. Bu aday için izlenip doğrulanmış bağımsız video veya X deneyi bulunamadı; yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "PDF URL'si 26 Şubat 2025 tarihini taşıyor; tam metin erişilemedi. Google hizmetinin sabit model etiketi yok. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "UYAP sesle yazma Google Dokümanlar adalet pdf deneyim sorun YouTube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"UYAP\" \"sesle yazma\" YouTube deneyim sorun",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": []
+    }
+  ]
+}

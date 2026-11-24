@@ -1,0 +1,1332 @@
+[
+  {
+    "record_id": 1,
+    "name": "Kumru-2B / Kumru-2B-Base",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "vngrs/Kumru-2B"
+  },
+  {
+    "record_id": 2,
+    "name": "Kumru-7B (7,4B)",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 3,
+    "name": "Turkish-Gemma-9b-T1 / v0.1",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "ytu-ce-cosmos/Turkish-Gemma-9b-T1"
+  },
+  {
+    "record_id": 4,
+    "name": "Turkish-Gemma-4b-T1-Scout",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "ytu-ce-cosmos/Turkish-Gemma-4b-T1-Scout"
+  },
+  {
+    "record_id": 5,
+    "name": "Turkish-Llama-8b (v0.1 / Instruct / DPO)",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1"
+  },
+  {
+    "record_id": 6,
+    "name": "turkish-gpt2 ailesi (large 774M, medium, instruct varyantları) = cosmosGPT",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "ytu-ce-cosmos/turkish-gpt2-large"
+  },
+  {
+    "record_id": 7,
+    "name": "tr-Qwen2.5-0.5B-SFT-v1",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "ytu-ce-cosmos/tr-Qwen2.5-0.5B-SFT-v1"
+  },
+  {
+    "record_id": 8,
+    "name": "Trendyol-LLM-8B-T1",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "Trendyol/Trendyol-LLM-8B-T1"
+  },
+  {
+    "record_id": 9,
+    "name": "Trendyol-LLM-Asure-12B",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "Trendyol/Trendyol-LLM-Asure-12B"
+  },
+  {
+    "record_id": 10,
+    "name": "Turkcell-LLM-7b-v1",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "TURKCELL/Turkcell-LLM-7b-v1"
+  },
+  {
+    "record_id": 11,
+    "name": "Kocdigital-LLM-8b-v0.1",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "KOCDIGITAL/Kocdigital-LLM-8b-v0.1"
+  },
+  {
+    "record_id": 12,
+    "name": "asafaya/kanarya-2b (ve kanarya-750m)",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "asafaya/kanarya-2b"
+  },
+  {
+    "record_id": 13,
+    "name": "TURNA (1,14B, T5 kodlayıcı-çözücü)",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "boun-tabi-LMG/TURNA"
+  },
+  {
+    "record_id": 14,
+    "name": "VBART (Small/Medium/Large/XLarge + özetleme, parafraz, QAQG)",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "vngrs/VBART-Large-Base"
+  },
+  {
+    "record_id": 15,
+    "name": "SambaLingo-Turkish-Chat/Base, Orbina/Orbita-v0.1",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "sambanovasystems/SambaLingo-Turkish-Chat"
+  },
+  {
+    "record_id": 16,
+    "name": "cere-llama-3-8b-tr (Cerebrum Tech)",
+    "category": "LLM-genel",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 17,
+    "name": "Flow-Drafter-Qwen3.5-4B/9B/27B (+ -tr)",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "ytu-ce-cosmos/Flow-Drafter-Qwen3.5-4B"
+  },
+  {
+    "record_id": 18,
+    "name": "Kizagan-E4B-Turkish-Reasoning-Model",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "AlicanKiraz0/Kizagan-E4B-Turkish-Reasoning-Model"
+  },
+  {
+    "record_id": 19,
+    "name": "mertkayacs/Karar-4B",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "mertkayacs/Karar-4B"
+  },
+  {
+    "record_id": 20,
+    "name": "Küçük/fikir modeller (Qwen3.5-2B-Turkish-SFT, qwen3.5-4b-turkish-sft, MiniCPM5-1B-Turkish, gemma-3-1b-turkish-recipes, Llama-3.1-8B-Turkish)",
+    "category": "LLM-genel",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 21,
+    "name": "Kumru türevleri (Kumru-2B-EPDK-Instruct, Kumru-2B-turkish-reasoning, Kumru-2B-SFT, Kara-Kumru-v1.0-2B)",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "AlicanKiraz0/Kara-Kumru-v1.0-2B"
+  },
+  {
+    "record_id": 22,
+    "name": "BİLGE (TÜBİTAK BİLGEM; 1B, 9B sıfırdan, 27B CPT, 122B geliştiriliyor)",
+    "category": "LLM-genel",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 23,
+    "name": "HAVELSAN MAIN (MAIN GPT) 9B",
+    "category": "LLM-genel",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 24,
+    "name": "T3 AI (Baykar / T3 Vakfı)",
+    "category": "LLM-genel",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 25,
+    "name": "Mecellem-Qwen3 1.7B-TR / 4B-TR",
+    "category": "LLM-alan: hukuk",
+    "source_status": 200,
+    "repo_id": "newmindai/Mecellem-Qwen3-1.7B-TR"
+  },
+  {
+    "record_id": 26,
+    "name": "newmindai/Muhakim (hukuk ödül modeli)",
+    "category": "LLM-alan: hukuk",
+    "source_status": 200,
+    "repo_id": "newmindai/Muhakim"
+  },
+  {
+    "record_id": 27,
+    "name": "Kumru-2B-Hukuk-Asistani",
+    "category": "LLM-alan: hukuk",
+    "source_status": 200,
+    "repo_id": "Cetin003/Kumru-2B-Hukuk-Asistani"
+  },
+  {
+    "record_id": 28,
+    "name": "AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM",
+    "category": "LLM-alan: hukuk",
+    "source_status": 200,
+    "repo_id": "AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM-Q4_K_M-GGUF"
+  },
+  {
+    "record_id": 29,
+    "name": "Diğer hukuk ince ayarları (Qwen2.5-7B-Turkish-Legal-DoRA, hukuk-gemma/llama, webbrain-one tr-hukuk, OrionCAF/TurkishLaw 14B)",
+    "category": "LLM-alan: hukuk",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 30,
+    "name": "HukukBERT",
+    "category": "LLM-alan: hukuk",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 31,
+    "name": "newmindai/Llama-3.1-8B-Instruct-tax-alpaca (+ ~20 alan LoRA'sı: kvkk, capital, fund, land, energy)",
+    "category": "LLM-alan: vergi-finans",
+    "source_status": 200,
+    "repo_id": "newmindai/Llama-3.1-8B-Instruct-tax-alpaca"
+  },
+  {
+    "record_id": 32,
+    "name": "Mihenk-LLM-14B-Turkish-Financial / v2-35B-A3B",
+    "category": "LLM-alan: vergi-finans",
+    "source_status": 200,
+    "repo_id": "AlicanKiraz0/Mihenk-LLM-14B-Turkish-Financial-Model"
+  },
+  {
+    "record_id": 33,
+    "name": "TULIP (finans sürekli ön eğitim 7–8B)",
+    "category": "LLM-alan: vergi-finans",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 34,
+    "name": "Finans sınıflandırıcılar: FinTurkBERT (ff112), bankbert-turkish (Kaggle)",
+    "category": "LLM-alan: vergi-finans",
+    "source_status": 200,
+    "repo_id": "ff112/FinTurkBERT"
+  },
+  {
+    "record_id": 35,
+    "name": "TurkRadBERT, BioBERTurk, TurkishMedLLM, TUSGPT-TR-Medical-9B",
+    "category": "LLM-alan: tıp",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 36,
+    "name": "Siber güvenlik modelleri (Trendyol-Cybersecurity-LLM, BaronLLM, SenecaLLM, Titus; hilalkavas siber-muhafiz)",
+    "category": "LLM-alan: diğer",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 37,
+    "name": "openai/whisper-large-v3",
+    "category": "ASR",
+    "source_status": 200,
+    "repo_id": "openai/whisper-large-v3"
+  },
+  {
+    "record_id": 38,
+    "name": "openai/whisper-large-v3-turbo",
+    "category": "ASR",
+    "source_status": 200,
+    "repo_id": "openai/whisper-large-v3-turbo"
+  },
+  {
+    "record_id": 39,
+    "name": "turkmedstt/whisper-large-v3-turkish-general (+ -medical)",
+    "category": "ASR",
+    "source_status": 200,
+    "repo_id": "turkmedstt/whisper-large-v3-turkish-general"
+  },
+  {
+    "record_id": 40,
+    "name": "BuzzASR/turkish",
+    "category": "ASR",
+    "source_status": 200,
+    "repo_id": "BuzzASR/turkish"
+  },
+  {
+    "record_id": 41,
+    "name": "Qwen3-ASR-1.7B / 0.6B",
+    "category": "ASR",
+    "source_status": 200,
+    "repo_id": "Qwen/Qwen3-ASR-1.7B-hf"
+  },
+  {
+    "record_id": 42,
+    "name": "selimc/whisper-large-v3-turbo-turkish",
+    "category": "ASR",
+    "source_status": 200,
+    "repo_id": "selimc/whisper-large-v3-turbo-turkish"
+  },
+  {
+    "record_id": 43,
+    "name": "ysdede/whisper-khanacademy-large-v3-turbo-tr (+ ct2, tiny/base/small)",
+    "category": "ASR",
+    "source_status": 200,
+    "repo_id": "ysdede/whisper-khanacademy-large-v3-turbo-tr"
+  },
+  {
+    "record_id": 44,
+    "name": "mihuai/turkish-stt (v1) ve turkish-stt-66m-v2",
+    "category": "ASR",
+    "source_status": 200,
+    "repo_id": "mihuai/turkish-stt-66m-v2"
+  },
+  {
+    "record_id": 45,
+    "name": "erayyapagci/balbal-v1",
+    "category": "ASR",
+    "source_status": 200,
+    "repo_id": "erayyapagci/balbal-v1"
+  },
+  {
+    "record_id": 46,
+    "name": "duxx/turkish-stt-zipformer",
+    "category": "ASR",
+    "source_status": 200,
+    "repo_id": "duxx/turkish-stt-zipformer"
+  },
+  {
+    "record_id": 47,
+    "name": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+    "category": "ASR",
+    "source_status": 200,
+    "repo_id": "nvidia/nemotron-3.5-asr-streaming-0.6b"
+  },
+  {
+    "record_id": 48,
+    "name": "facebook/omniASR-LLM-7B ve CTC/LLM 300M–7B ailesi (Omnilingual)",
+    "category": "ASR",
+    "source_status": 200,
+    "repo_id": "facebook/omniASR-LLM-7B"
+  },
+  {
+    "record_id": 49,
+    "name": "microsoft/VibeVoice-ASR",
+    "category": "ASR",
+    "source_status": 200,
+    "repo_id": "microsoft/VibeVoice-ASR"
+  },
+  {
+    "record_id": 50,
+    "name": "RsGoksel/RsGoksel_ITU_Mainframe",
+    "category": "ASR",
+    "source_status": 200,
+    "repo_id": "RsGoksel/RsGoksel_ITU_Mainframe"
+  },
+  {
+    "record_id": 51,
+    "name": "Cosmobillian/turkish_whisper_for_noisy_datas_v1",
+    "category": "ASR",
+    "source_status": 200,
+    "repo_id": "Cosmobillian/turkish_whisper_for_noisy_datas_v1"
+  },
+  {
+    "record_id": 52,
+    "name": "ysdede/Phi-4-mm-inst-asr-turkish-unf",
+    "category": "ASR",
+    "source_status": 200,
+    "repo_id": "ysdede/Phi-4-mm-inst-asr-turkish-unf"
+  },
+  {
+    "record_id": 53,
+    "name": "Whisper ince ayar uzun kuyruğu (81 depo: samil24 v1–v7, alikanakar 13+, Huseyin/…-finetuned, telephony-cv17, emre/whisper-medium-turkish-2…)",
+    "category": "ASR",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 54,
+    "name": "wav2vec2 Türkçe ince ayarları (mpoyraz XLS-R-300m cv7/cv8, cahya, m3hrdadfi, ceyda, MMS-1b colab ~12)",
+    "category": "ASR",
+    "source_status": 200,
+    "repo_id": "mpoyraz/wav2vec2-xls-r-300m-cv7-turkish"
+  },
+  {
+    "record_id": 55,
+    "name": "Vosk Türkçe (vosk-model-small-tr)",
+    "category": "ASR",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 56,
+    "name": "facebook/mms-1b-all, seamless-m4t-v2-large",
+    "category": "ASR",
+    "source_status": 200,
+    "repo_id": "facebook/mms-1b-all"
+  },
+  {
+    "record_id": 57,
+    "name": "Cohere Transcribe 03-2026",
+    "category": "ASR",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 58,
+    "name": "Whisper GGUF/ggml sürümleri (handy-computer/whisper-*-gguf)",
+    "category": "ASR",
+    "source_status": 200,
+    "repo_id": "handy-computer/whisper-large-v3-turbo-gguf"
+  },
+  {
+    "record_id": 59,
+    "name": "TRWhisper (kagangungor)",
+    "category": "ASR",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 60,
+    "name": "Sestek Knovvu ASR",
+    "category": "ASR",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 61,
+    "name": "TBMM + TÜBİTAK tutanak ASR",
+    "category": "ASR",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 62,
+    "name": "Gazi Whisper + LoRA makalesi",
+    "category": "ASR",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 63,
+    "name": "canberkkkkkk/ema-lightning ve ema-tts",
+    "category": "TTS",
+    "source_status": 200,
+    "repo_id": "canberkkkkkk/ema-lightning"
+  },
+  {
+    "record_id": 64,
+    "name": "freyavoice/Freya-TTS",
+    "category": "TTS",
+    "source_status": 200,
+    "repo_id": "freyavoice/Freya-TTS"
+  },
+  {
+    "record_id": 65,
+    "name": "ozgurguler/ahenk-cep-tr (8,6M)",
+    "category": "TTS",
+    "source_status": 200,
+    "repo_id": "ozgurguler/ahenk-cep-tr"
+  },
+  {
+    "record_id": 66,
+    "name": "kadirnar/drifting-tts",
+    "category": "TTS",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 67,
+    "name": "Piper Türkçe sesleri (rhasspy tr_TR fahrettin/fettah; 99eren99; dcx514ai; DFKI; «Cem»)",
+    "category": "TTS",
+    "source_status": 200,
+    "repo_id": "rhasspy/piper-voices"
+  },
+  {
+    "record_id": 68,
+    "name": "Trendyol/Trendyol-TTS",
+    "category": "TTS",
+    "source_status": 200,
+    "repo_id": "Trendyol/Trendyol-TTS"
+  },
+  {
+    "record_id": 69,
+    "name": "openbmb/VoxCPM2",
+    "category": "TTS",
+    "source_status": 200,
+    "repo_id": "openbmb/VoxCPM2"
+  },
+  {
+    "record_id": 70,
+    "name": "krmkayabasi/Anka-TTS",
+    "category": "TTS",
+    "source_status": 200,
+    "repo_id": "krmkayabasi/Anka-TTS"
+  },
+  {
+    "record_id": 71,
+    "name": "AlicanKiraz0/Kizagan-TTS-v1.0",
+    "category": "TTS",
+    "source_status": 200,
+    "repo_id": "AlicanKiraz0/Kizagan-TTS-v1.0"
+  },
+  {
+    "record_id": 72,
+    "name": "ozgurguler/ahenk-tts-tr (36M LoRA + 2B)",
+    "category": "TTS",
+    "source_status": 200,
+    "repo_id": "ozgurguler/ahenk-tts-tr"
+  },
+  {
+    "record_id": 73,
+    "name": "Patientdesk-AI/antalia (Antalia 1 ~300M, antalia-mini / Antalia-2 Mini 7,6M)",
+    "category": "TTS",
+    "source_status": 200,
+    "repo_id": "cloud0day3/antalia-1"
+  },
+  {
+    "record_id": 74,
+    "name": "Supertone/supertonic-3",
+    "category": "TTS",
+    "source_status": 200,
+    "repo_id": "Supertone/supertonic-3"
+  },
+  {
+    "record_id": 75,
+    "name": "ResembleAI/chatterbox (Multilingual V3)",
+    "category": "TTS",
+    "source_status": 200,
+    "repo_id": "ResembleAI/chatterbox"
+  },
+  {
+    "record_id": 76,
+    "name": "facebook/mms-tts-tur",
+    "category": "TTS",
+    "source_status": 200,
+    "repo_id": "facebook/mms-tts-tur"
+  },
+  {
+    "record_id": 77,
+    "name": "k2-fsa/OmniVoice",
+    "category": "TTS",
+    "source_status": 200,
+    "repo_id": "k2-fsa/OmniVoice"
+  },
+  {
+    "record_id": 78,
+    "name": "Diğer TTS (Orkhon, Orpheus-TR, Orpheus-KhanAcademy-TR 3B, kani-tts-400m-0.3-tr, DizgeTTS-Antalia, LLaSA, SpeechT5, XTTS-v2, Bark, atasoglu/turkish-tts-models koleksiyonu)",
+    "category": "TTS",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 79,
+    "name": "ytu-ce-cosmos/modernbert-tr-base (+ -1k)",
+    "category": "Kodlayıcı-BERT",
+    "source_status": 200,
+    "repo_id": "ytu-ce-cosmos/modernbert-tr-base"
+  },
+  {
+    "record_id": 80,
+    "name": "boun-tabilab/TabiBERT",
+    "category": "Kodlayıcı-BERT",
+    "source_status": 200,
+    "repo_id": "boun-tabilab/TabiBERT"
+  },
+  {
+    "record_id": 81,
+    "name": "moganai/MoganBERT-TR",
+    "category": "Kodlayıcı-BERT",
+    "source_status": 200,
+    "repo_id": "moganai/MoganBERT-TR"
+  },
+  {
+    "record_id": 82,
+    "name": "newmindai/Mursit-Base / Mursit-Large (ModernBERT 155M / 403M)",
+    "category": "Kodlayıcı-BERT",
+    "source_status": 200,
+    "repo_id": "newmindai/Mursit-Large-TR-Retrieval"
+  },
+  {
+    "record_id": 83,
+    "name": "KocLab-Bilkent/BERTurk-Legal",
+    "category": "Kodlayıcı-BERT",
+    "source_status": 200,
+    "repo_id": "KocLab-Bilkent/BERTurk-Legal"
+  },
+  {
+    "record_id": 84,
+    "name": "dbmdz/bert-base-turkish-cased / uncased / 128k (BERTurk) + ELECTRA/ConvBERT/DistilBERT",
+    "category": "Kodlayıcı-BERT",
+    "source_status": 200,
+    "repo_id": "dbmdz/bert-base-turkish-cased"
+  },
+  {
+    "record_id": 85,
+    "name": "Diğer BERT/RoBERTa (YTÜ turkish-*-bert tiny–large, artiwise modernbert-base-tr-uncased, Trendyol tybert/tyroberta, Turkcell roberta, loodos, TurkishBERTweet, Geotrend, msbayindir legal)",
+    "category": "Kodlayıcı-BERT",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 86,
+    "name": "ytu-ce-cosmos/modernbert-tr-embed ve modernbert-tr-reranker",
+    "category": "Gömme/reranker",
+    "source_status": 200,
+    "repo_id": "ytu-ce-cosmos/modernbert-tr-embed"
+  },
+  {
+    "record_id": 87,
+    "name": "newmindai/Mursit-Large-TR-Retrieval, Mursit-Embed-Qwen3-4B/1.7B-TR, TurkEmbed4STS/4Retrieval, ColmmBERT",
+    "category": "Gömme/reranker",
+    "source_status": 200,
+    "repo_id": "newmindai/Mursit-Large-TR-Retrieval"
+  },
+  {
+    "record_id": 88,
+    "name": "Diğer gömme/reranker (turkish-e5-large, magibu embeddingmagibu-200m, trmteb, Trendyol TY-ecomm-embed, bge-m3 TR ince ayarları, seroe reranker'lar, hukuk gömme: HukukcuApp, runelab kenning, msbayindir, Whis29; genel çok dilli e5/bge-m3/gte/jina/Qwen3-Embedding)",
+    "category": "Gömme/reranker",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 89,
+    "name": "ytu-ce-cosmos/modernbert-tr-pii-ner (+ guardrail, intent/slot, absa)",
+    "category": "NER-PII",
+    "source_status": 200,
+    "repo_id": "ytu-ce-cosmos/modernbert-tr-pii-ner"
+  },
+  {
+    "record_id": 90,
+    "name": "newmindai/gliner2.5-kvkk-tr-v2 (+ v1, mursit-kvkk, gliner-multi-v2.1-nemotron-pii-tr)",
+    "category": "NER-PII",
+    "source_status": 200,
+    "repo_id": "newmindai/gliner2.5-kvkk-tr-v2"
+  },
+  {
+    "record_id": 91,
+    "name": "Genel Türkçe NER/duygu/sınıflama/QA/özetleme (akdeniz27 NER, savasy, spaCy tr_core_news, btniq kvkk, OpenMed privacy-filter, TurkishBERTweet, tabularisai, mT5 özetleme…)",
+    "category": "NER-PII",
+    "source_status": 200,
+    "repo_id": "akdeniz27/bert-base-turkish-cased-ner"
+  },
+  {
+    "record_id": 92,
+    "name": "TURKCELL/gibberish-sentence-detection-model-tr (+ bert-offensive-lang-detection-tr)",
+    "category": "NER-PII",
+    "source_status": 200,
+    "repo_id": "TURKCELL/gibberish-sentence-detection-model-tr"
+  },
+  {
+    "record_id": 93,
+    "name": "Horizon-Labs/punctuation-restoration-small ve -base (mmBERT)",
+    "category": "Noktalama-yazım-morfoloji",
+    "source_status": 200,
+    "repo_id": "Horizon-Labs/punctuation-restoration-small"
+  },
+  {
+    "record_id": 94,
+    "name": "ytu-ce-cosmos/turkish-base-bert-punctuation-correction + capitalization-correction",
+    "category": "Noktalama-yazım-morfoloji",
+    "source_status": 200,
+    "repo_id": "ytu-ce-cosmos/turkish-base-bert-punctuation-correction"
+  },
+  {
+    "record_id": 95,
+    "name": "uygarkurt/bert-restore-punctuation-turkish (+ electra, convbert)",
+    "category": "Noktalama-yazım-morfoloji",
+    "source_status": 200,
+    "repo_id": "uygarkurt/bert-restore-punctuation-turkish"
+  },
+  {
+    "record_id": 96,
+    "name": "1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase",
+    "category": "Noktalama-yazım-morfoloji",
+    "source_status": 200,
+    "repo_id": "1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase"
+  },
+  {
+    "record_id": 97,
+    "name": "Zeyrek (Python) ve zemberek-python",
+    "category": "Noktalama-yazım-morfoloji",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 98,
+    "name": "google-research/turkish-morphology, TRmorph",
+    "category": "Noktalama-yazım-morfoloji",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 99,
+    "name": "Zemberek-NLP (Java; 1372★)",
+    "category": "Noktalama-yazım-morfoloji",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 100,
+    "name": "VNLP (VNGRS: düzeltici, deasciifier, sayı→kelime, NER, POS, kök bulma)",
+    "category": "Noktalama-yazım-morfoloji",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 101,
+    "name": "Yazım/GEC modelleri (orkungedik turkish-spell-based, charformer; karakastarik bert spelling; miraykoksal byt5; yeniguno mbart50; berkaycancunnuk mt5/byt5; Ersoy-Yıldız mT5 GEC)",
+    "category": "Noktalama-yazım-morfoloji",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 102,
+    "name": "Diğer: StarlangSoftware TurkishSpellChecker-Py (GPL-3.0), emres turkish-deasciifier (lisans yok), hunspell-tr, turkish-stemmer-python, segment-any-text/sat-3l-sm (cümle bölme, MIT)",
+    "category": "Noktalama-yazım-morfoloji",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 103,
+    "name": "ysdede/trnorm (ASR için Türkçe metin normalleştirme)",
+    "category": "Noktalama-yazım-morfoloji",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 104,
+    "name": "Helsinki-NLP/opus-mt-tc-big-tr-en / en-tr, opus-mt-tr-en",
+    "category": "Çeviri",
+    "source_status": 200,
+    "repo_id": "Helsinki-NLP/opus-mt-tc-big-tr-en"
+  },
+  {
+    "record_id": 105,
+    "name": "facebook/nllb-200-distilled-600M (+1.3B, 3.3B); google/madlad400-3b-mt; mBART-50",
+    "category": "Çeviri",
+    "source_status": 200,
+    "repo_id": "facebook/nllb-200-distilled-600M"
+  },
+  {
+    "record_id": 106,
+    "name": "Tencent HY-MT1.5-1.8B/7B, Hy-MT2; Seed-X; NiuTrans LMT-60",
+    "category": "Çeviri",
+    "source_status": 200,
+    "repo_id": "tencent/HY-MT1.5-1.8B"
+  },
+  {
+    "record_id": 107,
+    "name": "OCR/görüntü-dil modelleri (Ba2han MiniOCR, Turkish-LLaVA, Trendyol-Vision, turkish-colpali, Tesseract tur, pix2struct-turkish-receipts)",
+    "category": "OCR-görüntü",
+    "source_status": 200,
+    "repo_id": "ytu-ce-cosmos/Turkish-LLaVA-v0.1"
+  },
+  {
+    "record_id": 108,
+    "name": "Osmanlıca OCR/transliterasyon (Azra-1-Mini 0,8B Apache; kranidiotis ottoman-ocr-qwen2.5-vl-7b; enesyila Qwen4B; bilirkesi osmanlica-v1; Bucolin HisTR/OTA-BOUN; Yılandiloğlu tarihsel MLM; Osmanlica.com)",
+    "category": "OCR-görüntü",
+    "source_status": 200,
+    "repo_id": "OttomanNLP/Azra-1-Mini-0.8b"
+  },
+  {
+    "record_id": 109,
+    "name": "Ses-diğer (hubert-large-turkish-speech-emotion-recognition, wav2vec2 cinsiyet sınıflama, speechbrain lang-id-voxlingua107-ecapa, mms-lid, livekit/turn-detector)",
+    "category": "Ses-diğer",
+    "source_status": 200,
+    "repo_id": "livekit/turn-detector"
+  },
+  {
+    "record_id": 110,
+    "name": "Common Voice 25 Türkçe (135 saat)",
+    "category": "Veri seti",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 111,
+    "name": "ISSAI Turkish Speech Corpus (218 saat; Kaggle'da Turkish_Speech_Corpus ~218 saat)",
+    "category": "Veri seti",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 112,
+    "name": "MediaSpeech (10 saat)",
+    "category": "Veri seti",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 113,
+    "name": "TurkishTaxRulings (~120 bin örnek; Mizan embedding tablosunda retrieval görevi)",
+    "category": "Veri seti",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 114,
+    "name": "SIGTURK 2026 ortak görevi (EN→TR STEM terimli çeviri; 10.157 uzman onaylı terim çifti)",
+    "category": "Değerlendirme seti",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 115,
+    "name": "Cosmos-Turkish-Corpus-v1.0 ve 9 başka veri seti (YTÜ COSMOS)",
+    "category": "Veri seti",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 116,
+    "name": "turkish_parliamentary_data (TBMM tutanakları, BOUN TABILAB)",
+    "category": "Veri seti",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 117,
+    "name": "NoisyWikiTr (Gazi) ve GECTurk (GGLAB-KU)",
+    "category": "Veri seti",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 118,
+    "name": "CS-FLEURS (kod karışımı konuşma)",
+    "category": "Veri seti",
+    "source_status": 0,
+    "repo_id": "byan/cs-fleurs"
+  },
+  {
+    "record_id": 119,
+    "name": "Cetvel (KUIS-AI; 23 görev, 33 sıfır-atış sonuç dosyası)",
+    "category": "Değerlendirme seti",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 120,
+    "name": "EmreAkgul/Turkish-transcription-leaderboard (FLEURS-TR; benchmark.csv) ve ysdede turkish_asr_leaderboard",
+    "category": "Değerlendirme seti",
+    "source_status": 200,
+    "repo_id": "EmreAkgul/Turkish-transcription-leaderboard"
+  },
+  {
+    "record_id": 121,
+    "name": "Freya-TR-Eval, TR-Zor (TTS değerlendirme), EmreAkgul turkish-tts-arena",
+    "category": "Değerlendirme seti",
+    "source_status": 200,
+    "repo_id": "EmreAkgul/turkish-tts-arena"
+  },
+  {
+    "record_id": 122,
+    "name": "MTEB-Turkish, TrGLUE / TabiBench, TurkMorfBench, OCRTurk",
+    "category": "Değerlendirme seti",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 123,
+    "name": "Erk-32B / Erk-14B (eCloud Tech)",
+    "category": "LLM-alan: diğer",
+    "source_status": 200,
+    "repo_id": "ecloudtech/Erk-32B"
+  },
+  {
+    "record_id": 124,
+    "name": "Sıfır-atış trie önyargılama (TTS ile terim okutulup Whisper'dan telaffuz varyantları toplanır; ışın aramasında ödül)",
+    "category": "Yöntem/makale",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 125,
+    "name": "CB-Whisper (2309.09552) ve önyargı talimatı ince ayarı (2502.11572)",
+    "category": "Yöntem/makale",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 126,
+    "name": "Kaynak listeleri (kesimeg/awesome-turkish-language-models 102★, agmmnn/turkish-nlp-resources, turkish-nlp-suite, yerel.ai «44 Türk LLM» listesi)",
+    "category": "Veri seti",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 127,
+    "name": "Kaggle Models Türkçe (emirhangazi/turkish-t5, yagizfiratt/bankbert-turkish, cohere-labs/tiny-aya, google/universal-sentence-encoder, qwen-lm/qwen3-asr)",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 128,
+    "name": "Trendyol-LLM-7b base/chat v0.1, v1.0, dpo-v1.0, v1.8",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "Trendyol/Trendyol-LLM-7b-chat-v1.8"
+  },
+  {
+    "record_id": 129,
+    "name": "Llama-3-Trendyol-LLM-8b-chat-v2.0",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "Trendyol/Llama-3-Trendyol-LLM-8b-chat-v2.0"
+  },
+  {
+    "record_id": 130,
+    "name": "Trendyol-LLM-7B-chat-v4.1.0",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "Trendyol/Trendyol-LLM-7B-chat-v4.1.0"
+  },
+  {
+    "record_id": 131,
+    "name": "WiroAI turkish-llm-9b / -8b / OpenR1-Qwen-7B-Turkish",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "WiroAI/wiroai-turkish-llm-9b"
+  },
+  {
+    "record_id": 132,
+    "name": "Commencis-LLM 7B (bankacılık)",
+    "category": "LLM-alan: vergi-finans",
+    "source_status": 200,
+    "repo_id": "Commencis/Commencis-LLM"
+  },
+  {
+    "record_id": 133,
+    "name": "VeriUS-LLM-8b-v0.2",
+    "category": "LLM-genel",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 134,
+    "name": "İşGPT (İş Bankası)",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 135,
+    "name": "Akbank LLM (adı yok)",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 136,
+    "name": "KoçGPT (Koç Grubu)",
+    "category": "LLM-genel",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 137,
+    "name": "Kumru VLM (VNGRS + BtcTurk)",
+    "category": "LLM-genel",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 138,
+    "name": "Turkcell + TÜBİTAK BİLGEM sektör modeli (çok kipli çağrı merkezi asistanı)",
+    "category": "LLM-genel",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 139,
+    "name": "Turkish-LLM-7B / 14B / 32B-Instruct (ogulcanaydogan)",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 140,
+    "name": "SykoLLM (SykoSLM)",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": "SykoSLM/SykoLLM-V3.2-Thinking-Beta-Instruct"
+  },
+  {
+    "record_id": 141,
+    "name": "Bireysel genel ince ayarlar (Omni-31B-Turkish-Reasoning, Gemma4-Turkish-26B-A4B, Kebap-1.0, malhajar Mistral-7B-Turkish/MedTurk, Tuguberk, suayptalha Kumru-2B-turkish-reasoning)",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 142,
+    "name": "MODA (SIGTURK 2026; Qwen2.5-7B tabanlı Türkçe LLM)",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 143,
+    "name": "Huseyin/teknofest-2025-turkish-edu (Teknofest yarışma modeli)",
+    "category": "LLM-genel",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 144,
+    "name": "Kaynak: yerel.ai «44 Türk LLM» listesi, dastechno, masqot listeleri",
+    "category": "Veri seti",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 145,
+    "name": "TDK büyük dil modeli + Ulusal Türkiye Derlemi",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 146,
+    "name": "BILGEM-AI veri setleri (BILGE-Wiki-Tr-Plus, Synthetic-Math/-Stories/-Web, Bilge-Tiny-MathQs)",
+    "category": "Veri seti",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 147,
+    "name": "MEBİ / KANKA, EBA Öğrenci Asistanı",
+    "category": "LLM-genel",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 148,
+    "name": "Diyanet dijital dinî asistanı",
+    "category": "LLM-alan: diğer",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 149,
+    "name": "e-Devlet yapay zekâ asistanı",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 150,
+    "name": "Türkçe Büyük Dil Temel Modeli Sektörel Uyarlama Çağrısı; Ortak Türk Dilleri LLM (2027); KAMAG 1007 Kamu Yapay Zekâ Ekosistemi; 2026–2030 YZ Eylem Planı",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 151,
+    "name": "GİBİ (dijital vergi asistanı)",
+    "category": "LLM-alan: vergi-finans",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 152,
+    "name": "GİB yapay zekâ destekli e-özelge projesi",
+    "category": "LLM-alan: vergi-finans",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 153,
+    "name": "VDK-RAS, SARP, KAŞİF, VEDAS, KURGAN risk ve denetim araçları",
+    "category": "LLM-alan: vergi-finans",
+    "source_status": 403,
+    "repo_id": null
+  },
+  {
+    "record_id": 154,
+    "name": "UYAP AI Karar Destek Sistemi",
+    "category": "LLM-alan: hukuk",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 155,
+    "name": "Adalet Bakanlığı Yapay Zeka ve Veri Analitiği Şube Müdürlüğü; Kararcı (Adana Bölge Adliyesi, TÜBİTAK Mükemmeliyet Ödülü)",
+    "category": "LLM-alan: hukuk",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 156,
+    "name": "UYAP'ta sesle yazma (Google Dokümanlar → Sesle Yazma)",
+    "category": "ASR",
+    "source_status": 406,
+    "repo_id": null
+  },
+  {
+    "record_id": 157,
+    "name": "Lexpera LEXI",
+    "category": "LLM-alan: hukuk",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 158,
+    "name": "Apilex.ai",
+    "category": "LLM-alan: hukuk",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 159,
+    "name": "Leagle",
+    "category": "LLM-alan: hukuk",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 160,
+    "name": "Turbo Law",
+    "category": "LLM-alan: hukuk",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 161,
+    "name": "Paraşüt yapay zekâ modülleri (fiş okuma, raporlama, destek asistanı)",
+    "category": "LLM-alan: vergi-finans",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 162,
+    "name": "Logo dijital danışman (Logo Cloud / Logo Edge)",
+    "category": "LLM-alan: vergi-finans",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 163,
+    "name": "WiroAI-Finance (Qwen/Llama/Gemma 1,5B–9B), BIST-LLM-8B-Turkish-Finance (SarpBnlcn), turkish-finance-qwen3b, FinLM-8B-TR",
+    "category": "LLM-alan: vergi-finans",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 164,
+    "name": "Mali Asistan MVP (rea-dev)",
+    "category": "LLM-alan: vergi-finans",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 165,
+    "name": "Alan modeli bulunamayanlar: eğitim (TR-EduVSum veri seti), din (MufassirQAS RAG robotu), kamu yönetimi",
+    "category": "LLM-alan: diğer",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 166,
+    "name": "Gazi TTS veri seti makalesi (2023, ~12 saat 38 dk)",
+    "category": "Veri seti",
+    "source_status": null,
+    "repo_id": null
+  },
+  {
+    "record_id": 167,
+    "name": "BOUN turna_* ince ayarlı 15 model (özet, NER, NLI…)",
+    "category": "LLM-genel",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 168,
+    "name": "Whisper-Medium/Large-v3 LoRA ve çıkarım odaklı ince ayar (ScienceDirect 2026)",
+    "category": "Yöntem/makale",
+    "source_status": 403,
+    "repo_id": null
+  },
+  {
+    "record_id": 169,
+    "name": "ahakan/okur-tts (Okur v1.0)",
+    "category": "TTS",
+    "source_status": 200,
+    "repo_id": "ahakan/okur-tts"
+  },
+  {
+    "record_id": 170,
+    "name": "kaanhgunay/pocket-tts-tr",
+    "category": "TTS",
+    "source_status": 200,
+    "repo_id": "kaanhgunay/pocket-tts-tr"
+  },
+  {
+    "record_id": 171,
+    "name": "marduk-ra/F5-TTS-Turkish",
+    "category": "TTS",
+    "source_status": 200,
+    "repo_id": "marduk-ra/F5-TTS-Turkish"
+  },
+  {
+    "record_id": 172,
+    "name": "SindBERT (SIGTURK 2026; RoBERTa base/large)",
+    "category": "Kodlayıcı-BERT",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 173,
+    "name": "BAAI/bge-m3 ve embeddinggemma-300m",
+    "category": "Gömme/reranker",
+    "source_status": 200,
+    "repo_id": "BAAI/bge-m3"
+  },
+  {
+    "record_id": 174,
+    "name": "CMI rehberli TTS ile kod karışımlı konuşma sentezi (2606.19381)",
+    "category": "Yöntem/makale",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 175,
+    "name": "Bayesçi çarpanlarına ayrılmış uyarlama (2606.21990)",
+    "category": "Yöntem/makale",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 176,
+    "name": "Whisper yumuşak komut istemi (2506.21576) ve AsyncSwitch (2506.14190)",
+    "category": "Yöntem/makale",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 177,
+    "name": "ASR sonrası LLM ile hata düzeltme (GER; 2307.04172, 2409.09554)",
+    "category": "Yöntem/makale",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 178,
+    "name": "Türkçe-İngilizce kod geçişi tespiti, metin (W-NUT 2018, Yirmibeşoğlu ve Eryiğit)",
+    "category": "Yöntem/makale",
+    "source_status": 404,
+    "repo_id": null
+  },
+  {
+    "record_id": 179,
+    "name": "Morfolojik belirsizlik giderme (Özer ve Korkmaz, 2022) ve noktalama makaleleri (IEEE 2023 ELECTRA %83,9; Yüzüler ve Sakar, ASR için noktalama 2025)",
+    "category": "Yöntem/makale",
+    "source_status": 0,
+    "repo_id": null
+  },
+  {
+    "record_id": 180,
+    "name": "SIGTURK 2026 bildirileri (OCRTurk, RAGTurk, TR-EduVSum, sözcük biçimbilim/tokenizasyon, morfoloji farkında sözdizim)",
+    "category": "Yöntem/makale",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 181,
+    "name": "Türk dilleri ve Türkçe kaynak taramaları (Turkic Language Modeling survey, UBMK 2025; Resources for Turkish NLP, 2022)",
+    "category": "Yöntem/makale",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 182,
+    "name": "TurkishMMLU",
+    "category": "Değerlendirme seti",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 183,
+    "name": "TR-MMLU",
+    "category": "Değerlendirme seti",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 184,
+    "name": "TurkBench (SIGTURK 2026)",
+    "category": "Değerlendirme seti",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 185,
+    "name": "TurBLiMP (EMNLP 2025)",
+    "category": "Değerlendirme seti",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 186,
+    "name": "METU LLM Benchmark (ODTÜ NLP)",
+    "category": "Değerlendirme seti",
+    "source_status": 0,
+    "repo_id": null
+  },
+  {
+    "record_id": 187,
+    "name": "Mizan Turkish Evaluation Leaderboard (newmindai; embedding)",
+    "category": "Değerlendirme seti",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 188,
+    "name": "FLEURS Türkçe (test 743 klip)",
+    "category": "Veri seti",
+    "source_status": 200,
+    "repo_id": "google/fleurs"
+  },
+  {
+    "record_id": 189,
+    "name": "Turkish Broadcast News (Boğaziçi, LDC2012S06)",
+    "category": "Veri seti",
+    "source_status": 200,
+    "repo_id": null
+  },
+  {
+    "record_id": 190,
+    "name": "MUSCAT (bilimsel konuşma ve kod karışımı)",
+    "category": "Veri seti",
+    "source_status": 200,
+    "repo_id": null
+  }
+]

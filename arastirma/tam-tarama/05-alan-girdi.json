@@ -1,0 +1,205 @@
+[
+  {
+    "record_id": 25,
+    "name": "Mecellem-Qwen3 1.7B-TR / 4B-TR",
+    "category": "LLM-alan: hukuk",
+    "url": "https://huggingface.co/newmindai/Mecellem-Qwen3-1.7B-TR",
+    "dossier": "arastirma/tam-tarama/kayitlar/025.json"
+  },
+  {
+    "record_id": 26,
+    "name": "newmindai/Muhakim (hukuk ödül modeli)",
+    "category": "LLM-alan: hukuk",
+    "url": "https://huggingface.co/newmindai/Muhakim",
+    "dossier": "arastirma/tam-tarama/kayitlar/026.json"
+  },
+  {
+    "record_id": 27,
+    "name": "Kumru-2B-Hukuk-Asistani",
+    "category": "LLM-alan: hukuk",
+    "url": "https://huggingface.co/Cetin003/Kumru-2B-Hukuk-Asistani",
+    "dossier": "arastirma/tam-tarama/kayitlar/027.json"
+  },
+  {
+    "record_id": 28,
+    "name": "AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM",
+    "category": "LLM-alan: hukuk",
+    "url": "https://huggingface.co/AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM-Q4_K_M-GGUF",
+    "dossier": "arastirma/tam-tarama/kayitlar/028.json"
+  },
+  {
+    "record_id": 29,
+    "name": "Diğer hukuk ince ayarları (Qwen2.5-7B-Turkish-Legal-DoRA, hukuk-gemma/llama, webbrain-one tr-hukuk, OrionCAF/TurkishLaw 14B)",
+    "category": "LLM-alan: hukuk",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/029.json"
+  },
+  {
+    "record_id": 30,
+    "name": "HukukBERT",
+    "category": "LLM-alan: hukuk",
+    "url": "https://arxiv.org/abs/2604.04790",
+    "dossier": "arastirma/tam-tarama/kayitlar/030.json"
+  },
+  {
+    "record_id": 31,
+    "name": "newmindai/Llama-3.1-8B-Instruct-tax-alpaca (+ ~20 alan LoRA'sı: kvkk, capital, fund, land, energy)",
+    "category": "LLM-alan: vergi-finans",
+    "url": "https://huggingface.co/newmindai/Llama-3.1-8B-Instruct-tax-alpaca",
+    "dossier": "arastirma/tam-tarama/kayitlar/031.json"
+  },
+  {
+    "record_id": 32,
+    "name": "Mihenk-LLM-14B-Turkish-Financial / v2-35B-A3B",
+    "category": "LLM-alan: vergi-finans",
+    "url": "https://huggingface.co/AlicanKiraz0/Mihenk-LLM-14B-Turkish-Financial-Model",
+    "dossier": "arastirma/tam-tarama/kayitlar/032.json"
+  },
+  {
+    "record_id": 33,
+    "name": "TULIP (finans sürekli ön eğitim 7–8B)",
+    "category": "LLM-alan: vergi-finans",
+    "url": "https://arxiv.org/abs/2508.16243",
+    "dossier": "arastirma/tam-tarama/kayitlar/033.json"
+  },
+  {
+    "record_id": 34,
+    "name": "Finans sınıflandırıcılar: FinTurkBERT (ff112), bankbert-turkish (Kaggle)",
+    "category": "LLM-alan: vergi-finans",
+    "url": "https://huggingface.co/ff112/FinTurkBERT",
+    "dossier": "arastirma/tam-tarama/kayitlar/034.json"
+  },
+  {
+    "record_id": 35,
+    "name": "TurkRadBERT, BioBERTurk, TurkishMedLLM, TUSGPT-TR-Medical-9B",
+    "category": "LLM-alan: tıp",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/035.json"
+  },
+  {
+    "record_id": 36,
+    "name": "Siber güvenlik modelleri (Trendyol-Cybersecurity-LLM, BaronLLM, SenecaLLM, Titus; hilalkavas siber-muhafiz)",
+    "category": "LLM-alan: diğer",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/036.json"
+  },
+  {
+    "record_id": 123,
+    "name": "Erk-32B / Erk-14B (eCloud Tech)",
+    "category": "LLM-alan: diğer",
+    "url": "https://huggingface.co/ecloudtech/Erk-32B",
+    "dossier": "arastirma/tam-tarama/kayitlar/123.json"
+  },
+  {
+    "record_id": 132,
+    "name": "Commencis-LLM 7B (bankacılık)",
+    "category": "LLM-alan: vergi-finans",
+    "url": "https://huggingface.co/Commencis/Commencis-LLM",
+    "dossier": "arastirma/tam-tarama/kayitlar/132.json"
+  },
+  {
+    "record_id": 148,
+    "name": "Diyanet dijital dinî asistanı",
+    "category": "LLM-alan: diğer",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/148.json"
+  },
+  {
+    "record_id": 151,
+    "name": "GİBİ (dijital vergi asistanı)",
+    "category": "LLM-alan: vergi-finans",
+    "url": "https://www.politikam.com/gelir-idaresi-baskanligi-yeni-dijital-vergi-asistani-gibiyi-tanitti",
+    "dossier": "arastirma/tam-tarama/kayitlar/151.json"
+  },
+  {
+    "record_id": 152,
+    "name": "GİB yapay zekâ destekli e-özelge projesi",
+    "category": "LLM-alan: vergi-finans",
+    "url": "https://tubitak.gov.tr/sites/default/files/2025-02/GIB_Teknik_Ister_Dokumani.pdf",
+    "dossier": "arastirma/tam-tarama/kayitlar/152.json"
+  },
+  {
+    "record_id": 153,
+    "name": "VDK-RAS, SARP, KAŞİF, VEDAS, KURGAN risk ve denetim araçları",
+    "category": "LLM-alan: vergi-finans",
+    "url": "https://www.alomaliye.com/2026/04/14/sadece-insanlar-degil-yapay-zekada-hata-yapabilir-vergi-denetiminde-yapay-zeka-donemi/",
+    "dossier": "arastirma/tam-tarama/kayitlar/153.json"
+  },
+  {
+    "record_id": 154,
+    "name": "UYAP AI Karar Destek Sistemi",
+    "category": "LLM-alan: hukuk",
+    "url": "https://www.gzt.com/gundem/adalet-bakani-akin-gurlek-30-milyon-emsal-karari-saniyeler-icinde-tarayan-yapay-zeka-sistemi-basliyor-teknoloji-haberleri-4223178",
+    "dossier": "arastirma/tam-tarama/kayitlar/154.json"
+  },
+  {
+    "record_id": 155,
+    "name": "Adalet Bakanlığı Yapay Zeka ve Veri Analitiği Şube Müdürlüğü; Kararcı (Adana Bölge Adliyesi, TÜBİTAK Mükemmeliyet Ödülü)",
+    "category": "LLM-alan: hukuk",
+    "url": "https://www.cnbce.com/teknoloji/adalet-bakani-yilmaz-tunc-duyurdu-yapay-zeka-ve-veri-analitigi-sube-mudurlugu-kuruldu-h17505",
+    "dossier": "arastirma/tam-tarama/kayitlar/155.json"
+  },
+  {
+    "record_id": 157,
+    "name": "Lexpera LEXI",
+    "category": "LLM-alan: hukuk",
+    "url": "https://www.lexpera.com.tr/lexi-yapay-zeka",
+    "dossier": "arastirma/tam-tarama/kayitlar/157.json"
+  },
+  {
+    "record_id": 158,
+    "name": "Apilex.ai",
+    "category": "LLM-alan: hukuk",
+    "url": "https://www.paradergi.com.tr/girisimcilik/2025/12/16/yerli-yapay-zeka-hukuk-asistani-avrupaya-aciliyor/amp",
+    "dossier": "arastirma/tam-tarama/kayitlar/158.json"
+  },
+  {
+    "record_id": 159,
+    "name": "Leagle",
+    "category": "LLM-alan: hukuk",
+    "url": "https://www.cumhuriyet.com.tr/is-dunyasi/turkiyedeki-hukukculara-ozel-yapay-zeka-asistani-2313871",
+    "dossier": "arastirma/tam-tarama/kayitlar/159.json"
+  },
+  {
+    "record_id": 160,
+    "name": "Turbo Law",
+    "category": "LLM-alan: hukuk",
+    "url": "https://webrazzi.com/2026/10/02/yapay-zeka-destekli-hukuk-girisimi-turbo-law/",
+    "dossier": "arastirma/tam-tarama/kayitlar/160.json"
+  },
+  {
+    "record_id": 161,
+    "name": "Paraşüt yapay zekâ modülleri (fiş okuma, raporlama, destek asistanı)",
+    "category": "LLM-alan: vergi-finans",
+    "url": "https://www.parasut.com/yapay-zeka-ozellikleri",
+    "dossier": "arastirma/tam-tarama/kayitlar/161.json"
+  },
+  {
+    "record_id": 162,
+    "name": "Logo dijital danışman (Logo Cloud / Logo Edge)",
+    "category": "LLM-alan: vergi-finans",
+    "url": "https://www.ekonomigazetesi.com/sirket-haberleri/logo-yazilim-base-platformuyla-yeni-bir-teknoloji-ekosistemi-kuruyor-88238",
+    "dossier": "arastirma/tam-tarama/kayitlar/162.json"
+  },
+  {
+    "record_id": 163,
+    "name": "WiroAI-Finance (Qwen/Llama/Gemma 1,5B–9B), BIST-LLM-8B-Turkish-Finance (SarpBnlcn), turkish-finance-qwen3b, FinLM-8B-TR",
+    "category": "LLM-alan: vergi-finans",
+    "url": "https://huggingface.co/api/models?search=turkish%20finance&sort=downloads&limit=30",
+    "dossier": "arastirma/tam-tarama/kayitlar/163.json"
+  },
+  {
+    "record_id": 164,
+    "name": "Mali Asistan MVP (rea-dev)",
+    "category": "LLM-alan: vergi-finans",
+    "url": "https://huggingface.co/rea-dev",
+    "dossier": "arastirma/tam-tarama/kayitlar/164.json"
+  },
+  {
+    "record_id": 165,
+    "name": "Alan modeli bulunamayanlar: eğitim (TR-EduVSum veri seti), din (MufassirQAS RAG robotu), kamu yönetimi",
+    "category": "LLM-alan: diğer",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/165.json"
+  }
+]

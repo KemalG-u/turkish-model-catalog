@@ -1,0 +1,2573 @@
+{
+  "checked_at": "2026-10-23",
+  "records": [
+    {
+      "record_id": 24,
+      "id": "catalog-024",
+      "name": "T3 AI (Baykar / T3 Vakfı)",
+      "category": "LLM-genel",
+      "kind": "product",
+      "creator": "T3 Vakfı ve Baykar",
+      "plain": "T3 AI, Türkçe büyük dil modeli geliştirme projesi ve kısa süreli sosyal platform betası olarak belgeleniyor. Resmî proje sayfasındaki açık kaynak hedefi, indirilebilir ağırlık ve belirli bir açık lisansın bugün bulunduğunu göstermiyor. Diğer kurumların ortaklığı ile geliştirici sahipliği de ayrı tutulmalı. Güncel resmî NSosyal t3ai_org profili @t3ai botunu sorulara yanıt yolu olarak gösteriyor. Bu, eski web betasından ayrı erişim kanalıdır; canlı soru gönderilmedi ve çalışırlık testi yapılmadı.",
+      "claims": [
+        {
+          "text": "Resmî sayfa Türkçe odaklı, topluluk katılımlı ve açık kaynak vizyonlu yapay zekâ projesi tanımlıyor.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://t3vakfi.org/tr/projelerimiz/t3-ai"
+        }
+      ],
+      "training": "Parametre sayısı, temel mimari, veri karışımı ve sabit ağırlık özeti açık kaynaklardan doğrulanamadı. Gönüllü katkısı hakkındaki sayı eğitim tokenı veya model büyüklüğü değildir.",
+      "version": "12 Temmuz 2025 tarihli AA haberi eski beta döneminin sona erdiğini bildiriyor. Haber tarihi ile olay günü aynı kabul edilmedi. Güncel resmî NSosyal profilleri ayrı erişim yolu gösteriyor; eski betanın bitişi bugün tüm erişimin kapandığı kanıtı değildir.",
+      "revision": "Açık sabit ağırlık özeti doğrulanamadı.",
+      "try_it": "Tarihî TEKNOFEST Sosyal etiketleme yolu biliniyor; bugün çalışan demo doğrulanmadı. Bu görevde hesap açılmadı, paylaşım veya soru gönderilmedi. Resmî NSosyal @t3ai bot profili erişim yolu gösteriyor; ağırlık yayını anlamına gelmez. Soru gönderilmedi veya oturum açılmadı.",
+      "demo_url": null,
+      "independent": "AA'nın 12 Temmuz 2025 tarihli haberi tam okununca beta denemesinin geri bildirim sonrası sona erdiği görülüyor. Bağımsız olumlu/olumsuz tekrarlanabilir kullanıcı deneyi bulunamadı; haber ve tanıtımlar kalite ölçümü sayılmadı.",
+      "unknowns": [
+        "Güncel açık beta",
+        " lisans ve ağırlıklar",
+        " eğitim reçetesi",
+        " bağımsız görev başarısı."
+      ],
+      "sources": [
+        {
+          "url": "https://t3vakfi.org/tr/projelerimiz/t3-ai",
+          "title": "T3Vakfı:T3AI proje kapsamı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.aa.com.tr/en/turkiye/turkish-large-language-model-t3-ai-launches-beta-version/3628696",
+          "title": "AA:T3AI beta açılışı ve sona ermesi",
+          "type": "news",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://nsosyal.com/t3ai_org",
+          "title": "T3AI resmî verified NSosyal profili; ana oturum okudu",
+          "type": "social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://nsosyal.com/t3ai",
+          "title": "T3AI deneysel bot profili; ana oturum okudu",
+          "type": "social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://nsosyal.com/post/104731571232083883",
+          "title": "T3AI 12 Temmuz duyurusu; ana oturum okudu",
+          "type": "social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": [
+            "https://t3vakfi.org/tr/projelerimiz/t3-ai"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz gerçek deneyim arandı; bulunmama kalite kanıtı değildir.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Ana oturum güncel verified NSosyal kuruluş/bot profillerini açıp okudu. Bot yolu var; canlı soru ve çalışma testi yok.",
+          "urls": [
+            "https://nsosyal.com/t3ai_org",
+            "https://nsosyal.com/t3ai",
+            "https://nsosyal.com/post/104731571232083883"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "Açık API, profil ve duyuru takibi; eğitim tarihi ile dosya tarihi ayrıldı.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "T3 AI Baykar T3 Vakfı beta deneyim youtube 2026",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"T3AI\" \"beta\" \"t3vakfi\" resmi",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 127,
+      "id": "catalog-127",
+      "name": "Kaggle Models Türkçe (emirhangazi/turkish-t5, yagizfiratt/bankbert-turkish, cohere-labs/tiny-aya, google/universal-sentence-encoder, qwen-lm/qwen3-asr)",
+      "category": "LLM-genel",
+      "kind": "tool",
+      "creator": "Kaggle üzerinde çeşitli geliştiriciler",
+      "plain": "Bu kayıt tek model ailesi değil, farklı görevlerdeki modelleri barındıran Kaggle sayfalarının karışımıdır. Ana bağlantı Qwen 3-ASR'ye gidiyor: bu konuşmayı yazıya çevirme modelidir, genel sohbet LLM'i değildir. T5, BankBERT, tiny-aya ve Universal Sentence Encoder ayrı üretici ve görevlerle incelenmelidir.",
+      "claims": [
+        {
+          "text": "Ana bağlantının ASR ailesi olduğu üretici deposuyla destekleniyor; bütün listedeki modeller Türkçe sohbet modeli sayılamaz.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://github.com/QwenLM/Qwen3-ASR"
+        }
+      ],
+      "training": "Qwen 3-ASR için Qwen ekibinin GitHub açıklaması okundu; çokdilli konuşma tanıma, dil belirleme ve hizalama ailesi olduğu doğrulanıyor. Kaggle varyantı, dosya sürümü ve özgün ağırlığın birebir eşleşmesi doğrulanmadı.",
+      "version": "Kontrol 2026-10-23. Sabit açık ağırlık sürümü doğrulanmadı. Dosya/profil tarihi yeni eğitim tarihi değildir; kontrol edilen kamu kapsamı dışındaki takip sürümleri için en son garantisi yok.",
+      "revision": "Açık sabit ağırlık özeti doğrulanamadı.",
+      "try_it": "İleride önce hangi görev istendiği belirlenmeli; ses tanıma, embedding ve metin üretimi aynı sınavla karşılaştırılmamalı. Burada dosya indirilmedi.",
+      "demo_url": null,
+      "independent": "Tam Kaggle bağlantısı ve aile adıyla kullanıcı/video araması yapıldı. Bu Kaggle dağıtımına ait bağımsız olumlu veya olumsuz Türkçe deneyim bulunamadı. Genel ASR tanıtımı bu sayfanın çalıştığının kanıtı değildir.",
+      "unknowns": [
+        "Diğer dört model sayfasının tam incelemesi",
+        " Kaggle varyant hashleri",
+        " Türkçe ses performansı ve bağımsız deneyimler."
+      ],
+      "sources": [
+        {
+          "url": "https://www.kaggle.com/models/qwen-lm/qwen3-asr",
+          "title": "Kaggle Models Türkçe (emirhangazi/turkish-t5, yagizfiratt/bankbert-turkish, cohere-labs/tiny-aya, google/universal-sentence-encoder, qwen-lm/qwen3-asr) developer",
+          "type": "catalog_shell",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://github.com/QwenLM/Qwen3-ASR",
+          "title": "Qwen3-ASR resmî kaynak deposu",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": [
+            "https://github.com/QwenLM/Qwen3-ASR"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "not_applicable",
+          "note": "Tek model olmayan dizin/program başlığı. Üye veya somut çıktı için deneyim araştırmasının kapsamı independent alanında açıklandı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam aday/aile adıyla YouTube ve sosyal açık web tarandı; doğrulanan ek duyurular kaynaklarda.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "Açık API, profil ve duyuru takibi; eğitim tarihi ile dosya tarihi ayrıldı.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Kaggle\" \"qwen3-asr\" review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "emirhangazi/turkish-t5",
+          "url": null,
+          "status": "Katalogdaki Kaggleadı;bu üyenin sayfası ve sürümü ayrı incelenmedi"
+        },
+        {
+          "name": "yagizfiratt/bankbert-turkish",
+          "url": null,
+          "status": "Katalogdaki Kaggleadı;bu üyenin sayfası ve sürümü ayrı incelenmedi"
+        },
+        {
+          "name": "cohere-labs/tiny-aya",
+          "url": null,
+          "status": "Katalogdaki Kaggleadı;bu üyenin sayfası ve sürümü ayrı incelenmedi"
+        },
+        {
+          "name": "google/universal-sentence-encoder",
+          "url": null,
+          "status": "Katalogdaki Kaggleadı;bu üyenin sayfası ve sürümü ayrı incelenmedi"
+        },
+        {
+          "name": "qwen-lm/qwen3-asr",
+          "url": "https://www.kaggle.com/models/qwen-lm/qwen3-asr",
+          "status": "Kaggle asıl sayfa boş metin döndürdü; ASR kategorisi resmî Qwen GitHub deposuyla doğrulandı. Kaggle varyant hash ve kullanım araştırması açık."
+        }
+      ]
+    },
+    {
+      "record_id": 128,
+      "id": "Trendyol/Trendyol-LLM-7b-chat-v1.8",
+      "name": "Trendyol-LLM-7b base/chat v0.1, v1.0, dpo-v1.0, v1.8",
+      "category": "LLM-genel",
+      "kind": "model_family",
+      "creator": "Trendyol",
+      "plain": "Trendyol'un 7B Base, Chat ve DPO sürümleri aynı davranışı temsil etmiyor. Ayrıntılı okunan bağlantı v 1.8 sohbet modeli; Mistral 7B temelli ve ayrı bir temel depo üzerinden geliştirilmiş. Eski v 0.1 ve v 1.0 üyeleri bu incelemenin sonuçlarını otomatik devralamaz.",
+      "claims": [
+        {
+          "text": "Kart v 1.8'in talimat verileriyle LoRA görmüş Mistral tabanlı Chat modeli olduğunu bildiriyor.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://huggingface.co/Trendyol/Trendyol-LLM-7b-chat-v1.8/raw/main/README.md"
+        }
+      ],
+      "training": "v 1.8 kartı rank 64 LoRA, alpha 128, bf 16 ve 1024 eğitim sekans uzunluğu bildiriyor. Temel bağlantı Trendyol-LLM-7b-base-v 1.1. Bu bilgi eski serinin tamamı için ortak eğitim reçetesi değildir.",
+      "version": "Kontrol 2026-10-23. API son dosya değişikliği 2024-06-28T14:02:59.000Z. Dosya/profil tarihi yeni eğitim tarihi değildir; kontrol edilen kamu kapsamı dışındaki takip sürümleri için en son garantisi yok. Profilin ilk 40 kaydında Asure-12B ve TY-ecomm-asure-relevance gibi daha yeni farklı modeller görüldü; bunlar aynı ağırlığın yaması değil.",
+      "revision": "948c5c1be299d6914952852fabe79abcc6aad76d",
+      "try_it": "İleride v 1.8 kendi atasına karşı aynı istem biçimiyle denenmeli. Daha yeni Trendyol modelleri farklı temel mimarilere geçtiğinden numara tek başına kıyas sayılmaz.",
+      "demo_url": null,
+      "independent": "Bağımsız MMLU-Pro-TR deposunda tam v 1.8 için 18,15 sonucu var. Bu bir sınav sonucu; kullanıcı sohbet memnuniyeti değil. Sosyal ve YouTube aramasında sürümü sabitlenmiş olumlu/olumsuz gündelik deneyim bulunamadı.",
+      "unknowns": [
+        "Base/v0.1/v1.0/DPO üyelerinin ayrı kartları",
+        " bağımsız kullanım",
+        " eğitim veri listesi."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/Trendyol/Trendyol-LLM-7b-chat-v1.8",
+          "title": "Trendyol-LLM-7b base/chat v0.1, v1.0, dpo-v1.0, v1.8 version",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Trendyol/Trendyol-LLM-7b-chat-v1.8/raw/main/README.md",
+          "title": "Trendyol-LLM-7b base/chat v0.1, v1.0, dpo-v1.0, v1.8 model_card",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Trendyol",
+          "title": "Trendyol-LLM-7b base/chat v0.1, v1.0, dpo-v1.0, v1.8 developer",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=Trendyol&sort=lastModified&direction=-1&limit=40",
+          "title": "Trendyol-LLM-7b base/chat v0.1, v1.0, dpo-v1.0, v1.8 version",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Trendyol/Trendyol-LLM-7b-chat-v1.8/discussions",
+          "title": "Trendyol-LLM-7b base/chat v0.1, v1.0, dpo-v1.0, v1.8 community_index",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/bezir/MMLU-pro-TR",
+          "title": "MMLU-Pro-TR:tam model sonuçları",
+          "type": "independent_benchmark",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": [
+            "https://huggingface.co/Trendyol/Trendyol-LLM-7b-chat-v1.8/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz gerçek deneyim arandı; bulunmama kalite kanıtı değildir.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam aday/aile adıyla YouTube ve sosyal açık web tarandı; doğrulanan ek duyurular kaynaklarda.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Açık API, profil ve duyuru takibi; eğitim tarihi ile dosya tarihi ayrıldı.",
+          "urls": [
+            "https://huggingface.co/api/models/Trendyol/Trendyol-LLM-7b-chat-v1.8",
+            "https://huggingface.co/api/models?author=Trendyol&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Trendyol-LLM-7b-chat-v1.8\" review youtube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Trendyol-LLM-7b-chat-v1.8\" site:linkedin.com OR site:youtube.com OR site:reddit.com",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "Trendyol/Trendyol-LLM-7b-chat-v1.8",
+          "url": "https://huggingface.co/Trendyol/Trendyol-LLM-7b-chat-v1.8",
+          "status": "Kart ve API okundu"
+        },
+        {
+          "name": "Trendyol/Trendyol-LLM-7b-base-v0.1",
+          "url": "https://huggingface.co/Trendyol/Trendyol-LLM-7b-base-v0.1",
+          "status": "Katalog/profil bağlantısı;bu üyenin tamkart/eğitim/kullanıcı incelemesi açık"
+        },
+        {
+          "name": "Trendyol/Trendyol-LLM-7b-chat-v0.1",
+          "url": "https://huggingface.co/Trendyol/Trendyol-LLM-7b-chat-v0.1",
+          "status": "Katalog/profil bağlantısı;bu üyenin tamkart/eğitim/kullanıcı incelemesi açık"
+        },
+        {
+          "name": "Trendyol/Trendyol-LLM-7b-chat-v1.0",
+          "url": "https://huggingface.co/Trendyol/Trendyol-LLM-7b-chat-v1.0",
+          "status": "Katalog/profil bağlantısı;bu üyenin tamkart/eğitim/kullanıcı incelemesi açık"
+        },
+        {
+          "name": "Trendyol/Trendyol-LLM-7b-chat-dpo-v1.0",
+          "url": "https://huggingface.co/Trendyol/Trendyol-LLM-7b-chat-dpo-v1.0",
+          "status": "Katalog/profil bağlantısı;bu üyenin tamkart/eğitim/kullanıcı incelemesi açık"
+        }
+      ]
+    },
+    {
+      "record_id": 129,
+      "id": "Trendyol/Llama-3-Trendyol-LLM-8b-chat-v2.0",
+      "name": "Llama-3-Trendyol-LLM-8b-chat-v2.0",
+      "category": "LLM-genel",
+      "kind": "model",
+      "creator": "Trendyol",
+      "plain": "v 2.0, Llama 3-8B temelli Türkçe sohbet modelidir. Önceki Mistral tabanlı v 1.8 ile aynı ağırlığın küçük yaması değildir; mimari köken değişmiştir. Depo adının başına Llama 3 eklenmesi de bir lisans gereksinimi tartışmasıyla ilişkilidir.",
+      "claims": [
+        {
+          "text": "Türkçe sürekli ön eğitimli Llama 3 tabanı birincil model kartında belirtiliyor.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://huggingface.co/Trendyol/Llama-3-Trendyol-LLM-8b-chat-v2.0/raw/main/README.md"
+        }
+      ],
+      "training": "Kart, Llama 3 üzerinde 13 milyar tokenlık sürekli ön eğitimden geçmiş Trendyol base v 2.0 üzerine sohbet uyarlaması anlatıyor. Tam veri karışımı ve eğitim tekrar tarifi açıklanmıyor. Llama 3 lisansı Apache-2.0 ile eşitlenmemeli.",
+      "version": "Kontrol 2026-10-23. API son dosya değişikliği 2024-08-19T18:00:39.000Z. Dosya/profil tarihi yeni eğitim tarihi değildir; kontrol edilen kamu kapsamı dışındaki takip sürümleri için en son garantisi yok. Profilin ilk 40 kaydında Asure-12B ve TY-ecomm-asure-relevance gibi daha yeni farklı modeller görüldü; bunlar aynı ağırlığın yaması değil.",
+      "revision": "b8c03e62b067571f0b50b9544a2091865e9632e4",
+      "try_it": "İleride özgün Llama 3 ile aynı Türkçe soru seti kullanılmalı. Kurumsal marka veya sürüm numarası, daha yeni Qwen tabanlı modellerden üstünlüğü göstermiyor.",
+      "demo_url": null,
+      "independent": "Tartışma 1'de bir kullanıcı türev adlandırma kuralına dikkat çekmiş, geliştirici ismi güncellediğini belirtmiş. Bu gerçek bir topluluk düzeltmesidir; kalite deneyi değildir. Tam sürümle bağımsız olumlu/olumsuz kullanıcı veya video deneyimi bulunamadı.",
+      "unknowns": [
+        "Bağımsız Türkçe görev kalitesi",
+        " eğitim verisi",
+        " güncel demo",
+        " sonraki modellerle doğrudan karşılaştırma."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/Trendyol/Llama-3-Trendyol-LLM-8b-chat-v2.0",
+          "title": "Llama-3-Trendyol-LLM-8b-chat-v2.0 version",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Trendyol/Llama-3-Trendyol-LLM-8b-chat-v2.0/raw/main/README.md",
+          "title": "Llama-3-Trendyol-LLM-8b-chat-v2.0 model_card",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Trendyol",
+          "title": "Llama-3-Trendyol-LLM-8b-chat-v2.0 developer",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=Trendyol&sort=lastModified&direction=-1&limit=40",
+          "title": "Llama-3-Trendyol-LLM-8b-chat-v2.0 version",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Trendyol/Llama-3-Trendyol-LLM-8b-chat-v2.0/discussions",
+          "title": "Llama-3-Trendyol-LLM-8b-chat-v2.0 community_index",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Trendyol/Llama-3-Trendyol-LLM-8b-chat-v2.0/discussions/1",
+          "title": "Llama-3-Trendyol-LLM-8b-chat-v2.0 community",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": [
+            "https://huggingface.co/Trendyol/Llama-3-Trendyol-LLM-8b-chat-v2.0/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Olumlu ve olumsuz gerçek deneyim arandı; bulunmama kalite kanıtı değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/Trendyol/Llama-3-Trendyol-LLM-8b-chat-v2.0/discussions/1"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam aday/aile adıyla YouTube ve sosyal açık web tarandı; doğrulanan ek duyurular kaynaklarda.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Açık API, profil ve duyuru takibi; eğitim tarihi ile dosya tarihi ayrıldı.",
+          "urls": [
+            "https://huggingface.co/api/models/Trendyol/Llama-3-Trendyol-LLM-8b-chat-v2.0",
+            "https://huggingface.co/api/models?author=Trendyol&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Llama-3-Trendyol-LLM-8b-chat-v2.0\" review youtube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Llama-3-Trendyol-LLM-8b-chat-v2.0\" site:linkedin.com OR site:youtube.com OR site:reddit.com",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "Trendyol/Llama-3-Trendyol-LLM-8b-chat-v2.0",
+          "url": "https://huggingface.co/Trendyol/Llama-3-Trendyol-LLM-8b-chat-v2.0",
+          "status": "Kart ve API okundu"
+        }
+      ]
+    },
+    {
+      "record_id": 130,
+      "id": "Trendyol/Trendyol-LLM-7B-chat-v4.1.0",
+      "name": "Trendyol-LLM-7B-chat-v4.1.0",
+      "category": "LLM-genel",
+      "kind": "model",
+      "creator": "Trendyol",
+      "plain": "v 4.1.0, Qwen 2.5-7B tabanlı Türkçe ve e-ticaret sohbet uyarlamasıdır. Ürün açıklaması, özellik çıkarımı, etiketleme, özet ve RAG görevleri hedefleniyor. Kart araç çağırma desteğinin kısmen tamamlandığını açıkça söylüyor; tam ajan yeteneği varsayılmamalı.",
+      "claims": [
+        {
+          "text": "Geliştirici Türkçe özetleme ve e-ticaret görevlerinde ilerleme bildiriyor; fonksiyon çağırma desteğini sınırlıyor.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://huggingface.co/Trendyol/Trendyol-LLM-7B-chat-v4.1.0/raw/main/README.md"
+        }
+      ],
+      "training": "Trendyol base v 4.0 için 13 milyar token sürekli ön eğitim bildiriliyor. SFT verisinin tam listesi ve tüm eğitim ayarları bu kartta yok. Apache-2.0 lisansı belirtilmiş.",
+      "version": "Kontrol 2026-10-23. API son dosya değişikliği 2025-04-09T20:25:04.000Z. Dosya/profil tarihi yeni eğitim tarihi değildir; kontrol edilen kamu kapsamı dışındaki takip sürümleri için en son garantisi yok. Profilin ilk 40 kaydında Asure-12B ve TY-ecomm-asure-relevance gibi daha yeni farklı modeller görüldü; bunlar aynı ağırlığın yaması değil.",
+      "revision": "8d8006bc658442b53470b9ef51db0c12b10402a0",
+      "try_it": "İleride aynı kaynak belgelerde atıf doğruluğu ve bilgi çıkarımı sınanmalı. Bir kullanıcının akıcı bulduğu hız, bizim 16GB sistemimizde ölçülmüş sonuç değildir.",
+      "demo_url": null,
+      "independent": "Emrehan Şephanelioğlu kendi Windows yerel RAG ürününde bu modeli kullandığını, CPU'da yaklaşık 7–15 token/s aldığını ve dört adaydan memnun kaldığını anlatıyor. Donanım ve görev özeldir; tarafsız geniş benchmark değildir. Tartışma 1 veri kümesi sorusu içeriyor.",
+      "unknowns": [
+        "Bağımsız olumsuz görev deneyimi",
+        " açık kıyas protokolü",
+        " tamamlanmış araç desteği",
+        " veri kapsamı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/Trendyol/Trendyol-LLM-7B-chat-v4.1.0",
+          "title": "Trendyol-LLM-7B-chat-v4.1.0 version",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Trendyol/Trendyol-LLM-7B-chat-v4.1.0/raw/main/README.md",
+          "title": "Trendyol-LLM-7B-chat-v4.1.0 model_card",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Trendyol",
+          "title": "Trendyol-LLM-7B-chat-v4.1.0 developer",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=Trendyol&sort=lastModified&direction=-1&limit=40",
+          "title": "Trendyol-LLM-7B-chat-v4.1.0 version",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Trendyol/Trendyol-LLM-7B-chat-v4.1.0/discussions",
+          "title": "Trendyol-LLM-7B-chat-v4.1.0 community_index",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Trendyol/Trendyol-LLM-7B-chat-v4.1.0/discussions/1",
+          "title": "Trendyol-LLM-7B-chat-v4.1.0 community",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/ahmet-arif-t_trendyoltrendyol-llm-7b-chat-v410-hugging-activity-7316014862550163457-JdFZ",
+          "title": "ArifTürkmen:v4.1.0 duyurusu",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/emrehan-%C5%9Fephanelio%C4%9Flu-101a22235_opensource-llm-kvkk-activity-7462806331935256576-j-1h",
+          "title": "Emrehan:Trendyol tabanlı yerel RAG deneyimi",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": [
+            "https://huggingface.co/Trendyol/Trendyol-LLM-7B-chat-v4.1.0/raw/main/README.md",
+            "https://tr.linkedin.com/posts/ahmet-arif-t_trendyoltrendyol-llm-7b-chat-v410-hugging-activity-7316014862550163457-JdFZ"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Olumlu ve olumsuz gerçek deneyim arandı; bulunmama kalite kanıtı değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/Trendyol/Trendyol-LLM-7B-chat-v4.1.0/discussions/1",
+            "https://tr.linkedin.com/posts/emrehan-%C5%9Fephanelio%C4%9Flu-101a22235_opensource-llm-kvkk-activity-7462806331935256576-j-1h"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Gerçek geliştirici sosyal duyurusu açılıp okundu; tanıtım bağımsız deney sayılmadı.",
+          "urls": [
+            "https://tr.linkedin.com/posts/ahmet-arif-t_trendyoltrendyol-llm-7b-chat-v410-hugging-activity-7316014862550163457-JdFZ"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Açık API, profil ve duyuru takibi; eğitim tarihi ile dosya tarihi ayrıldı.",
+          "urls": [
+            "https://huggingface.co/api/models/Trendyol/Trendyol-LLM-7B-chat-v4.1.0",
+            "https://huggingface.co/api/models?author=Trendyol&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Trendyol-LLM-7B-chat-v4.1.0\" review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "Trendyol/Trendyol-LLM-7B-chat-v4.1.0",
+          "url": "https://huggingface.co/Trendyol/Trendyol-LLM-7B-chat-v4.1.0",
+          "status": "Kart ve API okundu"
+        }
+      ]
+    },
+    {
+      "record_id": 131,
+      "id": "WiroAI/wiroai-turkish-llm-9b",
+      "name": "WiroAI turkish-llm-9b / -8b / OpenR1-Qwen-7B-Turkish",
+      "category": "LLM-genel",
+      "kind": "model_family",
+      "creator": "Wiro AI",
+      "plain": "WiroAI satırı Gemma tabanlı 9B, Llama tabanlı 8B ve Qwen tabanlı OpenR1 üyelerini birleştiriyor. Ayrıntılı incelenen üye wiroai-turkish-llm-9b. Üç farklı kökenin kalite, lisans ve bellek davranışı tek aile puanına indirgenmemeli.",
+      "claims": [
+        {
+          "text": "Geliştirici 9B için Türkçe ve kültürel uyarlama, Türkçe MMLU59,8 ve ortalama 58,0 bildiriyor.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://huggingface.co/WiroAI/wiroai-turkish-llm-9b/raw/main/README.md"
+        }
+      ],
+      "training": "9B kartı Gemma 2-9B üzerinde 500 binden fazla Türkçe talimatla, ağırlıkları quantize etmeden LoRA SFT bildiriyor. Karttaki MMLU ve diğer sonuçlar geliştirici tarafından raporlanmış; metadata verified:false içeriyor.",
+      "version": "Kontrol 2026-10-23. API son dosya değişikliği 2025-01-31T02:00:21.000Z. Dosya/profil tarihi yeni eğitim tarihi değildir; kontrol edilen kamu kapsamı dışındaki takip sürümleri için en son garantisi yok.",
+      "revision": "186a7054b5e719b3a7df58a73078d314906988ab",
+      "try_it": "Kart Wiro sohbet alanına bağlantı veriyor; canlı istek gönderilmedi. İleride her üyeyi kendi atasıyla sınamak ve şablon/quant farkını kaydetmek gerekir.",
+      "demo_url": "https://wiro.ai/tools?search=&categories=chat&tags=&page=0",
+      "independent": "Tartışma 3 GGUF/Ollama talebi; tartışma 2 temel model tercihi ve veri paylaşımı soruları içeriyor. Geliştirici 8B üyesini ve gelecekte veri paylaşma niyetini açıklıyor. Bunlar gerçek kullanıcının yanıt kalitesini ölçtüğü deneyler değil.",
+      "unknowns": [
+        "8B ve OpenR1 kartlarının ayrıntılı incelemesi",
+        " açık veri",
+        " bağımsız olumlu/olumsuz kalite deneyimi."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/WiroAI/wiroai-turkish-llm-9b",
+          "title": "WiroAI turkish-llm-9b / -8b / OpenR1-Qwen-7B-Turkish version",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/WiroAI/wiroai-turkish-llm-9b/raw/main/README.md",
+          "title": "WiroAI turkish-llm-9b / -8b / OpenR1-Qwen-7B-Turkish model_card",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/WiroAI",
+          "title": "WiroAI turkish-llm-9b / -8b / OpenR1-Qwen-7B-Turkish developer",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=WiroAI&sort=lastModified&direction=-1&limit=40",
+          "title": "WiroAI turkish-llm-9b / -8b / OpenR1-Qwen-7B-Turkish version",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/WiroAI/wiroai-turkish-llm-9b/discussions",
+          "title": "WiroAI turkish-llm-9b / -8b / OpenR1-Qwen-7B-Turkish community_index",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/WiroAI/wiroai-turkish-llm-9b/discussions/3",
+          "title": "WiroAI turkish-llm-9b / -8b / OpenR1-Qwen-7B-Turkish community",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/WiroAI/wiroai-turkish-llm-9b/discussions/2",
+          "title": "WiroAI turkish-llm-9b / -8b / OpenR1-Qwen-7B-Turkish community",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/WiroAI",
+          "title": "WiroAI güncel model profili",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": [
+            "https://huggingface.co/WiroAI/wiroai-turkish-llm-9b/raw/main/README.md",
+            "https://huggingface.co/WiroAI"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Olumlu ve olumsuz gerçek deneyim arandı; bulunmama kalite kanıtı değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/WiroAI/wiroai-turkish-llm-9b/discussions/3",
+            "https://huggingface.co/api/models/WiroAI/wiroai-turkish-llm-9b/discussions/2"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam aday/aile adıyla YouTube ve sosyal açık web tarandı; doğrulanan ek duyurular kaynaklarda.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Açık API, profil ve duyuru takibi; eğitim tarihi ile dosya tarihi ayrıldı.",
+          "urls": [
+            "https://huggingface.co/api/models/WiroAI/wiroai-turkish-llm-9b",
+            "https://huggingface.co/api/models?author=WiroAI&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"WiroAI\" \"turkish-llm\" review youtube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"WiroAI\" \"turkish-llm-9b\" site:linkedin.com OR site:youtube.com",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "WiroAI/wiroai-turkish-llm-9b",
+          "url": "https://huggingface.co/WiroAI/wiroai-turkish-llm-9b",
+          "status": "Kart ve API okundu"
+        },
+        {
+          "name": "WiroAI/wiroai-turkish-llm-8b",
+          "url": "https://huggingface.co/WiroAI/wiroai-turkish-llm-8b",
+          "status": "Katalog/profil bağlantısı;bu üyenin tamkart/eğitim/kullanıcı incelemesi açık"
+        },
+        {
+          "name": "WiroAI/OpenR1-Qwen-7B-Turkish",
+          "url": "https://huggingface.co/WiroAI/OpenR1-Qwen-7B-Turkish",
+          "status": "Katalog/profil bağlantısı;bu üyenin tamkart/eğitim/kullanıcı incelemesi açık"
+        }
+      ]
+    },
+    {
+      "record_id": 133,
+      "id": "VeriUs/VeriUS-LLM-8b-v0.2",
+      "name": "VeriUS-LLM-8b-v0.2",
+      "category": "LLM-genel",
+      "kind": "model",
+      "creator": "VeriUs Technology",
+      "plain": "Bağlantısı eksik katalog kimliği VeriUs/VeriUS-LLM-8b-v 0.2 deposuyla çözüldü. Türkçe talimat izleme için Llama 3-8B uyarlaması. İsimdeki büyük/küçük harf farkı ayrı geliştirici gibi yorumlanmadı; canlı API aynı depoyu doğruluyor.",
+      "claims": [
+        {
+          "text": "Geliştirici Türkçe talimat uyarlaması bildirirken geniş gerçek dünya testinin yapılmadığını kartında kabul ediyor.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://huggingface.co/VeriUs/VeriUS-LLM-8b-v0.2"
+        }
+      ],
+      "training": "Kart unsloth llama 3-8b-bnb-4bit atasını, QLoRA ve ORPO yöntemlerini bildiriyor. İki epoch, rank 128 ve alpha 256 verilmiş; veri genel alan Türkçe talimatları diye tanımlanıyor, tam bileşim yayımlanmamış.",
+      "version": "CanlıAPI son dosya değişikliği 2024-05-30T18:47:52Z. Bu eğitim tarihi değildir. Kontrol edilen kamu kapsamı dışındaki sürümlere en son garantisi verilmez.",
+      "revision": "8bb368925c58ff2d837c92d25c1cb6ef8200d32d",
+      "try_it": "İleride kartın kendi talimat/girdi/yanıt şablonu kullanılmalı; genel sohbet şablonuyla oluşan hatalar doğrudan eğitim kalitesi diye yorumlanmamalı.",
+      "demo_url": null,
+      "independent": "Bağımsız MMLU-Pro-TR deposu bu model için 23,23 raporluyor. Bu, zorlaştırılmış sınav sonucu; gündelik iş doğruluğu değil. Tam adla sosyal/video/topluluk aramasında bağımsız olumlu/olumsuz kullanım deneyimi bulunamadı.",
+      "unknowns": [
+        "Tam eğitim verisi",
+        " bağımsız uygulama başarısı",
+        " güncel sürüm duyurusu",
+        " geçerli genel demo."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/VeriUs/VeriUS-LLM-8b-v0.2",
+          "title": "VeriUS-v0.2 model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/bezir/MMLU-pro-TR",
+          "title": "MMLU-Pro-TR:tam model sonuçları",
+          "type": "independent_benchmark",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/VeriUs/VeriUS-LLM-8b-v0.2",
+          "title": "VeriUs/VeriUS-LLM-8b-v0.2 canlı API kimlik/hash",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": [
+            "https://huggingface.co/VeriUs/VeriUS-LLM-8b-v0.2"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz gerçek deneyim arandı; bulunmama kalite kanıtı değildir.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam aday/aile adıyla YouTube ve sosyal açık web tarandı; doğrulanan ek duyurular kaynaklarda.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Açık API, profil ve duyuru takibi; eğitim tarihi ile dosya tarihi ayrıldı.",
+          "urls": [
+            "https://huggingface.co/api/models/VeriUs/VeriUS-LLM-8b-v0.2"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"VeriUS-LLM-8b-v0.2\" review youtube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"VeriUS-LLM\" site:linkedin.com OR site:youtube.com OR site:reddit.com",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "VeriUs/VeriUS-LLM-8b-v0.2",
+          "url": "https://huggingface.co/VeriUs/VeriUS-LLM-8b-v0.2",
+          "status": "API okundu;hash 8bb368925c58ff2d837c92d25c1cb6ef8200d32d;son dosya değişikliği 2024-05-30T18:47:52Z. Kart da okundu."
+        }
+      ]
+    },
+    {
+      "record_id": 134,
+      "id": "catalog-134",
+      "name": "İşGPT (İş Bankası)",
+      "category": "LLM-genel",
+      "kind": "product",
+      "creator": "Türkiye İş Bankası",
+      "plain": "İşGPT bankanın kendi veri merkezinde çalışan kurum içi üretken yapay zekâ sistemidir; kamuya indirilecek bir model deposu değildir.2024 duyurusu çalışanlara soru-cevap, özetleme, sınıflandırma, NER ve çeviri anlatıyor. Güncel faaliyet raporu kapsamın daha sonra platforma dönüştüğünü gösteriyor.",
+      "claims": [
+        {
+          "text": "2025 faaliyet raporu İşGPT Model Garden ile metin, görüntü ve ses modellerinin merkezî yönetildiğini bildiriyor.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://www.isbank.com.tr/bankamizi-taniyin/is-bankasindan-ilk-turkce-buyuk-dil-modeli-isgpt"
+        }
+      ],
+      "training": "2024 duyurusu 60 milyar eğitim tokenı bildiriyor. Açık temel model adı, ağırlık lisansı, parametre sayısı ve tam eğitim tarifi doğrulanmadı. Bulut hazır model kullanmama açıklaması sıfırdan özgün mimari kanıtı değildir.",
+      "version": "22 Mayıs 2024 duyurusu ve 2025 faaliyet raporunun (2026 yayını) 66. sayfası okundu. İşGPT artık Model Garden platformu olarak konumlanıyor. Açık iç model hash veya sürümü yayımlanmış bulunmadı.",
+      "revision": "Açık sabit ağırlık özeti doğrulanamadı.",
+      "try_it": "Açık demo veya model indirme yolu doğrulanmadı. İleride kurum izinli değerlendirme olursa sistemin kaynak erişimi ile modelin kendi yeteneği ayrı sınanmalı.",
+      "demo_url": null,
+      "independent": "Duyurudaki yüzde 91 doğru cevap banka ölçümüdür; örneklem ve puanlayıcı ayrıntısı açık değil. Bağımsız olumlu/olumsuz son kullanıcı deneyi bulunamadı. Bankacılık uygulaması yorumları otomatik İşGPT model yorumu sayılmadı.",
+      "unknowns": [
+        "İç model kimlikleri",
+        " sürüm hashleri",
+        " bağımsız sınav",
+        " kurum dışı erişim ve kullanım koşulları."
+      ],
+      "sources": [
+        {
+          "url": "https://www.isbank.com.tr/bankamizi-taniyin/is-bankasindan-ilk-turkce-buyuk-dil-modeli-isgpt",
+          "title": "İşGPT (İş Bankası) developer",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://cdn.financialreports.eu/financialreports/media/filings/5969/2026/RNS/5969_rns_2026-03-09_a20f17f8-e094-4157-95fc-e50f28b7ece5.pdf",
+          "title": "İşBankası2025 faaliyet raporu s66:İşGPT Model Garden",
+          "type": "developer_report",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": [
+            "https://www.isbank.com.tr/bankamizi-taniyin/is-bankasindan-ilk-turkce-buyuk-dil-modeli-isgpt",
+            "https://cdn.financialreports.eu/financialreports/media/filings/5969/2026/RNS/5969_rns_2026-03-09_a20f17f8-e094-4157-95fc-e50f28b7ece5.pdf"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz gerçek deneyim arandı; bulunmama kalite kanıtı değildir.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam aday/aile adıyla YouTube ve sosyal açık web tarandı; doğrulanan ek duyurular kaynaklarda.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "Açık API, profil ve duyuru takibi; eğitim tarihi ile dosya tarihi ayrıldı.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"İşGPT\" deneyim eleştiri youtube İş Bankası",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"İşGPT\" site:linkedin.com OR site:youtube.com",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 135,
+      "id": "catalog-135",
+      "name": "Akbank LLM (adı yok)",
+      "category": "LLM-genel",
+      "kind": "product",
+      "creator": "Akbank Teknoloji",
+      "plain": "Akbank'ın adı açıkça yayımlanmayan LLM'i bankacılık talimatlarını ve belgeleri işlemek için kurum içi sistemdir. Açık ağırlık modeli veya genel kullanıma sunulmuş sohbet ürünü olarak doğrulanmadı. Müşteriye yansıyan bütün bankacılık hizmetleri bu tek modele bağlanamaz.",
+      "claims": [
+        {
+          "text": "Bankacılık belge ve talimat işleme otomasyonu geliştirici tarafından doğrulanıyor; genel Türkçe üstünlük sonucu çıkarılmıyor.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://www.akbank.com/haberler/akbank-gelistirdigi-buyuk-dil-modeli-ile-gelecegin-bankacilik-dilinden-konusuyor"
+        }
+      ],
+      "training": "25Nisan 2024 resmî duyurusu Mixtral temelini,56 milyar tokenı ve 100 bin bankacılık örnek belgesini bildiriyor. Hangi Mixtral checkpoint'i, tam eğitim yöntemi ve lisans ayrıntıları belirtilmiyor.",
+      "version": "25 Nisan 2024 resmî duyurusu ve sonraki yönetici sosyal üretim raporu okundu.56 milyar token eski duyurudaki rakam; güncel sabit ağırlık sürümü doğrulanmadı.",
+      "revision": "Açık sabit ağırlık özeti doğrulanamadı.",
+      "try_it": "Açık deneme yolu bulunmadı. İleride izinli belge işleme değerlendirmesinde doğruluk, otomasyon oranı ve işlem hızı farklı ölçüler olarak izlenmeli.",
+      "demo_url": null,
+      "independent": "Banka klasik NLP çözümlerine göre doğrulukta yüzde 35 artış bildirmiş; mutlak doğruluk veya 35 yüzdepuan olduğu açıklanmıyor. Gökhan Gökçay'ın sonraki sosyal gönderisi aylık 1,3 milyon belge ve yüzde 80üzeri otomasyon iddia ediyor; bağımsız denetim değil.",
+      "unknowns": [
+        "Tam model sürümü",
+        " ölçümlerin örneklemi",
+        " bağımsız olumlu/olumsuz deneyim",
+        " açık erişim."
+      ],
+      "sources": [
+        {
+          "url": "https://www.akbank.com/haberler/akbank-gelistirdigi-buyuk-dil-modeli-ile-gelecegin-bankacilik-dilinden-konusuyor",
+          "title": "Akbank LLM (adı yok) developer",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/gokhangokcay_akbank-b%C3%BCy%C3%BCk-dil-modeli-%C3%A7%C3%B6z%C3%BCmleriyle-ayl%C4%B1k-activity-7345713880540573697-v3wR",
+          "title": "GökhanGökçay:Akbank belge işleme sonuçları",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": [
+            "https://www.akbank.com/haberler/akbank-gelistirdigi-buyuk-dil-modeli-ile-gelecegin-bankacilik-dilinden-konusuyor",
+            "https://tr.linkedin.com/posts/gokhangokcay_akbank-b%C3%BCy%C3%BCk-dil-modeli-%C3%A7%C3%B6z%C3%BCmleriyle-ayl%C4%B1k-activity-7345713880540573697-v3wR"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz gerçek deneyim arandı; bulunmama kalite kanıtı değildir.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Gerçek geliştirici sosyal duyurusu açılıp okundu; tanıtım bağımsız deney sayılmadı.",
+          "urls": [
+            "https://tr.linkedin.com/posts/gokhangokcay_akbank-b%C3%BCy%C3%BCk-dil-modeli-%C3%A7%C3%B6z%C3%BCmleriyle-ayl%C4%B1k-activity-7345713880540573697-v3wR"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "Açık API, profil ve duyuru takibi; eğitim tarihi ile dosya tarihi ayrıldı.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "Akbank büyük dil modeli deneyim eleştiri youtube 2026",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Akbank\" \"büyük dil modeli\" site:linkedin.com OR site:youtube.com",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 136,
+      "id": "catalog-136",
+      "name": "KoçGPT (Koç Grubu)",
+      "category": "LLM-genel",
+      "kind": "product",
+      "creator": "Koç Holding / Koç Topluluğu",
+      "plain": "KoçGPT, çalışanların üretken yapay zekâyı iş süreçlerinde kullanmasını amaçlayan kurumsal uygulamadır. Koç Holding'in resmî sosyal duyurusu ürünün yayımlandığını doğruluyor. Bu bilgi özgün bir temel dil modelinin sıfırdan eğitildiğini veya ağırlıklarının paylaşıldığını göstermiyor.",
+      "claims": [
+        {
+          "text": "Geliştirici çalışanların GenAI farkındalığı ve günlük işlerde kullanımını destekleyen uygulama tanımlıyor.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://tr.linkedin.com/posts/koc-holding_i%CC%87novatif-yapay-zek%C3%A2-teknolojilerini-i%C5%9F-ak%C4%B1%C5%9Flar%C4%B1m%C4%B1za-activity-7179010433490575360-b1ng"
+        }
+      ],
+      "training": "Temel model sağlayıcıları, parametre sayısı, veri karışımı ve eğitim tarifi okunan kamu duyurusunda açıklanmıyor. Uygulama katmanı ile alttaki model veya modellerin sahipliği ayrılmalı.",
+      "version": "Kontrol 2026-10-23. Sabit açık ağırlık sürümü doğrulanmadı. Dosya/profil tarihi yeni eğitim tarihi değildir; kontrol edilen kamu kapsamı dışındaki takip sürümleri için en son garantisi yok.",
+      "revision": "Açık sabit ağırlık özeti doğrulanamadı.",
+      "try_it": "Genel kullanıma açık demo/indirme yolu doğrulanmadı. İleride yetkili kullanıcı deneyi yapılırsa görev ve belge erişimi sabitlenmeli; kurum markası kalite ölçüsü yerine konmamalı.",
+      "demo_url": null,
+      "independent": "Tam adla deneyim, eleştiri, YouTube ve sosyal araması yapıldı. Kurum dışından denetlenebilir olumlu/olumsuz kullanım deneyi bulunamadı. Basın haberleri resmî tanıtımı aktarıyor; kullanıcı kabulü veya bağımsız model ölçümü sayılmadı.",
+      "unknowns": [
+        "Alttaki modeller",
+        " güncel ürün sürümü",
+        " erişim kapsamı",
+        " bağımsız kullanım",
+        " açık ağırlık ve lisans."
+      ],
+      "sources": [
+        {
+          "url": "https://tr.linkedin.com/posts/koc-holding_i%CC%87novatif-yapay-zek%C3%A2-teknolojilerini-i%C5%9F-ak%C4%B1%C5%9Flar%C4%B1m%C4%B1za-activity-7179010433490575360-b1ng",
+          "title": "KoçHolding:KoçGPT resmî duyurusu",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": [
+            "https://tr.linkedin.com/posts/koc-holding_i%CC%87novatif-yapay-zek%C3%A2-teknolojilerini-i%C5%9F-ak%C4%B1%C5%9Flar%C4%B1m%C4%B1za-activity-7179010433490575360-b1ng"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz gerçek deneyim arandı; bulunmama kalite kanıtı değildir.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Gerçek geliştirici sosyal duyurusu açılıp okundu; tanıtım bağımsız deney sayılmadı.",
+          "urls": [
+            "https://tr.linkedin.com/posts/koc-holding_i%CC%87novatif-yapay-zek%C3%A2-teknolojilerini-i%C5%9F-ak%C4%B1%C5%9Flar%C4%B1m%C4%B1za-activity-7179010433490575360-b1ng"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Resmî proje, ürün veya duyuru durumu arandı; sabit ağırlık sürümü ve ürünün erişim durumu ayrıldı.",
+          "urls": [
+            "https://tr.linkedin.com/posts/koc-holding_i%CC%87novatif-yapay-zek%C3%A2-teknolojilerini-i%C5%9F-ak%C4%B1%C5%9Flar%C4%B1m%C4%B1za-activity-7179010433490575360-b1ng"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "KoçGPT Koç Grubu yapay zeka kullanım deneyim youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 137,
+      "id": "catalog-137",
+      "name": "Kumru VLM (VNGRS + BtcTurk)",
+      "category": "LLM-genel",
+      "kind": "model",
+      "creator": "VNGRS; BtcTurk Teknoloji pilot ortağı",
+      "plain": "Kumru VLM, VNGRS'nin PDF, taranmış belge ve görüntülerle çalışacak görsel dil modeli geliştirme projesidir. Okunan resmî sosyal duyuruda gelecek zaman kullanılıyor; destek almaya hak kazanmak tamamlanmış model teslimi değildir. Açık 2B metin Kumru modelinden ayrı değerlendirilmelidir.",
+      "claims": [
+        {
+          "text": "Belge/görüntü soru-cevap, özet ve veri çıkarımı hedefi geliştirici duyurusunda mevcut.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://tr.linkedin.com/posts/vngrs_vngrs-btcturkteknoloji-yapayzeka-activity-7473677008019984384-m27F"
+        }
+      ],
+      "training": "Duyuru Türkçe için sıfırdan geliştirme hedefi bildiriyor. Mimari, parametre sayısı, eğitim karışımı, kontrol noktası ve model lisansı kamuya açık doğrulanmadı. BtcTurk katkısı finans/hukuk kullanım senaryoları ve pilotlardır.",
+      "version": "Kontrol 2026-10-23. Sabit açık ağırlık sürümü doğrulanmadı. Dosya/profil tarihi yeni eğitim tarihi değildir; kontrol edilen kamu kapsamı dışındaki takip sürümleri için en son garantisi yok.",
+      "revision": "Açık sabit ağırlık özeti doğrulanamadı.",
+      "try_it": "Henüz açık deneme yolu doğrulanmadı. İleride düz PDF metni, tarama OCR'si ve görsel anlama ayrı örneklerle sınanmalı; bugünkü destek duyurusu başarı puanı değildir.",
+      "demo_url": null,
+      "independent": "Bağımsız olumlu/olumsuz deneyim bulunamadı; sosyal tebrikler kullanım kanıtı değildir. Aynı adı kullanan başka bireysel VLM tanıtımı aramada çıktı; geliştirici farklı olduğundan bu projeye kanıt aktarılmadı.",
+      "unknowns": [
+        "Yayımlanmış ağırlık",
+        " sabit sürüm",
+        " çalışan demo",
+        " pilot sonuçları",
+        " benzer isimli modelden kimlik ayrımı."
+      ],
+      "sources": [
+        {
+          "url": "https://tr.linkedin.com/posts/vngrs_vngrs-btcturkteknoloji-yapayzeka-activity-7473677008019984384-m27F",
+          "title": "VNGRS:KumruVLM proje desteği ve hedefleri",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": [
+            "https://tr.linkedin.com/posts/vngrs_vngrs-btcturkteknoloji-yapayzeka-activity-7473677008019984384-m27F"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz gerçek deneyim arandı; bulunmama kalite kanıtı değildir.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Gerçek geliştirici sosyal duyurusu açılıp okundu; tanıtım bağımsız deney sayılmadı.",
+          "urls": [
+            "https://tr.linkedin.com/posts/vngrs_vngrs-btcturkteknoloji-yapayzeka-activity-7473677008019984384-m27F"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Resmî proje, ürün veya duyuru durumu arandı; sabit ağırlık sürümü ve ürünün erişim durumu ayrıldı.",
+          "urls": [
+            "https://tr.linkedin.com/posts/vngrs_vngrs-btcturkteknoloji-yapayzeka-activity-7473677008019984384-m27F"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Kumru VLM\" deneyim review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 138,
+      "id": "catalog-138",
+      "name": "Turkcell + TÜBİTAK BİLGEM sektör modeli (çok kipli çağrı merkezi asistanı)",
+      "category": "LLM-genel",
+      "kind": "product",
+      "creator": "Turkcell ve TÜBİTAK BİLGEM",
+      "plain": "Bu satır yeni nesil çok modlu çağrı merkezi asistanı Ar-Ge projesidir. Turkcell yöneticisinin açık sosyal duyurusu destek ve imza aşamasını doğruluyor.2024 açık Turkcell 7B modeliyle aynı ağırlık, aynı eğitim veya aynı sürüm olduğu gösterilmedi.",
+      "claims": [
+        {
+          "text": "Türkçe büyük dil modeli tabanlı çok modlu çağrı merkezi asistanı projesinin desteklenmesi birincil duyuruyla belgeleniyor.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://tr.linkedin.com/posts/ali-taha-ko%C3%A7-4b7671296_turkcell-olarak-teknolojiyi-%C3%BCreten-t%C3%BCrkiye-activity-7471645084761985024-mEHz"
+        }
+      ],
+      "training": "Temel model kimliği, parametre sayısı, ses/görüntü bileşenleri, eğitim verisi ve lisans açıklanmış bulunmadı. Çok modlu hedefin açıklanması bütün modüllerin çalıştığına veya üretime geçtiğine kanıt değildir.",
+      "version": "Kontrol 2026-10-23. Sabit açık ağırlık sürümü doğrulanmadı. Dosya/profil tarihi yeni eğitim tarihi değildir; kontrol edilen kamu kapsamı dışındaki takip sürümleri için en son garantisi yok.",
+      "revision": "Açık sabit ağırlık özeti doğrulanamadı.",
+      "try_it": "Açık demo doğrulanmadı; kullanıcı görüşmesi veya çağrı kaydı gönderilmedi. İleride ses tanıma, bilgi yanıtı ve yapılan işlemin doğruluğu ayrı ölçülmeli.",
+      "demo_url": null,
+      "independent": "Olumlu/olumsuz bağımsız kullanıcı ve video deneyimi arandı, bu tam projeye ait deney bulunamadı. Turkcell'in mevcut müşteri hizmeti ürünleriyle ilgili yorumlar projeye aktarılamaz. Geliştiricinin teşekkür ve vizyon mesajları da kalite ölçümü değil.",
+      "unknowns": [
+        "Canlı ürün aşaması",
+        " model kimlikleri",
+        " pilot testler",
+        " sürüm ve erişim",
+        " bağımsız kalite."
+      ],
+      "sources": [
+        {
+          "url": "https://tr.linkedin.com/posts/ali-taha-ko%C3%A7-4b7671296_turkcell-olarak-teknolojiyi-%C3%BCreten-t%C3%BCrkiye-activity-7471645084761985024-mEHz",
+          "title": "AliTahaKoç:Çok modlu çağrı merkezi asistanı projesi",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": [
+            "https://tr.linkedin.com/posts/ali-taha-ko%C3%A7-4b7671296_turkcell-olarak-teknolojiyi-%C3%BCreten-t%C3%BCrkiye-activity-7471645084761985024-mEHz"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz gerçek deneyim arandı; bulunmama kalite kanıtı değildir.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Gerçek geliştirici sosyal duyurusu açılıp okundu; tanıtım bağımsız deney sayılmadı.",
+          "urls": [
+            "https://tr.linkedin.com/posts/ali-taha-ko%C3%A7-4b7671296_turkcell-olarak-teknolojiyi-%C3%BCreten-t%C3%BCrkiye-activity-7471645084761985024-mEHz"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Resmî proje, ürün veya duyuru durumu arandı; sabit ağırlık sürümü ve ürünün erişim durumu ayrıldı.",
+          "urls": [
+            "https://tr.linkedin.com/posts/ali-taha-ko%C3%A7-4b7671296_turkcell-olarak-teknolojiyi-%C3%BCreten-t%C3%BCrkiye-activity-7471645084761985024-mEHz"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "Turkcell TÜBİTAK BİLGEM çok kipli çağrı merkezi asistanı model",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Yeni Nesil Çok Modlu Türkçe Büyük Dil Modeli Tabanlı Çağrı Merkezi Asistanı\"",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 139,
+      "id": "catalog-139",
+      "name": "Turkish-LLM-7B / 14B / 32B-Instruct (ogulcanaydogan)",
+      "category": "LLM-genel",
+      "kind": "model_family",
+      "creator": "Oğulcan Aydoğan",
+      "plain": "Turkish-LLM ailesinin 7B,14B ve 32B üyeleri kamu Hugging Face profilinde mevcut. Eski GitHub README'si 32B'yi yakında gösterirken canlı profil ve API32B deposunu doğruluyor.7B atası GitHub'da Turkcell, güncel HF/API'de Mistral-v 0.2 yazıyor; kaynak çelişkisi açık tutulmalı.",
+      "claims": [
+        {
+          "text": "Üç üyenin yayımlanmış depo kimlikleri canlı API ile doğrulandı;7B eğitim kökeni belgelerde çelişkili.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://huggingface.co/ogulcanaydogan"
+        }
+      ],
+      "training": "14B güncel kartı Qwen 2.5-14B üzerinde 242 bin örnek QLoRA;32B kartı 173 bin örnek QLoRA bildiriyor. GitHub'ın 144bin/SFT+DPO genellemesi her üyenin güncel eğitim tarifi sayılamaz.",
+      "version": "Üç üyenin canlı API hash ve dosya tarihleri members alanında.32B mevcut; GitHub tablosunun coming soon ifadesi güncel değil.7B atası kaynaklarda farklı. Dosya tarihi yeni eğitim tarihi değildir.",
+      "revision": "Aileye tek hash verilemez; üç üyenin hash değerleri members alanında.",
+      "try_it": "İleride üye ve revision ayrı sabitlenmeli. Profildeki 7B/14B Spaces bağlantıları var; canlı yanıt alınmadı. Eski README yerine her üyenin güncel kartı başlangıç olmalı.",
+      "demo_url": "https://huggingface.co/spaces/ogulcanaydogan/Turkish-LLM-14B-Chat",
+      "independent": "Bağımsız olumlu/olumsuz kullanıcı deneyi bulunamadı.14B kartındaki MMLU artışı 0,30 puan geliştirici ölçümüdür.32B kartı ve açıklama varlığı ağırlıkların bu oturumda çalıştırıldığı veya sınandığı anlamına gelmiyor.",
+      "unknowns": [
+        "7B köken açıklaması",
+        " bütün veri sürümleri",
+        " bağımsız tekrar",
+        " demo yanıt kalitesi."
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/ogulcanaydogan/Turkish-LLM",
+          "title": "Turkish-LLM-7B / 14B / 32B-Instruct (ogulcanaydogan) developer",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ogulcanaydogan",
+          "title": "Geliştirici profilinde7B14B32B veSpaces",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ogulcanaydogan/Turkish-LLM-7B-Instruct",
+          "title": "Turkish-LLM7B güncel kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ogulcanaydogan/Turkish-LLM-14B-Instruct",
+          "title": "Turkish-LLM14B güncel kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ogulcanaydogan/Turkish-LLM-32B-Instruct",
+          "title": "Turkish-LLM32B güncel kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ogulcanaydogan/Turkish-LLM-7B-Instruct",
+          "title": "ogulcanaydogan/Turkish-LLM-7B-Instruct canlı API kimlik/hash",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ogulcanaydogan/Turkish-LLM-14B-Instruct",
+          "title": "ogulcanaydogan/Turkish-LLM-14B-Instruct canlı API kimlik/hash",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ogulcanaydogan/Turkish-LLM-32B-Instruct",
+          "title": "ogulcanaydogan/Turkish-LLM-32B-Instruct canlı API kimlik/hash",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": [
+            "https://github.com/ogulcanaydogan/Turkish-LLM",
+            "https://huggingface.co/ogulcanaydogan",
+            "https://huggingface.co/ogulcanaydogan/Turkish-LLM-7B-Instruct",
+            "https://huggingface.co/ogulcanaydogan/Turkish-LLM-14B-Instruct",
+            "https://huggingface.co/ogulcanaydogan/Turkish-LLM-32B-Instruct"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz gerçek deneyim arandı; bulunmama kalite kanıtı değildir.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam aday/aile adıyla YouTube ve sosyal açık web tarandı; doğrulanan ek duyurular kaynaklarda.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Açık API, profil ve duyuru takibi; eğitim tarihi ile dosya tarihi ayrıldı.",
+          "urls": [
+            "https://huggingface.co/api/models/ogulcanaydogan/Turkish-LLM-7B-Instruct",
+            "https://huggingface.co/api/models/ogulcanaydogan/Turkish-LLM-14B-Instruct",
+            "https://huggingface.co/api/models/ogulcanaydogan/Turkish-LLM-32B-Instruct"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"ogulcanaydogan\" \"Turkish-LLM\" review youtube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"ogulcanaydogan\" \"Turkish-LLM\" site:linkedin.com OR site:youtube.com OR site:reddit.com",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "ogulcanaydogan/Turkish-LLM-7B-Instruct",
+          "url": "https://huggingface.co/ogulcanaydogan/Turkish-LLM-7B-Instruct",
+          "status": "API okundu;hash 5aa0fdc263037ac68f5b42dd4e7180464b0f0a47;son dosya değişikliği 2026-03-21T23:04:49Z. Kart da okundu."
+        },
+        {
+          "name": "ogulcanaydogan/Turkish-LLM-14B-Instruct",
+          "url": "https://huggingface.co/ogulcanaydogan/Turkish-LLM-14B-Instruct",
+          "status": "API okundu;hash 4a6f73be63540329dfeaee85a21f58dc63d4a6d4;son dosya değişikliği 2026-03-21T23:04:51Z. Kart da okundu."
+        },
+        {
+          "name": "ogulcanaydogan/Turkish-LLM-32B-Instruct",
+          "url": "https://huggingface.co/ogulcanaydogan/Turkish-LLM-32B-Instruct",
+          "status": "API okundu;hash 6edfde80313a4cb05f842d96a6e499c4016f8e02;son dosya değişikliği 2026-03-29T20:10:10Z. Kart da okundu."
+        }
+      ]
+    },
+    {
+      "record_id": 140,
+      "id": "SykoSLM/SykoLLM-V3.2-Thinking-Beta-Instruct",
+      "name": "SykoLLM (SykoSLM)",
+      "category": "LLM-genel",
+      "kind": "model_family",
+      "creator": "SykoSLM",
+      "plain": "Katalog bağlantısı 300M V3.2-Thinking-Beta-Instruct sürümüne gidiyor. Geliştirici profilinde daha yeni V6.9 ve SFT/GGUF dağıtımları bulunuyor; eski kart ailenin güncel son modeli gibi gösterilmemeli. Yeni dağıtım tarihi yeni temel eğitim tarihi değildir.",
+      "claims": [
+        {
+          "text": "V3.2 için yaklaşık 300M ve Türkçe tokenizer iddiası var; güncel SFT depolarının varlığı API ile doğrulanıyor.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://huggingface.co/SykoSLM/SykoLLM-V3.2-Thinking-Beta-Instruct/raw/main/README.md"
+        }
+      ],
+      "training": "V3.2 kartı özgün mimari ve tokenizerla sıfırdan eğitim, Wikipedia ön eğitimi ve 100binden fazla talimatla SFT iddia ediyor. T4/A100 ve 1024 bağlam belirtilmiş. Bunlar yeni V6.9 üyelerine otomatik taşınamaz.",
+      "version": "V3.2 katalog üyesinin son dosya değişikliği 2026-01-18T04:25:25Z. Profilde daha yeni V6.9-SFT ve GGUF üyeleri var; canlı hash ve tarihleri members alanında.14 Ekim 2026 GGUF güncellemesi yeni eğitim kanıtı değildir.",
+      "revision": "21b9f119b65f053a39b25ea8772246ca147fd4da",
+      "try_it": "İleride önce güncel üye seçilmeli, özel kod ve şablon incelenmeli. Bu araştırma indirme, kurulum veya trust_remote_code yürütmesi içermedi.",
+      "demo_url": null,
+      "independent": "Bağımsız olumlu/olumsuz deneyim veya video bulunamadı. Deneysel beta kartının iddiaları bu oturumda ölçülmedi. Özel mimari kodu gereksinimi belgelenmiş; kod çalıştırılmadı ve güven değerlendirmesi yapılmış sayılmıyor.",
+      "unknowns": [
+        "V6.9 eğitim tarifi ve kalite",
+        " üyeler arası değişim",
+        " bağımsız test",
+        " özel kodun uygulanabilirliği."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/SykoSLM/SykoLLM-V3.2-Thinking-Beta-Instruct",
+          "title": "SykoLLM (SykoSLM) version",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/SykoSLM/SykoLLM-V3.2-Thinking-Beta-Instruct/raw/main/README.md",
+          "title": "SykoLLM (SykoSLM) model_card",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/SykoSLM",
+          "title": "SykoLLM (SykoSLM) developer",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=SykoSLM&sort=lastModified&direction=-1&limit=40",
+          "title": "SykoLLM (SykoSLM) version",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/SykoSLM/SykoLLM-V3.2-Thinking-Beta-Instruct/discussions",
+          "title": "SykoLLM (SykoSLM) community_index",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/SykoSLM",
+          "title": "SykoSLM güncel profil ve sürümler",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/SykoSLM/SykoLLM-V6.9-SFT",
+          "title": "GüncelSFT kartı;web açılışı engelli",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "inaccessible"
+        },
+        {
+          "url": "https://huggingface.co/SykoSLM/SykoLLM-V6.9-SFT-GGUF",
+          "title": "GüncelGGUF kartı;web açılışı engelli",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "inaccessible"
+        },
+        {
+          "url": "https://huggingface.co/api/models/SykoSLM/SykoLLM-V6.9-SFT",
+          "title": "SykoSLM/SykoLLM-V6.9-SFT canlı API kimlik/hash",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/SykoSLM/SykoLLM-V6.9-SFT-GGUF",
+          "title": "SykoSLM/SykoLLM-V6.9-SFT-GGUF canlı API kimlik/hash",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": [
+            "https://huggingface.co/SykoSLM/SykoLLM-V3.2-Thinking-Beta-Instruct/raw/main/README.md",
+            "https://huggingface.co/SykoSLM"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz gerçek deneyim arandı; bulunmama kalite kanıtı değildir.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam aday/aile adıyla YouTube ve sosyal açık web tarandı; doğrulanan ek duyurular kaynaklarda.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Açık API, profil ve duyuru takibi; eğitim tarihi ile dosya tarihi ayrıldı.",
+          "urls": [
+            "https://huggingface.co/api/models/SykoSLM/SykoLLM-V3.2-Thinking-Beta-Instruct",
+            "https://huggingface.co/api/models?author=SykoSLM&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/SykoSLM/SykoLLM-V6.9-SFT",
+            "https://huggingface.co/api/models/SykoSLM/SykoLLM-V6.9-SFT-GGUF"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"SykoLLM\" review youtube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"SykoLLM\" site:youtube.com OR site:linkedin.com OR site:reddit.com",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "SykoSLM/SykoLLM-V3.2-Thinking-Beta-Instruct",
+          "url": "https://huggingface.co/SykoSLM/SykoLLM-V3.2-Thinking-Beta-Instruct",
+          "status": "Kart ve API okundu"
+        },
+        {
+          "name": "SykoSLM/SykoLLM-V6.9-SFT",
+          "url": "https://huggingface.co/SykoSLM/SykoLLM-V6.9-SFT",
+          "status": "API okundu;hash 401c951913ac7a4d2856795ee222065619e6b88f;son dosya değişikliği 2026-07-11T11:42:30Z. Kart inceleme sınırı ilgili alanlarda."
+        },
+        {
+          "name": "SykoSLM/SykoLLM-V6.9-SFT-GGUF",
+          "url": "https://huggingface.co/SykoSLM/SykoLLM-V6.9-SFT-GGUF",
+          "status": "API okundu;hash 48d077ef9ab5992bb2553611332773fc9e9c508c;son dosya değişikliği 2026-10-14T11:17:19Z. Kart inceleme sınırı ilgili alanlarda."
+        }
+      ]
+    },
+    {
+      "record_id": 141,
+      "id": "catalog-141",
+      "name": "Bireysel genel ince ayarlar (Omni-31B-Turkish-Reasoning, Gemma4-Turkish-26B-A4B, Kebap-1.0, malhajar Mistral-7B-Turkish/MedTurk, Tuguberk, suayptalha Kumru-2B-turkish-reasoning)",
+      "category": "LLM-genel",
+      "kind": "model_family",
+      "creator": "Birden fazla bireysel geliştirici",
+      "plain": "Bu satır tek aile değil, birbirinden bağımsız Türkçe ince ayarlardır. Ayrıntılı incelenen üye bugrabilge/Omni-31B-Turkish-Reasoning-Model. Diğer Gemma 4, Kebap, malhajar/MedTurk, Tuguberk ve suayptalha adları aynı eğitim veya lisansa sahip kabul edilmedi.",
+      "claims": [
+        {
+          "text": "Omni'nin Türkçe muhakeme uyarlaması birincil kartla belgeleniyor; bütün gruba üstünlük veya güncellik atfedilmiyor.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://huggingface.co/bugrabilge/Omni-31B-Turkish-Reasoning-Model"
+        }
+      ],
+      "training": "Omni kartı Gemma 4-31B üzerinde 249.292 filtrelenmiş Türkçe CoT örneğiyle 16bit full SFT bildiriyor. Uzun yanıt ve görünür muhakeme hedeflenmiş; uzun açıklama kendiliğinden doğru çözüm demek değildir.",
+      "version": "Ayrıntılı incelenen Omni API dosya tarihi 2026-05-19T08:52:45Z; hash members alanında. Diğer grup üyelerinin sürüm araştırması açık. Dosya değişikliği yeni eğitim tarihi değildir.",
+      "revision": "Açık sabit ağırlık özeti doğrulanamadı.",
+      "try_it": "İleride her aday kendi atasına karşı ayrı sınanmalı. Bu kart yalnız incelenen Omni'yi tarif eder; bütün grup incelenmiş olarak işaretlenmedi.",
+      "demo_url": null,
+      "independent": "Geliştiricinin LinkedIn duyurusu model ve veri üretimini anlatıyor; bağımsız kullanım sayılmaz. Olumlu/olumsuz bağımsız görev raporu bulunamadı. Quantizasyon deposu veya katalogda yer almak da yanıt kalitesi ölçümü değildir.",
+      "unknowns": [
+        "Diğer üyelerin tam kartları ve kimliği",
+        " bağımsız kalite",
+        " Omni veri sızıntısı ve kısa yanıt davranışı."
+      ],
+      "sources": [
+        {
+          "url": "https://www.yerel.ai/yerel-modeller",
+          "title": "Bireysel genel ince ayarlar (Omni-31B-Turkish-Reasoning, Gemma4-Turkish-26B-A4B, Kebap-1.0, malhajar Mistral-7B-Turkish/MedTurk, Tuguberk, suayptalha Kumru-2B-turkish-reasoning) developer",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/bugrabilge/Omni-31B-Turkish-Reasoning-Model",
+          "title": "Omni31B model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/bugrabilgecelik_yapayzeka-llm-turkish-activity-7462447184337137664-SZsL",
+          "title": "BuğraBilgeÇelik:Omni ve veri duyurusu",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/bugrabilge/Omni-31B-Turkish-Reasoning-Model",
+          "title": "bugrabilge/Omni-31B-Turkish-Reasoning-Model canlı API kimlik/hash",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": [
+            "https://huggingface.co/bugrabilge/Omni-31B-Turkish-Reasoning-Model",
+            "https://tr.linkedin.com/posts/bugrabilgecelik_yapayzeka-llm-turkish-activity-7462447184337137664-SZsL"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz gerçek deneyim arandı; bulunmama kalite kanıtı değildir.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Gerçek geliştirici sosyal duyurusu açılıp okundu; tanıtım bağımsız deney sayılmadı.",
+          "urls": [
+            "https://tr.linkedin.com/posts/bugrabilgecelik_yapayzeka-llm-turkish-activity-7462447184337137664-SZsL"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Açık API, profil ve duyuru takibi; eğitim tarihi ile dosya tarihi ayrıldı.",
+          "urls": [
+            "https://huggingface.co/api/models/bugrabilge/Omni-31B-Turkish-Reasoning-Model"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Omni-31B-Turkish-Reasoning\" \"Gemma4-Turkish\"",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Omni-31B-Turkish-Reasoning\" review youtube linkedin",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "bugrabilge/Omni-31B-Turkish-Reasoning-Model",
+          "url": "https://huggingface.co/bugrabilge/Omni-31B-Turkish-Reasoning-Model",
+          "status": "API okundu;hash b2163c8af420b7a9567302ea13e1c2060f6470b3;son dosya değişikliği 2026-05-19T08:52:45Z. Kart da okundu."
+        },
+        {
+          "name": "Gemma4-Turkish-26B-A4B",
+          "url": null,
+          "status": "Katalog/grup adı;bu paket kapsamında tam kart ve sürüm araştırması açık"
+        },
+        {
+          "name": "Kebap-1.0",
+          "url": null,
+          "status": "Katalog/grup adı;bu paket kapsamında tam kart ve sürüm araştırması açık"
+        },
+        {
+          "name": "malhajar Mistral-7B-Turkish",
+          "url": null,
+          "status": "Katalog/grup adı;bu paket kapsamında tam kart ve sürüm araştırması açık"
+        },
+        {
+          "name": "malhajar MedTurk",
+          "url": null,
+          "status": "Katalog/grup adı;bu paket kapsamında tam kart ve sürüm araştırması açık"
+        },
+        {
+          "name": "Tuguberk",
+          "url": null,
+          "status": "Katalog/grup adı;bu paket kapsamında tam kart ve sürüm araştırması açık"
+        },
+        {
+          "name": "suayptalha/Kumru-2B-turkish-reasoning",
+          "url": null,
+          "status": "Katalog/grup adı;bu paket kapsamında tam kart ve sürüm araştırması açık"
+        }
+      ]
+    },
+    {
+      "record_id": 142,
+      "id": "mertege/moda",
+      "name": "MODA (SIGTURK 2026; Qwen2.5-7B tabanlı Türkçe LLM)",
+      "category": "LLM-genel",
+      "kind": "model",
+      "creator": "MODA araştırma ekibi; Türksat, DataBoss ve ODTÜ",
+      "plain": "MODA, SIGTURK2026 makalesinde tanıtılan Qwen 2.5-7B uyarlamasıdır. Katalogdaki kayıt yalnız bir haber değil, eğitim yöntemi ve görev değerlendirmesi bulunan akademik model araştırmasına bağlanıyor. Makalenin kabulü bağımsız günlük kullanım sınavı yerine geçmez.",
+      "claims": [
+        {
+          "text": "Araştırmacılar Qwen 2.5 temel ve instruct sürümlerini seçilmiş Türkçe görevlerde geçtiklerini bildiriyor.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://aclanthology.org/2026.sigturk-1.17.pdf"
+        }
+      ],
+      "training": "Makalede Türkçe web verisiyle sürekli ön eğitim, parametre verimli SFT ve uzmanlaşmış modelleri birleştirme anlatılıyor. Ön eğitim derlemi açık, SFT verisi şirket gizliliği nedeniyle yayımlanmamış. Tam eğitim tekrarı bu nedenle sınırlı.",
+      "version": "CanlıAPI son dosya değişikliği 2025-10-27T15:16:40Z. Bu eğitim tarihi değildir. Kontrol edilen kamu kapsamı dışındaki sürümlere en son garantisi verilmez.",
+      "revision": "3009d9f89b97621d8aa1285811ca1cb7567b9ec3",
+      "try_it": "Makaleden mertege/moda depo kimliği bulundu, canlı API doğrulandı; dosya indirilmedi. İleride makaledeki protokol ile ürün görevleri ayrı değerlendirilmelidir.",
+      "demo_url": null,
+      "independent": "TürkçeMMLU, EXAMS ve TRCLAIM19 iyileşmeleri geliştirici makalesinin deneyleridir. Tam model adıyla sosyal/video/topluluk aramasında bağımsız olumlu/olumsuz kullanıcı raporu bulunamadı. Yazar profilinin modeli göstermesi bağımsız ölçüm sayılmadı.",
+      "unknowns": [
+        "Açık lisans",
+        " kapalı SFT verisi",
+        " bağımsız tekrar",
+        " geniş görev ve kullanıcı deneyimi."
+      ],
+      "sources": [
+        {
+          "url": "https://aclanthology.org/2026.sigturk-1.17",
+          "title": "MODA (SIGTURK 2026; Qwen2.5-7B tabanlı Türkçe LLM) developer",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://aclanthology.org/2026.sigturk-1.17.pdf",
+          "title": "MODA:SIGTURK2026 tam makale ve kaynak paylaşımı",
+          "type": "developer_paper",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/mertege/moda",
+          "title": "MODA web kartı açılamadı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "inaccessible"
+        },
+        {
+          "url": "https://huggingface.co/api/models/mertege/moda",
+          "title": "mertege/moda canlı API kimlik/hash",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": [
+            "https://aclanthology.org/2026.sigturk-1.17",
+            "https://aclanthology.org/2026.sigturk-1.17.pdf"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz gerçek deneyim arandı; bulunmama kalite kanıtı değildir.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam aday/aile adıyla YouTube ve sosyal açık web tarandı; doğrulanan ek duyurular kaynaklarda.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Açık API, profil ve duyuru takibi; eğitim tarihi ile dosya tarihi ayrıldı.",
+          "urls": [
+            "https://huggingface.co/api/models/mertege/moda"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"MODA\" \"SIGTURK\" 2026 Turkish model",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"MODA\" \"mertege\" model review youtube linkedin",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "mertege/moda",
+          "url": "https://huggingface.co/mertege/moda",
+          "status": "API okundu;hash 3009d9f89b97621d8aa1285811ca1cb7567b9ec3;son dosya değişikliği 2025-10-27T15:16:40Z. Kart inceleme sınırı ilgili alanlarda."
+        }
+      ]
+    },
+    {
+      "record_id": 143,
+      "id": "Huseyin/teknofest-2025-turkish-edu",
+      "name": "Huseyin/teknofest-2025-turkish-edu (Teknofest yarışma modeli)",
+      "category": "LLM-genel",
+      "kind": "model",
+      "creator": "Huseyin",
+      "plain": "Katalogda bağlantısı eksik eğitim modeli Huseyin/teknofest-2025-turkish-edu ile çözüldü. TEKNOFEST2025 yarışması için Qwen 3-8B üzerine LoRA uyarlaması olarak tanıtılıyor. Yarışma için hazırlanması derece, başarılı öğrenci kullanımı veya güvenli eğitim ürünü kanıtı değildir.",
+      "claims": [
+        {
+          "text": "Geliştirici eğitim teknolojilerine yönelik Türkçe Qwen 3 uyarlaması tanımlıyor; görev kalite skoru doğrulanmadı.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://huggingface.co/Huseyin/teknofest-2025-turkish-edu"
+        }
+      ],
+      "training": "Kart Qwen 3-8B, Türkçe eğitim alanı ve LoRA bildiriyor; Huseyin/final 2 veri kümesine bağlantı var. Kartta yeterli eğitim adımı, örnek seçimi veya bağımsız değerlendirme protokolü bulunmadı.",
+      "version": "CanlıAPI son dosya değişikliği 2025-08-19T19:47:31Z. Bu eğitim tarihi değildir. Kontrol edilen kamu kapsamı dışındaki sürümlere en son garantisi verilmez. Sonraki v 2 depomodeli 20Ağustos 2025 tarihli;ayrı hash members alanında.",
+      "revision": "7cef65a7c0f38caec7999355f46e0e2d2773a3ab",
+      "try_it": "İleride v 1/v 2 ve temel Qwen aynı sabit sorularda denenmeli. Doğru bilgi kadar yaşa uygun açıklama ve hatalı önkabule tepki de ayrı izlenmeli.",
+      "demo_url": null,
+      "independent": "Bağımsız olumlu/olumsuz kullanıcı deneyi ve özgün video bulunamadı. Depoda model dosyaları ve sonraki v 2 üyesi görülüyor; dosyaların yayımlanması gerçek öğretim başarısı veya çalışır hizmet olarak sunulmadı.",
+      "unknowns": [
+        "Eğitim tarifi",
+        " öğrenci düzeyi ve görev kapsamı",
+        " v2 farkları",
+        " bağımsız ölçüm",
+        " canlı demo."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/Huseyin/teknofest-2025-turkish-edu",
+          "title": "TEKNOFEST Türkçe eğitim modeli kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Huseyin/teknofest-2025-turkish-edu-v2/tree/main",
+          "title": "TEKNOFEST eğitim v2 dosya ağacı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Huseyin/teknofest-2025-turkish-edu",
+          "title": "Huseyin/teknofest-2025-turkish-edu canlı API kimlik/hash",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Huseyin/teknofest-2025-turkish-edu-v2",
+          "title": "Huseyin/teknofest-2025-turkish-edu-v2 canlı API kimlik/hash",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": [
+            "https://huggingface.co/Huseyin/teknofest-2025-turkish-edu"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz gerçek deneyim arandı; bulunmama kalite kanıtı değildir.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam aday/aile adıyla YouTube ve sosyal açık web tarandı; doğrulanan ek duyurular kaynaklarda.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Açık API, profil ve duyuru takibi; eğitim tarihi ile dosya tarihi ayrıldı.",
+          "urls": [
+            "https://huggingface.co/Huseyin/teknofest-2025-turkish-edu-v2/tree/main",
+            "https://huggingface.co/api/models/Huseyin/teknofest-2025-turkish-edu",
+            "https://huggingface.co/api/models/Huseyin/teknofest-2025-turkish-edu-v2"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Huseyin/teknofest-2025-turkish-edu\" review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "Huseyin/teknofest-2025-turkish-edu",
+          "url": "https://huggingface.co/Huseyin/teknofest-2025-turkish-edu",
+          "status": "API okundu;hash 7cef65a7c0f38caec7999355f46e0e2d2773a3ab;son dosya değişikliği 2025-08-19T19:47:31Z. Kart da okundu."
+        },
+        {
+          "name": "Huseyin/teknofest-2025-turkish-edu-v2",
+          "url": "https://huggingface.co/Huseyin/teknofest-2025-turkish-edu-v2",
+          "status": "API okundu;hash ceff3593685636a3e6bfe7582792e556b4c01968;son dosya değişikliği 2025-08-20T13:46:15Z. Kart da okundu."
+        }
+      ]
+    },
+    {
+      "record_id": 145,
+      "id": "catalog-145",
+      "name": "TDK büyük dil modeli + Ulusal Türkiye Derlemi",
+      "category": "LLM-genel",
+      "kind": "product",
+      "creator": "Türk Dil Kurumu; HAVELSAN işbirliği",
+      "plain": "Bu kayıt TDK'nin derlem, dijital sözlük ve dil modeli geliştirme çalışmalarını bir araya getiriyor. Ulusal derlem model ağırlığı değildir; sözlükte bir milyon söz varlığı hedefi de bir milyon eğitim tokenı veya parametre anlamına gelmez.",
+      "claims": [
+        {
+          "text": "TDK verileriyle derlem tabanlı sözlük ve büyük dil modeli geliştirme projesi resmî olarak duyurulmuş.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://www.cnbce.com/teknoloji/tdk-yapay-zekaya-turkce-ogretecek-1-milyon-kelimelik-sozluk-buyuk-dil-modeli-ve-derlem-hazirlaniyor-h12344"
+        }
+      ],
+      "training": "TDK haberinde geniş arşivin dijitalleştirilmesi ve derlem tabanlı sözlük/model projesi anlatılıyor. HAVELSAN resmî sosyal duyurusu MAIN ile verilerin işlenmesini doğruluyor. Bitmiş yeni model mimarisi, lisansı ve eğitim reçetesi açıklanmış bulunmadı.",
+      "version": "Kontrol 2026-10-23. Sabit açık ağırlık sürümü doğrulanmadı. Dosya/profil tarihi yeni eğitim tarihi değildir; kontrol edilen kamu kapsamı dışındaki takip sürümleri için en son garantisi yok.",
+      "revision": "Açık sabit ağırlık özeti doğrulanamadı.",
+      "try_it": "Açık model deneme yolu doğrulanmadı. İleride derlem kaynağı ile MAIN platformu ve olası yeni ağırlık sürümü birbirinden ayrılarak değerlendirilmelidir.",
+      "demo_url": null,
+      "independent": "Bağımsız olumlu/olumsuz model deneyimi yok. Sosyal yorumlar çoğunlukla tebrik ve ekosistem önerisi; çalışan model değerlendirmesi değil. CNBC-e haberi kurum yöneticisinin hedeflerini aktarıyor; bağımsız benchmark sayılamaz.",
+      "unknowns": [
+        "Derlemin açık sürümü",
+        " model kimliği",
+        " erişim",
+        " telif/lisans koşulları",
+        " kamuya açıklanan görev sonuçları."
+      ],
+      "sources": [
+        {
+          "url": "https://www.cnbce.com/teknoloji/tdk-yapay-zekaya-turkce-ogretecek-1-milyon-kelimelik-sozluk-buyuk-dil-modeli-ve-derlem-hazirlaniyor-h12344",
+          "title": "TDK büyük dil modeli + Ulusal Türkiye Derlemi news",
+          "type": "news",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/havelsan_tdk-havelsan-main-activity-7342136186150227969-j9-m",
+          "title": "HAVELSAN:TDK proje duyurusu ve yorumlar",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tdk.gov.tr/icerik/basindan/tarihi-projede-imzalar-atildi-turk-dili-bilgi-sistemi-projesi-turk-dil-kurumu-ile-havelsan-is-birliginde-basliyor/",
+          "title": "TDK proje haberi:502",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "inaccessible"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": [
+            "https://tr.linkedin.com/posts/havelsan_tdk-havelsan-main-activity-7342136186150227969-j9-m"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz gerçek deneyim arandı; bulunmama kalite kanıtı değildir.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Gerçek geliştirici sosyal duyurusu açılıp okundu; tanıtım bağımsız deney sayılmadı.",
+          "urls": [
+            "https://tr.linkedin.com/posts/havelsan_tdk-havelsan-main-activity-7342136186150227969-j9-m"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Resmî proje, ürün veya duyuru durumu arandı; sabit ağırlık sürümü ve ürünün erişim durumu ayrıldı.",
+          "urls": [
+            "https://www.cnbce.com/teknoloji/tdk-yapay-zekaya-turkce-ogretecek-1-milyon-kelimelik-sozluk-buyuk-dil-modeli-ve-derlem-hazirlaniyor-h12344",
+            "https://tr.linkedin.com/posts/havelsan_tdk-havelsan-main-activity-7342136186150227969-j9-m"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "TDK Ulusal Türkiye Derlemi büyük dil modeli HAVELSAN 2026",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 147,
+      "id": "catalog-147",
+      "name": "MEBİ / KANKA, EBA Öğrenci Asistanı",
+      "category": "LLM-genel",
+      "kind": "product",
+      "creator": "Millî Eğitim Bakanlığı",
+      "plain": "MEBİ bir öğrenme platformu, KANKA ise bu platformda içerik bulma ve rehberlik için sunulan sanal asistandır. EBA öğrenci asistanı ayrı ürün bağlamıdır; aynı temel model veya aynı sürüm kullandıkları doğrulanmadı. Bunlar indirilebilir açık LLM depoları değildir.",
+      "claims": [
+        {
+          "text": "MEB, KANKA'nın öğrencileri ihtiyaç duydukları içeriklere yönlendirdiğini bildiriyor.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://seyhan.meb.gov.tr/www/mebi-bireysel-ogrenme-platformu/icerik/2491"
+        }
+      ],
+      "training": "Resmî MEB sayfası platform ve içerik yönlendirme işlevini açıklıyor. Parametre, temel model, eğitim verisi, ağırlık lisansı ve sürüm hashleri açıklanmamış. Uygulamadaki bütün eğitim materyali model eğitimi sayılmaz.",
+      "version": "Kontrol 2026-10-23. Sabit açık ağırlık sürümü doğrulanmadı. Dosya/profil tarihi yeni eğitim tarihi değildir; kontrol edilen kamu kapsamı dışındaki takip sürümleri için en son garantisi yok.",
+      "revision": "Açık sabit ağırlık özeti doğrulanamadı.",
+      "try_it": "Resmî platforma EBA/e-Devlet/MEBBİS kimliğiyle erişim yolları var. Bu araştırmada giriş yapılmadı, öğrenci verisi girilmedi; canlı kabul ayrı aşamadır.",
+      "demo_url": "https://mebi.eba.gov.tr/",
+      "independent": "Reddit'te MEBİ özetlerini yararlı bulan ama deneme sorularını eleştiren gerçek yorumlar var. EBA başlığında sayfa yüklenmemesi ve asistanın cevap yazmaması bildirilmiş. Bunlar ürün deneyimi; hangi iç modelin hatalı olduğunu kanıtlamıyor.",
+      "unknowns": [
+        "İç model kimlikleri",
+        " güncel ürün sürümleri",
+        " asistan yanıt kalitesi",
+        " bağımsız kontrollü eğitim etkisi."
+      ],
+      "sources": [
+        {
+          "url": "https://seyhan.meb.gov.tr/www/mebi-bireysel-ogrenme-platformu/icerik/2491",
+          "title": "MEB:MEBİ ve KANKA resmî tanıtımı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.reddit.com/r/liseliler/comments/1lcpqm3/mebi/",
+          "title": "MEBİ:özetler ve denemeler kullanıcı deneyimleri",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.reddit.com/r/liseliler/comments/1w12x35/ebaya_g%C3%BCncelleme_gelmi%C5%9F/",
+          "title": "EBA güncelleme:yüklenme ve asistan şikâyeti",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": [
+            "https://seyhan.meb.gov.tr/www/mebi-bireysel-ogrenme-platformu/icerik/2491"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Olumlu ve olumsuz gerçek deneyim arandı; bulunmama kalite kanıtı değildir.",
+          "urls": [
+            "https://www.reddit.com/r/liseliler/comments/1lcpqm3/mebi/",
+            "https://www.reddit.com/r/liseliler/comments/1w12x35/ebaya_g%C3%BCncelleme_gelmi%C5%9F/"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam aday/aile adıyla YouTube ve sosyal açık web tarandı; doğrulanan ek duyurular kaynaklarda.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Resmî proje, ürün veya duyuru durumu arandı; sabit ağırlık sürümü ve ürünün erişim durumu ayrıldı.",
+          "urls": [
+            "https://seyhan.meb.gov.tr/www/mebi-bireysel-ogrenme-platformu/icerik/2491"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "MEBİ KANKA EBA öğrenci asistanı deneyim şikayet youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 149,
+      "id": "catalog-149",
+      "name": "e-Devlet yapay zekâ asistanı",
+      "category": "LLM-genel",
+      "kind": "product",
+      "creator": "Kamu kurumları; tam uygulayıcı kimliği açık değil",
+      "plain": "e-Devlet yapay zekâ asistanı kaydı yayımlanmış bir model deposuna değil, e-Devlet'e entegre sistem tasarımı haberine dayanıyor. Haberde gelecekte yapılacak bölüm ve yapay zekâ okuryazarlığı yönlendirmesi anlatılıyor. Var olan bütün e-Devlet yardım hizmetleri bu projeyle eşitlenemez.",
+      "claims": [
+        {
+          "text": "16Temmuz 2026 haberi entegre yapay zekâ bölümünün tasarlanacağı açıklamasını aktarıyor; bugün genel erişim kanıtı değil.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://gazeteoksijen.com/turkiye/e-devlete-yapay-zeka-geliyor-282703"
+        }
+      ],
+      "training": "Temel model, eğitim verisi, parametre, açık lisans ve ağırlık sürümü doğrulanmadı. Duyurulan kamu hizmeti ile eğitilmiş temel model teknik olarak farklı şeylerdir; haber eğitim yöntemini belgelemiyor.",
+      "version": "Kontrol 2026-10-23. Sabit açık ağırlık sürümü doğrulanmadı. Dosya/profil tarihi yeni eğitim tarihi değildir; kontrol edilen kamu kapsamı dışındaki takip sürümleri için en son garantisi yok.",
+      "revision": "Açık sabit ağırlık özeti doğrulanamadı.",
+      "try_it": "Bu turda kamuya açık çalışan demo doğrulanmadı. İleride kaynak kurum ve uygulama adı netleşmeden e-Devlet hesabıyla deneme veya özel başvuru bilgisi paylaşılmamalı.",
+      "demo_url": null,
+      "independent": "Bağımsız olumlu/olumsuz gerçek kullanım ve video deneyimi arandı; bu tam uygulama kimliğine ait doğrulanmış deney bulunmadı. Haber yorumları ya da mevcut e-Devlet şikâyetleri yeni asistanın kalitesine aktarılmadı.",
+      "unknowns": [
+        "Resmî ürün sayfası",
+        " uygulayıcı",
+        " çalışan erişim",
+        " temel model ve sürüm",
+        " bağımsız görev sonuçları."
+      ],
+      "sources": [
+        {
+          "url": "https://gazeteoksijen.com/turkiye/e-devlete-yapay-zeka-geliyor-282703",
+          "title": "e-Devlet yapay zekâ asistanı news",
+          "type": "news",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "searched_not_found",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": []
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz gerçek deneyim arandı; bulunmama kalite kanıtı değildir.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam aday/aile adıyla YouTube ve sosyal açık web tarandı; doğrulanan ek duyurular kaynaklarda.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Resmî proje, ürün veya duyuru durumu arandı; sabit ağırlık sürümü ve ürünün erişim durumu ayrıldı.",
+          "urls": [
+            "https://gazeteoksijen.com/turkiye/e-devlete-yapay-zeka-geliyor-282703"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "e-Devlet yapay zeka asistanı 2026 deneyim resmi",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"e-Devlet\" \"yapay zeka\" \"okuryazarlık\" site:turkiye.gov.tr OR site:sanayi.gov.tr",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 150,
+      "id": "catalog-150",
+      "name": "Türkçe Büyük Dil Temel Modeli Sektörel Uyarlama Çağrısı; Ortak Türk Dilleri LLM (2027); KAMAG 1007 Kamu Yapay Zekâ Ekosistemi; 2026–2030 YZ Eylem Planı",
+      "category": "LLM-genel",
+      "kind": "unknown",
+      "creator": "Sanayi ve Teknoloji Bakanlığı; TÜBİTAK ve ilgili kamu kurumları",
+      "plain": "Bu kayıt indirilebilir tek model değil, destek çağrıları ve kamu politika hedeflerinin birleşimidir. Sektörel uyarlama çağrısı, KAMAG1007, ortak Türk dilleri modeli hedefi ve 2026–2030 planı ayrı belgeler gerektirir. Plan yayımlanması hedeflerin gerçekleştiği anlamına gelmez.",
+      "claims": [
+        {
+          "text": "Sektörel çağrı ve ortak Türk dilleri modeli hedefi kamu duyuruları ve plan haberinde belgeleniyor.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://webrazzi.com/2026/08/18/turkiye-nin-2026-2030-yapay-zek-eylem-plani-yururluge-girdi/"
+        }
+      ],
+      "training": "Çağrılar Türkçe modellerin sektörel uyarlanması, çok modlu yetenek ve uygulama geliştirilmesini hedefliyor. Ortak Türk dilleri modeli için 2027 hedefi bitmiş eğitim veya bugünkü açık ağırlık sayılmaz. Bu kayda ortak parametre/lisans verilemez.",
+      "version": "Kontrol 2026-10-23. Sabit açık ağırlık sürümü doğrulanmadı. Dosya/profil tarihi yeni eğitim tarihi değildir; kontrol edilen kamu kapsamı dışındaki takip sürümleri için en son garantisi yok.",
+      "revision": "Açık sabit ağırlık özeti doğrulanamadı.",
+      "try_it": "Deneme yerine kaynak proje ve yayımlanan çıktı takip edilmeli. Bu araştırma hibe başvurusu, harcama, iletişim veya başvuru koşulları hakkında hukuki değerlendirme içermedi.",
+      "demo_url": null,
+      "independent": "Program ve plan için model kullanıcı yorumu doğrudan uygulanabilir ölçüt değildir. Tam başlıklarla arama yapıldı; tek ürünmüş gibi bağımsız olumlu/olumsuz deneyim bulunmadı. Haberdeki ekonomik hedefler model başarı puanı olarak kullanılmadı.",
+      "unknowns": [
+        "KAMAG1007 alt çağrılarının ayrı kapsamı",
+        " resmî planın tam metni",
+        " sonuç projelerinin teslim durumu."
+      ],
+      "sources": [
+        {
+          "url": "https://webrazzi.com/2026/08/18/turkiye-nin-2026-2030-yapay-zek-eylem-plani-yururluge-girdi/",
+          "title": "Türkçe Büyük Dil Temel Modeli Sektörel Uyarlama Çağrısı; Ortak Türk Dilleri LLM (2027); KAMAG 1007 Kamu Yapay Zekâ Ekosistemi; 2026–2030 YZ Eylem Planı news",
+          "type": "news",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://taslak.sdu.edu.tr/projekoord/tr/haber/rekabet-oncesi-is-birligi-projeleri-turkce-buyuk-dil-temel-modeli-sektorel-uyarlama-projesi-cagrisi-basvuruya-acildi-53088h.html",
+          "title": "SDÜ:kamu sektörel uyarlama çağrısı aktarımı",
+          "type": "public_notice",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://rip.sanayi.gov.tr/anasayfa/Home/CagriDuyurusuTBDM",
+          "title": "Asıl çağrı metni:erişim başarısız",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "inaccessible"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "searched_not_found",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": []
+        },
+        {
+          "channel": "community",
+          "status": "not_applicable",
+          "note": "Tek model olmayan dizin/program başlığı. Üye veya somut çıktı için deneyim araştırmasının kapsamı independent alanında açıklandı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam aday/aile adıyla YouTube ve sosyal açık web tarandı; doğrulanan ek duyurular kaynaklarda.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Resmî proje, ürün veya duyuru durumu arandı; sabit ağırlık sürümü ve ürünün erişim durumu ayrıldı.",
+          "urls": [
+            "https://webrazzi.com/2026/08/18/turkiye-nin-2026-2030-yapay-zek-eylem-plani-yururluge-girdi/",
+            "https://taslak.sdu.edu.tr/projekoord/tr/haber/rekabet-oncesi-is-birligi-projeleri-turkce-buyuk-dil-temel-modeli-sektorel-uyarlama-projesi-cagrisi-basvuruya-acildi-53088h.html"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Türkçe Büyük Dil Temel Modeli\" \"Sektörel Uyarlama\" çağrısı",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": []
+    },
+    {
+      "record_id": 167,
+      "id": "catalog-167",
+      "name": "BOUN turna_* ince ayarlı 15 model (özet, NER, NLI…)",
+      "category": "LLM-genel",
+      "kind": "model_family",
+      "creator": "Boğaziçi Üniversitesi TABILAB Language Modeling Group",
+      "plain": "TURNA-FT koleksiyonunda özet, başlık, parafraz, NER, NLI, benzerlik, sözcük türü ve sınıflandırma için 15 ayrı uyarlama doğrulandı. Bunlar 15 genel sohbet asistanı değildir. Görev modelini seçmek, ana TURNA'yı rastgele sohbet istemiyle kullanmaktan farklıdır.",
+      "claims": [
+        {
+          "text": "Resmî koleksiyon ve API15 görev uyarlamasının kimliğini doğruluyor; bütün üyelerin kalitesi doğrulanmış değil.",
+          "evidence": "Kaynakta bildirilen iddia; model bu oturumda çalıştırılmadı ve ölçüm tekrarlanmadı.",
+          "source": "https://huggingface.co/collections/boun-tabi-LMG/turna-ft"
+        }
+      ],
+      "training": "Aile TURNA encoder-decoder tabanına dayanıyor. Bu turda 15 üye koleksiyon ve API listesiyle sayıldı; her birinin eğitim reçetesi ayrı okunmadı. MLSUM özet üyesinin README isteği 404 döndü; eksik belgeden eğitim ayrıntısı türetilmedi.",
+      "version": "Resmî koleksiyon ve canlı API 15 turna_ üyesi gösteriyor. MLSUM örnek üyenin dosya tarihi 2024-05-01T10:40:03Z; hash members alanında. Diğer 14 üyede ayrı hash alınmadı; tarih yeni eğitim sayılmaz.",
+      "revision": "Açık sabit ağırlık özeti doğrulanamadı.",
+      "try_it": "İleride özet için MLSUM, NER için uygun veri kökenli üye seçilmeli. Ana TURNA'nın akademik ticari olmayan koşulu nedeniyle türev lisansları tek tek netleştirilmelidir.",
+      "demo_url": null,
+      "independent": "Tam görev adıyla kullanıcı/video araması bağımsız olumlu/olumsuz deneyim getirmedi. Yazarın TURNA duyurusunun yeniden paylaşılması ilgi göstergesi,15 üyenin kabul testi değil. Ana model makalesindeki sonuçlar geliştirici deneyleridir.",
+      "unknowns": [
+        "Her üyenin lisansı ve eğitim ayrıntıları",
+        " bağımsız görev testleri",
+        " örnek giriş/çıkış şablonları."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/boun-tabi-LMG",
+          "title": "BOUN turna_* ince ayarlı 15 model (özet, NER, NLI…) developer",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/collections/boun-tabi-LMG/turna-ft",
+          "title": "TURNA-FT resmî15üye koleksiyonu",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=boun-tabi-LMG&limit=100",
+          "title": "BOUN model listesi canlı API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/altanatabarut_turna-a-hugging-face-space-by-boun-tabi-lmg-activity-7157324351518695425-Pixr",
+          "title": "TURNA geliştirici duyurusunun yeniden paylaşımı",
+          "type": "social_repost",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/boun-tabi-LMG/turna_summarization_mlsum",
+          "title": "boun-tabi-LMG/turna_summarization_mlsum canlı API kimlik/hash",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/boun-tabi-LMG/turna_summarization_mlsum/raw/main/README.md",
+          "title": "MLSUM görev üyesi README:404",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "inaccessible"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil kart/profil/duyuru arandı; tam okunan kaynaklar listelendi.",
+          "urls": [
+            "https://huggingface.co/boun-tabi-LMG",
+            "https://huggingface.co/collections/boun-tabi-LMG/turna-ft"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz gerçek deneyim arandı; bulunmama kalite kanıtı değildir.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Geliştirici duyurusunun sosyal yeniden paylaşımı açılıp okundu; bağımsız görev kalitesi deneyi değil.",
+          "urls": [
+            "https://tr.linkedin.com/posts/altanatabarut_turna-a-hugging-face-space-by-boun-tabi-lmg-activity-7157324351518695425-Pixr"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Açık API, profil ve duyuru takibi; eğitim tarihi ile dosya tarihi ayrıldı.",
+          "urls": [
+            "https://huggingface.co/api/models?author=boun-tabi-LMG&limit=100",
+            "https://huggingface.co/api/models/boun-tabi-LMG/turna_summarization_mlsum"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"turna_summarization_mlsum\" review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "boun-tabi-LMG/turna_summarization_mlsum",
+          "url": "https://huggingface.co/boun-tabi-LMG/turna_summarization_mlsum",
+          "status": "API okundu;hash cfcd3f0a4074396849a3d713e3d2eb9a8142de4f;son dosya değişikliği 2024-05-01T10:40:03Z. Kart inceleme sınırı ilgili alanlarda."
+        },
+        {
+          "name": "boun-tabi-LMG/turna_summarization_tr_news",
+          "url": "https://huggingface.co/boun-tabi-LMG/turna_summarization_tr_news",
+          "status": "Koleksiyon/API kimliği doğrulandı; üyenin kart, hash, eğitim ve kullanıcı incelemesi açık."
+        },
+        {
+          "name": "boun-tabi-LMG/turna_paraphrasing_opensubtitles",
+          "url": "https://huggingface.co/boun-tabi-LMG/turna_paraphrasing_opensubtitles",
+          "status": "Koleksiyon/API kimliği doğrulandı; üyenin kart, hash, eğitim ve kullanıcı incelemesi açık."
+        },
+        {
+          "name": "boun-tabi-LMG/turna_paraphrasing_tatoeba",
+          "url": "https://huggingface.co/boun-tabi-LMG/turna_paraphrasing_tatoeba",
+          "status": "Koleksiyon/API kimliği doğrulandı; üyenin kart, hash, eğitim ve kullanıcı incelemesi açık."
+        },
+        {
+          "name": "boun-tabi-LMG/turna_title_generation_tr_news",
+          "url": "https://huggingface.co/boun-tabi-LMG/turna_title_generation_tr_news",
+          "status": "Koleksiyon/API kimliği doğrulandı; üyenin kart, hash, eğitim ve kullanıcı incelemesi açık."
+        },
+        {
+          "name": "boun-tabi-LMG/turna_ner_milliyet",
+          "url": "https://huggingface.co/boun-tabi-LMG/turna_ner_milliyet",
+          "status": "Koleksiyon/API kimliği doğrulandı; üyenin kart, hash, eğitim ve kullanıcı incelemesi açık."
+        },
+        {
+          "name": "boun-tabi-LMG/turna_ner_wikiann",
+          "url": "https://huggingface.co/boun-tabi-LMG/turna_ner_wikiann",
+          "status": "Koleksiyon/API kimliği doğrulandı; üyenin kart, hash, eğitim ve kullanıcı incelemesi açık."
+        },
+        {
+          "name": "boun-tabi-LMG/turna_nli_nli_tr",
+          "url": "https://huggingface.co/boun-tabi-LMG/turna_nli_nli_tr",
+          "status": "Koleksiyon/API kimliği doğrulandı; üyenin kart, hash, eğitim ve kullanıcı incelemesi açık."
+        },
+        {
+          "name": "boun-tabi-LMG/turna_semantic_similarity_stsb_tr",
+          "url": "https://huggingface.co/boun-tabi-LMG/turna_semantic_similarity_stsb_tr",
+          "status": "Koleksiyon/API kimliği doğrulandı; üyenin kart, hash, eğitim ve kullanıcı incelemesi açık."
+        },
+        {
+          "name": "boun-tabi-LMG/turna_pos_boun",
+          "url": "https://huggingface.co/boun-tabi-LMG/turna_pos_boun",
+          "status": "Koleksiyon/API kimliği doğrulandı; üyenin kart, hash, eğitim ve kullanıcı incelemesi açık."
+        },
+        {
+          "name": "boun-tabi-LMG/turna_pos_imst",
+          "url": "https://huggingface.co/boun-tabi-LMG/turna_pos_imst",
+          "status": "Koleksiyon/API kimliği doğrulandı; üyenin kart, hash, eğitim ve kullanıcı incelemesi açık."
+        },
+        {
+          "name": "boun-tabi-LMG/turna_classification_17bintweet_sentiment",
+          "url": "https://huggingface.co/boun-tabi-LMG/turna_classification_17bintweet_sentiment",
+          "status": "Koleksiyon/API kimliği doğrulandı; üyenin kart, hash, eğitim ve kullanıcı incelemesi açık."
+        },
+        {
+          "name": "boun-tabi-LMG/turna_title_generation_mlsum",
+          "url": "https://huggingface.co/boun-tabi-LMG/turna_title_generation_mlsum",
+          "status": "Koleksiyon/API kimliği doğrulandı; üyenin kart, hash, eğitim ve kullanıcı incelemesi açık."
+        },
+        {
+          "name": "boun-tabi-LMG/turna_classification_tr_product_reviews",
+          "url": "https://huggingface.co/boun-tabi-LMG/turna_classification_tr_product_reviews",
+          "status": "Koleksiyon/API kimliği doğrulandı; üyenin kart, hash, eğitim ve kullanıcı incelemesi açık."
+        },
+        {
+          "name": "boun-tabi-LMG/turna_classification_ttc4900",
+          "url": "https://huggingface.co/boun-tabi-LMG/turna_classification_ttc4900",
+          "status": "Koleksiyon/API kimliği doğrulandı; üyenin kart, hash, eğitim ve kullanıcı incelemesi açık."
+        }
+      ]
+    }
+  ]
+}

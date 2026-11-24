@@ -1,0 +1,712 @@
+{
+  "checked_at": "2026-10-23",
+  "policy": "Terk edilmiş, geri çekilmiş veya kullanılabilir erişimi kalmamış adayları çıkar; devamı varsa güncel sürümü göster. Yorum eksikliği tek başına eleme nedeni değildir.",
+  "excluded": [],
+  "replacements": [
+    {
+      "record_id": 67,
+      "reason": "Fahrettin/Fettah resmî kaynaktan katkıcı talebiyle kaldırılmış; bunlar çıkarıldı, erişilebilir DFKI üyesi korundu.",
+      "evidence": [
+        "https://huggingface.co/rhasspy/piper-voices/commit/b145f2ac26522d6a2ccde0164b7b0e48b1e3199c"
+      ],
+      "catalog": {
+        "ad": "Piper Türkçe sesleri · DFKI ve diğer adaylar"
+      },
+      "research": {
+        "name": "Piper Türkçe sesleri · DFKI medium ve diğer adaylar",
+        "plain": "Piper için erişilebilir Türkçe DFKI medium ses kartı var. Tek konuşmacı ve 22.050 Hz çıkış bildiriyor. Diğer adayların dosya, lisans ve kalite bilgileri ayrıca incelenmeli; hepsi aynı ses değildir.",
+        "training": "DFKI medium, İngilizce lessac sesinden ince ayarlı. Veri kartı CC BY-NC-SA 4.0 gösteriyor; depo üst lisans etiketi her sesin koşullarını tek başına çözmez.",
+        "version": "DFKI medium Türkçe kartına erişildi. Depo üst sürümü tek bir sesin yeni eğitimi sayılmaz; diğer erişilebilir üyelerin sürüm incelemesi açık.",
+        "revision": null,
+        "try_it": "Piper motoru ve DFKI medium ses dosyasıyla yerel kullanım yolu var. MODEL_CARD, veri ve lisans bağlantısını veriyor. Bu çalışmada ses dosyası indirilmedi veya denenmedi.",
+        "independent": "Aileye ait eski uygulama yorumları DFKI sesinin kalite kanıtı sayılmadı. DFKI için girdisi ve sürümü belli bağımsız dinleme karşılaştırması doğrulanmadı.",
+        "unknowns": [
+          "99eren99, dcx514ai, Cem ve diğer adayların ayrı güncel dosya, lisans ve kalite incelemesi açık.",
+          "DFKI için insan dinlemesi, sayı telaffuzu ve hız henüz ölçülmedi."
+        ],
+        "members": [
+          {
+            "name": "rhasspy DFKI medium",
+            "url": "https://huggingface.co/rhasspy/piper-voices/raw/main/tr/tr_TR/dfki/medium/MODEL_CARD",
+            "status": "Türkçe MODEL_CARD okundu; model çalıştırılmadı."
+          },
+          {
+            "name": "99eren99, dcx514ai, Cem ve diğer adaylar",
+            "url": null,
+            "status": "Ayrı dosya/kimlik/lisans incelemesi açık; kaliteleri doğrulanmış sayılmaz."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://huggingface.co/rhasspy/piper-voices/raw/main/tr/tr_TR/dfki/medium/MODEL_CARD",
+            "title": "Piper DFKI medium Türkçe ses kartı",
+            "type": "birincil",
+            "date": null,
+            "checked_at": "2026-10-23",
+            "status": "read"
+          }
+        ],
+        "channels": [
+          {
+            "channel": "developer",
+            "status": "checked",
+            "note": "Erişilebilir DFKI medium kartı okundu; kaldırılmış seslerin kullanıcı yorumları bu üyeye taşınmadı.",
+            "urls": [
+              "https://huggingface.co/rhasspy/piper-voices/raw/main/tr/tr_TR/dfki/medium/MODEL_CARD"
+            ]
+          },
+          {
+            "channel": "community",
+            "status": "searched_not_found",
+            "note": "Aile araştırması bu güncel üye için girdisi ve sürümü belli bağımsız kalite deneyi doğrulamadı. Yorum eksikliği eleme nedeni sayılmadı.",
+            "urls": []
+          },
+          {
+            "channel": "social_video",
+            "status": "searched_not_found",
+            "note": "Aile ve geliştirici tarandı; bu güncel üye için doğrulanmış bağımsız video deneyi yok. Video izlenmedi.",
+            "urls": []
+          },
+          {
+            "channel": "version",
+            "status": "checked",
+            "note": "DFKI medium Türkçe kartına erişildi. Depo üst sürümü tek bir sesin yeni eğitimi sayılmaz; diğer erişilebilir üyelerin sürüm incelemesi açık.",
+            "urls": [
+              "https://huggingface.co/rhasspy/piper-voices/raw/main/tr/tr_TR/dfki/medium/MODEL_CARD"
+            ]
+          }
+        ]
+      },
+      "hide_legacy": true
+    },
+    {
+      "record_id": 73,
+      "reason": "Geliştirmenin durduğu resmî olarak açıklanan Antalia-1 yerine erişilebilir Antalia-2 Mini gösterildi.",
+      "evidence": [
+        "https://huggingface.co/cloud0day3/antalia-1/raw/main/README.md",
+        "https://huggingface.co/cloud0day3/antalia-mini/raw/main/README.md"
+      ],
+      "catalog": {
+        "ad": "Antalia-2 Mini · 1.0.1"
+      },
+      "research": {
+        "id": "cloud0day3/antalia-mini",
+        "name": "Antalia-2 Mini 1.0.1",
+        "kind": "model",
+        "creator": "cloud0day3 / Patientdesk AI",
+        "plain": "Küçük, tek sentetik erkek sesli Türkçe metinden konuşmaya modelidir. Geliştirici, işlemcide gerçek zamandan hızlı çalıştığını ve sayı, tarih, tutar ile kısaltmaları okunuşa çevirdiğini söylüyor.",
+        "claims": [
+          {
+            "text": "7,62 milyon parametreyle 48 kHz konuşma üretimi ve işlemcide gerçek zamandan hızlı kullanım hedefleniyor.",
+            "evidence": "Geliştirici beyanı; bu bilgisayarda ölçülmedi.",
+            "source": "https://huggingface.co/cloud0day3/antalia-mini/raw/main/README.md"
+          },
+          {
+            "text": "Sayı, tarih, saat, tutar, kısaltma ve bazı yabancı adları okunuşa çeviren bir normalleştirici içeriyor.",
+            "evidence": "Resmî kartın işlev tarifi; her girdide doğru çalışma kanıtı değil.",
+            "source": "https://huggingface.co/cloud0day3/antalia-mini/raw/main/README.md"
+          }
+        ],
+        "training": "Kart, eğitim verisinde gerçek konuşmacı kaydı olmadığını; sesin sentetik olduğunu ve kod/ağırlıkların Apache-2.0 lisansıyla yayımlandığını söylüyor.",
+        "version": "Antalia-2 Mini 1.0.1; 7,62 milyon parametre, 48 kHz. Resmî kartın gösterdiği sürüm; dosya tarihi yeni eğitim tarihi sayılmadı.",
+        "revision": null,
+        "demo_url": "https://huggingface.co/spaces/cloud0day3/antalia-mini",
+        "try_it": "Hazır tarayıcı demosu bağlantısı ve Python paketi var. Geliştirici, demonun cihazda ONNX Runtime Web ile çalıştığını söylüyor. Demo/model çalıştırılmadı; paket kurulmadı.",
+        "independent": "Güncel Mini için sürümü ve girdisi belli bağımsız dinleyici karşılaştırması bu taramada doğrulanmadı.",
+        "unknowns": [
+          "Türkçe telaffuz, doğallık, uzun metin ve hız bu laboratuvarda ölçülmedi.",
+          "Kartın baştaki ö/ı ve çift sesler için anlattığı düzeltmeler gerçek örneklerle sınanmalı."
+        ],
+        "members": [
+          {
+            "name": "cloud0day3/antalia-mini",
+            "url": "https://huggingface.co/cloud0day3/antalia-mini",
+            "status": "1.0.1 kartı okundu; ses üretilmedi."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://huggingface.co/cloud0day3/antalia-mini/raw/main/README.md",
+            "title": "Antalia-2 Mini 1.0.1 resmî kartı",
+            "type": "birincil",
+            "date": null,
+            "checked_at": "2026-10-23",
+            "status": "read"
+          }
+        ],
+        "channels": [
+          {
+            "channel": "developer",
+            "status": "checked",
+            "note": "Antalia-2 Mini kartı okundu; önceki modelin puanı bu sürüme aktarılmadı.",
+            "urls": [
+              "https://huggingface.co/cloud0day3/antalia-mini/raw/main/README.md"
+            ]
+          },
+          {
+            "channel": "community",
+            "status": "searched_not_found",
+            "note": "Aile araştırması bu güncel üye için girdisi ve sürümü belli bağımsız kalite deneyi doğrulamadı. Yorum eksikliği eleme nedeni sayılmadı.",
+            "urls": []
+          },
+          {
+            "channel": "social_video",
+            "status": "searched_not_found",
+            "note": "Aile ve geliştirici tarandı; bu güncel üye için doğrulanmış bağımsız video deneyi yok. Video izlenmedi.",
+            "urls": []
+          },
+          {
+            "channel": "version",
+            "status": "checked",
+            "note": "Antalia-2 Mini 1.0.1; 7,62 milyon parametre, 48 kHz. Resmî kartın gösterdiği sürüm; dosya tarihi yeni eğitim tarihi sayılmadı.",
+            "urls": [
+              "https://huggingface.co/cloud0day3/antalia-mini/raw/main/README.md"
+            ]
+          }
+        ]
+      },
+      "hide_legacy": true
+    },
+    {
+      "record_id": 109,
+      "reason": "Kullanımdan kaldırılan İngilizce varyant yerine güncel çok dilli v1 yolu gösterildi. Eski Türkçe kullanıcı yorumu yeni v1 kalitesi sayılmadı.",
+      "evidence": [
+        "https://docs.livekit.io/agents/logic/turns/turn-detector/",
+        "https://livekit.com/blog/solving-end-of-turn-detection"
+      ],
+      "catalog": {
+        "ad": "Ses sınıflandırıcıları ve LiveKit Turn Detector v1"
+      },
+      "research": {
+        "name": "Ses sınıflandırıcıları ve LiveKit Turn Detector v1",
+        "plain": "Konuşmanın bittiğini bulma, dili tanıma ve duyguyu sınıflama farklı görevlerdir. LiveKit v1, ses ve anlamı birlikte kullanarak sıra sonunu tahmin eder; resmî duyuruda Türkçe dahil 14 dil belirtiliyor.",
+        "claims": [
+          {
+            "text": "17 Haziran 2026 duyurusundaki LiveKit v1, konuşmayı doğrudan dinleyen ses kodlayıcıları ekliyor; eski metin tabanlı HF modeliyle aynı sürüm değil.",
+            "evidence": "Resmî blog ve güncel belgeler Türkçe dahil 14 dil desteği söylüyor. Bu laboratuvarda ölçülmedi.",
+            "source": "https://livekit.com/blog/solving-end-of-turn-detection"
+          }
+        ],
+        "training": "Güncel LiveKit v1 duyurusu ses kodlayıcısı ve anlam bileşimini açıklıyor. HuBERT duygu ve SpeechBrain dil sınıflayıcıları ayrı model ve eğitimlere sahip.",
+        "version": "LiveKit resmî 17 Haziran 2026 duyurusu v1/v1-mini ses ve anlam bileşimini anlatıyor. Diğer ses sınıflayıcılarının sürümleri ayrı; eski metin modeli puanı bu sürüme taşınmadı.",
+        "revision": null,
+        "try_it": "LiveKit Agents güncel turn detector bütünleştirme belgesi var. Duygu ve dil tanıma için her sınıflayıcının kendi girdi/kod yolunu kullanmak gerekir. Bu modeller burada çalıştırılmadı.",
+        "independent": "Eski metin tabanlı sürüme ait Türkçe kullanıcı karşılaştırması güncel v1 sonucu sayılmadı. v1 için kontrollü bağımsız Türkçe test bu taramada doğrulanmadı.",
+        "unknowns": [
+          "v1 için Türkçe sıra sonu doğruluğu ve gecikme aynı seslerle ölçülmeli.",
+          "Birleşik satırdaki her duygu/dil sınıflayıcı ayrı görev olarak denenmeli."
+        ],
+        "sources": [
+          {
+            "url": "https://huggingface.co/livekit",
+            "title": "Yayın / kurum / topluluk kaynağı",
+            "type": "birincil",
+            "date": null,
+            "checked_at": "2026-10-23",
+            "status": "read"
+          },
+          {
+            "url": "https://huggingface.co/api/models?author=livekit&sort=lastModified&direction=-1&limit=40",
+            "title": "Depo kimliği/sürüm kaydı",
+            "type": "birincil",
+            "date": null,
+            "checked_at": "2026-10-23",
+            "status": "read"
+          },
+          {
+            "url": "https://docs.livekit.io/agents/logic/turns/turn-detector/",
+            "title": "Yayın / kurum / topluluk kaynağı",
+            "type": "birincil",
+            "date": null,
+            "checked_at": "2026-10-23",
+            "status": "read"
+          },
+          {
+            "url": "https://livekit.com/blog/solving-end-of-turn-detection",
+            "title": "Yayın / kurum / topluluk kaynağı",
+            "type": "birincil",
+            "date": null,
+            "checked_at": "2026-10-23",
+            "status": "read"
+          },
+          {
+            "url": "https://huggingface.co/SeaBenSea/hubert-large-turkish-speech-emotion-recognition/raw/main/README.md",
+            "title": "Geliştirici açıklaması",
+            "type": "birincil",
+            "date": null,
+            "checked_at": "2026-10-23",
+            "status": "read"
+          },
+          {
+            "url": "https://huggingface.co/speechbrain/lang-id-voxlingua107-ecapa/raw/main/README.md",
+            "title": "Geliştirici açıklaması",
+            "type": "birincil",
+            "date": null,
+            "checked_at": "2026-10-23",
+            "status": "read"
+          }
+        ],
+        "members": [
+          {
+            "name": "SeaBenSea/hubert-large-turkish-speech-emotion-recognition",
+            "url": "https://huggingface.co/SeaBenSea/hubert-large-turkish-speech-emotion-recognition",
+            "status": "kaynak kartı okundu; çalıştırılmadı"
+          },
+          {
+            "name": "speechbrain/lang-id-voxlingua107-ecapa",
+            "url": "https://huggingface.co/speechbrain/lang-id-voxlingua107-ecapa",
+            "status": "kaynak kartı okundu; çalıştırılmadı"
+          },
+          {
+            "name": "LiveKit Turn Detector v1/v1-mini",
+            "url": "https://docs.livekit.io/agents/logic/turns/turn-detector/",
+            "status": "Güncel resmî belge ve duyuru okundu; denenmedi."
+          }
+        ],
+        "channels": [
+          {
+            "channel": "developer",
+            "status": "checked",
+            "note": "Güncel v1 dokümanı ve blog duyurusu; eski İngilizce varyant aday listesine alınmadı.",
+            "urls": [
+              "https://docs.livekit.io/agents/logic/turns/turn-detector/",
+              "https://livekit.com/blog/solving-end-of-turn-detection"
+            ]
+          },
+          {
+            "channel": "community",
+            "status": "searched_not_found",
+            "note": "Aile araştırması bu güncel üye için girdisi ve sürümü belli bağımsız kalite deneyi doğrulamadı. Yorum eksikliği eleme nedeni sayılmadı.",
+            "urls": []
+          },
+          {
+            "channel": "social_video",
+            "status": "searched_not_found",
+            "note": "Aile ve geliştirici tarandı; bu güncel üye için doğrulanmış bağımsız video deneyi yok. Video izlenmedi.",
+            "urls": []
+          },
+          {
+            "channel": "version",
+            "status": "checked",
+            "note": "LiveKit resmî 17 Haziran 2026 duyurusu v1/v1-mini ses ve anlam bileşimini anlatıyor. Diğer ses sınıflayıcılarının sürümleri ayrı; eski metin modeli puanı bu sürüme taşınmadı.",
+            "urls": [
+              "https://docs.livekit.io/agents/logic/turns/turn-detector/",
+              "https://livekit.com/blog/solving-end-of-turn-detection"
+            ]
+          }
+        ]
+      },
+      "hide_legacy": true
+    },
+    {
+      "record_id": 98,
+      "reason": "Arşivlenmiş Google Turkish Morphology ve artık geliştirilmeyen eski SFST sürümü etkin kapsamdan çıkarıldı; erişilebilir TRmorph xfst/foma kolu korundu.",
+      "evidence": [
+        "https://github.com/google-research/turkish-morphology",
+        "https://raw.githubusercontent.com/coltekin/TRmorph/master/README.md"
+      ],
+      "catalog": {
+        "ad": "TRmorph · Türkçe kök ve ek çözümleme"
+      },
+      "research": {
+        "id": "coltekin/TRmorph",
+        "name": "TRmorph · xfst/foma kolu",
+        "kind": "tool",
+        "creator": "Çağrı Çöltekin ve katkıcılar",
+        "plain": "Türkçe sözcükleri kök ve eklerine çözümleyen kurallı bir araçtır. Hazır sohbet modeli veya eğitilmiş ses modeli değildir; metin işleme hattında kullanılabilir.",
+        "claims": [
+          {
+            "text": "Türkçe biçimbilim çözümlemesi yanında kök bulma, bölümleme ve bilinmeyen sözcük işlemleri için araçlar sunuyor.",
+            "evidence": "Resmî README işlev tarifi; doğruluğu burada ölçülmedi.",
+            "source": "https://raw.githubusercontent.com/coltekin/TRmorph/master/README.md"
+          }
+        ],
+        "training": "xfst/lexc ile tanımlanan kurallar ve foma kullanan sonlu durum yaklaşımı; büyük dil modeli ince ayarı değildir. Depoda MIT lisansı var.",
+        "version": "TRmorph resmî deposunun xfst/foma kolu. İncelenen depo arşivli değil; eski README içindeki geliştirme ifadesi 2026 faaliyeti kanıtı sayılmadı.",
+        "revision": "fbceb1133fbdc51bd63693d448b7cb75672e2256",
+        "try_it": "Resmî deponun foma ve derleme yönergeleriyle yerel kullanım yolu var. Bu oturumda kurulmadı veya çalıştırılmadı.",
+        "independent": "Bu tarama güncel kol için girdisi ve sürümü belli bağımsız karşılaştırma doğrulamadı. Eski yayın/araç atfı güncel kalite kabulü sayılmadı.",
+        "demo_url": null,
+        "unknowns": [
+          "Yeni sözcükler ve günlük yazım hatalarıyla kapsama testi yapılmalı.",
+          "Depo erişimi, 2026 içinde aktif bakım yapıldığı anlamına gelmez."
+        ],
+        "members": [
+          {
+            "name": "TRmorph xfst/foma",
+            "url": "https://github.com/coltekin/TRmorph",
+            "status": "Resmî README ve depo metadata kaydı okundu; çalıştırılmadı."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/coltekin/TRmorph/master/README.md",
+            "title": "TRmorph resmî README",
+            "type": "birincil",
+            "date": null,
+            "checked_at": "2026-10-23",
+            "status": "read"
+          },
+          {
+            "url": "https://api.github.com/repos/coltekin/TRmorph",
+            "title": "TRmorph depo ve arşiv durumu",
+            "type": "birincil",
+            "date": null,
+            "checked_at": "2026-10-23",
+            "status": "read"
+          }
+        ],
+        "channels": [
+          {
+            "channel": "developer",
+            "status": "checked",
+            "note": "Korunan xfst/foma kolunun resmî README dosyası okundu. Eski sürümle karıştırılmadı.",
+            "urls": [
+              "https://raw.githubusercontent.com/coltekin/TRmorph/master/README.md"
+            ]
+          },
+          {
+            "channel": "community",
+            "status": "searched_not_found",
+            "note": "Aile araştırması bu güncel üye için girdisi ve sürümü belli bağımsız kalite deneyi doğrulamadı. Yorum eksikliği eleme nedeni sayılmadı.",
+            "urls": []
+          },
+          {
+            "channel": "social_video",
+            "status": "searched_not_found",
+            "note": "Aile ve geliştirici tarandı; bu güncel üye için doğrulanmış bağımsız video deneyi yok. Video izlenmedi.",
+            "urls": []
+          },
+          {
+            "channel": "version",
+            "status": "checked",
+            "note": "TRmorph resmî deposunun xfst/foma kolu. İncelenen depo arşivli değil; eski README içindeki geliştirme ifadesi 2026 faaliyeti kanıtı sayılmadı.",
+            "urls": [
+              "https://raw.githubusercontent.com/coltekin/TRmorph/master/README.md"
+            ]
+          }
+        ]
+      },
+      "hide_legacy": true
+    },
+    {
+      "record_id": 140,
+      "reason": "Eski V3.2 ana kartı yerine aynı geliştiricinin erişilebilir V6.9-SFT kartı ayrıca okunarak gösterildi. Güncel olması üstünlük kanıtı sayılmadı.",
+      "evidence": [
+        "https://huggingface.co/api/models/SykoSLM/SykoLLM-V6.9-SFT",
+        "https://huggingface.co/SykoSLM/SykoLLM-V6.9-SFT/raw/main/README.md"
+      ],
+      "catalog": {
+        "ad": "SykoLLM · V6.9-SFT"
+      },
+      "research": {
+        "id": "SykoSLM/SykoLLM-V6.9-SFT",
+        "name": "SykoLLM-V6.9-SFT",
+        "kind": "model",
+        "plain": "Küçük bir metin üretme modeli. Geliştirici, V6.9 tabanına talimat örnekleriyle LoRA ince ayarı yapıp ağırlıkları birleştirdiğini açıklıyor. Uzun bağlam ve karmaşık akıl yürütme sınırlarını da belirtiyor.",
+        "claims": [
+          {
+            "text": "Talimat izleme için yaklaşık 416 milyon parametreli modelin 24,4 milyon LoRA parametresi eğitilmiş ve tabana birleştirilmiş.",
+            "evidence": "Geliştirici eğitim tarifi; bağımsız üstünlük puanı yayımlanmış sayılmadı.",
+            "source": "https://huggingface.co/SykoSLM/SykoLLM-V6.9-SFT/raw/main/README.md"
+          }
+        ],
+        "training": "SykoSLM/SykoLLM-v6.9 üzerine Alpaca biçimli talimat verisiyle LoRA; veri kümesinin tam içeriği açıklanmıyor. Kart Apache-2.0 etiketinin varsayılan olduğunu ve taban lisansının ayrıca denetlenmesini söylüyor.",
+        "version": "V6.9-SFT model kartı ve kamu sürüm metadata kaydı kontrol edildi. Ağırlık hash: 401c951913ac7a4d2856795ee222065619e6b88f; dosya değişimi 11 Temmuz 2026. GGUF dönüşüm tarihi yeni eğitim sayılmadı.",
+        "revision": "401c951913ac7a4d2856795ee222065619e6b88f",
+        "try_it": "Resmî kartta Transformers kullanım örneği var; yayımlanan ağırlıklar birleştirilmiş olduğundan ayrı adaptör gerektirmediği açıklanıyor. İleride aynı V6.9 tabanıyla kıyaslanabilir; bu oturumda çalıştırılmadı.",
+        "demo_url": null,
+        "independent": "Eski V3.2 yorumları V6.9 başarısına aktarılmadı. Bu güncel üye için yeniden üretilebilir bağımsız Türkçe görev karşılaştırması doğrulanmadı.",
+        "unknowns": [
+          "Tam eğitim verisi ve taban lisansı netleştirilmeli.",
+          "Kartın bildirdiği 1.024 konum sınırı uzun metinde sınanmalı."
+        ],
+        "members": [
+          {
+            "name": "SykoLLM-V6.9-SFT",
+            "url": "https://huggingface.co/SykoSLM/SykoLLM-V6.9-SFT",
+            "status": "Güncel kart ve API okundu; denenmedi."
+          },
+          {
+            "name": "SykoLLM-v6.9 taban",
+            "url": "https://huggingface.co/SykoSLM/SykoLLM-v6.9",
+            "status": "SFT kartının bildirdiği ata; ayrı taban kartı/lisans incelemesi açık."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://huggingface.co/SykoSLM/SykoLLM-V6.9-SFT/raw/main/README.md",
+            "title": "SykoLLM-V6.9-SFT resmî eğitim ve kullanım kartı",
+            "type": "birincil",
+            "date": null,
+            "checked_at": "2026-10-23",
+            "status": "read"
+          },
+          {
+            "url": "https://huggingface.co/api/models/SykoSLM/SykoLLM-V6.9-SFT",
+            "title": "V6.9-SFT sürüm metadata kaydı",
+            "type": "birincil",
+            "date": null,
+            "checked_at": "2026-10-23",
+            "status": "read"
+          }
+        ],
+        "channels": [
+          {
+            "channel": "developer",
+            "status": "checked",
+            "note": "Eski üye yerine V6.9-SFT kartı ayrıca okundu; kalite puanı aktarılmadı.",
+            "urls": [
+              "https://huggingface.co/SykoSLM/SykoLLM-V6.9-SFT/raw/main/README.md"
+            ]
+          },
+          {
+            "channel": "community",
+            "status": "searched_not_found",
+            "note": "Aile araştırması bu güncel üye için girdisi ve sürümü belli bağımsız kalite deneyi doğrulamadı. Yorum eksikliği eleme nedeni sayılmadı.",
+            "urls": []
+          },
+          {
+            "channel": "social_video",
+            "status": "searched_not_found",
+            "note": "Aile ve geliştirici tarandı; bu güncel üye için doğrulanmış bağımsız video deneyi yok. Video izlenmedi.",
+            "urls": []
+          },
+          {
+            "channel": "version",
+            "status": "checked",
+            "note": "V6.9-SFT model kartı ve kamu sürüm metadata kaydı kontrol edildi. Ağırlık hash: 401c951913ac7a4d2856795ee222065619e6b88f; dosya değişimi 11 Temmuz 2026. GGUF dönüşüm tarihi yeni eğitim sayılmadı.",
+            "urls": [
+              "https://huggingface.co/SykoSLM/SykoLLM-V6.9-SFT/raw/main/README.md"
+            ]
+          }
+        ]
+      },
+      "hide_legacy": true
+    },
+    {
+      "record_id": 106,
+      "reason": "Eski 1.5 yerine ayrı kartı okunan Hy-MT2 gösterildi. Diğer geliştiricilerin modelleri aynı sürüm ailesi sayılmadı.",
+      "evidence": [
+        "https://huggingface.co/tencent/Hy-MT2-1.8B/raw/main/README.md"
+      ],
+      "catalog": {
+        "ad": "Tencent Hy-MT2 ve diğer çeviri adayları"
+      },
+      "research": {
+        "id": "tencent/Hy-MT2-1.8B",
+        "name": "Tencent Hy-MT2; Seed-X; NiuTrans LMT-60",
+        "plain": "Tencent Hy-MT2, çeviri talimatlarını ve terim/bağlam koşullarını izlemeyi amaçlayan çok dilli çeviri ailesidir. Bu tur 1.8B kartı okundu. Seed-X ve NiuTrans ayrı ailelerdir; ayrıntılı incelemeleri açık.",
+        "training": "Resmî kart çeviri talimatlarını izlemeyi ve IFMTBench sınavını anlatıyor. Okunan bölümlerden eğitim korpusu ve adım sayısı kesinleştirilmedi.",
+        "version": "Hy-MT2 ailesi 21 Mayıs 2026 duyurusuyla 1.8B, 7B ve 30B-A3B olarak yayımlandı. İncelenen 1.8B hash: 9a341cd1b679d3efd23b46e847b01745a71ed792.",
+        "revision": "9a341cd1b679d3efd23b46e847b01745a71ed792",
+        "try_it": "Hy-MT2 kartında Transformers, vLLM ve SGLang kullanım yolları var. Türkçe için aynı kaynak metin, terim listesi ve biçim kuralıyla denenebilir; bu oturumda çalıştırılmadı.",
+        "independent": "Önceki sürümdeki Japonca–Vietnamca kullanıcı sorunu güncel Hy-MT2 sonucu sayılmadı. Bu sürüm için kontrollü bağımsız Türkçe kullanım testi doğrulanmadı.",
+        "members": [
+          {
+            "name": "tencent/Hy-MT2-1.8B",
+            "url": "https://huggingface.co/tencent/Hy-MT2-1.8B",
+            "status": "Güncel README ve API okundu."
+          },
+          {
+            "name": "Hy-MT2 büyük varyantlar; Seed-X; NiuTrans LMT-60",
+            "url": null,
+            "status": "Ayrı kart ve sürüm incelemeleri açık."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://huggingface.co/tencent/Hy-MT2-1.8B/raw/main/README.md",
+            "title": "Tencent Hy-MT2 resmî çeviri kartı",
+            "type": "birincil",
+            "date": null,
+            "checked_at": "2026-10-23",
+            "status": "read"
+          },
+          {
+            "url": "https://huggingface.co/api/models/tencent/Hy-MT2-1.8B",
+            "title": "Hy-MT2 sürüm metadata kaydı",
+            "type": "birincil",
+            "date": null,
+            "checked_at": "2026-10-23",
+            "status": "read"
+          }
+        ],
+        "channels": [
+          {
+            "channel": "developer",
+            "status": "checked",
+            "note": "Güncel Hy-MT2 kartı ve API okundu; önceki sürümün kullanıcı şikâyeti buraya aktarılmadı.",
+            "urls": [
+              "https://huggingface.co/tencent/Hy-MT2-1.8B/raw/main/README.md"
+            ]
+          },
+          {
+            "channel": "community",
+            "status": "searched_not_found",
+            "note": "Aile araştırması bu güncel üye için girdisi ve sürümü belli bağımsız kalite deneyi doğrulamadı. Yorum eksikliği eleme nedeni sayılmadı.",
+            "urls": []
+          },
+          {
+            "channel": "social_video",
+            "status": "searched_not_found",
+            "note": "Aile ve geliştirici tarandı; bu güncel üye için doğrulanmış bağımsız video deneyi yok. Video izlenmedi.",
+            "urls": []
+          },
+          {
+            "channel": "version",
+            "status": "checked",
+            "note": "Hy-MT2 ailesi 21 Mayıs 2026 duyurusuyla 1.8B, 7B ve 30B-A3B olarak yayımlandı. İncelenen 1.8B hash: 9a341cd1b679d3efd23b46e847b01745a71ed792.",
+            "urls": [
+              "https://huggingface.co/tencent/Hy-MT2-1.8B/raw/main/README.md"
+            ]
+          }
+        ]
+      },
+      "hide_legacy": true
+    },
+    {
+      "record_id": 173,
+      "reason": "Eski EmbeddingGemma 300M yerine resmî kartı ve API kaydı okunan EmbeddingGemma 2 gösterildi.",
+      "evidence": [
+        "https://ai.google.dev/gemma/docs/embeddinggemma/model_card_2?hl=en"
+      ],
+      "catalog": {
+        "ad": "BGE-M3 ve EmbeddingGemma 2"
+      },
+      "research": {
+        "name": "BAAI/BGE-M3 ve Google EmbeddingGemma 2",
+        "plain": "Bunlar belge bulmak için içerikleri sayısal temsillere çevirir. BGE-M3 çok dilli metin aramasını; EmbeddingGemma 2 metin, görsel, video ve ses için ortak temsil uzayını hedefler. Aynı Türkçe görevde ayrı ölçülmeliler.",
+        "claims": [
+          {
+            "text": "BGE-M3 geliştiricisi2024-07-01 tarihinde MIRACL ölçümünde aynı kimlikli pasajların yanlış elenmesini düzelttiğini açıklıyor; eski/yeni skorlar aynı protokol değildir.",
+            "evidence": "Resmî kamu kaynak iddiası; bu araştırmada çalıştırılmadı.",
+            "source": "https://huggingface.co/BAAI/bge-m3/raw/main/README.md"
+          },
+          {
+            "text": "EmbeddingGemma 2, toplam 740 milyon parametreli modüler yapıyla dört içerik türünü 768 boyutlu ortak uzaya eşliyor.",
+            "evidence": "Google resmî kartının mimari/işlev tarifi; Türkçe üstünlük sonucu değil.",
+            "source": "https://ai.google.dev/gemma/docs/embeddinggemma/model_card_2?hl=en"
+          }
+        ],
+        "version": "BGE-M3: 5617a9f61b028005a4858fdac845db406aefb181. EmbeddingGemma 2: 914f7f89142e33e77833254d9c9b90c3cef7303b, dosya değişimi 6 Ekim 2026; eğitim tarihi sayılmadı.",
+        "revision": null,
+        "try_it": "BGE-M3 model kartındaki arama örnekleri ve EmbeddingGemma 2 resmî dokümanındaki cihazda kullanım yolu incelenebilir. Aynı sorgu/belge kümesiyle denenmeli; bu oturumda kurulmadı veya çalıştırılmadı.",
+        "independent": "OpenWebUI başlığında BGE-M3 için çalışan bütünleştirme bildiriliyor; bu ortam deneyimi doğruluk ölçümü değildir. Önceki Gemma üyesine ait yorumlar yeni EmbeddingGemma 2 için kullanılmadı.",
+        "members": [
+          {
+            "name": "BAAI/bge-m3",
+            "url": "https://huggingface.co/BAAI/bge-m3",
+            "status": "README/API okundu."
+          },
+          {
+            "name": "google/embeddinggemma-2",
+            "url": "https://huggingface.co/google/embeddinggemma-2",
+            "status": "Devam sürümü resmî Google kartı ve API okundu."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://huggingface.co/BAAI/bge-m3/raw/main/README.md",
+            "title": "BGE-M3 resmî kartı",
+            "type": "birincil",
+            "date": null,
+            "checked_at": "2026-10-23",
+            "status": "read"
+          },
+          {
+            "url": "https://ai.google.dev/gemma/docs/embeddinggemma/model_card_2?hl=en",
+            "title": "EmbeddingGemma2 resmî model kartı",
+            "type": "model_card",
+            "date": null,
+            "checked_at": "2026-10-23",
+            "status": "read"
+          },
+          {
+            "url": "https://huggingface.co/api/models/google/embeddinggemma-2",
+            "title": "EmbeddingGemma2 API",
+            "type": "metadata",
+            "date": null,
+            "checked_at": "2026-10-23",
+            "status": "read"
+          },
+          {
+            "url": "https://www.reddit.com/r/OpenWebUI/comments/1na4b5n",
+            "title": "EmbeddingGemma olumlu/olumsuz gerçek kullanıcı başlığı",
+            "type": "community",
+            "date": null,
+            "checked_at": "2026-10-23",
+            "status": "read"
+          }
+        ],
+        "channels": [
+          {
+            "channel": "developer",
+            "status": "checked",
+            "note": "BGE-M3 kartı ve güncel EmbeddingGemma 2 resmî kartı okundu.",
+            "urls": [
+              "https://huggingface.co/BAAI/bge-m3/raw/main/README.md",
+              "https://ai.google.dev/gemma/docs/embeddinggemma/model_card_2?hl=en"
+            ]
+          },
+          {
+            "channel": "community",
+            "status": "checked",
+            "note": "BGE-M3 için ortam ve bütünleştirme yorumları okundu. Önceki Gemma üyelerinin yorumları EmbeddingGemma 2 kalitesi sayılmadı. Türkçe kontrollü test yok.",
+            "urls": [
+              "https://www.reddit.com/r/OpenWebUI/comments/1na4b5n"
+            ]
+          },
+          {
+            "channel": "social_video",
+            "status": "searched_not_found",
+            "note": "Aile ve geliştirici tarandı; bu güncel üye için doğrulanmış bağımsız video deneyi yok. Video izlenmedi.",
+            "urls": []
+          },
+          {
+            "channel": "version",
+            "status": "checked",
+            "note": "BGE-M3: 5617a9f61b028005a4858fdac845db406aefb181. EmbeddingGemma 2: 914f7f89142e33e77833254d9c9b90c3cef7303b, dosya değişimi 6 Ekim 2026; eğitim tarihi sayılmadı.",
+            "urls": [
+              "https://huggingface.co/BAAI/bge-m3/raw/main/README.md",
+              "https://ai.google.dev/gemma/docs/embeddinggemma/model_card_2?hl=en"
+            ]
+          }
+        ]
+      },
+      "hide_legacy": true
+    },
+    {
+      "record_id": 123,
+      "reason": "Güncel ana dalın v2 olduğu doğrulandı; eski v1 etiketleri etkin başlık yerine araştırma arşivinde kaldı.",
+      "evidence": [
+        "https://huggingface.co/api/models/ecloudtech/Erk-32B",
+        "https://huggingface.co/ecloudtech/Erk-32B/raw/main/README.md",
+        "https://huggingface.co/ecloudtech",
+        "https://huggingface.co/api/models/ecloudtech/Erk-14B",
+        "https://huggingface.co/ecloudtech/Erk-14B/raw/main/README.md"
+      ],
+      "catalog": {
+        "ad": "Erk-32B / Erk-14B · v2"
+      },
+      "research": {
+        "name": "Erk-32B / Erk-14B · v2"
+      },
+      "hide_legacy": true
+    },
+    {
+      "record_id": 157,
+      "reason": "Geliştiricinin güncel ürün sayfasındaki 2.0 adı gösterildi; ürün sürümü model ağırlığı sayılmadı.",
+      "evidence": [
+        "https://www.lexpera.com.tr/lexi-yapay-zeka"
+      ],
+      "catalog": {
+        "ad": "LEXPERA LEXI · 2.0"
+      },
+      "research": {
+        "name": "LEXPERA LEXI 2.0"
+      },
+      "hide_legacy": true
+    }
+  ]
+}

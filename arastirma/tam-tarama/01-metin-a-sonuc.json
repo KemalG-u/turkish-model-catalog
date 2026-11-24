@@ -1,0 +1,3147 @@
+{
+  "checked_at": "2026-10-23",
+  "records": [
+    {
+      "record_id": 1,
+      "id": "vngrs/Kumru-2B",
+      "name": "Kumru-2B / Kumru-2B-Base",
+      "category": "LLM-genel",
+      "kind": "model_family",
+      "creator": "VNGRS",
+      "plain": "Kumru ailesinin açık 2B sohbet sürümü ile Base sürümü aynı iş için düşünülmemeli. İncelenen bağlantı talimat eğitimi görmüş Kumru-2B; Base ayrı depodur. Türkçeye özgü tokenizer ve 8.192 token bağlam geliştiricinin verdiği özelliklerdir. Cetvel üzerinde büyük modelleri geçtiği iddiası bütün görevlerde üstünlük anlamına gelmez. Kumru-2B-Base README ve API ayrıca okundu. Kart bu üyeyi yalnız ön eğitimli, talimat ince ayarı yapılmamış sürüm olarak ayırıyor. Genel girişteki SFT cümlesi Base eğitimine mal edilmedi.",
+      "claims": [
+        {
+          "text": "Türkçe için sıfırdan ön eğitim ve görev odaklı ince ayar yapıldığı belirtiliyor.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://huggingface.co/vngrs/Kumru-2B/raw/main/README.md"
+        }
+      ],
+      "training": "Kart 500 GB temizlenmiş veri, 300 milyar eğitim tokenı ve bir milyon SFT örneği bildiriyor. Tartışma 11'de geliştirici özgün verinin 100 milyar token olduğunu, üç tur eğitimle 300 milyara ulaşıldığını açıklıyor. Base kartının açık ayrımı: yalnız pre-training; Instruct üyesinin talimat eğitimi Base için geçerli değil.",
+      "version": "Kontrol edilen depo: vngrs/Kumru-2B; son dosya değişikliği: 2025-09-26T07:29:52.000Z. Bu tarih yeni eğitim tarihi değildir. Geliştirici profilinin zaman sıralı ilk 40 model kaydı tarandı; ilgili görünen örnekler: vngrs/VBART-Large-Base, vngrs/VBART-XLarge-Base, vngrs/Kumru-2B-Base, vngrs/Kumru-2B. Liste dışı sürümler için en son garantisi yok.",
+      "revision": "0b3cf37f657ef4013bdc99598545f5d317bd7397 Base sha 55711ea224e4bf5d4e11a4baf79130ae73785ece; lastModified 2025-09-26T07:30:12Z. Bu tarih yeni eğitim ispatı değildir.",
+      "try_it": "İleride sohbet sürümünü kendi atasından ve genel bir karşılaştırıcıdan ayrı sınamak; Base için devam ettirme görevini ayrı değerlendirmek gerekir.",
+      "demo_url": "https://kumru.ai/",
+      "independent": "Alper Yıldırım'ın yazısı ağır bir teknik eleştiri; denetlenmiş karşılaştırmalı kullanıcı deneyi sunmuyor. YouTube analizi bulundu fakat video açılışı engellendi. Gizlenmiş tartışma 10'dan kalite sonucu çıkarılmadı. TurkBench Tablo 5 ortalaması 27,3;2,7 yalnız Türkçe genel bilgi alt görevidir. Eski katalogdaki 2,7 ortalama ifadesi düzeltilmelidir. Bu başka protokoldür; Cetvel ile aynı ölçek sayılmaz.",
+      "unknowns": [
+        " yayımlanan Cetvel görselindeki sayılar",
+        " güncel bağımsız uygulama başarısı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/vngrs/Kumru-2B",
+          "title": "vngrs/Kumru-2B version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/vngrs/Kumru-2B/raw/main/README.md",
+          "title": "vngrs/Kumru-2B model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/vngrs",
+          "title": "vngrs/Kumru-2B developer kaydı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=vngrs&sort=lastModified&direction=-1&limit=40",
+          "title": "vngrs/Kumru-2B version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/vngrs/Kumru-2B/discussions",
+          "title": "vngrs/Kumru-2B community_index kaydı",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/vngrs/Kumru-2B/discussions/11",
+          "title": "vngrs/Kumru-2B community kaydı",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/vngrs/Kumru-2B/discussions/10",
+          "title": "vngrs/Kumru-2B community kaydı",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/alper-yildirim-8b6b6a228_vngrs-aikumru-2b-base-hugging-face-activity-7383826370251980800-OLRm",
+          "title": "Alper Yıldırım: Kumru teknik eleştirisi",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5QyHUwM85OE",
+          "title": "Kumru teknik analiz videosu",
+          "type": "video",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "inaccessible"
+        },
+        {
+          "url": "https://arxiv.org/html/2601.07020v2",
+          "title": "TurkBench v2 Tablo5: Kumru alt görevleri ve ortalama",
+          "type": "independent_paper",
+          "date": "2026-02-03",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/vngrs/Kumru-2B-Base/raw/main/README.md",
+          "title": "Kumru-2B-Base asıl kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/vngrs/Kumru-2B-Base",
+          "title": "Kumru Base metadata",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://huggingface.co/vngrs/Kumru-2B/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": [
+            "https://huggingface.co/api/models/vngrs/Kumru-2B/discussions/11",
+            "https://huggingface.co/api/models/vngrs/Kumru-2B/discussions/10"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "inaccessible",
+          "note": "Özgün video açılışı throttled; üçüncü taraf özet gerçek video incelemesi sayılmadı.",
+          "urls": [
+            "https://www.youtube.com/watch?v=5QyHUwM85OE"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "API özeti ve erişilebilir profil takip sürümleri kontrol edildi; lastModified eğitim tarihi değildir. Base README/API ayrıca kontrol edildi; yalnız ön eğitimli kimliği doğrulandı.",
+          "urls": [
+            "https://huggingface.co/api/models/vngrs/Kumru-2B",
+            "https://huggingface.co/api/models?author=vngrs&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/vngrs/Kumru-2B-Base"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "Kumru 2B 7B VNGRS deneyim başarısız başarılı YouTube X model",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "vngrs/Kumru-2B",
+          "url": "https://huggingface.co/vngrs/Kumru-2B",
+          "status": "model kartı ve API okundu"
+        },
+        {
+          "name": "vngrs/Kumru-2B-Base",
+          "url": "https://huggingface.co/vngrs/Kumru-2B-Base",
+          "status": "README/API ayrı okundu; yalnız ön eğitim; Apache-2.0"
+        }
+      ]
+    },
+    {
+      "record_id": 2,
+      "id": "catalog-002",
+      "name": "Kumru-7B (7,4B)",
+      "category": "LLM-genel",
+      "kind": "model",
+      "creator": "VNGRS",
+      "plain": "Kumru-7B, açık 2B depo ile karıştırılmaması gereken daha büyük kurumsal modeldir. Katalogdaki 7,4 milyar parametre bilgisi Webrazzi haberinde bulunuyor. Açık indirilebilir resmî 7B ağırlık deposu bu taramada doğrulanmadı. Kumru.ai adresi 2B kartında özellikle 7B demosu olarak sunuluyor; arayüzün arkasındaki canlı ağırlık sürümü belirsiz.",
+      "claims": [
+        {
+          "text": "Kurumsal Türkçe görevlerde kullanılabilecek 7,4B model ve 8.192 token bağlam duyuruluyor.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://webrazzi.com/2025/10/10/vngrs-den-7-4-milyar-parametreli-turkce-llm-kumru/"
+        }
+      ],
+      "training": "Haber, geliştirici anlatımından 500 GB veri, 300 milyar token ve yaklaşık bir milyon ince ayar örneği aktarıyor. Bunlar kaynak iddiasıdır; eğitim kayıtları incelenmedi.",
+      "version": "Haber tarihi 2025-10-10.7B demo için sabit ağırlık veya güncel sürüm etiketi doğrulanmadı;2B depo sürümü 7B yerine kullanılamaz.",
+      "revision": "Açık sabit ağırlık özeti doğrulanamadı.",
+      "try_it": "Demo adresi mevcut; bu görevde soru gönderilmedi. Gelecek denemede arayüz tarihi ve gösterilen sürüm birlikte kaydedilmeli.",
+      "demo_url": "https://kumru.ai/",
+      "independent": "Kumru hakkında olumsuz sosyal eleştiri ve video bulunuyor; hangi arayüz sürümünün hangi soruyla sınandığı sabitlenmediğinden bunları 7B ağırlığının ölçülmüş sonucu saymıyoruz. Haber bağımsız kullanım testi içermiyor.",
+      "unknowns": [
+        "Resmî 7B ağırlıkları ve lisansı",
+        " demo sürüm kimliği",
+        " bağımsız olumlu/olumsuz tekrarlanabilir test."
+      ],
+      "sources": [
+        {
+          "url": "https://webrazzi.com/2025/10/10/vngrs-den-7-4-milyar-parametreli-turkce-llm-kumru/",
+          "title": "catalog-002 news kaydı",
+          "type": "news",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5QyHUwM85OE",
+          "title": "Kumru teknik analiz videosu",
+          "type": "video",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "inaccessible"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "2B resmî kartındaki7B demo atfı ve Webrazzi aktarımı okundu;7B ağırlık kartı yok.",
+          "urls": []
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "inaccessible",
+          "note": "Özgün video açılışı throttled; üçüncü taraf özet gerçek video incelemesi sayılmadı.",
+          "urls": [
+            "https://www.youtube.com/watch?v=5QyHUwM85OE"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "API özeti ve erişilebilir profil takip sürümleri kontrol edildi; lastModified eğitim tarihi değildir.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "Kumru 2B 7B VNGRS deneyim başarısız başarılı YouTube X model",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "Kumru-7B",
+          "url": "https://kumru.ai/",
+          "status": "Demo bağlantısı2B kartında; sabit7B ağırlık ve canlı demo doğrulanmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 3,
+      "id": "ytu-ce-cosmos/Turkish-Gemma-9b-T1",
+      "name": "Turkish-Gemma-9b-T1 / v0.1",
+      "category": "LLM-genel",
+      "kind": "model",
+      "creator": "YTÜ COSMOS",
+      "plain": "Turkish-Gemma-9b-T1 Türkçe adımlı muhakeme için uyarlanmış Gemma ailesi modelidir. Geliştirici daha iyi matematik, talimat takibi ve daha az uydurma hedefliyor. Kartın insan tercihindeki kazanma oranı ile mekanik talimat testleri farklı şeyleri ölçer. Düşünme metninin uzunluğu doğruluk kanıtı değildir. Gemma v0.1 asıl kartı ayrıca okundu: Gemma2-9B üzerine CPT, SFT, DPO ve birleştirme tarif ediyor. v0.1 insan değerlendirmesi ile T1 karşılaştırma tablosu farklı koşullar taşıdığından kazanma yüzdeleri doğrudan fark olarak yorumlanmadı.",
+      "claims": [
+        {
+          "text": "Kart GSM8K Türkçe için 77,41 ve insan tercihi karşılaştırmasında 68,65 oranı bildiriyor; bunlar geliştirici sonuçları.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://huggingface.co/ytu-ce-cosmos/Turkish-Gemma-9b-T1/raw/main/README.md"
+        }
+      ],
+      "training": "Kart Turkish-Gemma-9b-v 0.1 üzerinden uyarlama ve insan değerlendirmesi bildiriyor. 1.450 sorunun 18 değerlendirici tarafından incelendiği söyleniyor; eğitim verisinin tamamı bu karttan yeniden kurulamaz. v0.1: CPT + SFT + DPO + model birleştirme; taban google/gemma-2-9b, Gemma lisansı.",
+      "version": "Kontrol edilen depo: ytu-ce-cosmos/Turkish-Gemma-9b-T1; son dosya değişikliği: 2026-04-03T14:59:08.000Z. Bu tarih yeni eğitim tarihi değildir. Geliştirici profilinin zaman sıralı ilk 40 model kaydı tarandı; ilgili görünen örnekler: ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-4B, ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-9B, ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-27B, ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-4B-tr. Liste dışı sürümler için en son garantisi yok.",
+      "revision": "bc2e3064994eefab3c9043ff58c5b3c7cbfc6c40 v0.1 sha 1bbe9f19a26a70dc4d0c709e1a816e6a9378a7f5; lastModified 2025-06-28T11:04:32Z.",
+      "try_it": "Resmî sohbet bağlantısı kartta var; canlı cevap doğrulanmadı. Gelecek denemede kısa yanıt kısıtları ve tekrar davranışı da ölçülmeli.",
+      "demo_url": "https://model.cosmosytu.com/",
+      "independent": "Cenk Tekin Ollama üzerinde akıcı kullanım ve kültürel cevaplardan memnuniyet bildiriyor; kişisel örnekler genellenebilir ölçüm değil. Tartışma 5 tokenizer dosyasıyla GGUF dönüşüm sorunu içeriyor. Tartışma 2'de geliştirici düşünmenin kapatılamadığını söylüyor. IFEval-TR T1 için 48,11, v 0.1 için 52,00 bildiriyor; Atahan Uz COSMOS ekibiyle ilişkili olduğundan tam bağımsız kanıt sayılmadı. v0.1 kartındaki 1450 soru/18 değerlendirici ve %57,30 kazanma geliştirici çalışmasıdır. T1 kartının v0.1 karşılaştırma oranı aynı deney değildir; iki yüzde çıkarılarak iyileşme hesaplanmadı.",
+      "unknowns": [
+        "Tam eğitim tarifi",
+        " farklı istemlerde tekrar riski",
+        " bağımsız deneylerin sabit model özeti."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-Gemma-9b-T1",
+          "title": "ytu-ce-cosmos/Turkish-Gemma-9b-T1 version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-Gemma-9b-T1/raw/main/README.md",
+          "title": "ytu-ce-cosmos/Turkish-Gemma-9b-T1 model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos",
+          "title": "ytu-ce-cosmos/Turkish-Gemma-9b-T1 developer kaydı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40",
+          "title": "ytu-ce-cosmos/Turkish-Gemma-9b-T1 version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-Gemma-9b-T1/discussions",
+          "title": "ytu-ce-cosmos/Turkish-Gemma-9b-T1 community_index kaydı",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-Gemma-9b-T1/discussions/5",
+          "title": "ytu-ce-cosmos/Turkish-Gemma-9b-T1 community kaydı",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-Gemma-9b-T1/discussions/2",
+          "title": "ytu-ce-cosmos/Turkish-Gemma-9b-T1 community kaydı",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.linkedin.com/pulse/12-gb-vram-bir-avu%25C3%25A7-nohutlu-ekmek-ve-30-y%25C4%25B1ll%25C4%25B1k-yerli-llm-tekin-pmp-zfjvf",
+          "title": "Cenk Tekin: Yerli LLM Testim",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://atahanuz-ifeval-tr-benchmark.hf.space/",
+          "title": "IFEval-TR: Türkçe doğrulanabilir talimat testi",
+          "type": "developer_benchmark",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-Gemma-9b-v0.1/raw/main/README.md",
+          "title": "Gemma v0.1 asıl kart",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-Gemma-9b-v0.1",
+          "title": "Gemma v0.1 metadata",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://huggingface.co/ytu-ce-cosmos/Turkish-Gemma-9b-T1/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": [
+            "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-Gemma-9b-T1/discussions/5",
+            "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-Gemma-9b-T1/discussions/2"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Açık sosyal gönderi ve kullanıcı yorum metni okundu; ölçüm sınırı independent alanında.",
+          "urls": [
+            "https://www.linkedin.com/pulse/12-gb-vram-bir-avu%25C3%25A7-nohutlu-ekmek-ve-30-y%25C4%25B1ll%25C4%25B1k-yerli-llm-tekin-pmp-zfjvf"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "API özeti ve erişilebilir profil takip sürümleri kontrol edildi; lastModified eğitim tarihi değildir. v0.1 asıl README/API ayrıca kontrol edildi; T1 insan değerlendirmesiyle koşulları aynı kabul edilmedi.",
+          "urls": [
+            "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-Gemma-9b-T1",
+            "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-Gemma-9b-v0.1"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Turkish-Gemma-9b-T1\" review benchmark youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "ytu-ce-cosmos/Turkish-Gemma-9b-T1",
+          "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-Gemma-9b-T1",
+          "status": "model kartı ve API okundu"
+        },
+        {
+          "name": "ytu-ce-cosmos/Turkish-Gemma-9b-v0.1",
+          "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-Gemma-9b-v0.1",
+          "status": "README/API ayrıca okundu; insan değerlendirmesi geliştirici ölçümü"
+        }
+      ]
+    },
+    {
+      "record_id": 4,
+      "id": "ytu-ce-cosmos/Turkish-Gemma-4b-T1-Scout",
+      "name": "Turkish-Gemma-4b-T1-Scout",
+      "category": "LLM-genel",
+      "kind": "model",
+      "creator": "YTÜ COSMOS",
+      "plain": "Scout, webden bilgi toplayan Türkçe ajanlar için eğitilmiş 4B modeldir. Tek başına tarayıcı değildir: arama hizmeti, araç çağrısını çalıştıran yazılım ve sonuçları bağlama ekleyen döngü gerekir. Model deposu bu bütün çalışma ortamını sağlamıyor. Araçsız kullanımda ilan edilen sonuçlar beklenemez.",
+      "claims": [
+        {
+          "text": "Geliştiricinin 70 soruluk web arama testinde 50 doğru, yüzde 71,43 başarı bildiriliyor.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://huggingface.co/ytu-ce-cosmos/Turkish-Gemma-4b-T1-Scout/raw/main/README.md"
+        }
+      ],
+      "training": "Gemma-3-4b-it üzerine önce muhakeme SFT, sonra arama SFT ve GRPO uygulanmış. Kart 300 bin muhakeme istemi, 100 bin arama istemi ve bunlardan seçilmiş 1.463 örnek bildiriyor.",
+      "version": "Kontrol edilen depo: ytu-ce-cosmos/Turkish-Gemma-4b-T1-Scout; son dosya değişikliği: 2026-03-06T11:07:19.000Z. Bu tarih yeni eğitim tarihi değildir. Geliştirici profilinin zaman sıralı ilk 40 model kaydı tarandı; ilgili görünen örnekler: ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-4B, ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-9B, ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-27B, ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-4B-tr. Liste dışı sürümler için en son garantisi yok.",
+      "revision": "68d2528af26a096cf396878f35468dee699879ce",
+      "try_it": "Gelecekte aynı arama aracı ve aynı soru bütçesiyle temel Gemma ile karşılaştırmak gerekir; yalnız model sohbeti bu iddiayı sınamaz.",
+      "demo_url": null,
+      "independent": "Okunan topluluk listesinde bağımsız kullanım deneyimi bulunmadı. COSMOS LinkedIn duyurusu geliştirici tanıtımıdır. Arama sonucu katalogları kullanıcı deneyi veya bağımsız doğrulama olarak alınmadı.",
+      "unknowns": [
+        "Arama çalışma ortamının yeniden üretimi",
+        " araç maliyeti",
+        " geniş bağımsız test",
+        " diğer Scout boyutları."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-Gemma-4b-T1-Scout",
+          "title": "ytu-ce-cosmos/Turkish-Gemma-4b-T1-Scout version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-Gemma-4b-T1-Scout/raw/main/README.md",
+          "title": "ytu-ce-cosmos/Turkish-Gemma-4b-T1-Scout model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos",
+          "title": "ytu-ce-cosmos/Turkish-Gemma-4b-T1-Scout developer kaydı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40",
+          "title": "ytu-ce-cosmos/Turkish-Gemma-4b-T1-Scout version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-Gemma-4b-T1-Scout/discussions",
+          "title": "ytu-ce-cosmos/Turkish-Gemma-4b-T1-Scout community_index kaydı",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/ytu-cosmos_web-search-yetene%C4%9Fine-sahip-tool-augmented-activity-7436079419045146624-xdID",
+          "title": "COSMOS Scout duyurusu",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://huggingface.co/ytu-ce-cosmos/Turkish-Gemma-4b-T1-Scout/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Sosyal geliştirici duyurusu açılıp okundu; bağımsız kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://tr.linkedin.com/posts/ytu-cosmos_web-search-yetene%C4%9Fine-sahip-tool-augmented-activity-7436079419045146624-xdID"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "API özeti ve erişilebilir profil takip sürümleri kontrol edildi; lastModified eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-Gemma-4b-T1-Scout",
+            "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Turkish-Gemma-4b-T1-Scout\" review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "ytu-ce-cosmos/Turkish-Gemma-4b-T1-Scout",
+          "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-Gemma-4b-T1-Scout",
+          "status": "model kartı ve API okundu"
+        }
+      ]
+    },
+    {
+      "record_id": 5,
+      "id": "ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1",
+      "name": "Turkish-Llama-8b (v0.1 / Instruct / DPO)",
+      "category": "LLM-genel",
+      "kind": "model_family",
+      "creator": "YTÜ COSMOS",
+      "plain": "Bu satır Base, Instruct ve DPO üyelerini bir arada tutuyor. Ayrıntılı okunan üye Turkish-Llama-8b-DPO-v 0.1. Kart, iki ayrı DPO eğitimi görmüş modelin birleştirilmesini anlatıyor. Ailenin her üyesinin aynı istem biçimine veya aynı davranışa sahip olduğu varsayılamaz.",
+      "claims": [
+        {
+          "text": "Kart DPO birleştirmesini ailenin gelişmiş yinelemesi olarak tanımlıyor; bu ifade geliştiricinin sürüm değerlendirmesi.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://huggingface.co/ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1/raw/main/README.md"
+        }
+      ],
+      "training": "DPO üyesi Turkish-Llama-8b-Instruct-v 0.1 üzerine kurulmuş. Veri kaynakları olarak web ve kitaplar anılıyor; bu kart tek başına tam veri ve eğitim tekrarını sağlamıyor. Llama 3 lisans koşulları var.",
+      "version": "Kontrol edilen depo: ytu-ce-cosmos/Turkish-Llama-8b-DPO-v 0.1; son dosya değişikliği: 2024-12-03T17:51:09.000Z. Bu tarih yeni eğitim tarihi değildir. Geliştirici profilinin zaman sıralı ilk 40 model kaydı tarandı; ilgili görünen örnekler: ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-4B, ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-9B, ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-27B, ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-4B-tr. Liste dışı sürümler için en son garantisi yok.",
+      "revision": "4b04f16749996857d4f81ba0f001552b8e3c0753",
+      "try_it": "Sohbet için DPO üyesinin kendi şablonu kullanılmalı. İleride aynı soruları Instruct ve DPO'ya vererek değişen davranış ayrı izlenmeli.",
+      "demo_url": "https://cosmos.yildiz.edu.tr/cosmosllama",
+      "independent": "Tartışma 6 bir kullanıcının GGUF dönüştürüp yayımladığını belgeliyor; cevap kalitesini ölçmüyor. MMLU-Pro-TR deposundaki 23,90 sonuç Instruct üyesine ait, DPO'ya aktarılamaz.",
+      "unknowns": [
+        "Base ve Instruct kartlarının tam incelemesi",
+        " DPO'nun bağımsız görev kalitesi",
+        " güncel demo erişimi."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1",
+          "title": "ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1 version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1/raw/main/README.md",
+          "title": "ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1 model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos",
+          "title": "ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1 developer kaydı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40",
+          "title": "ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1 version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1/discussions",
+          "title": "ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1 community_index kaydı",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1/discussions/6",
+          "title": "ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1 community kaydı",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/bezir/MMLU-pro-TR",
+          "title": "MMLU-Pro-TR Mini-Leaderboard",
+          "type": "independent_benchmark",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://huggingface.co/ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": [
+            "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1/discussions/6"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam model/aile adıyla YouTube, X, LinkedIn ve açık webde tanıtım ve kullanıcı deneyimi arandı; açılıp okunmuş ek kaynak aşağıda belirtilir.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "API özeti ve erişilebilir profil takip sürümleri kontrol edildi; lastModified eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1",
+            "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Turkish-Llama-8b\" deneyim review COSMOS",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1",
+          "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1",
+          "status": "model kartı ve API okundu"
+        },
+        {
+          "name": "ytu-ce-cosmos/Turkish-Llama-8b-v0.1",
+          "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-Llama-8b-v0.1",
+          "status": "Bağlantı/profil kimliği görüldü; üyenin tam eğitim ve kullanıcı araştırması açık"
+        },
+        {
+          "name": "ytu-ce-cosmos/Turkish-Llama-8b-Instruct-v0.1",
+          "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-Llama-8b-Instruct-v0.1",
+          "status": "Bağlantı/profil kimliği görüldü; üyenin tam eğitim ve kullanıcı araştırması açık"
+        }
+      ]
+    },
+    {
+      "record_id": 6,
+      "id": "ytu-ce-cosmos/turkish-gpt2-large",
+      "name": "turkish-gpt2 ailesi (large 774M, medium, instruct varyantları) = cosmosGPT",
+      "category": "LLM-genel",
+      "kind": "model_family",
+      "creator": "YTÜ COSMOS",
+      "plain": "cosmosGPT olarak anılan satır bir GPT-2 ailesidir. Burada doğrudan okunan turkish-gpt 2-large, verilen metni devam ettiren temel modeldir. Sohbet talimatlarını iyi izlediği varsayılmamalı. Medium ve instruct üyeleri ayrı inceleme gerektiriyor. Sonradan yayımlanmış geriye doğru üretim araştırması da aynı ağırlığın yeni sürümü sayılmaz.",
+      "claims": [
+        {
+          "text": "Kart Türkçe metni bağlama uygun devam ettirme amacı bildiriyor; hazır sohbet asistanı iddiası doğrulanmıyor.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://huggingface.co/ytu-ce-cosmos/turkish-gpt2-large/raw/main/README.md"
+        }
+      ],
+      "training": "Model kartı Türkçe GPT-2 ve CulturaX veri kümesi bağlantısı veriyor. Tam veri karışımı ve büyük ailedeki bütün üyelerin eğitim ayrıntıları bu okuma kapsamında yeniden çıkarılmadı. Ana depo MIT lisanslı.",
+      "version": "Kontrol edilen depo: ytu-ce-cosmos/turkish-gpt 2-large; son dosya değişikliği: 2024-05-07T18:47:51.000Z. Bu tarih yeni eğitim tarihi değildir. Geliştirici profilinin zaman sıralı ilk 40 model kaydı tarandı; ilgili görünen örnekler: ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-4B, ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-9B, ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-27B, ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-4B-tr. Liste dışı sürümler için en son garantisi yok.",
+      "revision": "c4ddd0f3808fb7bf23ab63d9fea6ec98c1899934",
+      "try_it": "İleride Base üyeye metin devamı, instruct üyeye talimat görevi uygulanmalı; aynı sohbet deneyiyle bütün aile puanlanmamalı.",
+      "demo_url": null,
+      "independent": "MMLU-Pro-TR tablosunda 10,88 sonuç large-750m-instruct-v 0.1 üyesine ait. Bu sayı Base large için ölçüm değildir. Sosyal duyurudaki previous-token-prediction varyantı araştırma örneğidir; kullanıcı kabulü göstermiyor.",
+      "unknowns": [
+        "Medium ve instruct üyelerinin sürüm ayrıntıları",
+        " bağımsız olumlu ve olumsuz gerçek kullanım kaydı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/turkish-gpt2-large",
+          "title": "ytu-ce-cosmos/turkish-gpt2-large version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos/turkish-gpt2-large/raw/main/README.md",
+          "title": "ytu-ce-cosmos/turkish-gpt2-large model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos",
+          "title": "ytu-ce-cosmos/turkish-gpt2-large developer kaydı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40",
+          "title": "ytu-ce-cosmos/turkish-gpt2-large version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/turkish-gpt2-large/discussions",
+          "title": "ytu-ce-cosmos/turkish-gpt2-large community_index kaydı",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/mehmet-fatih-amasyali_ytu-ce-cosmosprevious-token-prediction-turkish-gpt2-activity-7317561573571469312-Bvx9",
+          "title": "COSMOS previous-token-prediction araştırması",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/bezir/MMLU-pro-TR",
+          "title": "MMLU-Pro-TR Mini-Leaderboard",
+          "type": "independent_benchmark",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://huggingface.co/ytu-ce-cosmos/turkish-gpt2-large/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Sosyal geliştirici duyurusu açılıp okundu; bağımsız kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://tr.linkedin.com/posts/mehmet-fatih-amasyali_ytu-ce-cosmosprevious-token-prediction-turkish-gpt2-activity-7317561573571469312-Bvx9"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "API özeti ve erişilebilir profil takip sürümleri kontrol edildi; lastModified eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/ytu-ce-cosmos/turkish-gpt2-large",
+            "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"turkish-gpt2-large\" COSMOS review github youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "ytu-ce-cosmos/turkish-gpt2-large",
+          "url": "https://huggingface.co/ytu-ce-cosmos/turkish-gpt2-large",
+          "status": "model kartı ve API okundu"
+        },
+        {
+          "name": "ytu-ce-cosmos/turkish-gpt2-medium",
+          "url": "https://huggingface.co/ytu-ce-cosmos/turkish-gpt2-medium",
+          "status": "Bağlantı/profil kimliği görüldü; üyenin tam eğitim ve kullanıcı araştırması açık"
+        },
+        {
+          "name": "ytu-ce-cosmos/turkish-gpt2-large-750m-instruct-v0.1",
+          "url": "https://huggingface.co/ytu-ce-cosmos/turkish-gpt2-large-750m-instruct-v0.1",
+          "status": "Bağlantı/profil kimliği görüldü; üyenin tam eğitim ve kullanıcı araştırması açık"
+        }
+      ]
+    },
+    {
+      "record_id": 7,
+      "id": "ytu-ce-cosmos/tr-Qwen2.5-0.5B-SFT-v1",
+      "name": "tr-Qwen2.5-0.5B-SFT-v1",
+      "category": "LLM-genel",
+      "kind": "model",
+      "creator": "YTÜ COSMOS",
+      "plain": "Depo adı küçük bir Türkçe Qwen SFT modeli olduğunu düşündürüyor; fakat okunan kart otomatik doldurulmuş boş bir şablon. Geliştirici, veri, dil, lisans, değerlendirme ve kullanım bölümleri bilgi bekliyor. Modelin varlığı ile açıklamasının yeterliliği ayrı: API kaydı mevcut, eğitim iddiasının ayrıntısı belgelenmemiş.",
+      "claims": [
+        {
+          "text": "API metin üretimi modelini doğruluyor; nitelik veya üstünlük iddiasını destekleyen doldurulmuş geliştirici kartı yok.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://huggingface.co/ytu-ce-cosmos/tr-Qwen2.5-0.5B-SFT-v1/raw/main/README.md"
+        }
+      ],
+      "training": "İsimde Qwen 2.5-0.5B-SFT-v 1 geçiyor. README bunu yeterli teknik tarifle doğrulamıyor. Atayı, veri büyüklüğünü, adım sayısını veya başarıyı yalnız adından türetmiyoruz.",
+      "version": "Kontrol edilen depo: ytu-ce-cosmos/tr-Qwen 2.5-0.5B-SFT-v 1; son dosya değişikliği: 2025-04-03T06:37:10.000Z. Bu tarih yeni eğitim tarihi değildir. Geliştirici profilinin zaman sıralı ilk 40 model kaydı tarandı; ilgili görünen örnekler: ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-4B, ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-9B, ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-27B, ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-4B-tr. Liste dışı sürümler için en son garantisi yok.",
+      "revision": "39a9dc06dea97603ea3937c74d653136156b7d23",
+      "try_it": "Şu aşamada yalnız depo dosyaları ve eksik belgeler okunabilir. İleride çalıştırmadan önce lisans ve temel model kimliği netleştirilmeli.",
+      "demo_url": null,
+      "independent": "Tam adla web, YouTube ve sosyal/topluluk araması yapıldı; denetlenebilir bağımsız olumlu veya olumsuz kullanıcı deneyimi bulunamadı. Başka kataloglardaki skorlar kaynak protokolü açılmadan kullanılmadı.",
+      "unknowns": [
+        "Lisans",
+        " tam temel model",
+        " eğitim verisi ve yöntem",
+        " bağımsız kalite",
+        " geçerli kullanım örneği."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/tr-Qwen2.5-0.5B-SFT-v1",
+          "title": "ytu-ce-cosmos/tr-Qwen2.5-0.5B-SFT-v1 version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos/tr-Qwen2.5-0.5B-SFT-v1/raw/main/README.md",
+          "title": "ytu-ce-cosmos/tr-Qwen2.5-0.5B-SFT-v1 model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos",
+          "title": "ytu-ce-cosmos/tr-Qwen2.5-0.5B-SFT-v1 developer kaydı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40",
+          "title": "ytu-ce-cosmos/tr-Qwen2.5-0.5B-SFT-v1 version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/tr-Qwen2.5-0.5B-SFT-v1/discussions",
+          "title": "ytu-ce-cosmos/tr-Qwen2.5-0.5B-SFT-v1 community_index kaydı",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://huggingface.co/ytu-ce-cosmos/tr-Qwen2.5-0.5B-SFT-v1/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam model/aile adıyla YouTube, X, LinkedIn ve açık webde tanıtım ve kullanıcı deneyimi arandı; açılıp okunmuş ek kaynak aşağıda belirtilir.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "API özeti ve erişilebilir profil takip sürümleri kontrol edildi; lastModified eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/ytu-ce-cosmos/tr-Qwen2.5-0.5B-SFT-v1",
+            "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"tr-Qwen2.5-0.5B-SFT-v1\" review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "ytu-ce-cosmos/tr-Qwen2.5-0.5B-SFT-v1",
+          "url": "https://huggingface.co/ytu-ce-cosmos/tr-Qwen2.5-0.5B-SFT-v1",
+          "status": "model kartı ve API okundu"
+        }
+      ]
+    },
+    {
+      "record_id": 8,
+      "id": "Trendyol/Trendyol-LLM-8B-T1",
+      "name": "Trendyol-LLM-8B-T1",
+      "category": "LLM-genel",
+      "kind": "model",
+      "creator": "Trendyol",
+      "plain": "8B-T1, Qwen 3-8B üzerine Türkçe e-ticaret verisiyle uyarlanmış sohbet modelidir. Türkçe muhakeme, özet, sınıflandırma ve ürün özelliği çıkarımı hedefleniyor. İngilizce yeteneğin korunduğu ve 32 bin token bağlam olduğu geliştirici beyanı. Düşünme modunun kapatılabilmesi kullanım açısından ayrı bir özellik.",
+      "claims": [
+        {
+          "text": "Geliştirici think/no_think kipleri ve Türkçe görev uzmanlaşması bildiriyor; genel amaçlı kazanan olduğunu göstermiyor.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://huggingface.co/Trendyol/Trendyol-LLM-8B-T1/raw/main/README.md"
+        }
+      ],
+      "training": "Kart geniş Türkçe e-ticaret verisi ve İngilizce muhakeme örnekleri bildiriyor. Tam veri karışımı, örnek sayısı ve bütün eğitim adımları açıklanmamış. Apache-2.0 lisansı belirtilmiş.",
+      "version": "Kontrol edilen depo: Trendyol/Trendyol-LLM-8B-T1; son dosya değişikliği: 2025-07-17T14:11:49.000Z. Bu tarih yeni eğitim tarihi değildir. Geliştirici profilinin zaman sıralı ilk 40 model kaydı tarandı; ilgili görünen örnekler: Trendyol/TY-ecomm-asure-relevance, Trendyol/Trendyol-LLM-Asure-12B. Liste dışı sürümler için en son garantisi yok.",
+      "revision": "1aeda7229465d71662aacd26e6c6e8f167f683a7",
+      "try_it": "İleride aynı soru kümesi düşünme açık ve kapalı denenmeli; doğruluk yanında yanıt uzunluğu ve gecikme de kaydedilmeli.",
+      "demo_url": null,
+      "independent": "Tartışma 1'de kullanıcı muhakeme davranışından memnun olduğunu söylüyor; kontrollü test sunmuyor. LinkedIn'de ekip veri kapsamı ve kıyaslama soruları alıyor. Model birleştirme yazısı tam T1 kimliği vermediği için bu sürümün performansı sayılmadı.",
+      "unknowns": [
+        "E-ticaret verisinin kapsamı",
+        " bağımsız olumsuz deneyim",
+        " tam T1 ile yeniden üretilebilir görev sonuçları."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/Trendyol/Trendyol-LLM-8B-T1",
+          "title": "Trendyol/Trendyol-LLM-8B-T1 version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Trendyol/Trendyol-LLM-8B-T1/raw/main/README.md",
+          "title": "Trendyol/Trendyol-LLM-8B-T1 model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Trendyol",
+          "title": "Trendyol/Trendyol-LLM-8B-T1 developer kaydı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=Trendyol&sort=lastModified&direction=-1&limit=40",
+          "title": "Trendyol/Trendyol-LLM-8B-T1 version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Trendyol/Trendyol-LLM-8B-T1/discussions",
+          "title": "Trendyol/Trendyol-LLM-8B-T1 community_index kaydı",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Trendyol/Trendyol-LLM-8B-T1/discussions/1",
+          "title": "Trendyol/Trendyol-LLM-8B-T1 community kaydı",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/ahmet-arif-t_trendyoltrendyol-llm-8b-t1-hugging-face-activity-7351620843677937664-OmbW",
+          "title": "Arif Türkmen:8B-T1 duyurusu",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://huggingface.co/Trendyol/Trendyol-LLM-8B-T1/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": [
+            "https://huggingface.co/api/models/Trendyol/Trendyol-LLM-8B-T1/discussions/1"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Sosyal geliştirici duyurusu açılıp okundu; bağımsız kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://tr.linkedin.com/posts/ahmet-arif-t_trendyoltrendyol-llm-8b-t1-hugging-face-activity-7351620843677937664-OmbW"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "API özeti ve erişilebilir profil takip sürümleri kontrol edildi; lastModified eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/Trendyol/Trendyol-LLM-8B-T1",
+            "https://huggingface.co/api/models?author=Trendyol&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Trendyol-LLM-8B-T1\" review youtube X",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "Trendyol/Trendyol-LLM-8B-T1",
+          "url": "https://huggingface.co/Trendyol/Trendyol-LLM-8B-T1",
+          "status": "model kartı ve API okundu"
+        }
+      ]
+    },
+    {
+      "record_id": 9,
+      "id": "Trendyol/Trendyol-LLM-Asure-12B",
+      "name": "Trendyol-LLM-Asure-12B",
+      "category": "LLM-genel",
+      "kind": "model",
+      "creator": "Trendyol",
+      "plain": "Asure-12B, Gemma 3-12B üzerine metin ve görüntü girdileri için geliştirilmiş talimat modelidir. E-ticaret görevleri, kontrollü üretim ve yapılandırılmış bilgi çıkarımı öne çıkıyor. Geliştirici genel dünya bilgisinin bilerek sınırlı olduğunu açıkça söylüyor. Bu nedenle yalnız ansiklopedik sorularla değerlendirilmesi hedefini eksik temsil eder.",
+      "claims": [
+        {
+          "text": "Metin/görüntü görevlerinde daha kısa, işletim odaklı çıktı hedefleniyor; geliştirici üretim trafiği de bildiriyor.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://huggingface.co/Trendyol/Trendyol-LLM-Asure-12B/raw/main/README.md"
+        }
+      ],
+      "training": "Kart instruct biçimine odaklanıyor. Ekip üyesinin sosyal duyurusu farklı ayarlarla eğitilmiş modellerin doğrusal birleştirildiğini bildiriyor. Bu, bağımsız doğrulanmış eğitim günlüğü değildir; Gemma lisansı geçerlidir.",
+      "version": "Kontrol edilen depo: Trendyol/Trendyol-LLM-Asure-12B; son dosya değişikliği: 2026-02-20T09:52:13.000Z. Bu tarih yeni eğitim tarihi değildir. Geliştirici profilinin zaman sıralı ilk 40 model kaydı tarandı; ilgili görünen örnekler: Trendyol/TY-ecomm-asure-relevance, Trendyol/Trendyol-LLM-Asure-12B. Liste dışı sürümler için en son garantisi yok.",
+      "revision": "df1164d37f47080ba5fbc1ff4defa0c7a1a218a5",
+      "try_it": "İleride metin ve görüntü görevlerini ayırmak, ince ayarlı yarışma sonucu ile indirilen ham ağırlığı aynı skorla sunmamak gerekir.",
+      "demo_url": null,
+      "independent": "Bağımsız yarışma çözümü deposu iki tur LoRA ile Asure uyarlamasını anlatıyor: özel testte macro-F1 0,943607; aynı istemle temel sürüm 0,7405. Bu sonuç ek eğitim görmüş görev modeline ait, ham Asure kalitesi değil.",
+      "unknowns": [
+        "Ham sürümün bağımsız kapsamlı ölçümü",
+        " görüntü görevleri",
+        " kurum dışı olumsuz deneyim",
+        " yeni relevance türevinin ayrıntıları."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/Trendyol/Trendyol-LLM-Asure-12B",
+          "title": "Trendyol/Trendyol-LLM-Asure-12B version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Trendyol/Trendyol-LLM-Asure-12B/raw/main/README.md",
+          "title": "Trendyol/Trendyol-LLM-Asure-12B model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Trendyol",
+          "title": "Trendyol/Trendyol-LLM-Asure-12B developer kaydı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=Trendyol&sort=lastModified&direction=-1&limit=40",
+          "title": "Trendyol/Trendyol-LLM-Asure-12B version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Trendyol/Trendyol-LLM-Asure-12B/discussions",
+          "title": "Trendyol/Trendyol-LLM-Asure-12B community_index kaydı",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Trendyol/Trendyol-LLM-Asure-12B/discussions/1",
+          "title": "Trendyol/Trendyol-LLM-Asure-12B community kaydı",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/cakmak-yusuf_trendyoltrendyol-llm-asure-12b-hugging-activity-7430267282997809153-YSp1",
+          "title": "Yusuf Çakmak: Asure duyurusu",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/bilalcanustabas/trendyol-2026-e-commerce-hackathon",
+          "title": "E-commerce hackathon takım çözümü",
+          "type": "independent_usage",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://huggingface.co/Trendyol/Trendyol-LLM-Asure-12B/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": [
+            "https://huggingface.co/api/models/Trendyol/Trendyol-LLM-Asure-12B/discussions/1"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Sosyal geliştirici duyurusu açılıp okundu; bağımsız kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://tr.linkedin.com/posts/cakmak-yusuf_trendyoltrendyol-llm-asure-12b-hugging-activity-7430267282997809153-YSp1"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "API özeti ve erişilebilir profil takip sürümleri kontrol edildi; lastModified eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/Trendyol/Trendyol-LLM-Asure-12B",
+            "https://huggingface.co/api/models?author=Trendyol&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Trendyol-LLM-Asure-12B\" review deneyim youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "Trendyol/Trendyol-LLM-Asure-12B",
+          "url": "https://huggingface.co/Trendyol/Trendyol-LLM-Asure-12B",
+          "status": "model kartı ve API okundu"
+        }
+      ]
+    },
+    {
+      "record_id": 10,
+      "id": "TURKCELL/Turkcell-LLM-7b-v1",
+      "name": "Turkcell-LLM-7b-v1",
+      "category": "LLM-genel",
+      "kind": "model",
+      "creator": "Turkcell",
+      "plain": "Turkcell-LLM-7b-v 1 Mistral ailesinden Türkçe uyarlamadır. Türkçe tokenizer genişletmesi ve talimat eğitimi anlatılıyor. Şirket adına bakarak sıfırdan Türkçe ön eğitim yapıldığı sonucu çıkmaz. Açık depo ile Turkcell'in daha yeni kurumsal projeleri aynı ürün veya aynı sürüm değildir.",
+      "claims": [
+        {
+          "text": "Türkçe veri ve tokenizer uyarlaması geliştirici tarafından belgeleniyor; başarı kendi kullanım örneklerinde ayrıca sınanmalı.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://huggingface.co/TURKCELL/Turkcell-LLM-7b-v1/raw/main/README.md"
+        }
+      ],
+      "training": "Kart beş milyar Türkçe token üzerinde DoRA, ardından açık ve kurum içi talimatlarla LoRA bildiriyor. Rank ayarları verilmiş olsa da veri listesi ve bütün eğitim tekrar tarifi yok. Lisans Apache-2.0.",
+      "version": "Kontrol edilen depo: TURKCELL/Turkcell-LLM-7b-v 1; son dosya değişikliği: 2024-04-04T12:17:23.000Z. Bu tarih yeni eğitim tarihi değildir. Kontrol edilen kamu kaynakları dışında daha yeni sürüm bulunmadığı garanti edilmiyor.",
+      "revision": "c84d2a719b909041f3a0e9c54f5bc4b4955bb31a",
+      "try_it": "İleride dtype ve cihaz yerleştirme ayarı açık kaydedilmeli. Önceki kullanıcının bellek hatası, kendi donanımımızda ölçülmüş sonuç olarak gösterilemez.",
+      "demo_url": null,
+      "independent": "Tartışma 7'de kullanıcı Nutuk örneklerinde Mistral instruct atasına yakın fakat biraz düşük sonuç aldığını anlatıyor; sayılar yok. Tartışma 6'da RTX3090 24GB ile örnek kodda bellek hatası bildirilmiş; bu bütün kurulumların çalışmayacağı anlamına gelmez.",
+      "unknowns": [
+        "Beş milyar tokenın kaynakları",
+        " sentetik veri oranı",
+        " tekrarlanabilir bağımsız görev seti",
+        " güncel kurumsal ürün ilişkisi."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/TURKCELL/Turkcell-LLM-7b-v1",
+          "title": "TURKCELL/Turkcell-LLM-7b-v1 version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/TURKCELL/Turkcell-LLM-7b-v1/raw/main/README.md",
+          "title": "TURKCELL/Turkcell-LLM-7b-v1 model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/TURKCELL",
+          "title": "TURKCELL/Turkcell-LLM-7b-v1 developer kaydı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=TURKCELL&sort=lastModified&direction=-1&limit=40",
+          "title": "TURKCELL/Turkcell-LLM-7b-v1 version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/TURKCELL/Turkcell-LLM-7b-v1/discussions",
+          "title": "TURKCELL/Turkcell-LLM-7b-v1 community_index kaydı",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/TURKCELL/Turkcell-LLM-7b-v1/discussions/7",
+          "title": "TURKCELL/Turkcell-LLM-7b-v1 community kaydı",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/TURKCELL/Turkcell-LLM-7b-v1/discussions/6",
+          "title": "TURKCELL/Turkcell-LLM-7b-v1 community kaydı",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/bezir/MMLU-pro-TR",
+          "title": "MMLU-Pro-TR Mini-Leaderboard",
+          "type": "independent_benchmark",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://huggingface.co/TURKCELL/Turkcell-LLM-7b-v1/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": [
+            "https://huggingface.co/api/models/TURKCELL/Turkcell-LLM-7b-v1/discussions/7",
+            "https://huggingface.co/api/models/TURKCELL/Turkcell-LLM-7b-v1/discussions/6"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam model/aile adıyla YouTube, X, LinkedIn ve açık webde tanıtım ve kullanıcı deneyimi arandı; açılıp okunmuş ek kaynak aşağıda belirtilir.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "API özeti ve erişilebilir profil takip sürümleri kontrol edildi; lastModified eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/TURKCELL/Turkcell-LLM-7b-v1",
+            "https://huggingface.co/api/models?author=TURKCELL&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Turkcell-LLM-7b-v1\" deneyim review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "TURKCELL/Turkcell-LLM-7b-v1",
+          "url": "https://huggingface.co/TURKCELL/Turkcell-LLM-7b-v1",
+          "status": "model kartı ve API okundu"
+        }
+      ]
+    },
+    {
+      "record_id": 11,
+      "id": "KOCDIGITAL/Kocdigital-LLM-8b-v0.1",
+      "name": "Kocdigital-LLM-8b-v0.1",
+      "category": "LLM-genel",
+      "kind": "model",
+      "creator": "KoçDigital",
+      "plain": "Kocdigital-LLM-8b-v 0.1 Llama 3-8B tabanlı Türkçe talimat uyarlamasıdır. Kartın çok sayıda sınav sonucu olması gerçek uygulamadaki hatasızlık anlamına gelmez. Her skorun Türkçe çeviri veri kümesi, atış sayısı ve sürümüyle okunması gerekiyor. Kurum içi kaynakların tamamı açık görünmüyor.",
+      "claims": [
+        {
+          "text": "Geliştirici kartında Türkçe MMLU için 49,11 ve GSM8K için 51,78 raporlanıyor; başka protokolle doğrudan kıyaslanmamalı.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://huggingface.co/KOCDIGITAL/Kocdigital-LLM-8b-v0.1/raw/main/README.md"
+        }
+      ],
+      "training": "QLoRA ile SFT belirtilmiş: rank 64, alpha 128 ve sıfır dropout; çeşitli dikkat ve MLP katmanları hedeflenmiş. Veriler açık kaynak ve kurum içi Türkçe talimatlardan oluşturulmuş. Llama 3 lisansı mevcut.",
+      "version": "Kontrol edilen depo: KOCDIGITAL/Kocdigital-LLM-8b-v 0.1; son dosya değişikliği: 2024-05-03T09:29:16.000Z. Bu tarih yeni eğitim tarihi değildir. Kontrol edilen kamu kaynakları dışında daha yeni sürüm bulunmadığı garanti edilmiyor.",
+      "revision": "85952962ddb7baf03f6550e36ca3188b6fc4c9f4",
+      "try_it": "İleride ürün görevlerine uygun örnekler ayrılmalı; sınav tablosundaki göreli başarıdan otomatik ürün seçimi yapılmamalı.",
+      "demo_url": null,
+      "independent": "Bağımsız MMLU-Pro-TR deposu bu tam model için özgün MMLU 47,35 ve daha zor Pro sürümde 21,83 bildiriyor. Fark iki testin aynı olmadığına işaret ediyor; kullanıcı memnuniyetini ölçmüyor.",
+      "unknowns": [
+        "Bağımsız olumlu/olumsuz gündelik deneyim",
+        " eğitim verisinin tam listesi",
+        " kart tablosunun tekrar üretimi."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/KOCDIGITAL/Kocdigital-LLM-8b-v0.1",
+          "title": "KOCDIGITAL/Kocdigital-LLM-8b-v0.1 version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/KOCDIGITAL/Kocdigital-LLM-8b-v0.1/raw/main/README.md",
+          "title": "KOCDIGITAL/Kocdigital-LLM-8b-v0.1 model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/KOCDIGITAL",
+          "title": "KOCDIGITAL/Kocdigital-LLM-8b-v0.1 developer kaydı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=KOCDIGITAL&sort=lastModified&direction=-1&limit=40",
+          "title": "KOCDIGITAL/Kocdigital-LLM-8b-v0.1 version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/KOCDIGITAL/Kocdigital-LLM-8b-v0.1/discussions",
+          "title": "KOCDIGITAL/Kocdigital-LLM-8b-v0.1 community_index kaydı",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/bezir/MMLU-pro-TR",
+          "title": "MMLU-Pro-TR Mini-Leaderboard",
+          "type": "independent_benchmark",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://huggingface.co/KOCDIGITAL/Kocdigital-LLM-8b-v0.1/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam model/aile adıyla YouTube, X, LinkedIn ve açık webde tanıtım ve kullanıcı deneyimi arandı; açılıp okunmuş ek kaynak aşağıda belirtilir.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "API özeti ve erişilebilir profil takip sürümleri kontrol edildi; lastModified eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/KOCDIGITAL/Kocdigital-LLM-8b-v0.1",
+            "https://huggingface.co/api/models?author=KOCDIGITAL&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Kocdigital-LLM-8b-v0.1\" review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "KOCDIGITAL/Kocdigital-LLM-8b-v0.1",
+          "url": "https://huggingface.co/KOCDIGITAL/Kocdigital-LLM-8b-v0.1",
+          "status": "model kartı ve API okundu"
+        }
+      ]
+    },
+    {
+      "record_id": 12,
+      "id": "asafaya/kanarya-2b",
+      "name": "asafaya/kanarya-2b (ve kanarya-750m)",
+      "category": "LLM-genel",
+      "kind": "model_family",
+      "creator": "Ali Safaya / TDD",
+      "plain": "Kanarya-2B Türkçe GPT-J ön eğitim modelidir; kart ailede daha küçük Kanarya-0.7B üyesini de anıyor. Burada 2B üyesi okundu. Model kartı aşağı görevlerde ince ayarsız kullanımı amaçlamadığını açıkça söylüyor. Bu nedenle sohbet asistanıyla aynı beklentiyle puanlamak yanıltıcı olur.",
+      "claims": [
+        {
+          "text": "Türkçe için ön eğitim ve sonradan göreve uyarlama amacı birincil kartta açıkça belirtiliyor.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://huggingface.co/asafaya/kanarya-2b/raw/main/README.md"
+        }
+      ],
+      "training": "OSCAR ve mC4'ten filtrelenmiş Türkçe verilerle JAX/Flax GPT-J eğitimi anlatılıyor. 2.050 milyon parametre, 2.048 bağlam ve 32.768 sözlük bildiriliyor. Lisans Apache-2.0.",
+      "version": "Kontrol edilen depo: asafaya/kanarya-2b; son dosya değişikliği: 2024-03-17T13:50:45.000Z. Bu tarih yeni eğitim tarihi değildir. Geliştirici profilinin zaman sıralı ilk 40 model kaydı tarandı; ilgili görünen örnekler: asafaya/kanarya-750m, asafaya/kanarya-2b. Liste dışı sürümler için en son garantisi yok.",
+      "revision": "1c68bb34e6d7a4039fe09ece86335a5c01aba031",
+      "try_it": "İleride metin devamı ve seçilmiş aşağı görevi ayrı sınamak gerekir; ticari kullanım izni tek başına göreve uygunluk sağlamaz.",
+      "demo_url": null,
+      "independent": "Topluluk tartışma 1 otomatik bellek tahmini; kalite deneyi değil. Alhajar'ın değerlendirme duyurusunda TruthfulQA'nın yüzde 100 sonucu için kullanıcı itirazı ve ortalama metriğinin değiştirilmesi var; bu kusursuz doğruluk kanıtı kabul edilmedi.",
+      "unknowns": [
+        "750m üyesinin ayrıntılı kartı",
+        " hatalı görünen eski ölçümün tam tekrar üretimi",
+        " güncel kullanıcı kalite deneyimi."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/asafaya/kanarya-2b",
+          "title": "asafaya/kanarya-2b version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/asafaya/kanarya-2b/raw/main/README.md",
+          "title": "asafaya/kanarya-2b model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/asafaya",
+          "title": "asafaya/kanarya-2b developer kaydı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=asafaya&sort=lastModified&direction=-1&limit=40",
+          "title": "asafaya/kanarya-2b version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/asafaya/kanarya-2b/discussions",
+          "title": "asafaya/kanarya-2b community_index kaydı",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/asafaya/kanarya-2b/discussions/1",
+          "title": "asafaya/kanarya-2b community kaydı",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/mohamad-alhajar_turkishllm-ai-machinelearning-activity-7172533491924955136-ikfy",
+          "title": "Alhajar değerlendirme duyurusu ve itirazlar",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://huggingface.co/asafaya/kanarya-2b/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": [
+            "https://huggingface.co/api/models/asafaya/kanarya-2b/discussions/1"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Açık sosyal gönderi ve kullanıcı yorum metni okundu; ölçüm sınırı independent alanında.",
+          "urls": [
+            "https://www.linkedin.com/posts/mohamad-alhajar_turkishllm-ai-machinelearning-activity-7172533491924955136-ikfy"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "API özeti ve erişilebilir profil takip sürümleri kontrol edildi; lastModified eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/asafaya/kanarya-2b",
+            "https://huggingface.co/api/models?author=asafaya&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"kanarya-2b\" asafaya review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "asafaya/kanarya-2b",
+          "url": "https://huggingface.co/asafaya/kanarya-2b",
+          "status": "model kartı ve API okundu"
+        },
+        {
+          "name": "asafaya/kanarya-750m",
+          "url": "https://huggingface.co/asafaya/kanarya-750m",
+          "status": "Bağlantı/profil kimliği görüldü; üyenin tam eğitim ve kullanıcı araştırması açık"
+        }
+      ]
+    },
+    {
+      "record_id": 13,
+      "id": "boun-tabi-LMG/TURNA",
+      "name": "TURNA (1,14B, T5 kodlayıcı-çözücü)",
+      "category": "LLM-genel",
+      "kind": "model",
+      "creator": "Boğaziçi Üniversitesi TABILAB",
+      "plain": "TURNA yalnız sohbet üreten decoder modeli değildir; anlama ve üretim için encoder-decoder yapısındadır. Kart UL2 çerçevesini ve yaklaşık 1,1 milyar parametreyi bildiriyor. Katalogdaki genel LLM etiketi bu farkı gizlememeli. Ticari olmayan akademik araştırma sınırı kullanım kararını doğrudan etkiler.",
+      "claims": [
+        {
+          "text": "Üç üretim ve beş anlama görevinde çokdilli modellere üstünlük geliştirici değerlendirmesi olarak bildirilmiş.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://huggingface.co/boun-tabi-LMG/TURNA/raw/main/README.md"
+        }
+      ],
+      "training": "Mixture-of-Denoisers ile 1.740.000 adım, 42,7 milyar token maruziyeti ve 512 giriş/çıkış uzunluğu raporlanmış. Kart 36 katman ve unigram tokenizer ayrıntıları veriyor; ham veri ile token maruziyeti aynı ölçü değildir.",
+      "version": "Kontrol edilen depo: boun-tabi-LMG/TURNA; son dosya değişikliği: 2024-05-01T10:36:27.000Z. Bu tarih yeni eğitim tarihi değildir. Kontrol edilen kamu kaynakları dışında daha yeni sürüm bulunmadığı garanti edilmiyor.",
+      "revision": "8c07ff22e63520bc92dda9966d56df6fb8e2ac83",
+      "try_it": "İleride resmî turkish-lm-tuner örneklerinden uygun görev seçilmeli. Ticari olmayan araştırma koşulu korunarak eğitimli görev türevi ve ana model ayrılmalı.",
+      "demo_url": null,
+      "independent": "Tartışma 2'de token_type_ids uyumsuzluğu somut hata koduyla bildirilmiş; geliştirici değişiklik yaptığını söylüyor. Bu yanıt sorunun bizim ortamımızda giderildiğini kanıtlamaz. Tartışma 1 ticari kullanımın kapalı olduğunu açıklıyor.",
+      "unknowns": [
+        "Bağımsız görev başarısı",
+        " güncel uyumluluk",
+        " hazır görev türevlerinin ayrı incelenmesi."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/boun-tabi-LMG/TURNA",
+          "title": "boun-tabi-LMG/TURNA version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/boun-tabi-LMG/TURNA/raw/main/README.md",
+          "title": "boun-tabi-LMG/TURNA model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/boun-tabi-LMG",
+          "title": "boun-tabi-LMG/TURNA developer kaydı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=boun-tabi-LMG&sort=lastModified&direction=-1&limit=40",
+          "title": "boun-tabi-LMG/TURNA version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/boun-tabi-LMG/TURNA/discussions",
+          "title": "boun-tabi-LMG/TURNA community_index kaydı",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/boun-tabi-LMG/TURNA/discussions/2",
+          "title": "boun-tabi-LMG/TURNA community kaydı",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/boun-tabi-LMG/TURNA/discussions/1",
+          "title": "boun-tabi-LMG/TURNA community kaydı",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/onurgungor_turna-a-hugging-face-space-by-boun-tabi-lmg-activity-7156729301910880258-mTqq",
+          "title": "Onur Güngör:TURNA duyurusu",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://huggingface.co/boun-tabi-LMG/TURNA/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": [
+            "https://huggingface.co/api/models/boun-tabi-LMG/TURNA/discussions/2",
+            "https://huggingface.co/api/models/boun-tabi-LMG/TURNA/discussions/1"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Sosyal geliştirici duyurusu açılıp okundu; bağımsız kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://tr.linkedin.com/posts/onurgungor_turna-a-hugging-face-space-by-boun-tabi-lmg-activity-7156729301910880258-mTqq"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "API özeti ve erişilebilir profil takip sürümleri kontrol edildi; lastModified eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/boun-tabi-LMG/TURNA",
+            "https://huggingface.co/api/models?author=boun-tabi-LMG&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"TURNA\" \"boun-tabi\" review model youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "boun-tabi-LMG/TURNA",
+          "url": "https://huggingface.co/boun-tabi-LMG/TURNA",
+          "status": "model kartı ve API okundu"
+        }
+      ]
+    },
+    {
+      "record_id": 14,
+      "id": "vngrs/VBART-Large-Base",
+      "name": "VBART (Small/Medium/Large/XLarge + özetleme, parafraz, QAQG)",
+      "category": "LLM-genel",
+      "kind": "model_family",
+      "creator": "VNGRS",
+      "plain": "VBART bir encoder-decoder ailesidir; özet, parafraz, başlık ve soru üretimi için göreve uyarlanır. Doğrudan incelenen Large-Base sohbet ürünü değildir. Ana kart Large 387M ve XLarge 740M boyutlarını açıklar; katalogdaki Small ve Medium ile bütün görev türevleri ayrı kayıt olarak araştırılmalıdır.",
+      "claims": [
+        {
+          "text": "Göreve ince ayarlanmış üyelerin önceki Türkçe sonuçları geçtiği model kartı ve makalede iddia ediliyor.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://huggingface.co/vngrs/VBART-Large-Base/raw/main/README.md"
+        }
+      ],
+      "training": "Large kartı Türkçe web verisinde sıfırdan mBART tarzı ön eğitim, 708 milyar token maruziyeti ve 1.024 bağlam bildiriyor. XLarge, Large katmanları arasına yeni katman eklenerek büyütülmüş. CC-BY-NC-SA-4.0 lisansı ticari serbestlik değildir.",
+      "version": "Kontrol edilen depo: vngrs/VBART-Large-Base; son dosya değişikliği: 2025-12-09T09:28:05.000Z. Bu tarih yeni eğitim tarihi değildir. Geliştirici profilinin zaman sıralı ilk 40 model kaydı tarandı; ilgili görünen örnekler: vngrs/VBART-Large-Base, vngrs/VBART-XLarge-Base, vngrs/Kumru-2B-Base, vngrs/Kumru-2B. Liste dışı sürümler için en son garantisi yok.",
+      "revision": "893243ae85d31c269280eb6ef2805f516a221d2c",
+      "try_it": "İleride Base yerine doğru görev türevi seçilmeli; özetin kaynak sadakati ve çıkarılan sayılar ayrıca kontrol edilmeli.",
+      "demo_url": null,
+      "independent": "Bağımsız ön baskı çalışması okunabilirlik kontrollü özetleme için VBART üzerine model kuruyor. Bu, gerçek araştırma kullanımı örneğidir; bütün VBART üyelerinin günlük performansını doğrulamaz. Şirket sosyal duyurusu geliştirici iddiasıdır.",
+      "unknowns": [
+        "Small/Medium ve QAQG/parafraz üyelerinin tam karşılaştırması",
+        " bağımsız olumsuz deneyim",
+        " güncel lisansın türevlere etkisi."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/vngrs/VBART-Large-Base",
+          "title": "vngrs/VBART-Large-Base version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/vngrs/VBART-Large-Base/raw/main/README.md",
+          "title": "vngrs/VBART-Large-Base model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/vngrs",
+          "title": "vngrs/VBART-Large-Base developer kaydı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=vngrs&sort=lastModified&direction=-1&limit=40",
+          "title": "vngrs/VBART-Large-Base version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/vngrs/VBART-Large-Base/discussions",
+          "title": "vngrs/VBART-Large-Base community_index kaydı",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/vngrs_vngrs-vbart-aisolutioncenter-activity-7179074806623944704-GieC",
+          "title": "VNGRS:VBART duyurusu",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://assets-eu.researchsquare.com/files/rs-9418915/v1_covered_78b4a7f7-955c-442f-a377-07cebf5060cd.pdf",
+          "title": "Beyond One-Size-Fits-All Summarization",
+          "type": "independent_paper",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://huggingface.co/vngrs/VBART-Large-Base/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Sosyal geliştirici duyurusu açılıp okundu; bağımsız kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://tr.linkedin.com/posts/vngrs_vngrs-vbart-aisolutioncenter-activity-7179074806623944704-GieC"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "API özeti ve erişilebilir profil takip sürümleri kontrol edildi; lastModified eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/vngrs/VBART-Large-Base",
+            "https://huggingface.co/api/models?author=vngrs&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"VBART\" VNGRS review youtube model",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "vngrs/VBART-Large-Base",
+          "url": "https://huggingface.co/vngrs/VBART-Large-Base",
+          "status": "model kartı ve API okundu"
+        },
+        {
+          "name": "vngrs/VBART-Small-Base",
+          "url": "https://huggingface.co/vngrs/VBART-Small-Base",
+          "status": "Bağlantı/profil kimliği görüldü; üyenin tam eğitim ve kullanıcı araştırması açık"
+        },
+        {
+          "name": "vngrs/VBART-Medium-Base",
+          "url": "https://huggingface.co/vngrs/VBART-Medium-Base",
+          "status": "Bağlantı/profil kimliği görüldü; üyenin tam eğitim ve kullanıcı araştırması açık"
+        },
+        {
+          "name": "vngrs/VBART-XLarge-Base",
+          "url": "https://huggingface.co/vngrs/VBART-XLarge-Base",
+          "status": "Bağlantı/profil kimliği görüldü; üyenin tam eğitim ve kullanıcı araştırması açık"
+        },
+        {
+          "name": "vngrs/VBART-Large-Summarization",
+          "url": "https://huggingface.co/vngrs/VBART-Large-Summarization",
+          "status": "Bağlantı/profil kimliği görüldü; üyenin tam eğitim ve kullanıcı araştırması açık"
+        },
+        {
+          "name": "vngrs/VBART-Large-Paraphrasing",
+          "url": "https://huggingface.co/vngrs/VBART-Large-Paraphrasing",
+          "status": "Bağlantı/profil kimliği görüldü; üyenin tam eğitim ve kullanıcı araştırması açık"
+        },
+        {
+          "name": "vngrs/VBART-Large-QAQG",
+          "url": "https://huggingface.co/vngrs/VBART-Large-QAQG",
+          "status": "Bağlantı/profil kimliği görüldü; üyenin tam eğitim ve kullanıcı araştırması açık"
+        }
+      ]
+    },
+    {
+      "record_id": 15,
+      "id": "sambanovasystems/SambaLingo-Turkish-Chat",
+      "name": "SambaLingo-Turkish-Chat/Base, Orbina/Orbita-v0.1",
+      "category": "LLM-genel",
+      "kind": "model_family",
+      "creator": "SambaNova Systems; Orbina AI",
+      "plain": "Bu katalog satırı iki farklı geliştiriciyi bir araya getirmiş. SambaLingo-Turkish-Chat ile Base aynı ailenin üyeleri; Orbina/Orbita-v 0.1 ise ayrı Qwen 14B tabanlı modeldir. Orbita, SambaLingo'nun yeni adı veya devam sürümü değildir. Satır karşılaştırmaya açılırken kimlikler ayrı tutulmalı.",
+      "claims": [
+        {
+          "text": "SambaLingo insan tercihlerine hizalanmış Türkçe/İngilizce sohbet hedefliyor. Orbita ayrı Türkçe tam ince ayar modeli olarak belgeleniyor.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://huggingface.co/sambanovasystems/SambaLingo-Turkish-Chat/raw/main/README.md"
+        }
+      ],
+      "training": "SambaLingo Chat, Llama 2-7B'den CulturaX Türkçe kısmında 42 milyar tokenlık uyarlama ve DPO sonrası geliştirilmiş. Orbita kartı Türkçe anotasyonlu veriyle full fine-tuning diyor. Lisansları sırasıyla Llama 2 ve Apache-2.0.",
+      "version": "Kontrol edilen depo: sambanovasystems/SambaLingo-Turkish-Chat; son dosya değişikliği: 2024-04-16T22:40:23.000Z. Bu tarih yeni eğitim tarihi değildir. Kontrol edilen kamu kaynakları dışında daha yeni sürüm bulunmadığı garanti edilmiyor.",
+      "revision": "4300a8a4744532a727c551aa4f28c5b50c6a9a06",
+      "try_it": "SambaLingo için Space bağlantısı kartta var, cevap alınmadı. İleride iki ayrı temel model ve kendi sohbet şablonlarıyla sınanmalı.",
+      "demo_url": "https://huggingface.co/spaces/sambanovasystems/SambaLingo-chat-space",
+      "independent": "SambaLingo tartışma 2'de 8GB RAM'li kullanıcı yanıt alamama ve süreç sonlanması bildiriyor; ekip ağırlık boyutuna dikkat çekiyor. Orbita için MMLU-Pro-TR 22,95 bildiriliyor; bu sohbet deneyimi değil.",
+      "unknowns": [
+        "Base üyesinin ayrıntılı sürümü",
+        " iki model için bağımsız kapsamlı kullanıcı deneyimi",
+        " demo çalışırlığı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/sambanovasystems/SambaLingo-Turkish-Chat",
+          "title": "sambanovasystems/SambaLingo-Turkish-Chat version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/sambanovasystems/SambaLingo-Turkish-Chat/raw/main/README.md",
+          "title": "sambanovasystems/SambaLingo-Turkish-Chat model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/sambanovasystems",
+          "title": "sambanovasystems/SambaLingo-Turkish-Chat developer kaydı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=sambanovasystems&sort=lastModified&direction=-1&limit=40",
+          "title": "sambanovasystems/SambaLingo-Turkish-Chat version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/sambanovasystems/SambaLingo-Turkish-Chat/discussions",
+          "title": "sambanovasystems/SambaLingo-Turkish-Chat community_index kaydı",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/sambanovasystems/SambaLingo-Turkish-Chat/discussions/2",
+          "title": "sambanovasystems/SambaLingo-Turkish-Chat community kaydı",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/bezir/MMLU-pro-TR",
+          "title": "MMLU-Pro-TR Mini-Leaderboard",
+          "type": "independent_benchmark",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Orbina/Orbita-v0.1",
+          "title": "Orbina/Orbita-v0.1 model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Orbina/Orbita-v0.1",
+          "title": "Orbina/Orbita-v0.1 canlı API sürümü",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://huggingface.co/sambanovasystems/SambaLingo-Turkish-Chat/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": [
+            "https://huggingface.co/api/models/sambanovasystems/SambaLingo-Turkish-Chat/discussions/2"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam model/aile adıyla YouTube, X, LinkedIn ve açık webde tanıtım ve kullanıcı deneyimi arandı; açılıp okunmuş ek kaynak aşağıda belirtilir.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "API özeti ve erişilebilir profil takip sürümleri kontrol edildi; lastModified eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/sambanovasystems/SambaLingo-Turkish-Chat",
+            "https://huggingface.co/api/models?author=sambanovasystems&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"SambaLingo-Turkish\" \"review\" OR \"reddit\" OR \"youtube\"",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Orbina/Orbita-v0.1\" review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "sambanovasystems/SambaLingo-Turkish-Chat",
+          "url": "https://huggingface.co/sambanovasystems/SambaLingo-Turkish-Chat",
+          "status": "model kartı ve API okundu"
+        },
+        {
+          "name": "Orbina/Orbita-v0.1",
+          "url": "https://huggingface.co/Orbina/Orbita-v0.1",
+          "status": "Kart ve API okundu; hash 54ec1f988be2e6d711e323bf83e74d09f9d9b06f; dosya değişikliği 2024-04-29T11:39:13Z"
+        },
+        {
+          "name": "sambanovasystems/SambaLingo-Turkish-Base",
+          "url": "https://huggingface.co/sambanovasystems/SambaLingo-Turkish-Base",
+          "status": "Bağlantı/profil kimliği görüldü; üyenin tam eğitim ve kullanıcı araştırması açık"
+        }
+      ]
+    },
+    {
+      "record_id": 16,
+      "id": "CerebrumTech/cere-llama-3-8b-tr",
+      "name": "cere-llama-3-8b-tr (Cerebrum Tech)",
+      "category": "LLM-genel",
+      "kind": "model",
+      "creator": "Cerebrum Tech",
+      "plain": "Katalogda bağlantısı eksik Cere modeli kamu Hugging Face deposuyla çözüldü: CerebrumTech/cere-llama-3-8b-tr. Türkçe Llama 3-8B uyarlamasıdır. Tanıtımdaki müşteri başarısı şirket anlatımıdır; müşterilerin kendi ölçümleri yayımlanmış kabul edilmedi. Model kartındaki kodun eski Cerebrum deposuna işaret etmesi kimlik dikkatini gerektiriyor.",
+      "claims": [
+        {
+          "text": "Geliştirici Türkçe MMLU46,46 ve GSM8K25,43 gibi skorlar yayımlıyor; protokol başka tablolardan ayrı okunmalı.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://huggingface.co/CerebrumTech/cere-llama-3-8b-tr"
+        }
+      ],
+      "training": "Kart Türkçe talimatlar, tokenizer genişletmesi, beş milyar token ve DoRA ardından LoRA bildiriyor. Tam veri listesi ve eğitim günlükleri yok. Llama 3 lisansı geçerli.",
+      "version": "Canlı API son dosya değişikliği 2024-08-29T08:01:09Z. Bu eğitim tarihi değildir. Katalogdaki eksik kimlik çözüldü; bütün kurumsal takip sürümleri taranmadığından en son garantisi yok.",
+      "revision": "06b5ee5787a992e35836e1c9b68c8b8818f1cf7b",
+      "try_it": "İleride tam repo kimliği sabitlenerek temel Llama 3 ile aynı Türkçe görevlerde karşılaştırılmalı; şirket müşteri iddiası ayrı kalmalı.",
+      "demo_url": null,
+      "independent": "CETVEL'in EACL2026 makalesi bu modeli gerçekten değerlendiriyor ve bazı Türkçe görevlerde güçlü sonuç veriyor. Bu bulgu tüm görevlerde 70B'yi geçtiği anlamına gelmez. Şirket ve portföy yatırımcısının paylaşımları bağımsız kullanıcı onayı sayılmadı.",
+      "unknowns": [
+        "Bağımsız son kullanıcı olumlu/olumsuz deneyimi",
+        " eğitim ayrıntıları",
+        " güncel kurumsal sürüm ilişkisi."
+      ],
+      "sources": [
+        {
+          "url": "https://tr.linkedin.com/posts/erdemerkul_cerebrumtechcere-llama-3-8b-tr-hugging-activity-7245805716479889408-FNlu",
+          "title": "Erdem Erkul:Cere müşteri iddiası",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://aclanthology.org/2026.eacl-long.46.pdf",
+          "title": "Cetvel:EACL2026",
+          "type": "independent_paper",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/CerebrumTech/cere-llama-3-8b-tr",
+          "title": "CerebrumTech/cere-llama-3-8b-tr model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/CerebrumTech/cere-llama-3-8b-tr",
+          "title": "CerebrumTech/cere-llama-3-8b-tr canlı API sürümü",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://huggingface.co/CerebrumTech/cere-llama-3-8b-tr"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Sosyal geliştirici duyurusu açılıp okundu; bağımsız kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://tr.linkedin.com/posts/erdemerkul_cerebrumtechcere-llama-3-8b-tr-hugging-activity-7245805716479889408-FNlu"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Açık API veya resmî ürün/aile sürüm durumu okundu; dosya tarihi eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/CerebrumTech/cere-llama-3-8b-tr"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"cere-llama-3-8b-tr\" Cerebrum youtube review",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "CerebrumTech/cere-llama-3-8b-tr",
+          "url": "https://huggingface.co/CerebrumTech/cere-llama-3-8b-tr",
+          "status": "Kart ve API okundu; hash 06b5ee5787a992e35836e1c9b68c8b8818f1cf7b; dosya değişikliği 2024-08-29T08:01:09Z"
+        }
+      ]
+    },
+    {
+      "record_id": 17,
+      "id": "ytu-ce-cosmos/Flow-Drafter-Qwen3.5-4B",
+      "name": "Flow-Drafter-Qwen3.5-4B/9B/27B (+ -tr)",
+      "category": "LLM-genel",
+      "kind": "model_family",
+      "creator": "YTÜ COSMOS",
+      "plain": "Flow-Drafter ailesi bağımsız sohbet modeli değil, hedef Qwen modelinin üretimini hızlandırmak için taslak token öneren yardımcı modellerdir. 4B/9B/27B isimleri hedef modele referans verir; yardımcı ağırlığın kendi parametre sayısı değildir. Türkçe -tr üyeleri de ayrı eğitim ve ölçüm kapsamı gerektiriyor.",
+      "claims": [
+        {
+          "text": "4B kartı sekiz alanda toplam 1,29x hızlanma bildiriyor; bazı alanlarda kazanç yok. Bu geliştiricinin belirli vLLM deneyidir.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://huggingface.co/ytu-ce-cosmos/Flow-Drafter-Qwen3.5-4B/raw/main/README.md"
+        }
+      ],
+      "training": "4B kartı genişletilmiş ikinci veri sürümünde yaklaşık 46 bin satır ve 10 kaynakla eğitim bildiriyor. Önerilen tokenları hedef model doğruluyor. Aynı çıktı garantisi kayan nokta işlem sırasından doğan küçük farklar konusunda kartta sınırlandırılmış.",
+      "version": "Kontrol edilen depo: ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-4B; son dosya değişikliği: 2026-09-15T20:23:16.000Z. Bu tarih yeni eğitim tarihi değildir. Geliştirici profilinin zaman sıralı ilk 40 model kaydı tarandı; ilgili görünen örnekler: ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-4B, ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-9B, ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-27B, ytu-ce-cosmos/Flow-Drafter-Qwen 3.5-4B-tr. Liste dışı sürümler için en son garantisi yok.",
+      "revision": "a3cd9a11c8029f795606a1b32c2877f5cf9efffa",
+      "try_it": "İleride yalnız bu hızlandırıcı ve aynı hedef model, aynı çıktı uzunluğu ve eşzamanlılık koşulunda ölçülmeli; Türkçe kalite modeli olarak sıralanmamalı.",
+      "demo_url": null,
+      "independent": "Bağımsız olumlu veya olumsuz kullanım raporu bulunamadı. COSMOS sosyal duyurusundaki 27B için 2,51 kata kadar hızlanma farklı kapsamdır. 4B kartındaki toplam 1,29x sonucu bununla karıştırılmamalı.",
+      "unknowns": [
+        "9B/27B ve üç-tr üyesinin ayrıntılı yeniden üretimi",
+        " farklı yükte hız",
+        " bağımsız tekrar."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/Flow-Drafter-Qwen3.5-4B",
+          "title": "ytu-ce-cosmos/Flow-Drafter-Qwen3.5-4B version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos/Flow-Drafter-Qwen3.5-4B/raw/main/README.md",
+          "title": "ytu-ce-cosmos/Flow-Drafter-Qwen3.5-4B model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos",
+          "title": "ytu-ce-cosmos/Flow-Drafter-Qwen3.5-4B developer kaydı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40",
+          "title": "ytu-ce-cosmos/Flow-Drafter-Qwen3.5-4B version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/Flow-Drafter-Qwen3.5-4B/discussions",
+          "title": "ytu-ce-cosmos/Flow-Drafter-Qwen3.5-4B community_index kaydı",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/ytu-cosmos_tr-modelinizin-d%C3%BC%C5%9F%C3%BCnme-h%C4%B1z%C4%B1ndan-%C5%9Fikayet%C3%A7i-activity-7505898833977970688-WMZt",
+          "title": "COSMOS:ChainFlow duyurusu",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://chainflow.cosmosytu.com/",
+          "title": "ChainFlow teknik blog",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "inaccessible"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://huggingface.co/ytu-ce-cosmos/Flow-Drafter-Qwen3.5-4B/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Sosyal geliştirici duyurusu açılıp okundu; bağımsız kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://tr.linkedin.com/posts/ytu-cosmos_tr-modelinizin-d%C3%BC%C5%9F%C3%BCnme-h%C4%B1z%C4%B1ndan-%C5%9Fikayet%C3%A7i-activity-7505898833977970688-WMZt"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "API özeti ve erişilebilir profil takip sürümleri kontrol edildi; lastModified eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/ytu-ce-cosmos/Flow-Drafter-Qwen3.5-4B",
+            "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Flow-Drafter-Qwen3.5\" review youtube COSMOS",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "ytu-ce-cosmos/Flow-Drafter-Qwen3.5-4B",
+          "url": "https://huggingface.co/ytu-ce-cosmos/Flow-Drafter-Qwen3.5-4B",
+          "status": "model kartı ve API okundu"
+        },
+        {
+          "name": "ytu-ce-cosmos/Flow-Drafter-Qwen3.5-9B",
+          "url": "https://huggingface.co/ytu-ce-cosmos/Flow-Drafter-Qwen3.5-9B",
+          "status": "Bağlantı/profil kimliği görüldü; üyenin tam eğitim ve kullanıcı araştırması açık"
+        },
+        {
+          "name": "ytu-ce-cosmos/Flow-Drafter-Qwen3.5-27B",
+          "url": "https://huggingface.co/ytu-ce-cosmos/Flow-Drafter-Qwen3.5-27B",
+          "status": "Bağlantı/profil kimliği görüldü; üyenin tam eğitim ve kullanıcı araştırması açık"
+        },
+        {
+          "name": "ytu-ce-cosmos/Flow-Drafter-Qwen3.5-4B-tr",
+          "url": "https://huggingface.co/ytu-ce-cosmos/Flow-Drafter-Qwen3.5-4B-tr",
+          "status": "Bağlantı/profil kimliği görüldü; üyenin tam eğitim ve kullanıcı araştırması açık"
+        },
+        {
+          "name": "ytu-ce-cosmos/Flow-Drafter-Qwen3.5-9B-tr",
+          "url": "https://huggingface.co/ytu-ce-cosmos/Flow-Drafter-Qwen3.5-9B-tr",
+          "status": "Bağlantı/profil kimliği görüldü; üyenin tam eğitim ve kullanıcı araştırması açık"
+        },
+        {
+          "name": "ytu-ce-cosmos/Flow-Drafter-Qwen3.5-27B-tr",
+          "url": "https://huggingface.co/ytu-ce-cosmos/Flow-Drafter-Qwen3.5-27B-tr",
+          "status": "Bağlantı/profil kimliği görüldü; üyenin tam eğitim ve kullanıcı araştırması açık"
+        }
+      ]
+    },
+    {
+      "record_id": 18,
+      "id": "AlicanKiraz0/Kizagan-E4B-Turkish-Reasoning-Model",
+      "name": "Kizagan-E4B-Turkish-Reasoning-Model",
+      "category": "LLM-genel",
+      "kind": "model",
+      "creator": "Alican Kiraz",
+      "plain": "Kızagan-E4B, Gemma 4-E4B-it üzerinden Türkçe muhakeme için ince ayarlanmış modeldir. E4B adının tüm ağırlıkların yalnız 4 milyar olduğu anlamına gelmediği kartta 8B ham/4B efektif ayrımıyla açıklanıyor. Görevler yazım, yapılandırılmış çıkarım, kaynaklı cevap ve matematik gibi geniş bir taksonomiye yayılıyor.",
+      "claims": [
+        {
+          "text": "Geliştirici GSM8K strict 14,06'dan 35,94'e ve MMLU30,42'den 33,18'e artış bildiriyor.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://huggingface.co/AlicanKiraz0/Kizagan-E4B-Turkish-Reasoning-Model/raw/main/README.md"
+        }
+      ],
+      "training": "Kart 540 bin satır ve yaklaşık 2 milyar tokenlık Türkçe SFT verisi bildiriyor. Eğitim verisi tasarımında alan, zorluk, üslup ve persona eksenleri anlatılıyor. Apache-2.0 lisansı ve farklı GGUF/MLX dağıtımları belirtilmiş.",
+      "version": "Kontrol edilen depo: AlicanKiraz 0/Kizagan-E4B-Turkish-Reasoning-Model; son dosya değişikliği: 2026-04-16T14:43:35.000Z. Bu tarih yeni eğitim tarihi değildir. Geliştirici profilinin zaman sıralı ilk 40 model kaydı tarandı; ilgili görünen örnekler: AlicanKiraz 0/Kizagan-TTS-v 1.0, AlicanKiraz 0/Kizagan-E4B-Turkish-Reasoning-Model-mlx-4Bit, AlicanKiraz 0/Kizagan-E4B-Turkish-Reasoning-Model-mlx-fp 16, AlicanKiraz 0/Kizagan-E4B-Turkish-Reasoning-Model-Q8_0-GGUF. Liste dışı sürümler için en son garantisi yok.",
+      "revision": "cd4faaf3957c1e68772cdfac7a462b477688fec9",
+      "try_it": "İleride özgün ata ile aynı istem ve puanlayıcı kullanılmalı; quant sürümleri aynı eğitim modelinin dağıtımları olarak ayrı izlenmeli.",
+      "demo_url": null,
+      "independent": "LinkedIn yorumunda kullanıcı Q6 dönüştürdüğünü ve 8GB VRAM hedeflediğini söylüyor; ölçülmüş yanıt kalitesi sunmuyor. Olumsuz bağımsız sonuç bulunmadı. Karttaki bağımsız benchmark sözü bağımsız araştırmacının yaptığı ölçüm anlamına gelmiyor.",
+      "unknowns": [
+        "Bağımsız tekrar",
+        " uzun bağlam",
+        " veri örtüşmesi",
+        " dağıtım biçimlerinin kalite etkisi."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/AlicanKiraz0/Kizagan-E4B-Turkish-Reasoning-Model",
+          "title": "AlicanKiraz0/Kizagan-E4B-Turkish-Reasoning-Model version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/AlicanKiraz0/Kizagan-E4B-Turkish-Reasoning-Model/raw/main/README.md",
+          "title": "AlicanKiraz0/Kizagan-E4B-Turkish-Reasoning-Model model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/AlicanKiraz0",
+          "title": "AlicanKiraz0/Kizagan-E4B-Turkish-Reasoning-Model developer kaydı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=AlicanKiraz0&sort=lastModified&direction=-1&limit=40",
+          "title": "AlicanKiraz0/Kizagan-E4B-Turkish-Reasoning-Model version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/AlicanKiraz0/Kizagan-E4B-Turkish-Reasoning-Model/discussions",
+          "title": "AlicanKiraz0/Kizagan-E4B-Turkish-Reasoning-Model community_index kaydı",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/alican-kiraz_alicankiraz0kizagan-e4b-turkish-reasoning-model-activity-7450560275742617600-4EEb",
+          "title": "Alican Kiraz:Kızagan duyurusu ve yorumlar",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://huggingface.co/AlicanKiraz0/Kizagan-E4B-Turkish-Reasoning-Model/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Sosyal geliştirici duyurusu açılıp okundu; bağımsız kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://tr.linkedin.com/posts/alican-kiraz_alicankiraz0kizagan-e4b-turkish-reasoning-model-activity-7450560275742617600-4EEb"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "API özeti ve erişilebilir profil takip sürümleri kontrol edildi; lastModified eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/AlicanKiraz0/Kizagan-E4B-Turkish-Reasoning-Model",
+            "https://huggingface.co/api/models?author=AlicanKiraz0&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Kizagan-E4B-Turkish-Reasoning-Model\" review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "AlicanKiraz0/Kizagan-E4B-Turkish-Reasoning-Model",
+          "url": "https://huggingface.co/AlicanKiraz0/Kizagan-E4B-Turkish-Reasoning-Model",
+          "status": "model kartı ve API okundu"
+        }
+      ]
+    },
+    {
+      "record_id": 19,
+      "id": "mertkayacs/Karar-4B",
+      "name": "mertkayacs/Karar-4B",
+      "category": "LLM-genel",
+      "kind": "model",
+      "creator": "Mert Kaya / Eschatia Labs",
+      "plain": "Karar-4B serbest sohbetten çok sınıflandırma ve seçenekler arasından karar vermek için hazırlanmış. Her seçenek için olasılık döndürüyor; yönlendirme ve triyaj bu yüzden doğal kullanım alanları. Yüksek güven puanı kendi başına doğru karar değildir. Belirsiz durumda bilinmiyor seçeneği ve kısa muhakeme desteği var.",
+      "claims": [
+        {
+          "text": "Ayrı Türkçe testte yüzde 96,8 başarı ve Brier 0,058 geliştiricinin ölçümüdür; günlük iş doğruluğu değildir.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://huggingface.co/mertkayacs/Karar-4B/raw/main/README.md"
+        }
+      ],
+      "training": "Intern-Decision-4B üzerine bf 16 LoRA rank 32 uygulanmış; önce ortak dil karışımı, ardından Türkçe ağırlıklı aşama anlatılıyor. Eğitim ve test aynı veri üretim hattından geliyor; bağımsız alanlara genelleme sınırı kartta açık.",
+      "version": "Kontrol edilen depo: mertkayacs/Karar-4B; son dosya değişikliği: 2026-10-18T22:37:11.000Z. Bu tarih yeni eğitim tarihi değildir. Geliştirici profilinin zaman sıralı ilk 40 model kaydı tarandı; ilgili görünen örnekler: mertkayacs/Karar-4B-GGUF, mertkayacs/Karar-4B. Liste dışı sürümler için en son garantisi yok.",
+      "revision": "83165be156e75ddbb2d3aa63c3a7b4ab772af60a",
+      "try_it": "JevAlt Space mevcut; bu görevde istek gönderilmedi. İleride doğru/yanlış seçenekleri önceden belli görevlerde olasılık ve çekimserlik birlikte ölçülmeli.",
+      "demo_url": "https://huggingface.co/spaces/mertkayacs/JevAlt",
+      "independent": "Okunan tartışma 1 geliştiricinin kendi karşılaştırmasıdır. Bağımsız kullanıcı deneyi bulunamadı. Proje sayfası ilgisiz 600 kelime eklenince 17,4 puan kayıp ve gizli talimatla yüzde 19 cevap değişimi gibi olumsuz sonuçları da bildiriyor.",
+      "unknowns": [
+        "Bağımsız alan testi",
+        " uzun belge dayanıklılığı",
+        " güven eşiklerinin kullanıcı verisine kalibrasyonu."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/mertkayacs/Karar-4B",
+          "title": "mertkayacs/Karar-4B version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/mertkayacs/Karar-4B/raw/main/README.md",
+          "title": "mertkayacs/Karar-4B model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/mertkayacs",
+          "title": "mertkayacs/Karar-4B developer kaydı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=mertkayacs&sort=lastModified&direction=-1&limit=40",
+          "title": "mertkayacs/Karar-4B version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/mertkayacs/Karar-4B/discussions",
+          "title": "mertkayacs/Karar-4B community_index kaydı",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/mertkayacs/Karar-4B/discussions/1",
+          "title": "mertkayacs/Karar-4B community kaydı",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://jevalt.mertkayacs.com/tr/",
+          "title": "JevAlt ölçümler ve sınırlar",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://huggingface.co/mertkayacs/Karar-4B/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": [
+            "https://huggingface.co/api/models/mertkayacs/Karar-4B/discussions/1"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam model/aile adıyla YouTube, X, LinkedIn ve açık webde tanıtım ve kullanıcı deneyimi arandı; açılıp okunmuş ek kaynak aşağıda belirtilir.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "API özeti ve erişilebilir profil takip sürümleri kontrol edildi; lastModified eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/mertkayacs/Karar-4B",
+            "https://huggingface.co/api/models?author=mertkayacs&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"mertkayacs/Karar-4B\" review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "mertkayacs/Karar-4B",
+          "url": "https://huggingface.co/mertkayacs/Karar-4B",
+          "status": "model kartı ve API okundu"
+        }
+      ]
+    },
+    {
+      "record_id": 20,
+      "id": "catalog-020",
+      "name": "Küçük/fikir modeller (Qwen3.5-2B-Turkish-SFT, qwen3.5-4b-turkish-sft, MiniCPM5-1B-Turkish, gemma-3-1b-turkish-recipes, Llama-3.1-8B-Turkish)",
+      "category": "LLM-genel",
+      "kind": "model_family",
+      "creator": "Tuğberk Akbulut; Yusuf Baykaloglu; thealper2; diğerleri belirsiz",
+      "plain": "Bu tek model değil, beş farklı küçük uyarlama adından oluşan gruptur. Qwen 2B ve 4B ile MiniCPM1B için tam geliştirici depoları bulundu. Recipes ve genel Llama 3.1 adı benzersiz üretici kimliği sağlamıyor. Üç incelenen üyenin sonucunu kimliği açık olmayan iki üyeye aktarmıyoruz.",
+      "claims": [
+        {
+          "text": "Üç açık kart Türkçe uyarlama iddiasını belgeliyor; küçük boyutun yeterli görev başarısı sağlayacağı henüz gösterilmiş değil.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://huggingface.co/Tuguberk/Qwen3.5-2B-Turkish-SFT"
+        }
+      ],
+      "training": "Qwen 2B kartı 5.579 örnekle üç epoch LoRA; Qwen 4B kartı helpsteer 3-tr edit bölümünde 13.740 örnekle iki epoch LoRA bildiriyor. MiniCPM kartı 195.876 eğitim örneği ve tüm parametrelerle SFT anlatıyor.",
+      "version": "Üç çözülen üyenin canlı hash ve dosya tarihleri members alanında. Bunlar eğitim tarihi değildir. Diğer iki üye kimliği ve takip sürüm taraması açık.",
+      "revision": "Aileye tek hash verilemez; üç üyenin hashleri members alanında.",
+      "try_it": "İleride her üye kendi temel modeliyle karşılaştırılmalı. MiniCPM'in 131k atasal bağlamı,2048 tokenlık ince ayar eğitiminde doğrulanmış uzun belge başarısı sayılmamalı.",
+      "demo_url": null,
+      "independent": "Bağımsız olumlu/olumsuz kullanıcı deneyimi ve video bulunamadı. Barındırma hizmetindeki tanıtım veya indirme sayısı kalite kanıtı alınmadı. Üç farklı veri, eğitim ve bağlam sınırı tek bir aile skoru oluşturmaz.",
+      "unknowns": [
+        "Recipes ve Llama üyesinin tam kimliği",
+        " ayrı kullanıcı deneyimleri",
+        " üç üyenin bağımsız kıyası."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/Tuguberk/Qwen3.5-2B-Turkish-SFT",
+          "title": "Tuguberk/Qwen3.5-2B-Turkish-SFT model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Tuguberk/Qwen3.5-2B-Turkish-SFT",
+          "title": "Tuguberk/Qwen3.5-2B-Turkish-SFT canlı API sürümü",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/yusufbaykaloglu/qwen3.5-4b-turkish-sft",
+          "title": "yusufbaykaloglu/qwen3.5-4b-turkish-sft model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/yusufbaykaloglu/qwen3.5-4b-turkish-sft",
+          "title": "yusufbaykaloglu/qwen3.5-4b-turkish-sft canlı API sürümü",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/thealper2/MiniCPM5-1B-Turkish",
+          "title": "thealper2/MiniCPM5-1B-Turkish model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/thealper2/MiniCPM5-1B-Turkish",
+          "title": "thealper2/MiniCPM5-1B-Turkish canlı API sürümü",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://huggingface.co/Tuguberk/Qwen3.5-2B-Turkish-SFT",
+            "https://huggingface.co/yusufbaykaloglu/qwen3.5-4b-turkish-sft",
+            "https://huggingface.co/thealper2/MiniCPM5-1B-Turkish"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam model/aile adıyla YouTube, X, LinkedIn ve açık webde tanıtım ve kullanıcı deneyimi arandı; açılıp okunmuş ek kaynak aşağıda belirtilir.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Açık API veya resmî ürün/aile sürüm durumu okundu; dosya tarihi eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/Tuguberk/Qwen3.5-2B-Turkish-SFT",
+            "https://huggingface.co/api/models/yusufbaykaloglu/qwen3.5-4b-turkish-sft",
+            "https://huggingface.co/api/models/thealper2/MiniCPM5-1B-Turkish"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Qwen3.5-2B-Turkish-SFT\" OR \"MiniCPM5-1B-Turkish\" review youtube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"qwen3.5-4b-turkish-sft\" OR \"gemma-3-1b-turkish-recipes\" OR \"Llama-3.1-8B-Turkish\" review youtube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Qwen3.5-2B-Turkish-SFT\"",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"MiniCPM5-1B-Turkish\"",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"gemma-3-1b-turkish-recipes\"",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "Tuguberk/Qwen3.5-2B-Turkish-SFT",
+          "url": "https://huggingface.co/Tuguberk/Qwen3.5-2B-Turkish-SFT",
+          "status": "Kart ve API okundu; hash 27dbdd901d5b05d541a608c784bdd0528c15e172; dosya değişikliği 2026-04-30T12:54:45Z"
+        },
+        {
+          "name": "yusufbaykaloglu/qwen3.5-4b-turkish-sft",
+          "url": "https://huggingface.co/yusufbaykaloglu/qwen3.5-4b-turkish-sft",
+          "status": "Kart ve API okundu; hash 0eef85c3d5bea24c28a2c46fd60d7cd3a642b1e9; dosya değişikliği 2026-03-09T01:25:52Z"
+        },
+        {
+          "name": "thealper2/MiniCPM5-1B-Turkish",
+          "url": "https://huggingface.co/thealper2/MiniCPM5-1B-Turkish",
+          "status": "Kart ve API okundu; hash 8db58fbb8535f1a1ed214de98afccc527b13589a; dosya değişikliği 2026-08-23T14:40:12Z"
+        },
+        {
+          "name": "gemma-3-1b-turkish-recipes",
+          "url": null,
+          "status": "Tam geliştirici kimliği çözülmedi; açık"
+        },
+        {
+          "name": "Llama-3.1-8B-Turkish",
+          "url": null,
+          "status": "Tam geliştirici kimliği çözülmedi; açık"
+        }
+      ]
+    },
+    {
+      "record_id": 21,
+      "id": "AlicanKiraz0/Kara-Kumru-v1.0-2B",
+      "name": "Kumru türevleri (Kumru-2B-EPDK-Instruct, Kumru-2B-turkish-reasoning, Kumru-2B-SFT, Kara-Kumru-v1.0-2B)",
+      "category": "LLM-genel",
+      "kind": "model_family",
+      "creator": "Alican Kiraz; diğer türev geliştiricileri",
+      "plain": "Kumru türevleri tek bir geliştirici ailesi değildir. Ayrıntılı incelenen Kara-Kumru-v 1.0-2B; diğer EPDK-Instruct, turkish-reasoning ve SFT adlarının bu çalışmada tam kartları açılmadı. Aynı ata üzerine eğitim görmeleri sonuçlarını veya lisans ayrıntılarını otomatik eşitlemez.",
+      "claims": [
+        {
+          "text": "Geliştirici Cetvel ortalama 37,56 ve QA32,54 bildiriyor. Rakip skorlar farklı çalıştırma hattından alınmış; sıralama ortak protokolün bağımsız kanıtı değil.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://huggingface.co/AlicanKiraz0/Kara-Kumru-v1.0-2B/raw/main/README.md"
+        }
+      ],
+      "training": "Kara-Kumru kartı Kumru-2B üzerinde full fine-tuning bildiriyor; sosyal duyuru SFT ve RLAIF aşamalarını anlatıyor. Eğitim anlatımı ile sınav tablosunun farklı güncellemeleri arasında ayrıntı uyuşmazlığı var.",
+      "version": "Kontrol edilen depo: AlicanKiraz 0/Kara-Kumru-v 1.0-2B; son dosya değişikliği: 2026-03-20T23:52:12.000Z. Bu tarih yeni eğitim tarihi değildir. Geliştirici profilinin zaman sıralı ilk 40 model kaydı tarandı; ilgili görünen örnekler: AlicanKiraz 0/Kizagan-TTS-v 1.0, AlicanKiraz 0/Kizagan-E4B-Turkish-Reasoning-Model-mlx-4Bit, AlicanKiraz 0/Kizagan-E4B-Turkish-Reasoning-Model-mlx-fp 16, AlicanKiraz 0/Kizagan-E4B-Turkish-Reasoning-Model-Q8_0-GGUF. Liste dışı sürümler için en son garantisi yok.",
+      "revision": "246f7eb1e19f3ffc807a0cbc9de331c80cb5349a",
+      "try_it": "İleride Kara-Kumru ve özgün Kumru aynı sabit sürümlü Cetvel hattında sınanmalı; tanıtımdaki 70B karşılaştırması tek başına seçim gerekçesi olmamalı.",
+      "demo_url": null,
+      "independent": "Tartışma 2 olumlu yaklaşım ve çeviride gerileme sorusu içeriyor; kullanıcının bu modeli çalıştırdığına dair çıktı yok. Bu nedenle bağımsız kalite deneyi sayılmadı. Kart sınıflandırma ve NLI gerilemesini kendi sınırı olarak kabul ediyor.",
+      "unknowns": [
+        "Diğer üç türevin tam kimliği ve kartı",
+        " ortak protokolle tekrar",
+        " tablo/duyuru farkları."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/AlicanKiraz0/Kara-Kumru-v1.0-2B",
+          "title": "AlicanKiraz0/Kara-Kumru-v1.0-2B version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/AlicanKiraz0/Kara-Kumru-v1.0-2B/raw/main/README.md",
+          "title": "AlicanKiraz0/Kara-Kumru-v1.0-2B model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/AlicanKiraz0",
+          "title": "AlicanKiraz0/Kara-Kumru-v1.0-2B developer kaydı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=AlicanKiraz0&sort=lastModified&direction=-1&limit=40",
+          "title": "AlicanKiraz0/Kara-Kumru-v1.0-2B version kaydı",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/AlicanKiraz0/Kara-Kumru-v1.0-2B/discussions",
+          "title": "AlicanKiraz0/Kara-Kumru-v1.0-2B community_index kaydı",
+          "type": "community_index",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/AlicanKiraz0/Kara-Kumru-v1.0-2B/discussions/2",
+          "title": "AlicanKiraz0/Kara-Kumru-v1.0-2B community kaydı",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/alican-kiraz_dostlar-uzun-bir-emek-sonras%C4%B1-kar%C5%9F%C4%B1n%C4%B1zda-activity-7440795267781746689-53xg",
+          "title": "Alican Kiraz:Kara-Kumru duyurusu",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://huggingface.co/AlicanKiraz0/Kara-Kumru-v1.0-2B/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": [
+            "https://huggingface.co/api/models/AlicanKiraz0/Kara-Kumru-v1.0-2B/discussions/2"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Sosyal geliştirici duyurusu açılıp okundu; bağımsız kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://tr.linkedin.com/posts/alican-kiraz_dostlar-uzun-bir-emek-sonras%C4%B1-kar%C5%9F%C4%B1n%C4%B1zda-activity-7440795267781746689-53xg"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "API özeti ve erişilebilir profil takip sürümleri kontrol edildi; lastModified eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/AlicanKiraz0/Kara-Kumru-v1.0-2B",
+            "https://huggingface.co/api/models?author=AlicanKiraz0&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Kara-Kumru-v1.0-2B\" deneyim review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "AlicanKiraz0/Kara-Kumru-v1.0-2B",
+          "url": "https://huggingface.co/AlicanKiraz0/Kara-Kumru-v1.0-2B",
+          "status": "model kartı ve API okundu"
+        },
+        {
+          "name": "Kumru-2B-EPDK-Instruct",
+          "url": null,
+          "status": "Katalog adı; tam depo ve kart bu turda incelenmedi"
+        },
+        {
+          "name": "Kumru-2B-turkish-reasoning",
+          "url": null,
+          "status": "Katalog adı; tam depo ve kart bu turda incelenmedi"
+        },
+        {
+          "name": "Kumru-2B-SFT",
+          "url": null,
+          "status": "Katalog adı; tam depo ve kart bu turda incelenmedi"
+        }
+      ]
+    },
+    {
+      "record_id": 22,
+      "id": "catalog-022",
+      "name": "BİLGE (TÜBİTAK BİLGEM; 1B, 9B sıfırdan, 27B CPT, 122B geliştiriliyor)",
+      "category": "LLM-genel",
+      "kind": "model_family",
+      "creator": "TÜBİTAK BİLGEM",
+      "plain": "BİLGE tek ağırlık değil 1B,9B,27B ve geliştirilmekte olan 122B üyelerini anlatan resmî model ailesidir. bilge.gov.tr tanıtım sayfası okundu. Sayfa henüz genel kullanıma açılmadığını belirtiyor. İnternette aynı adı kullanan ticari sohbet siteleri bu araştırılan aileye bağlanmıyor.",
+      "claims": [
+        {
+          "text": "Geliştirici Türkçe ve kültürel bağlam odaklı model ailesi iddia ediyor; örnek çeviri genel başarı tablosu yerine geçmez.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://bilge.gov.tr/"
+        }
+      ],
+      "training": "Resmî sayfaya göre 1B ve 9B sıfırdan eğitilmiş,27B açık modeller üzerinde Türkçe sürekli ön eğitim görmüş.122B ileri eğitim aşamasında. SFT ve RLHF anlatılıyor; taban model adları, tam veri bileşimi ve ağırlık özetleri yayımlanmıyor.",
+      "version": "Resmî sayfa 2026-10-23 tarihinde okundu;122B geliştiriliyor, genel erişim açılmamış. Sabit sürüm etiketi veya ağırlık özeti kamuya açık bulunmadı.",
+      "revision": "Açık sabit ağırlık özeti doğrulanamadı.",
+      "try_it": "Genel deneme yolu henüz doğrulanmadı. Bu görevde iletişim veya erişim talebi yapılmadı; açılış duyurusu resmî kanaldan izlenmeli.",
+      "demo_url": null,
+      "independent": "Bağımsız kullanıcı kalite deneyi bulunamadı. AA teyit yazısı isim karışıklığına dair resmî açıklamayı aktarıyor; model kalitesini ölçmüyor. Olumlu lansman yorumları ve videolar kontrollü deney değildir.",
+      "unknowns": [
+        "Ağırlık/API erişimi",
+        " lisans",
+        " sabit sürüm",
+        "27B atası",
+        " bağımsız olumlu/olumsuz gerçek deneyim."
+      ],
+      "sources": [
+        {
+          "url": "https://bilge.gov.tr/",
+          "title": "BİLGE resmî aile ve erişim",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.aa.com.tr/tr/teyithatti/bilim-teknoloji/turkiyenin-yerli-dil-modeli-bilge-openal-arayuzunu-kullaniyor-iddiasi-/1820292",
+          "title": "AA Teyit:Hatalı BİLGE/OpenAI ilişkilendirmesi",
+          "type": "news_factcheck",
+          "date": "2026-06-14",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://bilge.gov.tr/"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam model/aile adıyla YouTube, X, LinkedIn ve açık webde tanıtım ve kullanıcı deneyimi arandı; açılıp okunmuş ek kaynak aşağıda belirtilir.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Açık API veya resmî ürün/aile sürüm durumu okundu; dosya tarihi eğitim tarihi değildir.",
+          "urls": [
+            "https://bilge.gov.tr/"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"BİLGE\" BİLGEM \"dil modeli\" 2026 youtube eleştiri",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "BİLGE1B",
+          "url": "https://bilge.gov.tr/",
+          "status": "Resmî tanıtım okundu; açık ağırlık kimliği yok"
+        },
+        {
+          "name": "BİLGE9B",
+          "url": "https://bilge.gov.tr/",
+          "status": "Resmî tanıtım okundu; açık ağırlık kimliği yok"
+        },
+        {
+          "name": "BİLGE27B",
+          "url": "https://bilge.gov.tr/",
+          "status": "Resmî tanıtım okundu; açık ağırlık kimliği yok"
+        },
+        {
+          "name": "BİLGE122B",
+          "url": "https://bilge.gov.tr/",
+          "status": "Resmî tanıtım okundu; açık ağırlık kimliği yok;geliştiriliyor"
+        }
+      ]
+    },
+    {
+      "record_id": 23,
+      "id": "catalog-023",
+      "name": "HAVELSAN MAIN (MAIN GPT) 9B",
+      "category": "LLM-genel",
+      "kind": "product",
+      "creator": "HAVELSAN",
+      "plain": "MAIN indirilecek tek 9B sohbet modeli değil, kurumsal yapay zekâ platformudur. Resmî ürün sayfası dil, görüntü, ses ve OSINT bileşenleri içerdiğini söylüyor.9B içerideki dil modeli için verilen büyüklük. Dış API kullanmama veya kapalı ağ özelliği tek başına cevap doğruluğunu kanıtlamaz.",
+      "claims": [
+        {
+          "text": "4 Aralık 2025 duyurusu MAIN V2.0; bilgi danışmanı, kod asistanı ve başka modüller eklenmesini bildiriyor.",
+          "evidence": "Geliştirici açıklaması; bu oturumda model çalıştırılmadı ve iddia yeniden ölçülmedi.",
+          "source": "https://www.havelsan.com/tr/milli-yapay-zeka-platformu-main-yeni-yeteneklere-kavustu"
+        }
+      ],
+      "training": "Açık mimari ayrıntıları ve model eğitim reçetesi yayımlanmış bulunmadı. Kurumun kendi verisiyle uyarlama ve yerel sunucu kurulumu tanıtılıyor. Ticari yıllık lisans ile açık ağırlık lisansı aynı şey değil.",
+      "version": "Resmî4 Aralık 2025 duyurusu MAIN V2.0. Platform sürümü 9B ağırlık sürümü değildir; ağırlık özeti kamuya açık bulunmadı. Sonraki bütün kurumsal sürümlerin yokluğu garanti edilmiyor.",
+      "revision": "Açık sabit ağırlık özeti doğrulanamadı.",
+      "try_it": "Ürün sayfasında demo talebi yolu var; talep gönderilmedi. Gelecekte platform ile alttaki dil modeli ve kurum belgelerine erişim ayrı değerlendirilmelidir.",
+      "demo_url": null,
+      "independent": "Bağımsız tekrarlanabilir olumlu/olumsuz kullanıcı değerlendirmesi bulunamadı. Lansmanda kullanım videosu keşfedildi fakat asıl video açılıp doğrulanmadı. IDC ödülünü anlatan geliştirici duyurusu, görev bazında cevap kalitesi ölçümü sayılmadı.",
+      "unknowns": [
+        "İç9B modelin sürümü ve eğitim kökeni",
+        " güncel lisans koşulları",
+        " bağımsız görev testi",
+        " erişilebilir canlı demo."
+      ],
+      "sources": [
+        {
+          "url": "https://www.havelsan.com/en/products/main-enterprise-ai-platform",
+          "title": "MAIN resmî ürün sayfası",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.havelsan.com/tr/milli-yapay-zeka-platformu-main-yeni-yeteneklere-kavustu",
+          "title": "MAIN V2.0 yeni yetenekler",
+          "type": "developer",
+          "date": "2025-12-04",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://lilys.ai/tr/notes/platform-shift-20251219/turkey-first-ai-platform-main",
+          "title": "MAIN kullanım videosu özeti",
+          "type": "video_discovery",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Birincil model kartı ve kamu profil kaydı; yayın iddiası kullanıcı deneyi sayılmadı.",
+          "urls": [
+            "https://www.havelsan.com/en/products/main-enterprise-ai-platform",
+            "https://www.havelsan.com/tr/milli-yapay-zeka-platformu-main-yeni-yeteneklere-kavustu"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Olumlu ve olumsuz deneyim arandı; bağımsız kalite kanıtının sınırı independent alanında açıklandı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Tam model/aile adıyla YouTube, X, LinkedIn ve açık webde tanıtım ve kullanıcı deneyimi arandı; açılıp okunmuş ek kaynak aşağıda belirtilir.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Açık API veya resmî ürün/aile sürüm durumu okundu; dosya tarihi eğitim tarihi değildir.",
+          "urls": [
+            "https://www.havelsan.com/en/products/main-enterprise-ai-platform",
+            "https://www.havelsan.com/tr/milli-yapay-zeka-platformu-main-yeni-yeteneklere-kavustu"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"HAVELSAN\" \"MAIN\" \"9\" \"model\" deneyim youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    }
+  ]
+}

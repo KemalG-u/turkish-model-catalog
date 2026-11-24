@@ -1,0 +1,142 @@
+[
+  {
+    "record_id": 107,
+    "name": "OCR/görüntü-dil modelleri (Ba2han MiniOCR, Turkish-LLaVA, Trendyol-Vision, turkish-colpali, Tesseract tur, pix2struct-turkish-receipts)",
+    "category": "OCR-görüntü",
+    "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-LLaVA-v0.1",
+    "dossier": "arastirma/tam-tarama/kayitlar/107.json"
+  },
+  {
+    "record_id": 108,
+    "name": "Osmanlıca OCR/transliterasyon (Azra-1-Mini 0,8B Apache; kranidiotis ottoman-ocr-qwen2.5-vl-7b; enesyila Qwen4B; bilirkesi osmanlica-v1; Bucolin HisTR/OTA-BOUN; Yılandiloğlu tarihsel MLM; Osmanlica.com)",
+    "category": "OCR-görüntü",
+    "url": "https://huggingface.co/OttomanNLP/Azra-1-Mini-0.8b",
+    "dossier": "arastirma/tam-tarama/kayitlar/108.json"
+  },
+  {
+    "record_id": 109,
+    "name": "Ses-diğer (hubert-large-turkish-speech-emotion-recognition, wav2vec2 cinsiyet sınıflama, speechbrain lang-id-voxlingua107-ecapa, mms-lid, livekit/turn-detector)",
+    "category": "Ses-diğer",
+    "url": "https://huggingface.co/livekit/turn-detector",
+    "dossier": "arastirma/tam-tarama/kayitlar/109.json"
+  },
+  {
+    "record_id": 110,
+    "name": "Common Voice 25 Türkçe (135 saat)",
+    "category": "Veri seti",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/110.json"
+  },
+  {
+    "record_id": 111,
+    "name": "ISSAI Turkish Speech Corpus (218 saat; Kaggle'da Turkish_Speech_Corpus ~218 saat)",
+    "category": "Veri seti",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/111.json"
+  },
+  {
+    "record_id": 112,
+    "name": "MediaSpeech (10 saat)",
+    "category": "Veri seti",
+    "url": "https://openslr.org/108/",
+    "dossier": "arastirma/tam-tarama/kayitlar/112.json"
+  },
+  {
+    "record_id": 113,
+    "name": "TurkishTaxRulings (~120 bin örnek; Mizan embedding tablosunda retrieval görevi)",
+    "category": "Veri seti",
+    "url": "https://newmindai-mizan.hf.space/",
+    "dossier": "arastirma/tam-tarama/kayitlar/113.json"
+  },
+  {
+    "record_id": 114,
+    "name": "SIGTURK 2026 ortak görevi (EN→TR STEM terimli çeviri; 10.157 uzman onaylı terim çifti)",
+    "category": "Değerlendirme seti",
+    "url": "https://aclanthology.org/2026.sigturk-1.20",
+    "dossier": "arastirma/tam-tarama/kayitlar/114.json"
+  },
+  {
+    "record_id": 115,
+    "name": "Cosmos-Turkish-Corpus-v1.0 ve 9 başka veri seti (YTÜ COSMOS)",
+    "category": "Veri seti",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/115.json"
+  },
+  {
+    "record_id": 116,
+    "name": "turkish_parliamentary_data (TBMM tutanakları, BOUN TABILAB)",
+    "category": "Veri seti",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/116.json"
+  },
+  {
+    "record_id": 117,
+    "name": "NoisyWikiTr (Gazi) ve GECTurk (GGLAB-KU)",
+    "category": "Veri seti",
+    "url": "https://github.com/GGLAB-KU/gecturk/",
+    "dossier": "arastirma/tam-tarama/kayitlar/117.json"
+  },
+  {
+    "record_id": 118,
+    "name": "CS-FLEURS (kod karışımı konuşma)",
+    "category": "Veri seti",
+    "url": "https://huggingface.co/datasets/byan/cs-fleurs",
+    "dossier": "arastirma/tam-tarama/kayitlar/118.json"
+  },
+  {
+    "record_id": 119,
+    "name": "Cetvel (KUIS-AI; 23 görev, 33 sıfır-atış sonuç dosyası)",
+    "category": "Değerlendirme seti",
+    "url": "https://github.com/KUIS-AI/Cetvel",
+    "dossier": "arastirma/tam-tarama/kayitlar/119.json"
+  },
+  {
+    "record_id": 120,
+    "name": "EmreAkgul/Turkish-transcription-leaderboard (FLEURS-TR; benchmark.csv) ve ysdede turkish_asr_leaderboard",
+    "category": "Değerlendirme seti",
+    "url": "https://huggingface.co/spaces/EmreAkgul/Turkish-transcription-leaderboard",
+    "dossier": "arastirma/tam-tarama/kayitlar/120.json"
+  },
+  {
+    "record_id": 121,
+    "name": "Freya-TR-Eval, TR-Zor (TTS değerlendirme), EmreAkgul turkish-tts-arena",
+    "category": "Değerlendirme seti",
+    "url": "https://huggingface.co/spaces/EmreAkgul/turkish-tts-arena",
+    "dossier": "arastirma/tam-tarama/kayitlar/121.json"
+  },
+  {
+    "record_id": 122,
+    "name": "MTEB-Turkish, TrGLUE / TabiBench, TurkMorfBench, OCRTurk",
+    "category": "Değerlendirme seti",
+    "url": "https://arxiv.org/abs/2602.03693",
+    "dossier": "arastirma/tam-tarama/kayitlar/122.json"
+  },
+  {
+    "record_id": 124,
+    "name": "Sıfır-atış trie önyargılama (TTS ile terim okutulup Whisper'dan telaffuz varyantları toplanır; ışın aramasında ödül)",
+    "category": "Yöntem/makale",
+    "url": "https://arxiv.org/abs/2508.17796",
+    "dossier": "arastirma/tam-tarama/kayitlar/124.json"
+  },
+  {
+    "record_id": 125,
+    "name": "CB-Whisper (2309.09552) ve önyargı talimatı ince ayarı (2502.11572)",
+    "category": "Yöntem/makale",
+    "url": "https://arxiv.org/abs/2309.09552",
+    "dossier": "arastirma/tam-tarama/kayitlar/125.json"
+  },
+  {
+    "record_id": 126,
+    "name": "Kaynak listeleri (kesimeg/awesome-turkish-language-models 102★, agmmnn/turkish-nlp-resources, turkish-nlp-suite, yerel.ai «44 Türk LLM» listesi)",
+    "category": "Veri seti",
+    "url": "https://github.com/kesimeg/awesome-turkish-language-models",
+    "dossier": "arastirma/tam-tarama/kayitlar/126.json"
+  },
+  {
+    "record_id": 144,
+    "name": "Kaynak: yerel.ai «44 Türk LLM» listesi, dastechno, masqot listeleri",
+    "category": "Veri seti",
+    "url": "https://www.yerel.ai/yerel-modeller",
+    "dossier": "arastirma/tam-tarama/kayitlar/144.json"
+  }
+]

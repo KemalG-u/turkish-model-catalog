@@ -1,0 +1,2364 @@
+{
+  "checked_at": "2026-10-23",
+  "records": [
+    {
+      "record_id": 63,
+      "id": "canberkkkkkk/ema-lightning",
+      "name": "canberkkkkkk/ema-lightning ve ema-tts",
+      "category": "TTS",
+      "kind": "model_family",
+      "creator": "Canberk Aslan / canberkkkkkk",
+      "plain": "EMA Lightning, küçük tek sesli Türkçe TTS modelidir; EMA-TTS ile aynı hesapta iki ayrı depo bulunuyor. Burada ayrıntılı incelenen Lightning sürümüdür. Düşük metin hata oranı, doğal konuşma veya duygu çeşitliliğiyle aynı ölçü değildir.",
+      "claims": [
+        {
+          "text": "Freya-TR-Eval'de yüzde 0,92 WER; RTX4090'da ilk ses yaklaşık 3,86 ms ve 440 kat gerçek zaman hızı bildiriliyor.",
+          "evidence": "Kaynak sahibinin raporladığı beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/canberkkkkkk/ema-lightning/raw/main/README.md"
+        }
+      ],
+      "training": "5,6M akustik model + 3M çözücü; yaklaşık 1000 saat sentetik, VoxCPM2 ile tasarlanmış tek ses. Apache-2.0. Gerçek konuşmacı kaydı kullanılmadığı geliştirici yanıtında açıklanmış.",
+      "version": "Yazar listesinde EMA-TTS30 Ağustos ve Lightning21 Ekim değişimleri var; yalnız Lightning ayrıntılı incelendi. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: e7 c96 f2 fc0 ba843 cd0 f86 e02786655 bb56 f50 df8; lastModified:2026-10-21T11:51:07.000Z. Dosya tarihi yeni eğitim değildir.",
+      "try_it": "Bu oturumda ses üretilmedi, dinletilmedi; model indirilmedi. İzinli sonraki denemede Türkçe sayı, özel ad, uzun metin ve tonlama dinlenmeli; ASR hata puanı ile insan doğallığı ayrı değerlendirilmelidir. Demo yalnız belgede bağlantılı; çalıştığı doğrulanmadı.",
+      "demo_url": "https://fr0stb1rd.github.io/ema-lightning-web",
+      "independent": "Hub #16'da olumlu övgü var ama koşulları açıklanmış deney yok. fr0 stb1 rd tarayıcı portunu açıklıyor; bu entegrasyon kanıtı, yeni kalite ölçümü değil. Bağımsız kontrollü olumsuz deney bulunamadı.",
+      "unknowns": [
+        "Klonlama ve duygu kontrolü yok; yabancı sözcükler Türkçe kurallarla okunuyor. CPU/gecikme yerelde ölçülmedi."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/canberkkkkkk/ema-lightning",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/canberkkkkkk/ema-lightning/raw/main/README.md",
+          "title": "canberkkkkkk/ema-lightning ve ema-tts resmî README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=canberkkkkkk&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/canberkkkkkk/ema-lightning/discussions/17",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/canberkkkkkk/ema-lightning/discussions/16",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://fr0stb1rd.is-a.dev/posts/ema-lightning-web-offline-turkish-tts-in-browser/",
+          "title": "EMA Lightning Web: bağımsız port geliştiricisi",
+          "type": "community",
+          "date": "2026-10-06",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Resmî kart/kod/profil veya somut üye kaynağı okundu; gelecek planları hazır özellik sayılmadı.",
+          "urls": [
+            "https://huggingface.co/canberkkkkkk/ema-lightning/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Hub #16'da olumlu övgü var ama koşulları açıklanmış deney yok. fr0 stb1 rd tarayıcı portunu açıklıyor; bu entegrasyon kanıtı, yeni kalite ölçümü değil. Bağımsız kontrollü olumsuz deney bulunamadı.",
+          "urls": [
+            "https://huggingface.co/api/models/canberkkkkkk/ema-lightning/discussions/17",
+            "https://huggingface.co/api/models/canberkkkkkk/ema-lightning/discussions/16",
+            "https://fr0stb1rd.is-a.dev/posts/ema-lightning-web-offline-turkish-tts-in-browser/"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye ve geliştiriciyle YouTube/X, duyuru, olumlu/olumsuz deneyim arandı. Bu aday için izlenmiş bağımsız video deneyi bulunamadı; bulunamaması yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Yazar listesinde EMA-TTS30 Ağustos ve Lightning21 Ekim değişimleri var; yalnız Lightning ayrıntılı incelendi. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/canberkkkkkk/ema-lightning",
+            "https://huggingface.co/api/models?author=canberkkkkkk&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"ema-lightning\" \"ema-tts\" review YouTube X",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "canberkkkkkk/ema-lightning",
+          "url": "https://huggingface.co/canberkkkkkk/ema-lightning",
+          "status": "ana kaynak metni okundu; yerel ses deneyi yapılmadı"
+        },
+        {
+          "name": "canberkkkkkk/ema-tts",
+          "url": "https://huggingface.co/canberkkkkkk/ema-tts",
+          "status": "yazar listesinde var; ayrı README/eğitim/kalite tam incelenmedi"
+        }
+      ]
+    },
+    {
+      "record_id": 64,
+      "id": "freyavoice/Freya-TTS",
+      "name": "freyavoice/Freya-TTS",
+      "category": "TTS",
+      "kind": "model_family",
+      "creator": "Freya ekibi; Ahmet Erdem Pamuk ve çalışma arkadaşları",
+      "plain": "Katalogdaki Freya-TTS kimliği, güncel resmî adlandırmada açık FreyaTTS-small'a karşılık geliyor. FreyaTTS-large ticari ve kapalı ağırlıklı başka üyedir. Küçük model karakter düzeyinde çalışır; fonemleştirici kullanmaz. Akustik modelin sıfırdan eğitilmesi, AudioVAE2'nin yeniden eğitildiği anlamına gelmez.",
+      "claims": [
+        {
+          "text": "Small 183,2M parametre; Freya-TR-Eval'de yüzde 8 WER ve yüzde 3 CER, RTX4090'da RTF0,10–0,11 bildiriliyor.",
+          "evidence": "Kaynak sahibinin raporladığı beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/freyavoice/Freya-TTS/raw/main/README.md"
+        }
+      ],
+      "training": "Türkçe ön eğitim, ardından tek sese sabitleme ve kısa cümleler için iki SFT aşaması. VoxCPM2 AudioVAE2 dondurulmuş. Kod/ağırlık Apache-2.0; large bu lisansın kapsamında değil.",
+      "version": "Güncel ad small; large ayrı ticari üye. Yazarın erişilen listesinde başka açık Freya-TTS ağırlığı görülmedi. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: d124 e07493615208 f58 bdd21 d432736849 ee4230; lastModified:2026-07-27T20:40:58.000Z. Dosya tarihi yeni eğitim değildir.",
+      "try_it": "Bu oturumda ses üretilmedi, dinletilmedi; model indirilmedi. İzinli sonraki denemede Türkçe sayı, özel ad, uzun metin ve tonlama dinlenmeli; ASR hata puanı ile insan doğallığı ayrı değerlendirilmelidir. Demo yalnız belgede bağlantılı; çalıştığı doğrulanmadı.",
+      "demo_url": "https://huggingface.co/spaces/hugging-apps/freya-tts-turkish",
+      "independent": "Anka'nın ayrı geliştirme karşılaştırmasında Freya'nın WER'i yüzde 12,02; aynı örnek adı olsa da referans/ayar farkları var. Hub demo teklifi kullanıcı kalite testi değil. Bağımsız yorum/sosyal aramalarında kapsamlı dinleyici tekrarı bulunamadı.",
+      "unknowns": [
+        "Small tek sesli, klonlama yok. Reklamdaki ticari seslerin kalitesi small'a taşınamaz; WER doğallık veya kimlik benzerliği değildir."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/freyavoice/Freya-TTS",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/freyavoice/Freya-TTS/raw/main/README.md",
+          "title": "freyavoice/Freya-TTS resmî README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/freyavoice",
+          "title": "Geliştirici Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=freyavoice&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/freyavoice/Freya-TTS/discussions/1",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://freyatts.freyavoice.ai/",
+          "title": "FreyaTTS-small resmî araştırma ve aile sayfası",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/krmkayabasi/Anka-TTS/raw/main/README.md",
+          "title": "Anka geliştiricisinin karşılaştırması: Freya satırı",
+          "type": "third_party_developer_test",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://dolphydesk.com/blog/turkce-text-to-speech-karsilastirmasi",
+          "title": "Türkçe TTS karşılaştırması: arama sonucu, tam sayfa404",
+          "type": "third_party_discovery",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "inaccessible"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Resmî kart/kod/profil veya somut üye kaynağı okundu; gelecek planları hazır özellik sayılmadı.",
+          "urls": [
+            "https://huggingface.co/freyavoice/Freya-TTS/raw/main/README.md",
+            "https://huggingface.co/freyavoice",
+            "https://freyatts.freyavoice.ai/"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Anka'nın ayrı geliştirme karşılaştırmasında Freya'nın WER'i yüzde 12,02; aynı örnek adı olsa da referans/ayar farkları var. Hub demo teklifi kullanıcı kalite testi değil. Bağımsız yorum/sosyal aramalarında kapsamlı dinleyici tekrarı bulunamadı.",
+          "urls": [
+            "https://huggingface.co/api/models/freyavoice/Freya-TTS/discussions/1",
+            "https://huggingface.co/krmkayabasi/Anka-TTS/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye ve geliştiriciyle YouTube/X, duyuru, olumlu/olumsuz deneyim arandı. Bu aday için izlenmiş bağımsız video deneyi bulunamadı; bulunamaması yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Güncel ad small; large ayrı ticari üye. Yazarın erişilen listesinde başka açık Freya-TTS ağırlığı görülmedi. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/freyavoice/Freya-TTS",
+            "https://huggingface.co/api/models?author=freyavoice&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Freya-TTS\" review problems YouTube X",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"FreyaTTS\" \"Pamuk\" LinkedIn YouTube review",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Freya-TTS\" (denedim OR review OR issue OR problem OR reddit)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "freyavoice/Freya-TTS",
+          "url": "https://huggingface.co/freyavoice/Freya-TTS",
+          "status": "ana kaynak metni okundu; yerel ses deneyi yapılmadı"
+        },
+        {
+          "name": "FreyaTTS-large",
+          "url": "https://freyatts.freyavoice.ai/",
+          "status": "resmî aile sayfasında kapalı/ticari üye; açık small lisansına dahil değil"
+        }
+      ]
+    },
+    {
+      "record_id": 65,
+      "id": "ozgurguler/ahenk-cep-tr",
+      "name": "ozgurguler/ahenk-cep-tr (8,6M)",
+      "category": "TTS",
+      "kind": "model",
+      "creator": "Özgür Güler / ozgurguler",
+      "plain": "Ahenk Cep, büyük Ahenk'in tasarlanmış f022 sesini öğrenen küçük öğrencidir. EMA Lightning mimarisi üzerinden gelişir; büyük modelin yalnız dosya sıkıştırması değildir. Masaüstü CPU ve tarayıcı yolu belgelenmiş, telefon için hız iyileştirmesi ise plan düzeyindedir.",
+      "claims": [
+        {
+          "text": "TR-Zor155 cümlede WER yüzde 2,32; 20 ayrılmış uzun cümlede yüzde 0,95; iki CPU iş parçacığında RTF0,20 bildiriliyor.",
+          "evidence": "Kaynak sahibinin raporladığı beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/ozgurguler/ahenk-cep-tr/raw/main/README.md"
+        }
+      ],
+      "training": "EMA ağırlıklarından 4,5 saat/4164 sentetik kliple 20000 adım; yüzde75 ince ayarlı/yüzde25 eski ağırlık karışımı. Decoder ayrıca uyarlanmış. Ağırlıklar CC BY4.0, kod Apache-2.0.",
+      "version": "Cep ve büyük Ahenk17 Ekim'de güncellenmiş; planlanan az adımlı damıtma tamamlandı sayılmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha:345 c4 cbb934815 fa96 ffd0 d5061 fd913237544 bc; lastModified:2026-10-17T09:49:39.000Z. Dosya tarihi yeni eğitim değildir.",
+      "try_it": "Bu oturumda ses üretilmedi, dinletilmedi; model indirilmedi. İzinli sonraki denemede Türkçe sayı, özel ad, uzun metin ve tonlama dinlenmeli; ASR hata puanı ile insan doğallığı ayrı değerlendirilmelidir. Demo yalnız belgede bağlantılı; çalıştığı doğrulanmadı.",
+      "demo_url": "https://ozguradmin.github.io/ahenk-turkish-tts/",
+      "independent": "Kör dinleme geliştiricinin tek dinleyicisiyle 10 cümle; küçük model ikisini kazanmış. Bu bağımsız MOS değil. Duyuru, video ve olumlu/olumsuz kullanım aramalarında bağımsız model deneyi bulunamadı.",
+      "unknowns": [
+        "Üslup etkisi hafif, gülme yok; yükselen soru sonları başarısız. Kartın EMA eğitim kökeni eski açıklaması, güncel EMA'nın sentetik veri açıklamasıyla birlikte okunmalı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/ozgurguler/ahenk-cep-tr",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ozgurguler/ahenk-cep-tr/raw/main/README.md",
+          "title": "ozgurguler/ahenk-cep-tr (8,6M) resmî README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=ozgurguler&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ozgurguler/ahenk-cep-tr/discussions/1",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Resmî kart/kod/profil veya somut üye kaynağı okundu; gelecek planları hazır özellik sayılmadı.",
+          "urls": [
+            "https://huggingface.co/ozgurguler/ahenk-cep-tr/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Kör dinleme geliştiricinin tek dinleyicisiyle 10 cümle; küçük model ikisini kazanmış. Bu bağımsız MOS değil. Duyuru, video ve olumlu/olumsuz kullanım aramalarında bağımsız model deneyi bulunamadı.",
+          "urls": [
+            "https://huggingface.co/api/models/ozgurguler/ahenk-cep-tr/discussions/1"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye ve geliştiriciyle YouTube/X, duyuru, olumlu/olumsuz deneyim arandı. Bu aday için izlenmiş bağımsız video deneyi bulunamadı; bulunamaması yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Cep ve büyük Ahenk17 Ekim'de güncellenmiş; planlanan az adımlı damıtma tamamlandı sayılmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/ozgurguler/ahenk-cep-tr",
+            "https://huggingface.co/api/models?author=ozgurguler&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"ahenk-cep-tr\" review sorun YouTube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"ahenk-cep-tr\" \"ahenk-tts-tr\" review -site:huggingface.co",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 66,
+      "id": "kadirnar/drifting-tts",
+      "name": "kadirnar/drifting-tts",
+      "category": "TTS",
+      "kind": "model_family",
+      "creator": "Abdulkadir Nar / kadirnar, Vyvo",
+      "plain": "drifting-tts bir model/eğitim ve çıkarım projesidir; somut ağırlıklar Vyvo/drifting-tts-tr altında. Güncel README v3.2'yi anlatıyor; önceki sürümler ve yayımlanmamış ARDrift deneyleriyle karıştırılmamalı. Tek ağ geçişiyle ses temsili üretmek, bütün ses işleme zincirinin tek işlem olduğu demek değildir.",
+      "claims": [
+        {
+          "text": "v3.2 studio için Freya WER yüzde1,33, UTMOSv2 3,02; RTX5090'da ilk ses 6–7 ms bildiriliyor.",
+          "evidence": "Kaynak sahibinin raporladığı beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://github.com/kadirnar/drifting-tts"
+        }
+      ],
+      "training": "Drifting yöntemi; 67,7M akustik,8,1M prozodi,13,5M Vocos. Duyuruda ilk eğitim100 saat/5090 bir gün deniyor; son sürümün tüm eğitim geçmişi ayrıca denetlenmedi. Kod MIT.",
+      "version": "READMEv3.2; main commit b8 cbe55 d1614 e2 c79 f3 e7 f997985 c3144 f1 fbb4 d,16 Ekim 2026. Kod HEAD'i ağırlık hash'i değildir. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Kod revizyonu sürüm alanında; HF ağırlık hash'i ayrıca doğrulanmadı.",
+      "try_it": "Bu oturumda ses üretilmedi, dinletilmedi; model indirilmedi. İzinli sonraki denemede Türkçe sayı, özel ad, uzun metin ve tonlama dinlenmeli; ASR hata puanı ile insan doğallığı ayrı değerlendirilmelidir. Demo yalnız belgede bağlantılı; çalıştığı doğrulanmadı.",
+      "demo_url": "https://huggingface.co/spaces/Vyvo/drifting-tts-tr-demo",
+      "independent": "Reddit duyurusunda kimi kullanıcı demoyu videodan daha akıcı ve hızlı bulmuş; açılan sayfada başka kullanıcı kaliteyi çok kötü buluyor. Bunlar kişisel dinleme, standart MOS değil. Hangi sürüm dinlendiği kesinleşmiyor.",
+      "unknowns": [
+        "Reddit'te bir kullanıcı kaliteyi çok kötü buluyor, diğeri iyi diyor; kişisel ve sürümü açıklanmayan izlenimler. LinkedIn video paylaşımının metni okundu; ses dinlenmedi. Bağımsız standardize MOS bulunamadı."
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/kadirnar/drifting-tts",
+          "title": "kadirnar/drifting-tts resmî kaynak",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/kadir-nar_drifting-methoduyla-e%C4%9Fitilen-ilk-t%C3%BCrk%C3%A7e-tts-activity-7513910993580785664-iDyS",
+          "title": "Abdulkadir Nar Drifting TTS duyurusu",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0oaum/i_trained_turkish_tts_from_scratch_using_the/",
+          "title": "Drifting Turkish TTS geliştirici duyurusu ve kullanıcı yorumları",
+          "type": "community_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/kadirnar/drifting-tts/commits/main",
+          "title": "Drifting main canlı commit metadata",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Resmî kart/kod/profil veya somut üye kaynağı okundu; gelecek planları hazır özellik sayılmadı.",
+          "urls": [
+            "https://github.com/kadirnar/drifting-tts"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Reddit duyurusunda kimi kullanıcı demoyu videodan daha akıcı ve hızlı bulmuş; açılan sayfada başka kullanıcı kaliteyi çok kötü buluyor. Bunlar kişisel dinleme, standart MOS değil. Hangi sürüm dinlendiği kesinleşmiyor.",
+          "urls": [
+            "https://www.reddit.com/r/LocalLLaMA/comments/1x0oaum/i_trained_turkish_tts_from_scratch_using_the/"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Ad/üye ve geliştiriciyle YouTube/X, duyuru, olumlu/olumsuz deneyim arandı. Açılan paylaşım metni incelendi; video sesi izlenmedi.",
+          "urls": [
+            "https://tr.linkedin.com/posts/kadir-nar_drifting-methoduyla-e%C4%9Fitilen-ilk-t%C3%BCrk%C3%A7e-tts-activity-7513910993580785664-iDyS",
+            "https://www.reddit.com/r/LocalLLaMA/comments/1x0oaum/i_trained_turkish_tts_from_scratch_using_the/"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "READMEv3.2; main commit b8 cbe55 d1614 e2 c79 f3 e7 f997985 c3144 f1 fbb4 d,16 Ekim 2026. Kod HEAD'i ağırlık hash'i değildir. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://api.github.com/repos/kadirnar/drifting-tts/commits/main"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"kadirnar\" \"drifting-tts\" review YouTube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"drifting-tts\" (issues OR problems OR review) Turkish",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "kadirnar/drifting-tts",
+          "url": "https://github.com/kadirnar/drifting-tts",
+          "status": "ana kaynak metni okundu; yerel ses deneyi yapılmadı"
+        },
+        {
+          "name": "Vyvo/drifting-tts-tr",
+          "url": "https://huggingface.co/Vyvo/drifting-tts-tr",
+          "status": "resmî eğitim deposu güncelv3.2 ağırlık yolu; HF ayrı hash'i alınmadı"
+        },
+        {
+          "name": "v3.1 ve ARDrift",
+          "url": null,
+          "status": "v3.1 eski üye; ARDrift deneysel/yayımlanmamış, bağımsız inceleme açık"
+        }
+      ]
+    },
+    {
+      "record_id": 67,
+      "id": "rhasspy/piper-voices",
+      "name": "Piper Türkçe sesleri (rhasspy tr_TR fahrettin/fettah; 99eren99; dcx514ai; DFKI; «Cem»)",
+      "category": "TTS",
+      "kind": "model_family",
+      "creator": "Piper / Rhasspy ve farklı ses katkıcıları",
+      "plain": "Piper Türkçe satırı birden çok ses ve lisansı birleştiriyor. Katalogdaki Fahrettin ana klasörü bugün404. Resmî commit30 Aralık 2025'te Fahrettin/Fettah dosyalarının katkıcı isteğiyle kaldırıldığını gösteriyor. Alternatif dağıtımda bulunmaları aynı kaynağın güncel olduğu anlamına gelmez.",
+      "claims": [
+        {
+          "text": "İncelenen erişilebilir DFKI medium kartı tek konuşmacı ve22050Hz; aile üst README'si genel Piper ses deposunu tanımlıyor.",
+          "evidence": "Kaynak sahibinin raporladığı beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/rhasspy/piper-voices/raw/main/tr/tr_TR/dfki/medium/MODEL_CARD"
+        }
+      ],
+      "training": "DFKI medium, İngilizce lessac sesinden ince ayarlı; veri kartı CC BY-NC-SA4.0 gösteriyor. Depo üst MIT etiketi bütün ses dosyalarının koşullarını tek başına çözmez.",
+      "version": "Ana klasör404; kaldırma commit'i b145 f2 ac26522 d6 a2 ccde0164 b7 b0 e48 b1 e3199 c,30 Aralık 2025. Depo genel hash'i tek sesin güncelliği değil. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha:5041 a7 a49 ae5 b3 a0 f30 e6837769 eb03 fdbb231 bd; lastModified:2026-10-20T17:55:26.000Z. Dosya tarihi yeni eğitim değildir.",
+      "try_it": "Bu oturumda ses üretilmedi, dinletilmedi; model indirilmedi. İzinli sonraki denemede Türkçe sayı, özel ad, uzun metin ve tonlama dinlenmeli; ASR hata puanı ile insan doğallığı ayrı değerlendirilmelidir.",
+      "demo_url": null,
+      "independent": "App Store'da kullanıcılar Türkçe seçenek azlığını eleştiriyor, Fettah/Fahrettin eklenmesini olumlu karşılıyor. Bunlar üçüncü taraf uygulama yorumları; resmî kaldırmayı geçersiz kılmaz ve akustik kalite ölçümü değil.",
+      "unknowns": [
+        "99 eren99, dcx514 ai, Cem ve diğer tüm seslerin dosya/lisans/güncel kaynak araştırması açık; ortak kalite puanı verilemez."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/rhasspy/piper-voices",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/rhasspy/piper-voices/raw/main/README.md",
+          "title": "Piper Türkçe sesleri (rhasspy tr_TR fahrettin/fettah; 99eren99; dcx514ai; DFKI; «Cem») resmî README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=rhasspy&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/rhasspy/piper-voices/discussions/115",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/rhasspy/piper-voices/discussions/114",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/rhasspy/piper-voices/commit/b145f2ac26522d6a2ccde0164b7b0e48b1e3199c",
+          "title": "Remove fahrettin and fettah voices at request of contributors",
+          "type": "version_commit",
+          "date": "2025-12-30",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/rhasspy/piper-voices/tree/main/tr/tr_TR/fahrettin/medium",
+          "title": "Fahrettin güncel klasörü404",
+          "type": "model_directory",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "inaccessible"
+        },
+        {
+          "url": "https://huggingface.co/rhasspy/piper-voices/raw/main/tr/tr_TR/dfki/medium/MODEL_CARD",
+          "title": "DFKI Türkçe medium ses model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://apps.apple.com/tr/app/piper-neural-tts/id6759636010?platform=watch",
+          "title": "Üçüncü taraf Piper uygulamasının Türkçe kullanıcı yorumları",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Resmî kart/kod/profil veya somut üye kaynağı okundu; gelecek planları hazır özellik sayılmadı.",
+          "urls": [
+            "https://huggingface.co/rhasspy/piper-voices/raw/main/README.md",
+            "https://huggingface.co/rhasspy/piper-voices/raw/main/tr/tr_TR/dfki/medium/MODEL_CARD"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "App Store'da kullanıcılar Türkçe seçenek azlığını eleştiriyor, Fettah/Fahrettin eklenmesini olumlu karşılıyor. Bunlar üçüncü taraf uygulama yorumları; resmî kaldırmayı geçersiz kılmaz ve akustik kalite ölçümü değil.",
+          "urls": [
+            "https://huggingface.co/api/models/rhasspy/piper-voices/discussions/115",
+            "https://huggingface.co/api/models/rhasspy/piper-voices/discussions/114",
+            "https://apps.apple.com/tr/app/piper-neural-tts/id6759636010?platform=watch"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye ve geliştiriciyle YouTube/X, duyuru, olumlu/olumsuz deneyim arandı. Bu aday için izlenmiş bağımsız video deneyi bulunamadı; bulunamaması yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Ana klasör404; kaldırma commit'i b145 f2 ac26522 d6 a2 ccde0164 b7 b0 e48 b1 e3199 c,30 Aralık 2025. Depo genel hash'i tek sesin güncelliği değil. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/rhasspy/piper-voices",
+            "https://huggingface.co/api/models?author=rhasspy&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/rhasspy/piper-voices/commit/b145f2ac26522d6a2ccde0164b7b0e48b1e3199c"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "Piper Turkish fahrettin fettah dfki Cem review problems YouTube X",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Piper\" \"fahrettin\" \"fettah\" Türkçe sorun review",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "Piper genel deposu",
+          "url": "https://huggingface.co/rhasspy/piper-voices/tree/main/tr/tr_TR/fahrettin/medium",
+          "status": "genel README okundu; tek bir Türkçe sesin kalite kartı değildir"
+        },
+        {
+          "name": "rhasspy DFKI medium",
+          "url": "https://huggingface.co/rhasspy/piper-voices/raw/main/tr/tr_TR/dfki/medium/MODEL_CARD",
+          "status": "somut Türkçe üye MODEL_CARD okundu"
+        },
+        {
+          "name": "Fahrettin/Fettah",
+          "url": "https://huggingface.co/rhasspy/piper-voices/commit/b145f2ac26522d6a2ccde0164b7b0e48b1e3199c",
+          "status": "resmî kaldırma commit'i okundu; güncel Fahrettin klasörü404"
+        },
+        {
+          "name": "99eren99,dcx514ai,Cem ve diğer üyeler",
+          "url": null,
+          "status": "ayrı dosya/kimlik/lisans ve kalite incelemesi açık"
+        }
+      ]
+    },
+    {
+      "record_id": 68,
+      "id": "Trendyol/Trendyol-TTS",
+      "name": "Trendyol/Trendyol-TTS",
+      "category": "TTS",
+      "kind": "model",
+      "creator": "Trendyol ekibi",
+      "plain": "VoxCPM2 üzerine Türkçe LoRA uyarlaması, birleştirilmiş tam ağırlık olarak sunuluyor. Araştırma ve kontrollü prototip amacıyla yayımlanmış; üretim servisi kabulü değil. Sonraki eğitim adımı her zaman daha iyi seçilmiş model anlamına gelmiyor.",
+      "claims": [
+        {
+          "text": "Resmî kart step 2000'i elle dinleme ve checkpoint karşılaştırmasıyla seçiyor;2500 gibi devam adımları varsayılanı değiştirmemiş.",
+          "evidence": "Kaynak sahibinin raporladığı beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/Trendyol/Trendyol-TTS/raw/main/README.md"
+        }
+      ],
+      "training": "Özel Türkçe ses verisiyle LoRA. README20+saat, ekip LinkedIn duyurusu50+saat diyor; veri kapsamı/sürüm farkı açıklanmamış. Güncel kart MIT metadata'yı veri ve upstream koşullarıyla sınırlıyor.",
+      "version": "Yayımlanan varsayılan step 2000;2250/2500 kontrol noktaları seçilen sürümün yerini almamış. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha:66 a80184 b286390800 ee7 c1 a95228 cc839 cd59 ef; lastModified:2026-06-03T10:19:28.000Z. Dosya tarihi yeni eğitim değildir.",
+      "try_it": "Bu oturumda ses üretilmedi, dinletilmedi; model indirilmedi. İzinli sonraki denemede Türkçe sayı, özel ad, uzun metin ve tonlama dinlenmeli; ASR hata puanı ile insan doğallığı ayrı değerlendirilmelidir.",
+      "demo_url": null,
+      "independent": "Ahenk geliştiricisinin ayrı düzeneğinde Trendyol uzun cümlede daha yüksek tahmini doğallık ve daha düşük WER göstermiş; tarafsız geniş dinleyici çalışması değil. Hub'da para kazanan YouTube kullanımı sorusu var, izin yanıtı görünmüyor.",
+      "unknowns": [
+        "Formal MOS ve geniş yük testi yok. CFG2,5 için tepe seviyesine yaklaşma uyarısı var; önerilen2,0/16 adım. Bağımsız denemede sayı/marka başarısı açık."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/Trendyol/Trendyol-TTS",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Trendyol/Trendyol-TTS/raw/main/README.md",
+          "title": "Trendyol/Trendyol-TTS resmî README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=Trendyol&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Trendyol/Trendyol-TTS/discussions/4",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Trendyol/Trendyol-TTS/discussions/3",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/nusret-ozates_trendyoltrendyol-tts-hugging-face-activity-7468569024524681216-hm1X",
+          "title": "Trendyol TTS ekip duyurusu",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ozgurguler/ahenk-tts-tr/raw/main/README.md",
+          "title": "Ahenk geliştiricisinin ayrı Trendyol karşılaştırması",
+          "type": "third_party_developer_test",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Resmî kart/kod/profil veya somut üye kaynağı okundu; gelecek planları hazır özellik sayılmadı.",
+          "urls": [
+            "https://huggingface.co/Trendyol/Trendyol-TTS/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Ahenk geliştiricisinin ayrı düzeneğinde Trendyol uzun cümlede daha yüksek tahmini doğallık ve daha düşük WER göstermiş; tarafsız geniş dinleyici çalışması değil. Hub'da para kazanan YouTube kullanımı sorusu var, izin yanıtı görünmüyor.",
+          "urls": [
+            "https://huggingface.co/api/models/Trendyol/Trendyol-TTS/discussions/4",
+            "https://huggingface.co/api/models/Trendyol/Trendyol-TTS/discussions/3",
+            "https://huggingface.co/ozgurguler/ahenk-tts-tr/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Ad/üye ve geliştiriciyle YouTube/X, duyuru, olumlu/olumsuz deneyim arandı. Açılan paylaşım metni incelendi; video sesi izlenmedi.",
+          "urls": [
+            "https://www.linkedin.com/posts/nusret-ozates_trendyoltrendyol-tts-hugging-face-activity-7468569024524681216-hm1X"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Yayımlanan varsayılan step 2000;2250/2500 kontrol noktaları seçilen sürümün yerini almamış. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/Trendyol/Trendyol-TTS",
+            "https://huggingface.co/api/models?author=Trendyol&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Trendyol-TTS\" review problems YouTube X",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Trendyol-TTS\" official announcement LinkedIn YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 69,
+      "id": "openbmb/VoxCPM2",
+      "name": "openbmb/VoxCPM2",
+      "category": "TTS",
+      "kind": "model",
+      "creator": "OpenBMB / ModelBest",
+      "plain": "VoxCPM2, Türkçe uyarlamaların birçoğuna taban olan çok dilli metinden sese modelidir. Ses tarifinden yeni ses ve kısa referanstan ses koşullama sunar. Ana modelin dil kapsamı, Türkçe ince ayarların tek sesli yapısıyla aynı değildir.",
+      "claims": [
+        {
+          "text": "2B parametre,30 dil,48 kHz ve iki milyon saati aşan çok dilli eğitim;4090'da standart RTF yaklaşık0,30 bildiriliyor.",
+          "evidence": "Kaynak sahibinin raporladığı beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/openbmb/VoxCPM2/raw/main/README.md"
+        }
+      ],
+      "training": "MiniCPM-4 tabanlı tokenizer-free diffusion autoregressive yapı ve AudioVAE2. Tam veri dağılımının Türkçe payı okunan kartta açıklanmıyor. Apache-2.0; LoRA/tam ince ayar yolları belgeli.",
+      "version": "VoxCPM2 ana kartı incelendi; yazarın ilk40 deposu bütün ses sürümlerini kapsamıyor. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha:32279 effe8 c19989596 f05 d353 d1447 f51 d9 e915; lastModified:2026-08-18T07:37:17.000Z. Dosya tarihi yeni eğitim değildir.",
+      "try_it": "Bu oturumda ses üretilmedi, dinletilmedi; model indirilmedi. İzinli sonraki denemede Türkçe sayı, özel ad, uzun metin ve tonlama dinlenmeli; ASR hata puanı ile insan doğallığı ayrı değerlendirilmelidir. Demo yalnız belgede bağlantılı; çalıştığı doğrulanmadı.",
+      "demo_url": "https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo",
+      "independent": "GitHub#384'te bağımsız geliştirici İngilizceden Türkçeye15 saniyelik dublaj entegrasyonu bildiriyor. #404'te başka kullanıcı Lehçe örnekte çatırdama/kırpılma duyduğunu söylüyor. İkisi kontrollü Türkçe karşılaştırma değil; video bu oturumda dinlenmedi.",
+      "unknowns": [
+        "Referans ve CFG seçimi kaliteyi değiştirir. Türkçe doğal konuşma, yabancı özel ad ve uzun anlatım için ayrı dinleme gerekir."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/openbmb/VoxCPM2",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/openbmb/VoxCPM2/raw/main/README.md",
+          "title": "openbmb/VoxCPM2 resmî README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=openbmb&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/openbmb/VoxCPM2/discussions/18",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/openbmb/VoxCPM2/discussions/17",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/OpenBMB/VoxCPM/issues/384",
+          "title": "VoxCPM2 Türkçe dublaj entegrasyonu",
+          "type": "community",
+          "date": "2026-08-19",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/OpenBMB/VoxCPM/issues/404",
+          "title": "VoxCPM2: Polish crackling clipping",
+          "type": "community",
+          "date": "2026-09-26",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.06057",
+          "title": "Türkçe modern TTS sistemleri nesnel değerlendirmesi: özet okundu",
+          "type": "independent_paper",
+          "date": "2026-10-05",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Resmî kart/kod/profil veya somut üye kaynağı okundu; gelecek planları hazır özellik sayılmadı.",
+          "urls": [
+            "https://huggingface.co/openbmb/VoxCPM2/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "GitHub#384'te bağımsız geliştirici İngilizceden Türkçeye15 saniyelik dublaj entegrasyonu bildiriyor. #404'te başka kullanıcı Lehçe örnekte çatırdama/kırpılma duyduğunu söylüyor. İkisi kontrollü Türkçe karşılaştırma değil; video bu oturumda dinlenmedi.",
+          "urls": [
+            "https://huggingface.co/api/models/openbmb/VoxCPM2/discussions/18",
+            "https://huggingface.co/api/models/openbmb/VoxCPM2/discussions/17",
+            "https://github.com/OpenBMB/VoxCPM/issues/384",
+            "https://github.com/OpenBMB/VoxCPM/issues/404",
+            "https://arxiv.org/abs/2610.06057"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye ve geliştiriciyle YouTube/X, duyuru, olumlu/olumsuz deneyim arandı. Bu aday için izlenmiş bağımsız video deneyi bulunamadı; bulunamaması yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "VoxCPM2 ana kartı incelendi; yazarın ilk40 deposu bütün ses sürümlerini kapsamıyor. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/openbmb/VoxCPM2",
+            "https://huggingface.co/api/models?author=openbmb&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"VoxCPM2\" Turkish review problems YouTube X",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": []
+    },
+    {
+      "record_id": 70,
+      "id": "krmkayabasi/Anka-TTS",
+      "name": "krmkayabasi/Anka-TTS",
+      "category": "TTS",
+      "kind": "model",
+      "creator": "krmkayabasi / Anka TTS geliştiricisi",
+      "plain": "F5-TTS mimarisinde Türkçe TTS ve kısa ses referansından koşullama sunar. Kart anlaşılabilirlik ölçümünü doğallık ve ses benzerliğinden ayırıyor. Paylaşılan eski örneklerin güncel paket seslerinden önce üretildiği belirtilmiş; örnek dinlemek doğrudan bugünkü varsayılanı dinlemek olmayabilir.",
+      "claims": [
+        {
+          "text": "495 cümlede hız1,0 ile WER yüzde1,73; varsayılan hız0,85 ile yüzde1,50. Anka/Chatterbox hata aralıkları örtüşüyor.",
+          "evidence": "Kaynak sahibinin raporladığı beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/krmkayabasi/Anka-TTS/raw/main/README.md"
+        }
+      ],
+      "training": "336M;260000 adım Türkçe uyarlama. Kamu malı yayın kökeni iddiası PyPI'da; veri kökeni tam denetlenmedi. Ağırlık metadata CC BY-NC4.0.",
+      "version": "Kart v0.1; örneklerin güncel varsayılan referanslardan önce üretildiği belirtiliyor. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha:7 b71 e8 c5528 ba98 ee846 e177 aa6 da10 f23 b4 d910; lastModified:2026-09-30T15:07:23.000Z. Dosya tarihi yeni eğitim değildir.",
+      "try_it": "Bu oturumda ses üretilmedi, dinletilmedi; model indirilmedi. İzinli sonraki denemede Türkçe sayı, özel ad, uzun metin ve tonlama dinlenmeli; ASR hata puanı ile insan doğallığı ayrı değerlendirilmelidir. Demo yalnız belgede bağlantılı; çalıştığı doğrulanmadı.",
+      "demo_url": "https://anka.krmkayabasi.com",
+      "independent": "Ayrı EMA kartında Anka'nın sonuçları alıntılanıyor; bu yeniden üretim değildir. Video/X ve bağımsız olumlu/olumsuz kullanım arandı. Doğrudan doğrulanabilir bağımsız dinleyici çalışması bulunamadı; karşılaştırma yazısının tam sayfası404 kaldı.",
+      "unknowns": [
+        "Test495 metin rakam/kısaltma içermiyor; normalizasyon genellemesi sınırlı. Aynı referansın Anka'ya uygunluğu geliştirici tarafından kabul ediliyor."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/krmkayabasi/Anka-TTS",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/krmkayabasi/Anka-TTS/raw/main/README.md",
+          "title": "krmkayabasi/Anka-TTS resmî README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=krmkayabasi&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://pypi.org/project/anka-tts/",
+          "title": "Anka TTS paket açıklaması",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://dolphydesk.com/blog/turkce-text-to-speech-karsilastirmasi",
+          "title": "Karşılaştırma keşfi; tam metin404",
+          "type": "third_party_discovery",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "inaccessible"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Resmî kart/kod/profil veya somut üye kaynağı okundu; gelecek planları hazır özellik sayılmadı.",
+          "urls": [
+            "https://huggingface.co/krmkayabasi/Anka-TTS/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ayrı EMA kartında Anka'nın sonuçları alıntılanıyor; bu yeniden üretim değildir. Video/X ve bağımsız olumlu/olumsuz kullanım arandı. Doğrudan doğrulanabilir bağımsız dinleyici çalışması bulunamadı; karşılaştırma yazısının tam sayfası404 kaldı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye ve geliştiriciyle YouTube/X, duyuru, olumlu/olumsuz deneyim arandı. Bu aday için izlenmiş bağımsız video deneyi bulunamadı; bulunamaması yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kart v0.1; örneklerin güncel varsayılan referanslardan önce üretildiği belirtiliyor. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/krmkayabasi/Anka-TTS",
+            "https://huggingface.co/api/models?author=krmkayabasi&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Anka-TTS\" review sorun YouTube X",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 71,
+      "id": "AlicanKiraz0/Kizagan-TTS-v1.0",
+      "name": "AlicanKiraz0/Kizagan-TTS-v1.0",
+      "category": "TTS",
+      "kind": "model",
+      "creator": "Alican Kiraz / AlicanKiraz0",
+      "plain": "Kızagan, VoxCPM2'nin Türkçe tek konuşmacı uyarlamasıdır. v1.0 yeni eğitim değil, zaten değerlendirilmiş step1500 ağırlıklarının belgeli paketidir. Referans sesi verince yeniden eğitim olmadan koşullama yapılır; yeni kişinin sesine ne kadar benzediği ayrı sorudur.",
+      "claims": [
+        {
+          "text": "Paket komutunun iki cümlelik CUDA kontrolünde3,36 saniye48 kHz ses üretildiği raporlanmış; bu genel kalite veya performans sıralaması değildir.",
+          "evidence": "Kaynak sahibinin raporladığı beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/AlicanKiraz0/Kizagan-TTS-v1.0/raw/main/README.md"
+        }
+      ],
+      "training": "LoRA rank64/alpha64, LM ve DiT dikkat projeksiyonları; özel TR-Voice-TTS tek konuşmacı verisi. Eğitim manifesti ve optimizer kaydı geri bulunamamış; tekrar edilmiş eğitim iddiası yok. Apache-2.0 metadata.",
+      "version": "v1.0, eski step1500'ün yeniden paketlenmesi; yeni ince ayar veya ağırlık değişimi yok. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: a22 aac87 ee3 d84 c3757 f06 efec5 cfa08 f426 e02 b; lastModified:2026-09-17T08:39:47.000Z. Dosya tarihi yeni eğitim değildir.",
+      "try_it": "Bu oturumda ses üretilmedi, dinletilmedi; model indirilmedi. İzinli sonraki denemede Türkçe sayı, özel ad, uzun metin ve tonlama dinlenmeli; ASR hata puanı ile insan doğallığı ayrı değerlendirilmelidir.",
+      "demo_url": null,
+      "independent": "Hub yorumları otomatik demo devri önerileri ve geliştirici onayından oluşuyor; bağımsız kullanıcı doğruluk testi değil. Model adıyla resmî/sosyal ve sorun/olumlu deneyim aramasında başka doğrudan deney bulunamadı.",
+      "unknowns": [
+        "Sayı/kısaltma ve cümle bölme otomatik çözülmüyor. Demo yorumlarında Kahya adı geçiyor; Kızaganla kimlik eşleşmesi doğrulanmadan demo atanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/AlicanKiraz0/Kizagan-TTS-v1.0",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/AlicanKiraz0/Kizagan-TTS-v1.0/raw/main/README.md",
+          "title": "AlicanKiraz0/Kizagan-TTS-v1.0 resmî README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=AlicanKiraz0&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/AlicanKiraz0/Kizagan-TTS-v1.0/discussions/2",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/AlicanKiraz0/Kizagan-TTS-v1.0/discussions/1",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Resmî kart/kod/profil veya somut üye kaynağı okundu; gelecek planları hazır özellik sayılmadı.",
+          "urls": [
+            "https://huggingface.co/AlicanKiraz0/Kizagan-TTS-v1.0/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Hub yorumları otomatik demo devri önerileri ve geliştirici onayından oluşuyor; bağımsız kullanıcı doğruluk testi değil. Model adıyla resmî/sosyal ve sorun/olumlu deneyim aramasında başka doğrudan deney bulunamadı.",
+          "urls": [
+            "https://huggingface.co/api/models/AlicanKiraz0/Kizagan-TTS-v1.0/discussions/2",
+            "https://huggingface.co/api/models/AlicanKiraz0/Kizagan-TTS-v1.0/discussions/1"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye ve geliştiriciyle YouTube/X, duyuru, olumlu/olumsuz deneyim arandı. Bu aday için izlenmiş bağımsız video deneyi bulunamadı; bulunamaması yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "v1.0, eski step1500'ün yeniden paketlenmesi; yeni ince ayar veya ağırlık değişimi yok. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/AlicanKiraz0/Kizagan-TTS-v1.0",
+            "https://huggingface.co/api/models?author=AlicanKiraz0&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Kizagan-TTS\" review sorun YouTube X",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Kizagan-TTS-v1.0\" (sorun OR denedim OR review OR problem)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 72,
+      "id": "ozgurguler/ahenk-tts-tr",
+      "name": "ozgurguler/ahenk-tts-tr (36M LoRA + 2B)",
+      "category": "TTS",
+      "kind": "model",
+      "creator": "Özgür Güler / ozgurguler",
+      "plain": "Ahenk büyük model, VoxCPM2 için36,2M parametreli LoRA adaptörüdür; tek başına36M'lik hazır TTS değildir,2B tabanı gerektirir. f022 gerçek kişiden klonlanmamış tasarlanmış kadın sesi. Duygu talimatları ve gülme destekleniyor; kaynak kartı olumlu ve başarısız örnekleri birlikte açıklıyor.",
+      "claims": [
+        {
+          "text": "TR-Zor WER yüzde2,54; ayrılmış20 uzun cümlede yüzde0,82. A100'de RTF2,28; doğal ses tahmini ve hızda Trendyol gerisinde.",
+          "evidence": "Kaynak sahibinin raporladığı beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/ozgurguler/ahenk-tts-tr/raw/main/README.md"
+        }
+      ],
+      "training": "Alania sentetik Türkçe konuşma ve alan metinleriyle aşamalı uyarlama; ek duygu/soru/gülme metinleri. Yayın step500,16 adım, CFG2,0. LoRA CC BY4.0; taban Apache-2.0.",
+      "version": "Yayınlanan LoRA step500; küçük Ahenk Cep başka model. Adaptör+taban birlikte gerekli. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha:6 bcef95 c9 e8401058253518 d08028369958522 cc; lastModified:2026-10-17T09:49:37.000Z. Dosya tarihi yeni eğitim değildir.",
+      "try_it": "Bu oturumda ses üretilmedi, dinletilmedi; model indirilmedi. İzinli sonraki denemede Türkçe sayı, özel ad, uzun metin ve tonlama dinlenmeli; ASR hata puanı ile insan doğallığı ayrı değerlendirilmelidir. Demo yalnız belgede bağlantılı; çalıştığı doğrulanmadı.",
+      "demo_url": "https://huggingface.co/spaces/ozgurguler/ahenk-turkish-tts",
+      "independent": "On cümlelik kör dinlemenin tek katılımcısı proje sahibi;8 tercih bağımsız MOS sayılmaz. Sosyal/video ve bağımsız olumlu/olumsuz deneyim aramalarında doğrudan üçüncü taraf model deneyi bulunamadı; haberler kartı özetliyor.",
+      "unknowns": [
+        "Sondan yükselen sorular başarısız; İngilizce talimat sonrası c sesi kayabiliyor. GPU üzerinde çalışması gerçek zamanlı olduğu anlamına gelmez."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/ozgurguler/ahenk-tts-tr",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ozgurguler/ahenk-tts-tr/raw/main/README.md",
+          "title": "ozgurguler/ahenk-tts-tr (36M LoRA + 2B) resmî README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=ozgurguler&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ozgurguler/ahenk-tts-tr/discussions/1",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Resmî kart/kod/profil veya somut üye kaynağı okundu; gelecek planları hazır özellik sayılmadı.",
+          "urls": [
+            "https://huggingface.co/ozgurguler/ahenk-tts-tr/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "On cümlelik kör dinlemenin tek katılımcısı proje sahibi;8 tercih bağımsız MOS sayılmaz. Sosyal/video ve bağımsız olumlu/olumsuz deneyim aramalarında doğrudan üçüncü taraf model deneyi bulunamadı; haberler kartı özetliyor.",
+          "urls": [
+            "https://huggingface.co/api/models/ozgurguler/ahenk-tts-tr/discussions/1"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye ve geliştiriciyle YouTube/X, duyuru, olumlu/olumsuz deneyim arandı. Bu aday için izlenmiş bağımsız video deneyi bulunamadı; bulunamaması yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Yayınlanan LoRA step500; küçük Ahenk Cep başka model. Adaptör+taban birlikte gerekli. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/ozgurguler/ahenk-tts-tr",
+            "https://huggingface.co/api/models?author=ozgurguler&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"ahenk-tts-tr\" review sorun YouTube X",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"ahenk-cep-tr\" \"ahenk-tts-tr\" review -site:huggingface.co",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 73,
+      "id": "cloud0day3/antalia-1",
+      "name": "Patientdesk-AI/antalia (Antalia 1 ~300M, antalia-mini / Antalia-2 Mini 7,6M)",
+      "category": "TTS",
+      "kind": "model_family",
+      "creator": "Patientdesk.ai; Sezgin Saygılı ve ekip",
+      "plain": "Bu satır Antalia1 ve çok daha küçük Antalia-2 Mini'yi birleştiriyor.1 yaklaşık305M, tek izinli gerçek ses; Mini7,62M, tamamen sentetik erkek ses. Aynı modeli küçültmekten ibaret değiller. Antalia1 geliştirmesi durdurulmuş; ticari Alania hizmeti ayrı ürün.",
+      "claims": [
+        {
+          "text": "Antalia1 tek tohum CER0,053, best-of-8 ile0,030 bildiriyor. Yüksek otomatik benzerliğe rağmen önceki checkpoint'te bir dinleyici12 çiftten hiçbirini aynı kişi saymamış.",
+          "evidence": "Kaynak sahibinin raporladığı beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/cloud0day3/antalia-1/raw/main/README.md"
+        }
+      ],
+      "training": "Antalia1 Common Voice/FLEURS ve5 saat izinli ses; OpenRAIL-M+atıf. Mini kartı gerçek konuşmacı kaydı olmadığını ve Apache-2.0 lisansını söylüyor. İki lisans birleştirilemez.",
+      "version": "Antalia1 durdurulmuş; Mini kartı Antalia-2 Mini1.0.1. Alania ticari hizmeti ayrı ürün. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: eaec2 aad2 da8 c0 db5 fc359734470874 dae82 c603; lastModified:2026-09-15T21:58:39.000Z. Dosya tarihi yeni eğitim değildir.",
+      "try_it": "Bu oturumda ses üretilmedi, dinletilmedi; model indirilmedi. İzinli sonraki denemede Türkçe sayı, özel ad, uzun metin ve tonlama dinlenmeli; ASR hata puanı ile insan doğallığı ayrı değerlendirilmelidir. Demo yalnız belgede bağlantılı; çalıştığı doğrulanmadı.",
+      "demo_url": "https://huggingface.co/spaces/cloud0day3/antalia-mini",
+      "independent": "Ahenk'in başka geliştirme düzeneğinde Mini uzun/kısa cümlelerde karşılaştırılmış; geniş bağımsız MOS değil. Duyuru ve kullanıcı/video aramalarında kontrollü bağımsız Antalia1 doğrulaması bulunamadı.",
+      "unknowns": [
+        "Antalia1 tek ses, klonlama yok; insan değerlendirmesi yayımlanan son checkpoint'te tekrarlanmamış. Mini1.0.1 ses EQ düzenlemesi yeni temel eğitim demek değil."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/cloud0day3/antalia-1",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/cloud0day3/antalia-1/raw/main/README.md",
+          "title": "Patientdesk-AI/antalia (Antalia 1 ~300M, antalia-mini / Antalia-2 Mini 7,6M) resmî README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=cloud0day3&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/cloud0day3/antalia-mini/raw/main/README.md",
+          "title": "Antalia-2 Mini1.0.1 model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://labs.patientdesk.ai/antalia-1-report/",
+          "title": "Antalia1 teknik raporu ve durdurulan geliştirme",
+          "type": "developer",
+          "date": "2026-09",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ozgurguler/ahenk-cep-tr/raw/main/README.md",
+          "title": "Ahenk Cep geliştiricisinden Mini karşılaştırması",
+          "type": "third_party_developer_test",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Resmî kart/kod/profil veya somut üye kaynağı okundu; gelecek planları hazır özellik sayılmadı.",
+          "urls": [
+            "https://huggingface.co/cloud0day3/antalia-1/raw/main/README.md",
+            "https://huggingface.co/cloud0day3/antalia-mini/raw/main/README.md",
+            "https://labs.patientdesk.ai/antalia-1-report/"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Ahenk'in başka geliştirme düzeneğinde Mini uzun/kısa cümlelerde karşılaştırılmış; geniş bağımsız MOS değil. Duyuru ve kullanıcı/video aramalarında kontrollü bağımsız Antalia1 doğrulaması bulunamadı.",
+          "urls": [
+            "https://huggingface.co/ozgurguler/ahenk-cep-tr/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye ve geliştiriciyle YouTube/X, duyuru, olumlu/olumsuz deneyim arandı. Bu aday için izlenmiş bağımsız video deneyi bulunamadı; bulunamaması yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Antalia1 durdurulmuş; Mini kartı Antalia-2 Mini1.0.1. Alania ticari hizmeti ayrı ürün. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/cloud0day3/antalia-1",
+            "https://huggingface.co/api/models?author=cloud0day3&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "Antalia 1 antalia mini Patientdesk review problems YouTube X",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "cloud0day3/antalia-1",
+          "url": "https://huggingface.co/cloud0day3/antalia-1",
+          "status": "ana kaynak metni okundu; yerel ses deneyi yapılmadı"
+        },
+        {
+          "name": "cloud0day3/antalia-mini",
+          "url": "https://huggingface.co/cloud0day3/antalia-mini",
+          "status": "Antalia-2 Mini1.0.1 README okundu; sentetik veri, Apache-2.0"
+        },
+        {
+          "name": "cloud0day3/antalia-1-foundation",
+          "url": "https://huggingface.co/cloud0day3/antalia-1-foundation",
+          "status": "ana kartta doğrulandı; ayrı hash/kart açık"
+        },
+        {
+          "name": "Alania",
+          "url": "https://labs.patientdesk.ai/antalia-1-report/",
+          "status": "teknik raporda ticari halef hizmet; bu araştırmada servis denenmedi"
+        }
+      ]
+    },
+    {
+      "record_id": 74,
+      "id": "Supertone/supertonic-3",
+      "name": "Supertone/supertonic-3",
+      "category": "TTS",
+      "kind": "model",
+      "creator": "Supertone",
+      "plain": "Supertonic3, ONNX Runtime ile cihaz üzerinde ses üretir.31 dil desteği var; özel ses stili oluşturma hizmeti açık model paketinden ayrı. Cihazda çalışma ve hızlı toplam üretim, ekran okuyucuda küçük parçaya anında cevap verme garantisi değildir.",
+      "claims": [
+        {
+          "text": "Supertonic2'nin5 dilinden31'e genişleme, tekrar/atlama ve ses benzerliğinde iyileşme iddia ediliyor.",
+          "evidence": "Kaynak sahibinin raporladığı beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/Supertone/supertonic-3/raw/main/README.md"
+        }
+      ],
+      "training": "Açık model OpenRAIL-M, örnek kod MIT. Kart tam Türkçe eğitim karışımını vermiyor; geliştirici Türkçe verinin İngilizceden çok az olduğunu kullanıcı yanıtında açıklıyor.",
+      "version": "Yazar listesinde3,2, ilk Supertonic görüldü. Arşivlenmiş issue deposunun durumu bütün ürünün durumu sayılamaz. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha:3 cadd1 ee6394 adea1 bd021217 a0 e650 ede09 a323; lastModified:2026-05-18T08:59:01.000Z. Dosya tarihi yeni eğitim değildir.",
+      "try_it": "Bu oturumda ses üretilmedi, dinletilmedi; model indirilmedi. İzinli sonraki denemede Türkçe sayı, özel ad, uzun metin ve tonlama dinlenmeli; ASR hata puanı ile insan doğallığı ayrı değerlendirilmelidir. Demo yalnız belgede bağlantılı; çalıştığı doğrulanmadı.",
+      "demo_url": "https://huggingface.co/spaces/Supertone/supertonic-3",
+      "independent": "#144'te görme engelli Türk kullanıcı NVDA'ya entegre edebilmiş fakat ciddi gecikme/kekeleme ve sayıların yanlış okunmasını bildiriyor. Geliştirici modelin nedensel/streaming olmadığını doğruluyor. Hub#29 Android entegrasyonu; #28 özel ses portunda bulanıklık yorumu var.",
+      "unknowns": [
+        "Türkçe sayılar ve ekran okuyucu gecikmesi açık zayıflık. Resmî issue deposu Eylül'de arşivlenmiş; bu tek başına tüm ürün geliştirmesinin bittiğini göstermez."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/Supertone/supertonic-3",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Supertone/supertonic-3/raw/main/README.md",
+          "title": "Supertone/supertonic-3 resmî README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=Supertone&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Supertone/supertonic-3/discussions/29",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Supertone/supertonic-3/discussions/28",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/supertone-oss-archive/supertonic/issues/144",
+          "title": "Turkish language and screen readers: gerçek NVDA deneyimi",
+          "type": "community",
+          "date": "2026-05-19",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Resmî kart/kod/profil veya somut üye kaynağı okundu; gelecek planları hazır özellik sayılmadı.",
+          "urls": [
+            "https://huggingface.co/Supertone/supertonic-3/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "#144'te görme engelli Türk kullanıcı NVDA'ya entegre edebilmiş fakat ciddi gecikme/kekeleme ve sayıların yanlış okunmasını bildiriyor. Geliştirici modelin nedensel/streaming olmadığını doğruluyor. Hub#29 Android entegrasyonu; #28 özel ses portunda bulanıklık yorumu var.",
+          "urls": [
+            "https://huggingface.co/api/models/Supertone/supertonic-3/discussions/29",
+            "https://huggingface.co/api/models/Supertone/supertonic-3/discussions/28",
+            "https://github.com/supertone-oss-archive/supertonic/issues/144"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye ve geliştiriciyle YouTube/X, duyuru, olumlu/olumsuz deneyim arandı. Bu aday için izlenmiş bağımsız video deneyi bulunamadı; bulunamaması yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Yazar listesinde3,2, ilk Supertonic görüldü. Arşivlenmiş issue deposunun durumu bütün ürünün durumu sayılamaz. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/Supertone/supertonic-3",
+            "https://huggingface.co/api/models?author=Supertone&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"supertonic-3\" Turkish review problems YouTube X",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": []
+    },
+    {
+      "record_id": 75,
+      "id": "ResembleAI/chatterbox",
+      "name": "ResembleAI/chatterbox (Multilingual V3)",
+      "category": "TTS",
+      "kind": "model_family",
+      "creator": "Resemble AI",
+      "plain": "Chatterbox deposu tek İngilizce modelin yanında MultilingualV3 ve dil paketlerini anlatıyor. Türkçe çok dilli üyede destekli. V3'ü kullanmak ile yalnız en güncel README'yi görmek farklıdır; eski paket varsayılanı farklı checkpoint yükleyebilir.",
+      "claims": [
+        {
+          "text": "500M, V3'te ses benzerliği ve gereksiz tekrar azalması; PerTh filigranı. Resmî blog25 dil/lehçe, README23+ diyor; sayım kapsamı açıklanmalı.",
+          "evidence": "Kaynak sahibinin raporladığı beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/ResembleAI/chatterbox/raw/main/README.md"
+        }
+      ],
+      "training": "Llama tabanlı ses üretimi; kart500 bin saat temiz veri iddiası veriyor. Türkçe payı ayrı yok. MIT; altı tek dil paketinin Türkçe paketi doğrulanmadı.",
+      "version": "MultilingualV3 Haziran10 duyurusu; daha sonra nano/flash depoları var, Türkçe veV3 eşdeğerlikleri incelenmedi. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha:5 bb1 f6 ee58 e50 c3 b8 d408 bc82 a6 d3740 c2 db6 e18; lastModified:2026-06-10T21:16:06.000Z. Dosya tarihi yeni eğitim değildir.",
+      "try_it": "Bu oturumda ses üretilmedi, dinletilmedi; model indirilmedi. İzinli sonraki denemede Türkçe sayı, özel ad, uzun metin ve tonlama dinlenmeli; ASR hata puanı ile insan doğallığı ayrı değerlendirilmelidir. Demo yalnız belgede bağlantılı; çalıştığı doğrulanmadı.",
+      "demo_url": "https://huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS-V3",
+      "independent": "Hub#62'de kullanıcı PyPI'nınV2 kaldığını ve t3_model parametresi olmadığını bildiriyor. #61'de başka geliştirici Arapça/İspanyolca olumlu mühendislik sonucu paylaşıyor; Türkçe veya kesinV3 kanıtı değil. Türkçe araştırma makalesi keşfedilip özeti okundu; sayısal sonuç çıkarılmadı.",
+      "unknowns": [
+        "Korean/Vietnamese zayıflıkları resmî blogda kabul edilmiş. Bunlar Türkçe kaliteyi belirlemez; doğal tonlama ve uzun metin hâlâ dinlenmeli."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/ResembleAI/chatterbox",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ResembleAI/chatterbox/raw/main/README.md",
+          "title": "ResembleAI/chatterbox (Multilingual V3) resmî README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=ResembleAI&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ResembleAI/chatterbox/discussions/62",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ResembleAI/chatterbox/discussions/61",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.resemble.ai/resources/chatterbox-multilingual-v3-tts-with-embedded-watermarking-for-25-languages",
+          "title": "Chatterbox Multilingual V3 resmî sürüm duyurusu",
+          "type": "developer",
+          "date": "2026-06-10",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.06057",
+          "title": "Türkçe modern TTS nesnel değerlendirmesi: yalnız özet",
+          "type": "independent_paper",
+          "date": "2026-10-05",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Resmî kart/kod/profil veya somut üye kaynağı okundu; gelecek planları hazır özellik sayılmadı.",
+          "urls": [
+            "https://huggingface.co/ResembleAI/chatterbox/raw/main/README.md",
+            "https://www.resemble.ai/resources/chatterbox-multilingual-v3-tts-with-embedded-watermarking-for-25-languages"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Hub#62'de kullanıcı PyPI'nınV2 kaldığını ve t3_model parametresi olmadığını bildiriyor. #61'de başka geliştirici Arapça/İspanyolca olumlu mühendislik sonucu paylaşıyor; Türkçe veya kesinV3 kanıtı değil. Türkçe araştırma makalesi keşfedilip özeti okundu; sayısal sonuç çıkarılmadı.",
+          "urls": [
+            "https://huggingface.co/api/models/ResembleAI/chatterbox/discussions/62",
+            "https://huggingface.co/api/models/ResembleAI/chatterbox/discussions/61",
+            "https://arxiv.org/abs/2610.06057"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye ve geliştiriciyle YouTube/X, duyuru, olumlu/olumsuz deneyim arandı. Bu aday için izlenmiş bağımsız video deneyi bulunamadı; bulunamaması yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "MultilingualV3 Haziran10 duyurusu; daha sonra nano/flash depoları var, Türkçe veV3 eşdeğerlikleri incelenmedi. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/ResembleAI/chatterbox",
+            "https://huggingface.co/api/models?author=ResembleAI&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"chatterbox\" \"Multilingual V3\" Turkish review problems YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "ResembleAI/chatterbox",
+          "url": "https://huggingface.co/ResembleAI/chatterbox",
+          "status": "ana kaynak metni okundu; yerel ses deneyi yapılmadı"
+        },
+        {
+          "name": "Chatterbox MultilingualV3",
+          "url": "https://www.resemble.ai/resources/chatterbox-multilingual-v3-tts-with-embedded-watermarking-for-25-languages",
+          "status": "resmî duyuru okundu; yüklenen checkpoint ayrıca doğrulanmalı"
+        },
+        {
+          "name": "nano,flash,tek dil paketleri",
+          "url": "https://huggingface.co/ResembleAI",
+          "status": "yazar listesinde görüldü; tüm Türkçe üyeler ayrı araştırılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 76,
+      "id": "facebook/mms-tts-tur",
+      "name": "facebook/mms-tts-tur",
+      "category": "TTS",
+      "kind": "model",
+      "creator": "Meta / Vineel Pratap ve çalışma arkadaşları",
+      "plain": "MMS projesinin Türkçe VITS ses üretim checkpoint'idir. MMS-ASR ile aynı iş değildir; metni sese çevirir. Tek dile ait ağırlık, büyük çok dilli ailenin bütün seslerini içermiyor. Küçük/hızlı olması vurgu ve doğal konuşmanın güçlü olduğunu kanıtlamaz.",
+      "claims": [
+        {
+          "text": "Kart Türkçe ses üretimini, Transformers4.33+ kullanımını ve sabit tohumla tekrar üretim yolunu açıklıyor; kendi Türkçe kalite tablosu yok.",
+          "evidence": "Kaynak sahibinin raporladığı beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/facebook/mms-tts-tur/raw/main/README.md"
+        }
+      ],
+      "training": "Dile ayrı VITS eğitimi; değişken süre üretimi ve HiFi-GAN benzeri decoder. Türkçe veri saati ve bütün filtreler kartta açıklanmıyor. CC BY-NC4.0.",
+      "version": "2023 Türkçe ağırlığı; yeni MMS veya Meta yayınları otomatik güncelleme sayılmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha:7 e364479 c307 f06733 ca865 b0 a5269 e0209 cf82 d; lastModified:2023-09-01T16:45:43.000Z. Dosya tarihi yeni eğitim değildir.",
+      "try_it": "Bu oturumda ses üretilmedi, dinletilmedi; model indirilmedi. İzinli sonraki denemede Türkçe sayı, özel ad, uzun metin ve tonlama dinlenmeli; ASR hata puanı ile insan doğallığı ayrı değerlendirilmelidir.",
+      "demo_url": null,
+      "independent": "Hub#1'de kullanıcı genel olarak sesi beğendiğini fakat virgül, nokta, soru işaretinin tonlamayı etkilemediğini bildiriyor. Sözlüğe işaret eklemek boyut uyuşmazlığına yol açmış. Bu olumlu/olumsuz somut deneyimdir; yeni token ekleme başarılı düzeltme sayılmaz.",
+      "unknowns": [
+        "2023 checkpoint için doğallık, uzun cümle ve sayı başarısı yerelde ölçülmedi. Başka dillerdeki MMS bulguları Türkçeye otomatik taşınmamalı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/facebook/mms-tts-tur",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/facebook/mms-tts-tur/raw/main/README.md",
+          "title": "facebook/mms-tts-tur resmî README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=facebook&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/facebook/mms-tts-tur/discussions/1",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Resmî kart/kod/profil veya somut üye kaynağı okundu; gelecek planları hazır özellik sayılmadı.",
+          "urls": [
+            "https://huggingface.co/facebook/mms-tts-tur/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Hub#1'de kullanıcı genel olarak sesi beğendiğini fakat virgül, nokta, soru işaretinin tonlamayı etkilemediğini bildiriyor. Sözlüğe işaret eklemek boyut uyuşmazlığına yol açmış. Bu olumlu/olumsuz somut deneyimdir; yeni token ekleme başarılı düzeltme sayılmaz.",
+          "urls": [
+            "https://huggingface.co/api/models/facebook/mms-tts-tur/discussions/1"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye ve geliştiriciyle YouTube/X, duyuru, olumlu/olumsuz deneyim arandı. Bu aday için izlenmiş bağımsız video deneyi bulunamadı; bulunamaması yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "2023 Türkçe ağırlığı; yeni MMS veya Meta yayınları otomatik güncelleme sayılmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/facebook/mms-tts-tur",
+            "https://huggingface.co/api/models?author=facebook&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"mms-tts-tur\" review problems YouTube X",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": []
+    },
+    {
+      "record_id": 77,
+      "id": "k2-fsa/OmniVoice",
+      "name": "k2-fsa/OmniVoice",
+      "category": "TTS",
+      "kind": "model",
+      "creator": "k2-fsa / Han Zhu ve çalışma arkadaşları",
+      "plain": "OmniVoice600'den fazla dilde referanstan ses ve tarifle ses tasarımını hedefleyen modeldir. Qwen3-0.6B metadata tabanı, tam TTS sisteminin bütün parametre sayısı demek değildir. Geniş kapsam her dilde aynı doğruluğu garanti etmez.",
+      "claims": [
+        {
+          "text": "Diffusion dil modeli benzeri mimari,24 kHz çıkış; uygun koşulda RTF0,025 ve40 kat gerçek zaman hızı iddia ediliyor.",
+          "evidence": "Kaynak sahibinin raporladığı beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/k2-fsa/OmniVoice/raw/main/README.md"
+        }
+      ],
+      "training": "Kod Apache2.0; model eğitim verisi Emilia gibi kaynakların kısıtları nedeniyle CC-BY-NC. Hub metadata lisans alanının boşluğu README'deki açık koşulu geçersiz kılmaz.",
+      "version": "OmniVoice-Emilia kardeş depo yazar listesinde var; ayrı kart, lisans ve kalite incelenmedi. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: c5 fdb5 ccb189668 d56333 f77 ba2629 f4 cd7535 f4; lastModified:2026-07-03T03:32:17.000Z. Dosya tarihi yeni eğitim değildir.",
+      "try_it": "Bu oturumda ses üretilmedi, dinletilmedi; model indirilmedi. İzinli sonraki denemede Türkçe sayı, özel ad, uzun metin ve tonlama dinlenmeli; ASR hata puanı ile insan doğallığı ayrı değerlendirilmelidir. Demo yalnız belgede bağlantılı; çalıştığı doğrulanmadı.",
+      "demo_url": "https://huggingface.co/spaces/k2-fsa/OmniVoice",
+      "independent": "GitHub#253'te Windows/RTX3050 kullanıcısı kısa metinlerde bile rastgele kelime atlaması bildiriyor; doğrudan komutla tekrar örneği verememiş. Yanıtta Vietnamca tekrar vakası var; Türkçe değil. Ekim Türkçe değerlendirme makalesi özeti modeli kapsıyor ama sayısal kazanan çıkarmıyor.",
+      "unknowns": [
+        "Emilia kardeş depo görüldü, ayrı kart incelenmedi. Türkçe bağımsız dinleme ve özel ad/rakam doğruluğu açık."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/k2-fsa/OmniVoice",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/k2-fsa/OmniVoice/raw/main/README.md",
+          "title": "k2-fsa/OmniVoice resmî README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=k2-fsa&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/k2-fsa/OmniVoice/discussions/39",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/k2-fsa/OmniVoice/discussions/38",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/k2-fsa/OmniVoice/issues/253",
+          "title": "Voice cloning generation skips/drops parts of text",
+          "type": "community",
+          "date": "2026-08-21",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.06057",
+          "title": "Türkçe modern TTS nesnel değerlendirmesi: yalnız özet",
+          "type": "independent_paper",
+          "date": "2026-10-05",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Resmî kart/kod/profil veya somut üye kaynağı okundu; gelecek planları hazır özellik sayılmadı.",
+          "urls": [
+            "https://huggingface.co/k2-fsa/OmniVoice/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "GitHub#253'te Windows/RTX3050 kullanıcısı kısa metinlerde bile rastgele kelime atlaması bildiriyor; doğrudan komutla tekrar örneği verememiş. Yanıtta Vietnamca tekrar vakası var; Türkçe değil. Ekim Türkçe değerlendirme makalesi özeti modeli kapsıyor ama sayısal kazanan çıkarmıyor.",
+          "urls": [
+            "https://huggingface.co/api/models/k2-fsa/OmniVoice/discussions/39",
+            "https://huggingface.co/api/models/k2-fsa/OmniVoice/discussions/38",
+            "https://github.com/k2-fsa/OmniVoice/issues/253",
+            "https://arxiv.org/abs/2610.06057"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye ve geliştiriciyle YouTube/X, duyuru, olumlu/olumsuz deneyim arandı. Bu aday için izlenmiş bağımsız video deneyi bulunamadı; bulunamaması yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "OmniVoice-Emilia kardeş depo yazar listesinde var; ayrı kart, lisans ve kalite incelenmedi. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/k2-fsa/OmniVoice",
+            "https://huggingface.co/api/models?author=k2-fsa&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"k2-fsa/OmniVoice\" Turkish review problems YouTube X",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": []
+    },
+    {
+      "record_id": 78,
+      "id": "catalog-078",
+      "name": "Diğer TTS (Orkhon, Orpheus-TR, Orpheus-KhanAcademy-TR 3B, kani-tts-400m-0.3-tr, DizgeTTS-Antalia, LLaSA, SpeechT5, XTTS-v2, Bark, atasoglu/turkish-tts-models koleksiyonu)",
+      "category": "TTS",
+      "kind": "model_family",
+      "creator": "Birden çok üretici; koleksiyon sahibi Ahmet Ataşoğlu",
+      "plain": "Bu satır aynı aile olmayan çok sayıda TTS modeli ve bir bağlantı koleksiyonunu topluyor. Bu tur ayrıntılı örnek suno/bark kartı açıldı; ataşoğlu koleksiyonu modelin kendisi değil. Orkhon, Orpheus-TR, Kani, Dizge, LLaSA, SpeechT5 veXTTS uyarlamalarının tümü ayrı incelenmedi.",
+      "claims": [
+        {
+          "text": "Bark çok dilli konuşma yanında müzik, gürültü ve gülme gibi sesler üretebildiğini söylüyor; Türkçe dil listesinde mevcut. Bu sadık metin okuma garantisi değil.",
+          "evidence": "Kaynak sahibinin raporladığı beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/suno/bark/raw/main/README.md"
+        }
+      ],
+      "training": "Bark metin→anlamsal token→ses tokenları zincirinde üç Transformer ve EnCodec kullanır; large/small iki checkpoint. MIT. Grubun diğer modelleri farklı mimari/veri/lisans taşır.",
+      "version": "Bark large/small örnek üyeleri doğrulandı. Bütün katalog grubunun sürüm listesi tamamlanmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Grubun ortak checkpoint kimliği/hash'i yok; örnek üye dosyaları indirilmedi.",
+      "try_it": "Bu oturumda ses üretilmedi, dinletilmedi; model indirilmedi. İzinli sonraki denemede Türkçe sayı, özel ad, uzun metin ve tonlama dinlenmeli; ASR hata puanı ile insan doğallığı ayrı değerlendirilmelidir. Demo yalnız belgede bağlantılı; çalıştığı doğrulanmadı.",
+      "demo_url": "https://huggingface.co/spaces/suno/bark",
+      "independent": "Koleksiyon ve üye adlarıyla resmî duyuru, sosyal/video, olumlu/olumsuz kullanıcı araması yapıldı. Tam bütün grup için ortak bağımsız kalite deneyi yok; ilgisiz Orpheus issue başlıkları örnek üyelerin kanıtı sayılmadı.",
+      "unknowns": [
+        "Örnek Bark için canlı ağırlık hash'i bu tur alınmadı. Katalog grubuna tek lisans, parametre, sürüm veya puan atanamaz; eksik üye denetimleri açık."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/atasoglu/collections",
+          "title": "Ataşoğlu Türkçe TTS model koleksiyonu",
+          "type": "curated_collection",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/suno/bark/raw/main/README.md",
+          "title": "Bark örnek üye model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Resmî kart/kod/profil veya somut üye kaynağı okundu; gelecek planları hazır özellik sayılmadı.",
+          "urls": [
+            "https://huggingface.co/suno/bark/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Koleksiyon ve üye adlarıyla resmî duyuru, sosyal/video, olumlu/olumsuz kullanıcı araması yapıldı. Tam bütün grup için ortak bağımsız kalite deneyi yok; ilgisiz Orpheus issue başlıkları örnek üyelerin kanıtı sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye ve geliştiriciyle YouTube/X, duyuru, olumlu/olumsuz deneyim arandı. Bu aday için izlenmiş bağımsız video deneyi bulunamadı; bulunamaması yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "Bark large/small örnek üyeleri doğrulandı. Bütün katalog grubunun sürüm listesi tamamlanmadı. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "Orkhon Orpheus Turkish kani tts DizgeTTS Antalia collection atasoglu",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "Orkhon Orpheus TR kani-tts DizgeTTS LLaSA SpeechT5 XTTS Bark Turkish review problems YouTube X",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "suno/bark örnek üye",
+          "url": "https://huggingface.co/suno/bark",
+          "status": "ana kaynak metni okundu; yerel ses deneyi yapılmadı"
+        },
+        {
+          "name": "suno/bark",
+          "url": "https://huggingface.co/suno/bark",
+          "status": "örnek üyenin README'si okundu; Türkçe dil listesinde"
+        },
+        {
+          "name": "atasoglu koleksiyonu",
+          "url": "https://huggingface.co/atasoglu/collections",
+          "status": "bağlantı koleksiyonu; model veya eğitim verisi değil"
+        },
+        {
+          "name": "Orkhon,Orpheus-TR,KhanAcademy,Kani,Dizge,LLaSA,SpeechT5,XTTS-v2",
+          "url": null,
+          "status": "ayrı kimlik/kart/sürüm araştırmaları açık"
+        }
+      ]
+    },
+    {
+      "record_id": 169,
+      "id": "ahakan/okur-tts",
+      "name": "ahakan/okur-tts (Okur v1.0)",
+      "category": "TTS",
+      "kind": "model",
+      "creator": "Ahmet Hakan Beşel / ahakan",
+      "plain": "Okurv1.0, tek sesli küçük Türkçe TTS; PyTorch, MLX, ONNX ve tarayıcı yolları var. Ön uç sayı, sıra sayısı ve bağlama göre şapka işaretini düzenler. Dil işleme kuralları modeli destekler; ONNX grafiği tek başına aynı yazım dönüşümünü yapmaz.",
+      "claims": [
+        {
+          "text": "9,8M/48 kHz, dört üretim adımı. Freya495 cümlede WER yüzde1,81;89 Common Voice örtüşmesi çıkarılınca1,64. UTMOS2,93 ile kendi tablosunda en az doğal.",
+          "evidence": "Kaynak sahibinin raporladığı beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/ahakan/okur-tts/raw/main/README.md"
+        }
+      ],
+      "training": "298 saat/44 konuşmacı ISSAI, CommonVoice, MediaSpeech, FLEURS; ardından yaklaşık5 saat tek ses ve16→4 adım DMD2 damıtma. Kod Apache2.0, ağırlık CC BY4.0.",
+      "version": "Okurv1.0; profil/yazar listesinde yalnız bu TTS görüldü. Kod ve browser yolu yeniden okundu. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha:0 c1 ae1 a9 c5 e7 bcaa46 bdff732 bc7182 c9 ae7 bd70; lastModified:2026-10-09T09:49:57.000Z. Dosya tarihi yeni eğitim değildir.",
+      "try_it": "Bu oturumda ses üretilmedi, dinletilmedi; model indirilmedi. İzinli sonraki denemede Türkçe sayı, özel ad, uzun metin ve tonlama dinlenmeli; ASR hata puanı ile insan doğallığı ayrı değerlendirilmelidir. Demo yalnız belgede bağlantılı; çalıştığı doğrulanmadı.",
+      "demo_url": "https://huggingface.co/spaces/ahakan/okur-tts",
+      "independent": "Profil ve resmî kod deposu yeni okundu. Web/sosyal/video ve olumlu/olumsuz deneyim aramaları ağırlıkla kendi kartını getirdi; bağımsız kullanıcı kalite deneyi bulunamadı. Kendi sınırlama itirafı bağımsız eleştiri diye sunulmadı.",
+      "unknowns": [
+        "Aynı veri toplamı altküme/saat yuvarlama yöntemiyle yeniden denetlenmeli; yabancı sözcükler Türkçe harf sesleriyle okunuyor. Daha yeni model yayımlandığı doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/ahakan/okur-tts",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ahakan/okur-tts/raw/main/README.md",
+          "title": "ahakan/okur-tts (Okur v1.0) resmî README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ahakan",
+          "title": "Geliştirici Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=ahakan&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/ahmethakanbesel/okur-tts",
+          "title": "Okur resmî kod/eğitim reçetesi",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Resmî kart/kod/profil veya somut üye kaynağı okundu; gelecek planları hazır özellik sayılmadı.",
+          "urls": [
+            "https://huggingface.co/ahakan/okur-tts/raw/main/README.md",
+            "https://huggingface.co/ahakan",
+            "https://github.com/ahmethakanbesel/okur-tts"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Profil ve resmî kod deposu yeni okundu. Web/sosyal/video ve olumlu/olumsuz deneyim aramaları ağırlıkla kendi kartını getirdi; bağımsız kullanıcı kalite deneyi bulunamadı. Kendi sınırlama itirafı bağımsız eleştiri diye sunulmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye ve geliştiriciyle YouTube/X, duyuru, olumlu/olumsuz deneyim arandı. Bu aday için izlenmiş bağımsız video deneyi bulunamadı; bulunamaması yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Okurv1.0; profil/yazar listesinde yalnız bu TTS görüldü. Kod ve browser yolu yeniden okundu. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/ahakan/okur-tts",
+            "https://huggingface.co/api/models?author=ahakan&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"okur-tts\" review sorun YouTube X Ahmet Hakan Beşel",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"okur-tts\" \"Beşel\" LinkedIn review -site:huggingface.co",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"okur-tts\" (denedim OR review OR issue OR hata OR reddit OR youtube)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 170,
+      "id": "kaanhgunay/pocket-tts-tr",
+      "name": "kaanhgunay/pocket-tts-tr",
+      "category": "TTS",
+      "kind": "model",
+      "creator": "Kaan Han Günay / kaanhgunay",
+      "plain": "Pocket TTS Turkish v0.1-base, Kyutai Pocket TTS uyarlaması24 katmanlı öğretmen modeldir. Adındaki Pocket, CPU için küçük damıtılmış sonraki sürümün hazır olduğu anlamına gelmez. Referans sesle koşullama ve Türkçe uzun ekli kelimeler hedeflenir; ürün kabulü yapılmış değil.",
+      "claims": [
+        {
+          "text": "4000 token Türkçe SentencePiece ve112000 adım checkpoint. Geliştirici standart Türkçe cümlelerde iyi sonuç iddia ediyor; sayısal ortak test tablosu yok.",
+          "evidence": "Kaynak sahibinin raporladığı beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/kaanhgunay/pocket-tts-tr/raw/main/README.md"
+        }
+      ],
+      "training": "Ana kaynak serdarcaglar/turkish-tts-audiobooks; sızıntı kontrollü ayrım, normalizasyon ve hizalama filtresi belirtilmiş. LinkedIn400 bin+örnek diyor. Ağırlık CC BY4.0; kesin kullanılan saat burada verilmemiş.",
+      "version": "v0.1-base112 k; gelecekteki damıtma/kod geçişi plan. Başka sahibin100M Türkçe Pocket modeli ayrı. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha: e5 aa490 d9 aa6075 cf047 e4286 fb57 cecb99 aa1 ed; lastModified:2026-09-02T07:51:30.000Z. Dosya tarihi yeni eğitim değildir.",
+      "try_it": "Bu oturumda ses üretilmedi, dinletilmedi; model indirilmedi. İzinli sonraki denemede Türkçe sayı, özel ad, uzun metin ve tonlama dinlenmeli; ASR hata puanı ile insan doğallığı ayrı değerlendirilmelidir.",
+      "demo_url": null,
+      "independent": "Geliştiricinin LinkedIn duyurusu açıldı; yanıtlar çoğunlukla tebrik ve veri önerisi, koşullu kullanıcı deneyi değil. Bağımsız sorun/olumlu kullanım ve video/X arandı; doğrudan karşılaştırma bulunamadı. AppleVis'teki başka100M Türkçe model aynı depo değil.",
+      "unknowns": [
+        "Kod geçişi destekli sayılmıyor; ilk hecede geçici artefakt kabul edilmiş. Damıtma ve yeni duygu yetenekleri plan; tamamlandı diye aktarılmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/kaanhgunay/pocket-tts-tr",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/kaanhgunay/pocket-tts-tr/raw/main/README.md",
+          "title": "kaanhgunay/pocket-tts-tr resmî README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/kaanhgunay",
+          "title": "Geliştirici Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=kaanhgunay&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/kaan-han-g%C3%BCnay_kaanhgunaypocket-tts-tr-hugging-face-activity-7504162129936179201-gqLP",
+          "title": "Kaan Han Günay Pocket Türkçe ilk sürüm duyurusu",
+          "type": "developer_social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://test.applevis.com/comment/217353",
+          "title": "Pocket Türkçe farklı modelin tartışıldığı AppleVis başlığı",
+          "type": "community_discovery",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Resmî kart/kod/profil veya somut üye kaynağı okundu; gelecek planları hazır özellik sayılmadı.",
+          "urls": [
+            "https://huggingface.co/kaanhgunay/pocket-tts-tr/raw/main/README.md",
+            "https://huggingface.co/kaanhgunay"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Geliştiricinin LinkedIn duyurusu açıldı; yanıtlar çoğunlukla tebrik ve veri önerisi, koşullu kullanıcı deneyi değil. Bağımsız sorun/olumlu kullanım ve video/X arandı; doğrudan karşılaştırma bulunamadı. AppleVis'teki başka100M Türkçe model aynı depo değil.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Ad/üye ve geliştiriciyle YouTube/X, duyuru, olumlu/olumsuz deneyim arandı. Açılan paylaşım metni incelendi; video sesi izlenmedi.",
+          "urls": [
+            "https://tr.linkedin.com/posts/kaan-han-g%C3%BCnay_kaanhgunaypocket-tts-tr-hugging-face-activity-7504162129936179201-gqLP"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "v0.1-base112 k; gelecekteki damıtma/kod geçişi plan. Başka sahibin100M Türkçe Pocket modeli ayrı. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/kaanhgunay/pocket-tts-tr",
+            "https://huggingface.co/api/models?author=kaanhgunay&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"pocket-tts-tr\" review sorun YouTube X Kaan Günay",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"pocket-tts-tr\" \"Günay\" LinkedIn YouTube review",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"pocket-tts-tr\" (denedim OR issues OR problem OR review)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 171,
+      "id": "marduk-ra/F5-TTS-Turkish",
+      "name": "marduk-ra/F5-TTS-Turkish",
+      "category": "TTS",
+      "kind": "model",
+      "creator": "marduk-ra hesabı",
+      "plain": "F5-TTS mimarisindeki Türkçe ağırlık uyarlamasıdır. Kart çok kısa; checkpoint vevocab dosyasını işaret ediyor. Genel F5 makalesindeki kalite, bu uyarlamanın Türkçe kalitesi değildir. Ayrıntılı kayıt bulunmadığında dosya adındaki adım sayısından eğitim kapsamı üretilmemeli.",
+      "claims": [
+        {
+          "text": "Kart daha iyi ses için64NFE adımı öneriyor; kamuya açık sayısal Türkçe WER/MOS tablosu vermiyor.",
+          "evidence": "Kaynak sahibinin raporladığı beyan/ölçüm; bu oturumda yeniden üretilmedi.",
+          "source": "https://huggingface.co/marduk-ra/F5-TTS-Turkish/raw/main/README.md"
+        }
+      ],
+      "training": "Metadata tabanı SWivid/F5-TTS, CommonVoice17 etiketi ve CC BY-NC4.0 var. Saat, konuşmacı dağılımı, ayrım ve yeniden üretilebilir eğitim komutu açıklanmıyor.",
+      "version": "Bu ağırlığın son değişimi 2024; upstream F5 gelişimi bu deponun eğitimi değil. Kapsam dışında en güncel sürüm garantisi yok.",
+      "revision": "Depo sha:219 efea2 f2 da1 c363 b00360141 af8344 dd488214; lastModified:2024-11-16T19:47:59.000Z. Dosya tarihi yeni eğitim değildir.",
+      "try_it": "Bu oturumda ses üretilmedi, dinletilmedi; model indirilmedi. İzinli sonraki denemede Türkçe sayı, özel ad, uzun metin ve tonlama dinlenmeli; ASR hata puanı ile insan doğallığı ayrı değerlendirilmelidir.",
+      "demo_url": null,
+      "independent": "Hub#23'te kullanıcı Türkçe referans/metinle anlamsız çıktıdan sonra XTTS2'ye dönmüş. #21'de başka kullanıcı yerel dosya/özel arayüzle çalıştırabilmiş ama uzun Türkçede telaffuzu kötü buluyor. Bu çelişkili deneyimler motor/konfigürasyonun etkisini düşündürüyor; kesin kök neden değil.",
+      "unknowns": [
+        "Son model metadata'sı 2024; üst F5 projesinin ilerlemesi bu ağırlığın yenilendiğini göstermez. Referans/üretilmiş ses bağlantıları dinlenmedi; kişisel ses yüklenmedi."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/marduk-ra/F5-TTS-Turkish",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/marduk-ra/F5-TTS-Turkish/raw/main/README.md",
+          "title": "marduk-ra/F5-TTS-Turkish resmî README",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=marduk-ra&sort=lastModified&direction=-1&limit=40",
+          "title": "Canlı metadata/yazarın en çok40 son değişen deposu",
+          "type": "version_api",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/marduk-ra/F5-TTS-Turkish/discussions/23",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/marduk-ra/F5-TTS-Turkish/discussions/22",
+          "title": "Hub tartışması: yorum metni okundu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/marduk-ra/F5-TTS-Turkish/discussions/21",
+          "title": "Türkçe ses sorunu: kurulum ve telaffuz deneyimleri",
+          "type": "community",
+          "date": "2025-03-21",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Resmî kart/kod/profil veya somut üye kaynağı okundu; gelecek planları hazır özellik sayılmadı.",
+          "urls": [
+            "https://huggingface.co/marduk-ra/F5-TTS-Turkish/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Hub#23'te kullanıcı Türkçe referans/metinle anlamsız çıktıdan sonra XTTS2'ye dönmüş. #21'de başka kullanıcı yerel dosya/özel arayüzle çalıştırabilmiş ama uzun Türkçede telaffuzu kötü buluyor. Bu çelişkili deneyimler motor/konfigürasyonun etkisini düşündürüyor; kesin kök neden değil.",
+          "urls": [
+            "https://huggingface.co/api/models/marduk-ra/F5-TTS-Turkish/discussions/23",
+            "https://huggingface.co/api/models/marduk-ra/F5-TTS-Turkish/discussions/22",
+            "https://huggingface.co/marduk-ra/F5-TTS-Turkish/discussions/21"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Ad/üye ve geliştiriciyle YouTube/X, duyuru, olumlu/olumsuz deneyim arandı. Bu aday için izlenmiş bağımsız video deneyi bulunamadı; bulunamaması yokluk kanıtı değil.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Bu ağırlığın son değişimi 2024; upstream F5 gelişimi bu deponun eğitimi değil. Kapsam dışında en güncel sürüm garantisi yok.",
+          "urls": [
+            "https://huggingface.co/api/models/marduk-ra/F5-TTS-Turkish",
+            "https://huggingface.co/api/models?author=marduk-ra&sort=lastModified&direction=-1&limit=40"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"marduk-ra/F5-TTS-Turkish\" review sorun YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": []
+    }
+  ]
+}

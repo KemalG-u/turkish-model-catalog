@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+node_modules/
+# Raw research fetches (third-party content; regenerate with arastirma/kaynak-topla.py)
+arastirma/tam-tarama/kaynaklar/
+arastirma/tam-tarama/kayitlar/

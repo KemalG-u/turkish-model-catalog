@@ -1,0 +1,3362 @@
+{
+  "checked_at": "2026-10-23",
+  "records": [
+    {
+      "record_id": 25,
+      "id": "newmindai/Mecellem-Qwen3-1.7B-TR",
+      "name": "Mecellem-Qwen3 1.7B-TR / 4B-TR",
+      "category": "LLM-alan: hukuk",
+      "kind": "model_family",
+      "creator": "NewMind AI",
+      "plain": "İki ayrı Qwen 3 hukuk devam eğitimi var. Her boyutun README ve API kaydı ayrı okundu. 1, 7B kartı dört aşama, 4B kartı tek aşama anlatıyor. Genel Türkçe kaynakları yargı kararları ve akademik metinlerle birleştiriyorlar. Geliştiricinin Muhakim ödül puanları hukuki doğrulukla aynı ölçü değil. İki modeli bağımsız olarak doğrulanmış avukat asistanı saymak mümkün değil. İki kart Apache-2.0 bildiriyor. Aynı tarihte güncellenmeleri aynı eğitim koşulu veya aynı kapasite anlamına gelmez.",
+      "claims": [
+        {
+          "text": "Geliştirici 1, 7B perplexity azalmasını%36, 2 bildiriyor; bağımsız tekrar yok.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://huggingface.co/newmindai/Mecellem-Qwen3-1.7B-TR/raw/main/README.md"
+        }
+      ],
+      "training": "1, 7B kartında yaklaşık 225B ile kesin 250.739.476.454 token çelişiyor. 4B için 270.791.712.595 token. Eğitim dizisi 4096; yapılandırmadaki 40960 konum doğrulanmış uzun bağlam başarısı değil.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "newmindai/Mecellem-Qwen3-1.7B-TR: 107c3162858d2b2d2f70ef98f7c1de61d0cd0a59 / 2026-01-27T13:58:02.000Z; newmindai/Mecellem-Qwen3-4B-TR: b5a41d3cccc150ee96c9e96539f91bfef7e8179c / 2026-01-27T13:56:59.000Z",
+      "try_it": "Kamu model deposunda kullanım yolu var; ağırlık indirilmedi, kurulmadı veya çalıştırılmadı.",
+      "demo_url": null,
+      "independent": "Modele özgü somut olumlu/olumsuz kullanıcı deneyi bulunamadı. Makale ve kart aynı geliştirici kanıt zinciri; iki bağımsız doğrulama sayılmadı.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı.",
+        "Kaynakların sayı veya dosya tanımı çelişkileri açıklamada belirtildi."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/newmindai/Mecellem-Qwen3-1.7B-TR",
+          "title": "newmindai/Mecellem-Qwen3-1.7B-TR API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/newmindai/Mecellem-Qwen3-1.7B-TR/raw/main/README.md",
+          "title": "newmindai/Mecellem-Qwen3-1.7B-TR model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/newmindai",
+          "title": "https://huggingface.co/newmindai",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models/newmindai/Mecellem-Qwen3-4B-TR",
+          "title": "newmindai/Mecellem-Qwen3-4B-TR API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/newmindai/Mecellem-Qwen3-4B-TR/raw/main/README.md",
+          "title": "newmindai/Mecellem-Qwen3-4B-TR model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://huggingface.co/newmindai/Mecellem-Qwen3-1.7B-TR/raw/main/README.md",
+            "https://huggingface.co/newmindai",
+            "https://huggingface.co/newmindai/Mecellem-Qwen3-4B-TR/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": [
+            "https://huggingface.co/api/models/newmindai/Mecellem-Qwen3-1.7B-TR",
+            "https://huggingface.co/api/models/newmindai/Mecellem-Qwen3-4B-TR"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "Mecellem Qwen3 1.7B 4B NewMind review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "newmindai/Mecellem-Qwen3-1.7B-TR",
+          "url": "https://huggingface.co/newmindai/Mecellem-Qwen3-1.7B-TR",
+          "status": "README ve API okundu; sha 107c3162858d2b2d2f70ef98f7c1de61d0cd0a59; lastModified 2026-01-27T13:58:02.000Z"
+        },
+        {
+          "name": "newmindai/Mecellem-Qwen3-4B-TR",
+          "url": "https://huggingface.co/newmindai/Mecellem-Qwen3-4B-TR",
+          "status": "README ve API okundu; sha b5a41d3cccc150ee96c9e96539f91bfef7e8179c; lastModified 2026-01-27T13:56:59.000Z"
+        }
+      ]
+    },
+    {
+      "record_id": 26,
+      "id": "newmindai/Muhakim",
+      "name": "newmindai/Muhakim (hukuk ödül modeli)",
+      "category": "LLM-alan: hukuk",
+      "kind": "model",
+      "creator": "NewMind AI",
+      "plain": "Muhakim hukuk cevaplarını değerlendiren ödül modelidir. Görev etiketi metin üretimi olsa da tarif edilen kullanım aday cevaplara puan vermektir. Genel sohbet asistanı gibi sunulması yanıltır. Kanun atfı, içtihat, tutarlılık ve analiz derinliği gibi boyutlar kapı mekanizmasıyla birleştiriliyor. Puanların yüksekliği, cevabın resmî hukuk kaynaklarıyla doğrulandığı anlamına gelmiyor. Ödül modeli Skywork tabanından türetiliyor; mevcut bir dil modelinin cevaplarını puanlamak için tasarlanmış olması güvenilir bir hukuki hakem olduğu anlamına gelmiyor.",
+      "claims": [
+        {
+          "text": "Kendi EuroHPC-Legal verisinden 116 soru-cevapla farklı bağlam uzunluklarında ölçüm bildiriliyor; bu mahkeme doğruluğu değildir.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://huggingface.co/newmindai/Muhakim/raw/main/README.md"
+        }
+      ],
+      "training": "Skywork-Reward-Llama-3.1-8B-v 0.2 üzerine çok hedefli öğrenme, tercih tabanlı kapılama ve uzunluk yanlılığını azaltma anlatılıyor.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "newmindai/Muhakim: 0871eba4051a03320a7054e497c5fd213a3a74df / 2026-01-27T13:57:04.000Z",
+      "try_it": "Kamu model deposunda kullanım yolu var; ağırlık indirilmedi, kurulmadı veya çalıştırılmadı.",
+      "demo_url": null,
+      "independent": "Bağımsız kullanıcı değerlendirmesi bulunamadı. Mecellem tarafından değerlendirici olarak kullanılması bağımsız kabul oluşturmuyor. Modelin yanlılığı cevapların puanına taşınabilir; hukuk uzmanlarıyla bağımsız kontrol gösterilmedi.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/newmindai/Muhakim",
+          "title": "newmindai/Muhakim API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/newmindai/Muhakim/raw/main/README.md",
+          "title": "newmindai/Muhakim model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/newmindai",
+          "title": "https://huggingface.co/newmindai",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://huggingface.co/newmindai/Muhakim/raw/main/README.md",
+            "https://huggingface.co/newmindai"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": [
+            "https://huggingface.co/api/models/newmindai/Muhakim"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "newmindai Muhakim reward model review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "newmindai/Muhakim",
+          "url": "https://huggingface.co/newmindai/Muhakim",
+          "status": "README ve API okundu; sha 0871eba4051a03320a7054e497c5fd213a3a74df; lastModified 2026-01-27T13:57:04.000Z"
+        }
+      ]
+    },
+    {
+      "record_id": 27,
+      "id": "Cetin003/Kumru-2B-Hukuk-Asistani",
+      "name": "Kumru-2B-Hukuk-Asistani",
+      "category": "LLM-alan: hukuk",
+      "kind": "model",
+      "creator": "Cetin003",
+      "plain": "Kamu model deposu bulundu, ancak README eğitim açıklaması sunmuyor. Adı Kumru tabanlı hukuk asistanını düşündürüyor; adından tabanı, kanun bilgisini veya hukuki cevap kalitesini çıkarmak mümkün değil. Kamuya açık model kaydı, adıyla ima edilen yeteneğin doğrulandığı anlamına gelmez. Başka Kumru üyelerinin ölçümleri bu depoya taşınmadı. Çalıştırılabilir dosyaların bulunması veri kapsamını açıklamaz. Bu inceleme yalnız kamu açıklaması ve kimlik sınırındadır; örnek hukuk cevabı üretilmedi, bir başarı puanı verilmedi.",
+      "claims": [
+        {
+          "text": "Doğrudan desteklenen kalite iddiası çıkarılamadı; katalog açıklaması kanıt sayılmadı.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://huggingface.co/Cetin003/Kumru-2B-Hukuk-Asistani/raw/main/README.md"
+        }
+      ],
+      "training": "Kart otomatik şablon düzeyinde. Taban model, veri kümesi, eğitim adımları, ayrılmış değerlendirme ve lisans açıkça belgelenmedi.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "Cetin003/Kumru-2B-Hukuk-Asistani: 35ccde6398fd122bdaa7c1ab91e1188266914449 / 2025-10-21T12:28:36.000Z",
+      "try_it": "Kamu model deposunda kullanım yolu var; ağırlık indirilmedi, kurulmadı veya çalıştırılmadı.",
+      "demo_url": null,
+      "independent": "Tam adla geliştirici, sosyal/video ve kullanıcı yorumu arandı; somut deneyim bulunamadı. Türkçe hukuk görevi için hazırlanmış görünmesi eğitim kanıtı değildir. Eksik kart tamamlanmış araştırma görünümüyle doldurulmadı.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı.",
+        "Eğitim/veri/lisans veya kesin kimlik bilgisi eksik."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/Cetin003/Kumru-2B-Hukuk-Asistani",
+          "title": "Cetin003/Kumru-2B-Hukuk-Asistani API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Cetin003/Kumru-2B-Hukuk-Asistani/raw/main/README.md",
+          "title": "Cetin003/Kumru-2B-Hukuk-Asistani model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Cetin003",
+          "title": "https://huggingface.co/Cetin003",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://huggingface.co/Cetin003/Kumru-2B-Hukuk-Asistani/raw/main/README.md",
+            "https://huggingface.co/Cetin003"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": [
+            "https://huggingface.co/api/models/Cetin003/Kumru-2B-Hukuk-Asistani"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Kumru-2B-Hukuk-Asistani\" review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "Cetin003/Kumru-2B-Hukuk-Asistani",
+          "url": "https://huggingface.co/Cetin003/Kumru-2B-Hukuk-Asistani",
+          "status": "README ve API okundu; sha 35ccde6398fd122bdaa7c1ab91e1188266914449; lastModified 2025-10-21T12:28:36.000Z"
+        }
+      ]
+    },
+    {
+      "record_id": 28,
+      "id": "AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM-Q4_K_M-GGUF",
+      "name": "AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM",
+      "category": "LLM-alan: hukuk",
+      "kind": "model",
+      "creator": "Alican Kiraz",
+      "plain": "Mizan Türk hukuku için Qwen 3.6-27B üzerinde metin ince ayarı olarak açıklanıyor. Kontrol edilen depo Q4_K_M-GGUF adını taşırken README BF16 birleştirilmiş ağırlık tarif ediyor; biçim uyumsuzluğu açık bırakıldı. Görsel kodlayıcının korunması görsel hukuk başarısı değildir. Kart verginin zaman bakımından uygulanması ve ceza süreleri konusunda ciddi hata kabul ediyor. Ticari kullanım için kart CC-BY-NC-4.0 bildiriyor; Qwen temelinin koşulları ayrıca geçerli olabilir.",
+      "claims": [
+        {
+          "text": "Geliştiricinin 10 soruluk teşhisinde 30, 50/50; tabanda 18, 25/50. Yedi galibiyet geniş hukuk benchmarkı değildir.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://huggingface.co/AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM-Q4_K_M-GGUF/raw/main/README.md"
+        }
+      ],
+      "training": "210.662 kayıt, 210.258 eğitim kaydı, NF4 QLoRA ve yaklaşık 111 saat tek GPU eğitimi bildiriliyor.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM-Q4_K_M-GGUF: 5e0f0fd8d8d0d6b0f7c8663e019b2f413f8b22de / 2026-08-03T03:15:19.000Z",
+      "try_it": "Kamu model deposunda kullanım yolu var; ağırlık indirilmedi, kurulmadı veya çalıştırılmadı.",
+      "demo_url": null,
+      "independent": "Gerçek discussion metninde LM Studio eksik tensor hatası bildirildi; geliştirici düzeltilmiş dosya ve hash sundu. Bu uyumluluk deneyimi, hukuki kalite onayı değil. Başka kullanıcı eğitim verisini soruyor; sonuç içermeyen soru olumlu test sayılmadı.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı.",
+        "Kaynakların sayı veya dosya tanımı çelişkileri açıklamada belirtildi."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM-Q4_K_M-GGUF",
+          "title": "AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM-Q4_K_M-GGUF API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM-Q4_K_M-GGUF/raw/main/README.md",
+          "title": "AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM-Q4_K_M-GGUF model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/AlicanKiraz0",
+          "title": "https://huggingface.co/AlicanKiraz0",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models/AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM-Q4_K_M-GGUF/discussions/3",
+          "title": "https://huggingface.co/api/models/AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM-Q4_K_M-GGUF/discussions/3",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM-Q4_K_M-GGUF/discussions/1",
+          "title": "https://huggingface.co/api/models/AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM-Q4_K_M-GGUF/discussions/1",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://huggingface.co/AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM-Q4_K_M-GGUF/raw/main/README.md",
+            "https://huggingface.co/AlicanKiraz0"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": [
+            "https://huggingface.co/api/models/AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM-Q4_K_M-GGUF",
+            "https://huggingface.co/api/models/AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM-Q4_K_M-GGUF/discussions/3",
+            "https://huggingface.co/api/models/AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM-Q4_K_M-GGUF/discussions/1"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Mizan-27B-Turkish-Legal\" review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM-Q4_K_M-GGUF",
+          "url": "https://huggingface.co/AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM-Q4_K_M-GGUF",
+          "status": "README ve API okundu; sha 5e0f0fd8d8d0d6b0f7c8663e019b2f413f8b22de; lastModified 2026-08-03T03:15:19.000Z"
+        }
+      ]
+    },
+    {
+      "record_id": 29,
+      "id": "sinanelms/Qwen2.5-7B-Instruct-Turkish-Legal-DoRA",
+      "name": "Diğer hukuk ince ayarları (Qwen2.5-7B-Turkish-Legal-DoRA, hukuk-gemma/llama, webbrain-one tr-hukuk, OrionCAF/TurkishLaw 14B)",
+      "category": "LLM-alan: hukuk",
+      "kind": "model_family",
+      "creator": "Birden fazla yayıncı",
+      "plain": "Bu satır aynı ekipten bir aile değil. Sinanelms DoRA kartı eğitim açıklıyor; menesnas Gemma kartı kısa Unsloth şablonu, celalyazici Llama kartı boş. Webbrain hukuk GGUF ve OrionCAF TurkishLaw ayrı çalışmalar. Erişilebilir üyelerin kimliği doğrulandı. OrionCAF gerçek depo adı TurkishLaw; katalogdaki TurkishLaw 14B adı birebir depo kimliği değil. DoRA kullanım örneği adapter bağlantısı istiyor; aynı karttaki merged kullanım örneğiyle biçim açıklaması tam tutarlı değil.",
+      "claims": [
+        {
+          "text": "Webbrain 97 soruda IQ4_XS45 doğru; Q4_K_M41, tabanQ4_K_M43 bildiriyor. Her nicemleme tabanı geçmiyor.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://huggingface.co/sinanelms/Qwen2.5-7B-Instruct-Turkish-Legal-DoRA/raw/main/README.md"
+        }
+      ],
+      "training": "DoRA Qwen 2.5-7B-Instruct, rank 32 ve yaklaşık 360 bin hukuk örneğiyle genel Türkçe tekrar karışımı. OrionCAF Qwen 3-14B ve Medeni/Borçlar/Ticaret metinleriyle LoRA bildiriyor.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "sinanelms/Qwen2.5-7B-Instruct-Turkish-Legal-DoRA: a9567878dd39fa48644869cdae8c57cbffd92f0c / 2026-03-14T19:02:13.000Z; menesnas/hukuk-gemma-3-4b: 7875870770e220328b5fab22b08288176982d51f / 2025-08-07T20:24:04.000Z; celalyazici/llama3_8B_hukuk: 48e202fedb319734f9a5fad0cde325d3a79a6d9a / 2025-12-26T11:25:38.000Z; webbrain-one/qwen3.5-9b-tr-hukuk-GGUF: ec972add877cfe1e658820e7df2b1999873710a3 / 2026-10-20T14:13:15.000Z; OrionCAF/TurkishLaw: 13d65032aa1c23bf4804660c6b6a5da10830e105 / 2026-03-13T08:06:42.000Z",
+      "try_it": "Kamu model deposunda kullanım yolu var; ağırlık indirilmedi, kurulmadı veya çalıştırılmadı.",
+      "demo_url": null,
+      "independent": "Bağımsız karşılaştırmalı kullanıcı deneyi bulunamadı. Eğitim kaybı hukuk doğruluğu sayılmadı. Her tarihsel varyant araştırılmış gibi gösterilmedi; kimlik ve ayrıntılı okuma kapsamı üyeler alanında ayrıldı.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/sinanelms/Qwen2.5-7B-Instruct-Turkish-Legal-DoRA",
+          "title": "sinanelms/Qwen2.5-7B-Instruct-Turkish-Legal-DoRA API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/sinanelms/Qwen2.5-7B-Instruct-Turkish-Legal-DoRA/raw/main/README.md",
+          "title": "sinanelms/Qwen2.5-7B-Instruct-Turkish-Legal-DoRA model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/menesnas/hukuk-gemma-3-4b",
+          "title": "menesnas/hukuk-gemma-3-4b API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/menesnas/hukuk-gemma-3-4b/raw/main/README.md",
+          "title": "menesnas/hukuk-gemma-3-4b model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/celalyazici/llama3_8B_hukuk",
+          "title": "celalyazici/llama3_8B_hukuk API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/celalyazici/llama3_8B_hukuk/raw/main/README.md",
+          "title": "celalyazici/llama3_8B_hukuk model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/webbrain-one/qwen3.5-9b-tr-hukuk-GGUF",
+          "title": "webbrain-one/qwen3.5-9b-tr-hukuk-GGUF API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/webbrain-one/qwen3.5-9b-tr-hukuk-GGUF/raw/main/README.md",
+          "title": "webbrain-one/qwen3.5-9b-tr-hukuk-GGUF model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/OrionCAF/TurkishLaw",
+          "title": "OrionCAF/TurkishLaw API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/OrionCAF/TurkishLaw/raw/main/README.md",
+          "title": "OrionCAF/TurkishLaw model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://huggingface.co/sinanelms/Qwen2.5-7B-Instruct-Turkish-Legal-DoRA/raw/main/README.md",
+            "https://huggingface.co/menesnas/hukuk-gemma-3-4b/raw/main/README.md",
+            "https://huggingface.co/celalyazici/llama3_8B_hukuk/raw/main/README.md",
+            "https://huggingface.co/webbrain-one/qwen3.5-9b-tr-hukuk-GGUF/raw/main/README.md",
+            "https://huggingface.co/OrionCAF/TurkishLaw/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": [
+            "https://huggingface.co/api/models/sinanelms/Qwen2.5-7B-Instruct-Turkish-Legal-DoRA",
+            "https://huggingface.co/api/models/menesnas/hukuk-gemma-3-4b",
+            "https://huggingface.co/api/models/celalyazici/llama3_8B_hukuk",
+            "https://huggingface.co/api/models/webbrain-one/qwen3.5-9b-tr-hukuk-GGUF",
+            "https://huggingface.co/api/models/OrionCAF/TurkishLaw"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Qwen2.5-7B-Turkish-Legal-DoRA\"",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"TurkishLaw14B\" OR \"tr-hukuk\" \"webbrain\" OR \"hukuk-gemma\"",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "sinanelms/Qwen2.5-7B-Instruct-Turkish-Legal-DoRA",
+          "url": "https://huggingface.co/sinanelms/Qwen2.5-7B-Instruct-Turkish-Legal-DoRA",
+          "status": "README ve API okundu; sha a9567878dd39fa48644869cdae8c57cbffd92f0c; lastModified 2026-03-14T19:02:13.000Z"
+        },
+        {
+          "name": "menesnas/hukuk-gemma-3-4b",
+          "url": "https://huggingface.co/menesnas/hukuk-gemma-3-4b",
+          "status": "README ve API okundu; sha 7875870770e220328b5fab22b08288176982d51f; lastModified 2025-08-07T20:24:04.000Z"
+        },
+        {
+          "name": "celalyazici/llama3_8B_hukuk",
+          "url": "https://huggingface.co/celalyazici/llama3_8B_hukuk",
+          "status": "README ve API okundu; sha 48e202fedb319734f9a5fad0cde325d3a79a6d9a; lastModified 2025-12-26T11:25:38.000Z"
+        },
+        {
+          "name": "webbrain-one/qwen3.5-9b-tr-hukuk-GGUF",
+          "url": "https://huggingface.co/webbrain-one/qwen3.5-9b-tr-hukuk-GGUF",
+          "status": "README ve API okundu; sha ec972add877cfe1e658820e7df2b1999873710a3; lastModified 2026-10-20T14:13:15.000Z"
+        },
+        {
+          "name": "OrionCAF/TurkishLaw",
+          "url": "https://huggingface.co/OrionCAF/TurkishLaw",
+          "status": "README ve API okundu; sha 13d65032aa1c23bf4804660c6b6a5da10830e105; lastModified 2026-03-13T08:06:42.000Z"
+        }
+      ]
+    },
+    {
+      "record_id": 30,
+      "id": "catalog-30",
+      "name": "HukukBERT",
+      "category": "LLM-alan: hukuk",
+      "kind": "paper",
+      "creator": "Öztürk, Türkoğlu, Buz-Yalug / TurkHukuk.ai",
+      "plain": "HukukBERT hukuk metni anlama için BERT türü kodlayıcı çalışması; avukat sohbet modeli değil. Hukuk terimi tamamlama ve mahkeme kararını yapısal bölümlere ayırma inceleniyor. Resmî blog dergi kabulünü duyuruyor. Hakemli yayın, gerçek kullanıcı deneyimi yerine geçmiyor. Aramada kesin açık checkpoint deposu bulunamadı; Hugging Face makale sayfası ağırlık deposu sayılmadı. Makale sürümü ve dergi duyurusu farklı yayın aşamalarıdır; kontrol tarihi kaynak yayın tarihi olarak yazılmadı.",
+      "claims": [
+        {
+          "text": "Yazarlar Legal Cloze%84, 40 Top 1 ve bölümlemede%92, 8 belge geçişi bildiriyor; hukuki tavsiye doğruluğu değil.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://arxiv.org/abs/2604.04790"
+        }
+      ],
+      "training": "Karma maskeleme, 48 bin WordPiece ve alan uyarlamalı ön eğitim. Kaynaklarda derlem 18/19/21GB olarak farklı açıklanıyor; aynı sürüm diye birleştirilmedi.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "Kamu model hash bilgisi doğrulanmadı. Kontrol tarihi, kaynak yayın veya eğitim tarihi değildir.",
+      "try_it": "Ürün/kurum sayfası erişim yoludur; hesap açılmadı, özel belge yüklenmedi ve dış iletişim yapılmadı.",
+      "demo_url": null,
+      "independent": "Bağımsız kullanıcı kalite yorumu bulunamadı. Makalev 2 ve resmî duyuru yöntem kanıtıdır. Otomatik makale özeti doğrudan araştırma sonucu gibi aktarılmadı. Modelin genel hukuk muhakemesine aktarımı açık.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı.",
+        "Kaynakların sayı veya dosya tanımı çelişkileri açıklamada belirtildi."
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.04790",
+          "title": "https://arxiv.org/abs/2604.04790",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.turkhukuk.ai/blog/hukukbert-jcllt-dergisine-kabul-edildi",
+          "title": "HukukBERT resmî dergi duyurusu",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://arxiv.org/abs/2604.04790",
+            "https://www.turkhukuk.ai/blog/hukukbert-jcllt-dergisine-kabul-edildi"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"HukukBERT\" review youtube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"HukukBERT\" site:huggingface.co",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "HukukBERT",
+          "url": "https://arxiv.org/abs/2604.04790",
+          "status": "Makalev2; kesin açık checkpoint bulunamadı"
+        }
+      ]
+    },
+    {
+      "record_id": 31,
+      "id": "newmindai/Llama-3.1-8B-Instruct-capital-alpaca",
+      "name": "newmindai/Llama-3.1-8B-Instruct-tax-alpaca (+ ~20 alan LoRA'sı: kvkk, capital, fund, land, energy)",
+      "category": "LLM-alan: vergi-finans",
+      "kind": "model_family",
+      "creator": "NewMind AI",
+      "plain": "Vergi kartı Llama 3.1-8B-Instruct üzerinde alan adapterini açıklıyor. Tam model ile adapter ayrımı önemli; taban model ve lisansı ayrıca gerekir. Diğer hukuk alt alanları yayıncının ayrı depolarında bulunuyor. Bunlar tek bir her şeyi bilen vergi modeli olarak gösterilmedi. Alpaca üyelerin API kimlikleri doğrulandı; ayrıntılı okunan üye vergi kartıdır. Üye kimliği doğrulaması ayrı eğitim protokolü veya hukuki yetenek doğrulaması değildir.",
+      "claims": [
+        {
+          "text": "Alan uyarlaması geliştirici amacı; bağımsız güncel vergi doğruluğu ölçülmedi.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://huggingface.co/newmindai/Llama-3.1-8B-Instruct-tax-alpaca/raw/main/README.md"
+        }
+      ],
+      "training": "Tax kartı EuroHPC-Legal, rank 16/alpha 32 LoRA, üç epoch, Axolotl ve Unsloth bildiriyor. Yaklaşık 600 GPU-saatin her üye için ayrı ölçüm olduğu doğrulanmadı.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "newmindai/Llama-3.1-8B-Instruct-capital-alpaca: 52ac2c18e430bdff9348b4d78e88ced6c1447152 / 2025-09-26T11:14:03.000Z; newmindai/Llama-3.1-8B-Instruct-environmental-alpaca: 5652cb9bb3f66d3f65e3388d8a4c678d974da057 / 2025-09-26T11:14:20.000Z; newmindai/Llama-3.1-8B-Instruct-fund-alpaca: b83b23a7c8285e600650438fcbc081d21f072930 / 2025-09-26T11:14:36.000Z; newmindai/Llama-3.1-8B-Instruct-intellectual-alpaca: dfbb589209a33fc6678f8ebf712bbe4fa21d3cc0 / 2025-09-26T11:14:47.000Z; newmindai/Llama-3.1-8B-Instruct-land-alpaca: aadd5e2dfd251ff8e729f36385848d77ba1c91f2 / 2025-09-26T11:15:02.000Z; newmindai/Llama-3.1-8B-Instruct-energy-alpaca: 8ac8e95a3547cc18556865d4665fcfcc4df192c2 / 2025-09-26T11:15:29.000Z; newmindai/Llama-3.1-8B-Instruct-competition-alpaca: 962005d4d7390232c19a39a4c962a6ad307e689b / 2025-09-26T11:15:38.000Z; newmindai/Llama-3.1-8B-Instruct-kvkk-alpaca: b6a5165c7c3a3098bc4175376fd841e40290a336 / 2025-09-26T11:15:52.000Z; newmindai/Llama-3.1-8B-Instruct-tax-alpaca: 75d88cbe61c32fece205df1aafc20e29b311ff4e / 2025-09-26T11:16:04.000Z; newmindai/Llama-3.1-8B-Instruct-health-alpaca: 51e455db739a881613becf4339f8ccf37f2a0707 / 2025-09-26T11:16:15.000Z",
+      "try_it": "Kamu model deposunda kullanım yolu var; ağırlık indirilmedi, kurulmadı veya çalıştırılmadı.",
+      "demo_url": null,
+      "independent": "Capital, environmental, fund, intellectual, land, energy, competition, kvkk, tax, health üyeleri listelendi. Sohbet şablonu varyantlarının hepsi ayrı incelenmiş sayılmaz. Kamu aramasında somut olumlu/olumsuz kullanıcı deneyi bulunamadı. İndirme ve model kartının varlığı mevzuat güncelliği kanıtı yapılmadı.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/newmindai/Llama-3.1-8B-Instruct-tax-alpaca",
+          "title": "newmindai/Llama-3.1-8B-Instruct-tax-alpaca API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/newmindai/Llama-3.1-8B-Instruct-tax-alpaca/raw/main/README.md",
+          "title": "newmindai/Llama-3.1-8B-Instruct-tax-alpaca model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/newmindai",
+          "title": "https://huggingface.co/newmindai",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models/newmindai/Llama-3.1-8B-Instruct-capital-alpaca",
+          "title": "newmindai/Llama-3.1-8B-Instruct-capital-alpaca API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/newmindai/Llama-3.1-8B-Instruct-environmental-alpaca",
+          "title": "newmindai/Llama-3.1-8B-Instruct-environmental-alpaca API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/newmindai/Llama-3.1-8B-Instruct-fund-alpaca",
+          "title": "newmindai/Llama-3.1-8B-Instruct-fund-alpaca API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/newmindai/Llama-3.1-8B-Instruct-intellectual-alpaca",
+          "title": "newmindai/Llama-3.1-8B-Instruct-intellectual-alpaca API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/newmindai/Llama-3.1-8B-Instruct-land-alpaca",
+          "title": "newmindai/Llama-3.1-8B-Instruct-land-alpaca API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/newmindai/Llama-3.1-8B-Instruct-energy-alpaca",
+          "title": "newmindai/Llama-3.1-8B-Instruct-energy-alpaca API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/newmindai/Llama-3.1-8B-Instruct-competition-alpaca",
+          "title": "newmindai/Llama-3.1-8B-Instruct-competition-alpaca API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/newmindai/Llama-3.1-8B-Instruct-kvkk-alpaca",
+          "title": "newmindai/Llama-3.1-8B-Instruct-kvkk-alpaca API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/newmindai/Llama-3.1-8B-Instruct-health-alpaca",
+          "title": "newmindai/Llama-3.1-8B-Instruct-health-alpaca API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://huggingface.co/newmindai/Llama-3.1-8B-Instruct-tax-alpaca/raw/main/README.md",
+            "https://huggingface.co/newmindai"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": [
+            "https://huggingface.co/api/models/newmindai/Llama-3.1-8B-Instruct-tax-alpaca",
+            "https://huggingface.co/api/models/newmindai/Llama-3.1-8B-Instruct-capital-alpaca",
+            "https://huggingface.co/api/models/newmindai/Llama-3.1-8B-Instruct-environmental-alpaca",
+            "https://huggingface.co/api/models/newmindai/Llama-3.1-8B-Instruct-fund-alpaca",
+            "https://huggingface.co/api/models/newmindai/Llama-3.1-8B-Instruct-intellectual-alpaca",
+            "https://huggingface.co/api/models/newmindai/Llama-3.1-8B-Instruct-land-alpaca",
+            "https://huggingface.co/api/models/newmindai/Llama-3.1-8B-Instruct-energy-alpaca",
+            "https://huggingface.co/api/models/newmindai/Llama-3.1-8B-Instruct-competition-alpaca",
+            "https://huggingface.co/api/models/newmindai/Llama-3.1-8B-Instruct-kvkk-alpaca",
+            "https://huggingface.co/api/models/newmindai/Llama-3.1-8B-Instruct-health-alpaca"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"newmindai\" \"tax-alpaca\" review",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "newmindai/Llama-3.1-8B-Instruct-capital-alpaca",
+          "url": "https://huggingface.co/newmindai/Llama-3.1-8B-Instruct-capital-alpaca",
+          "status": "API kimliği doğrulandı; README ayrıntılı incelenmedi; sha 52ac2c18e430bdff9348b4d78e88ced6c1447152; lastModified 2025-09-26T11:14:03.000Z"
+        },
+        {
+          "name": "newmindai/Llama-3.1-8B-Instruct-environmental-alpaca",
+          "url": "https://huggingface.co/newmindai/Llama-3.1-8B-Instruct-environmental-alpaca",
+          "status": "API kimliği doğrulandı; README ayrıntılı incelenmedi; sha 5652cb9bb3f66d3f65e3388d8a4c678d974da057; lastModified 2025-09-26T11:14:20.000Z"
+        },
+        {
+          "name": "newmindai/Llama-3.1-8B-Instruct-fund-alpaca",
+          "url": "https://huggingface.co/newmindai/Llama-3.1-8B-Instruct-fund-alpaca",
+          "status": "API kimliği doğrulandı; README ayrıntılı incelenmedi; sha b83b23a7c8285e600650438fcbc081d21f072930; lastModified 2025-09-26T11:14:36.000Z"
+        },
+        {
+          "name": "newmindai/Llama-3.1-8B-Instruct-intellectual-alpaca",
+          "url": "https://huggingface.co/newmindai/Llama-3.1-8B-Instruct-intellectual-alpaca",
+          "status": "API kimliği doğrulandı; README ayrıntılı incelenmedi; sha dfbb589209a33fc6678f8ebf712bbe4fa21d3cc0; lastModified 2025-09-26T11:14:47.000Z"
+        },
+        {
+          "name": "newmindai/Llama-3.1-8B-Instruct-land-alpaca",
+          "url": "https://huggingface.co/newmindai/Llama-3.1-8B-Instruct-land-alpaca",
+          "status": "API kimliği doğrulandı; README ayrıntılı incelenmedi; sha aadd5e2dfd251ff8e729f36385848d77ba1c91f2; lastModified 2025-09-26T11:15:02.000Z"
+        },
+        {
+          "name": "newmindai/Llama-3.1-8B-Instruct-energy-alpaca",
+          "url": "https://huggingface.co/newmindai/Llama-3.1-8B-Instruct-energy-alpaca",
+          "status": "API kimliği doğrulandı; README ayrıntılı incelenmedi; sha 8ac8e95a3547cc18556865d4665fcfcc4df192c2; lastModified 2025-09-26T11:15:29.000Z"
+        },
+        {
+          "name": "newmindai/Llama-3.1-8B-Instruct-competition-alpaca",
+          "url": "https://huggingface.co/newmindai/Llama-3.1-8B-Instruct-competition-alpaca",
+          "status": "API kimliği doğrulandı; README ayrıntılı incelenmedi; sha 962005d4d7390232c19a39a4c962a6ad307e689b; lastModified 2025-09-26T11:15:38.000Z"
+        },
+        {
+          "name": "newmindai/Llama-3.1-8B-Instruct-kvkk-alpaca",
+          "url": "https://huggingface.co/newmindai/Llama-3.1-8B-Instruct-kvkk-alpaca",
+          "status": "API kimliği doğrulandı; README ayrıntılı incelenmedi; sha b6a5165c7c3a3098bc4175376fd841e40290a336; lastModified 2025-09-26T11:15:52.000Z"
+        },
+        {
+          "name": "newmindai/Llama-3.1-8B-Instruct-tax-alpaca",
+          "url": "https://huggingface.co/newmindai/Llama-3.1-8B-Instruct-tax-alpaca",
+          "status": "README ve API okundu; sha 75d88cbe61c32fece205df1aafc20e29b311ff4e; lastModified 2025-09-26T11:16:04.000Z"
+        },
+        {
+          "name": "newmindai/Llama-3.1-8B-Instruct-health-alpaca",
+          "url": "https://huggingface.co/newmindai/Llama-3.1-8B-Instruct-health-alpaca",
+          "status": "API kimliği doğrulandı; README ayrıntılı incelenmedi; sha 51e455db739a881613becf4339f8ccf37f2a0707; lastModified 2025-09-26T11:16:15.000Z"
+        }
+      ]
+    },
+    {
+      "record_id": 32,
+      "id": "AlicanKiraz0/Mihenk-LLM-14B-Turkish-Financial-Model",
+      "name": "Mihenk-LLM-14B-Turkish-Financial / v2-35B-A3B",
+      "category": "LLM-alan: vergi-finans",
+      "kind": "model_family",
+      "creator": "Alican Kiraz",
+      "plain": "Mihenk finans açıklaması, BIST tablo yorumu, risk ve kripto senaryolarına odaklanıyor. İlk sürüm Qwen 3-14B; v 2 farklı temel model ve MoE yapısıyla Qwen 3.6-35B-A3B üzerine taşınmış. Toplam 35B ve yaklaşık 3B aktif parametre aynı bellek gereksinimi değildir. Güncel piyasa verisine kendiliğinden erişim gösterilmedi. İki kartın kimliği ve eğitim anlatımı ayrı kontrol edildi. Finansal güvenlik testindeki sıfır ihlal yalnız sekiz istemin kapsamındadır; tüm saldırılara veya piyasa koşullarına genellenemez.",
+      "claims": [
+        {
+          "text": "v 2 sekiz eşleştirilmiş istemlik LLM-as-judge smoke testinde beş galibiyet, tabanda üç bildiriyor; yatırım başarısı değil.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://huggingface.co/AlicanKiraz0/Mihenk-LLM-14B-Turkish-Financial-Model/raw/main/README.md"
+        }
+      ],
+      "training": "İlk kart SFT/RLAIF; ikinci kart birleştirilmiş alan ince ayarı ve finansal güvenlik davranışları anlatıyor.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "AlicanKiraz0/Mihenk-LLM-14B-Turkish-Financial-Model: 0f8cce8a16b4270d7dadd77754502ee84a18baed / 2026-01-14T13:05:42.000Z; AlicanKiraz0/Mihenk-LLM-v2-35B-A3B-Turkish-Financial-Model: 16cdfb37fb523d404c1d01d6667521b72f014f3c / 2026-05-04T15:54:27.000Z",
+      "try_it": "Kamu model deposunda kullanım yolu var; ağırlık indirilmedi, kurulmadı veya çalıştırılmadı.",
+      "demo_url": null,
+      "independent": "Discussion metninde ufak deneme yaptığını söyleyen kullanıcı veri soruyor ama sonuç paylaşmıyor; kalite övgüsü sayılmadı. Geliştirici LinkedIn tanıtımı bağımsız deneyim olarak yazılmadı. Somut olumsuz kullanıcı testi de bulunamadı.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/AlicanKiraz0/Mihenk-LLM-14B-Turkish-Financial-Model",
+          "title": "AlicanKiraz0/Mihenk-LLM-14B-Turkish-Financial-Model API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/AlicanKiraz0/Mihenk-LLM-14B-Turkish-Financial-Model/raw/main/README.md",
+          "title": "AlicanKiraz0/Mihenk-LLM-14B-Turkish-Financial-Model model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/AlicanKiraz0",
+          "title": "https://huggingface.co/AlicanKiraz0",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models/AlicanKiraz0/Mihenk-LLM-14B-Turkish-Financial-Model/discussions/3",
+          "title": "https://huggingface.co/api/models/AlicanKiraz0/Mihenk-LLM-14B-Turkish-Financial-Model/discussions/3",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/AlicanKiraz0/Mihenk-LLM-14B-Turkish-Financial-Model/discussions/1",
+          "title": "https://huggingface.co/api/models/AlicanKiraz0/Mihenk-LLM-14B-Turkish-Financial-Model/discussions/1",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/AlicanKiraz0/Mihenk-LLM-v2-35B-A3B-Turkish-Financial-Model",
+          "title": "AlicanKiraz0/Mihenk-LLM-v2-35B-A3B-Turkish-Financial-Model API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/AlicanKiraz0/Mihenk-LLM-v2-35B-A3B-Turkish-Financial-Model/raw/main/README.md",
+          "title": "AlicanKiraz0/Mihenk-LLM-v2-35B-A3B-Turkish-Financial-Model model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://huggingface.co/AlicanKiraz0/Mihenk-LLM-14B-Turkish-Financial-Model/raw/main/README.md",
+            "https://huggingface.co/AlicanKiraz0",
+            "https://huggingface.co/AlicanKiraz0/Mihenk-LLM-v2-35B-A3B-Turkish-Financial-Model/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": [
+            "https://huggingface.co/api/models/AlicanKiraz0/Mihenk-LLM-14B-Turkish-Financial-Model",
+            "https://huggingface.co/api/models/AlicanKiraz0/Mihenk-LLM-14B-Turkish-Financial-Model/discussions/3",
+            "https://huggingface.co/api/models/AlicanKiraz0/Mihenk-LLM-14B-Turkish-Financial-Model/discussions/1",
+            "https://huggingface.co/api/models/AlicanKiraz0/Mihenk-LLM-v2-35B-A3B-Turkish-Financial-Model"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Mihenk-LLM\" review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "AlicanKiraz0/Mihenk-LLM-14B-Turkish-Financial-Model",
+          "url": "https://huggingface.co/AlicanKiraz0/Mihenk-LLM-14B-Turkish-Financial-Model",
+          "status": "README ve API okundu; sha 0f8cce8a16b4270d7dadd77754502ee84a18baed; lastModified 2026-01-14T13:05:42.000Z"
+        },
+        {
+          "name": "AlicanKiraz0/Mihenk-LLM-v2-35B-A3B-Turkish-Financial-Model",
+          "url": "https://huggingface.co/AlicanKiraz0/Mihenk-LLM-v2-35B-A3B-Turkish-Financial-Model",
+          "status": "README ve API okundu; sha 16cdfb37fb523d404c1d01d6667521b72f014f3c; lastModified 2026-05-04T15:54:27.000Z"
+        }
+      ]
+    },
+    {
+      "record_id": 33,
+      "id": "catalog-33",
+      "name": "TULIP (finans sürekli ön eğitim 7–8B)",
+      "category": "LLM-alan: vergi-finans",
+      "kind": "paper",
+      "creator": "Prometeia: Demirtaş, Payzun, Arslan",
+      "plain": "TULIP finans Türkçesine alan ve dil uyarlamasını araştırıyor. Llama 3.1-8B ve Qwen 2.5-7B tabanlarını ele alıyor. Banka içinde barındırılabilme gerekçesi, ağırlıkların gerçekten yayımlandığını tek başına göstermiyor. Kesin resmî checkpoint deposu doğrulanmadı; makale ile kurulabilir model ayrımı korunuyor. Kaynağın başlığı ve yazarları doğrudan makaleden kontrol edildi. Makale lisansı checkpoint lisansı yerine kullanılamaz. İndirilebilir model doğrulanmadan kurulum önerisi yapılmadı.",
+      "claims": [
+        {
+          "text": "Yazarlar finans terminolojisi, sınav, ticaret sicili ve çeviri görevlerinde kazanım bildiriyor; gerçek banka müşteri kabulü değil.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://arxiv.org/abs/2508.16243"
+        }
+      ],
+      "training": "Beş aşama: veri toplama, devam ön eğitimi, benchmark tasarımı, sentetik veri üretimi, talimat ince ayarı.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "Kamu model hash bilgisi doğrulanmadı. Kontrol tarihi, kaynak yayın veya eğitim tarihi değildir.",
+      "try_it": "Ürün/kurum sayfası erişim yoludur; hesap açılmadı, özel belge yüklenmedi ve dış iletişim yapılmadı.",
+      "demo_url": null,
+      "independent": "Makale ve bibliyografik kayıt bulundu; bağımsız kullanıcı kalite yorumu veya doğrulanabilir video deneyi bulunamadı. Kontrol arXivv 1 kapsamındadır; tüm kurumsal iç sürümlerin yokluğu anlamına gelmez. Yazarların sonuçları bağımsız tekrar diye sunulmadı; açık ağırlık URLsi uydurulmadı.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2508.16243",
+          "title": "https://arxiv.org/abs/2508.16243",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://arxiv.org/html/2508.16243v1",
+          "title": "TULIP makalesi v1",
+          "type": "paper",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://arxiv.org/abs/2508.16243",
+            "https://arxiv.org/html/2508.16243v1"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"TULIP\" \"2508.16243\" github",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "TULIP Llama3.1-8B",
+          "url": "https://arxiv.org/abs/2508.16243",
+          "status": "Makale kimliği; açık checkpoint çözülmedi"
+        },
+        {
+          "name": "TULIP Qwen2.5-7B",
+          "url": "https://arxiv.org/abs/2508.16243",
+          "status": "Makale kimliği; açık checkpoint çözülmedi"
+        }
+      ]
+    },
+    {
+      "record_id": 34,
+      "id": "ff112/FinTurkBERT",
+      "name": "Finans sınıflandırıcılar: FinTurkBERT (ff112), bankbert-turkish (Kaggle)",
+      "category": "LLM-alan: vergi-finans",
+      "kind": "model_family",
+      "creator": "FinTurkBERT yazarları; Mustafa Yağız Fırat",
+      "plain": "FinTurkBERT cümleyi yatırımcı etkisine göre negatif, nötr, pozitif sınıflandırıyor. Duygu etiketi fiyat yönü tahmini veya sohbet cevabı değildir. BankBERT ayrı geliştiricinin bankacılık sınıflandırıcısı; Kaggle adının yanında gerçek Hugging Face kimliği bulundu. İki modelin görevleri ve değerlendirme verileri eşit kabul edilmedi. Her ikisinin kartı doğrudan okundu. BankBERT kartının yüksek doğruluğu sınıf dağılımı, veri sızıntısı ve sınama kapsamı açıklanmadan gerçek bankacılık doğruluğu sayılmamalı.",
+      "claims": [
+        {
+          "text": "FinTurkBERT%87, 01 doğruluk/0, 8564 macroF1; BankBERT0, 9914 doğruluk bildiriyor. Farklı kümelerle sayı yarışı yapılmadı.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://huggingface.co/ff112/FinTurkBERT/raw/main/README.md"
+        }
+      ],
+      "training": "FinTurkBERT yaklaşık 1GB finans devam eğitimi, TAPT, Türkçeleştirilmiş Financial PhraseBank. BankBERT BERTurk üzerinde beş epoch; veri kümesi şablonda None.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "ff112/FinTurkBERT: 68f97fbdb0de043e7eb1f9a31b2f52d59eb64b2e / 2026-04-15T20:12:35.000Z; yagizfirat/bankbert_turkish: 511940747783f30d1551c426e450864fb0e43973 / 2025-06-29T13:50:55.000Z",
+      "try_it": "Kamu model deposunda kullanım yolu var; ağırlık indirilmedi, kurulmadı veya çalıştırılmadı.",
+      "demo_url": null,
+      "independent": "Bağımsız kullanıcı değerlendirmesi bulunamadı. FinTurkBERT yumuşak iyimserliği nötre atama eğilimini açıklıyor; genel duygu görevlerine aktarım doğrulanmış değil. BankBERTin eksik veri bilgisi yüksek doğruluk sayısının yorumunu sınırlıyor.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/ff112/FinTurkBERT",
+          "title": "ff112/FinTurkBERT API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ff112/FinTurkBERT/raw/main/README.md",
+          "title": "ff112/FinTurkBERT model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ff112",
+          "title": "https://huggingface.co/ff112",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models/yagizfirat/bankbert_turkish",
+          "title": "yagizfirat/bankbert_turkish API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/yagizfirat/bankbert_turkish/raw/main/README.md",
+          "title": "yagizfirat/bankbert_turkish model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://huggingface.co/ff112/FinTurkBERT/raw/main/README.md",
+            "https://huggingface.co/ff112",
+            "https://huggingface.co/yagizfirat/bankbert_turkish/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": [
+            "https://huggingface.co/api/models/ff112/FinTurkBERT",
+            "https://huggingface.co/api/models/yagizfirat/bankbert_turkish"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"FinTurkBERT\" review youtube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"bankbert-turkish\" Kaggle",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "ff112/FinTurkBERT",
+          "url": "https://huggingface.co/ff112/FinTurkBERT",
+          "status": "README ve API okundu; sha 68f97fbdb0de043e7eb1f9a31b2f52d59eb64b2e; lastModified 2026-04-15T20:12:35.000Z"
+        },
+        {
+          "name": "yagizfirat/bankbert_turkish",
+          "url": "https://huggingface.co/yagizfirat/bankbert_turkish",
+          "status": "README ve API okundu; sha 511940747783f30d1551c426e450864fb0e43973; lastModified 2025-06-29T13:50:55.000Z"
+        }
+      ]
+    },
+    {
+      "record_id": 35,
+      "id": "hazal/BioBERTurkcased-con-trM",
+      "name": "TurkRadBERT, BioBERTurk, TurkishMedLLM, TUSGPT-TR-Medical-9B",
+      "category": "LLM-alan: tıp",
+      "kind": "model_family",
+      "creator": "BioBERTurk/TurkRadBERT araştırmacıları; Türker Berk Dönmez",
+      "plain": "Klinik kodlayıcılar ile tıbbi cevap üreten model aynı grupta. BioBERTurk ve TurkRadBERT radyoloji sınıflandırmasında BERT türü çalışmalar; TUSGPT Turkish-Gemma-9 b-T1 tabanlı üretici model. Aynı ekip veya görev sayılmamalı. TurkishMedLLM adıyla kesin kamu kimliği bulunamadı. TurkRadBERT makalesi bulundu; açık checkpoint kimliği çözülemedi. TUSGPT kartındaki Apache etiketi temel Gemma koşullarını otomatik kaldırmaz; nihai lisans zinciri kullanım öncesinde ayrıca değerlendirilmelidir.",
+      "claims": [
+        {
+          "text": "ClinicalNLP çalışması 2.000 baş BT raporunda çok etiketli sınıflandırma inceliyor; tıbbi sohbetin teşhis güvenilirliği değil.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://huggingface.co/hazal/BioBERTurkcased-con-trM/raw/main/README.md"
+        }
+      ],
+      "training": "TUSGPT55.465 Türkçe tıbbi soru-cevap, Apple Silicon üzerinde iki aşamalı DoRA ve 1, 126 doğrulama kaybı bildiriyor. BioBERTurk kısa kartı ayrıntı vermiyor.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "hazal/BioBERTurkcased-con-trM: fb2a4b29d662e0979dad2238255801f5e4bbe608 / 2022-08-10T11:11:27.000Z; hazal/BioBERTurkcased-con-trM-trR: b672b86f752b7990195cf9febc871006ddd22216 / 2026-07-13T12:39:53.000Z; hazal/BioBERTurkcased-con-trR: a3b001648ec43f064974579d79b6fd9549b32f7c / 2022-11-09T11:01:42.000Z; turkerberkdonmez/TUSGPT-TR-Medical-9B: f26bddf03961d4b55556d5908819c0768a1ebd47 / 2026-02-15T17:37:18.000Z",
+      "try_it": "Kamu model deposunda kullanım yolu var; ağırlık indirilmedi, kurulmadı veya çalıştırılmadı.",
+      "demo_url": null,
+      "independent": "Bağımsız TUSGPT kullanıcı deneyi bulunamadı. Araştırma yöntemi kanıtı hastada güvenli kabul değildir. Erişilebilir BioBERTurk varyantlarının API kimliği kontrol edildi; hepsinin ayrıntılı eğitim kartının okunduğu iddia edilmedi.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/hazal/BioBERTurkcased-con-trM",
+          "title": "hazal/BioBERTurkcased-con-trM API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/hazal/BioBERTurkcased-con-trM/raw/main/README.md",
+          "title": "hazal/BioBERTurkcased-con-trM model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/hazal/BioBERTurkcased-con-trM-trR",
+          "title": "hazal/BioBERTurkcased-con-trM-trR API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/hazal/BioBERTurkcased-con-trR",
+          "title": "hazal/BioBERTurkcased-con-trR API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/turkerberkdonmez/TUSGPT-TR-Medical-9B",
+          "title": "turkerberkdonmez/TUSGPT-TR-Medical-9B API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/turkerberkdonmez/TUSGPT-TR-Medical-9B/raw/main/README.md",
+          "title": "turkerberkdonmez/TUSGPT-TR-Medical-9B model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://aclanthology.org/2023.clinicalnlp-1.22/",
+          "title": "Harnessing the Power of BERT in the Turkish Clinical Domain",
+          "type": "paper",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://huggingface.co/hazal/BioBERTurkcased-con-trM/raw/main/README.md",
+            "https://huggingface.co/turkerberkdonmez/TUSGPT-TR-Medical-9B/raw/main/README.md",
+            "https://aclanthology.org/2023.clinicalnlp-1.22/"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": [
+            "https://huggingface.co/api/models/hazal/BioBERTurkcased-con-trM",
+            "https://huggingface.co/api/models/hazal/BioBERTurkcased-con-trM-trR",
+            "https://huggingface.co/api/models/hazal/BioBERTurkcased-con-trR",
+            "https://huggingface.co/api/models/turkerberkdonmez/TUSGPT-TR-Medical-9B"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"TurkishMedLLM\" OR \"TUSGPT-TR-Medical-9B\"",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"TurkRadBERT\" \"BioBERTurk\"",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "hazal/BioBERTurkcased-con-trM",
+          "url": "https://huggingface.co/hazal/BioBERTurkcased-con-trM",
+          "status": "README ve API okundu; sha fb2a4b29d662e0979dad2238255801f5e4bbe608; lastModified 2022-08-10T11:11:27.000Z"
+        },
+        {
+          "name": "hazal/BioBERTurkcased-con-trM-trR",
+          "url": "https://huggingface.co/hazal/BioBERTurkcased-con-trM-trR",
+          "status": "API kimliği doğrulandı; README ayrıntılı incelenmedi; sha b672b86f752b7990195cf9febc871006ddd22216; lastModified 2026-07-13T12:39:53.000Z"
+        },
+        {
+          "name": "hazal/BioBERTurkcased-con-trR",
+          "url": "https://huggingface.co/hazal/BioBERTurkcased-con-trR",
+          "status": "API kimliği doğrulandı; README ayrıntılı incelenmedi; sha a3b001648ec43f064974579d79b6fd9549b32f7c; lastModified 2022-11-09T11:01:42.000Z"
+        },
+        {
+          "name": "turkerberkdonmez/TUSGPT-TR-Medical-9B",
+          "url": "https://huggingface.co/turkerberkdonmez/TUSGPT-TR-Medical-9B",
+          "status": "README ve API okundu; sha f26bddf03961d4b55556d5908819c0768a1ebd47; lastModified 2026-02-15T17:37:18.000Z"
+        },
+        {
+          "name": "TurkRadBERT",
+          "url": "https://aclanthology.org/2023.clinicalnlp-1.22/",
+          "status": "Makale kimliği; checkpoint bulunamadı"
+        },
+        {
+          "name": "TurkishMedLLM",
+          "url": null,
+          "status": "Kesin kimlik çözülmedi"
+        }
+      ]
+    },
+    {
+      "record_id": 36,
+      "id": "Trendyol/Trendyol-Cybersecurity-LLM-v2-70B-Q4_K_M",
+      "name": "Siber güvenlik modelleri (Trendyol-Cybersecurity-LLM, BaronLLM, SenecaLLM, Titus; hilalkavas siber-muhafiz)",
+      "category": "LLM-alan: diğer",
+      "kind": "model_family",
+      "creator": "Trendyol Group Security Team; Alican Kiraz; diğerleri",
+      "plain": "Trendyol savunma odaklı v 2-70B İngilizce eğitim bildiriyor; Türk ekip ürünü olması Türkçe başarı kanıtı değil. Baron saldırı araştırması varyantı, Seneca eski çalışma, Titus Türkçe öncelikli yeni model olarak açıklanıyor. Bunlar tek sürüm çizgisi değil. Hilalkavas adına siber-muhafız bulunamadı; başka yayıncının benzer adlı deposu aynı kişi sayılmadı.",
+      "claims": [
+        {
+          "text": "CS-Eval 91, 03 ve Baron 80, 93 geliştirici ölçümleri; güncel bağımsız sıralama kabul edilmedi.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://huggingface.co/Trendyol/Trendyol-Cybersecurity-LLM-v2-70B-Q4_K_M/raw/main/README.md"
+        }
+      ],
+      "training": "v 2-70B: Llama 3.3-70B/83.920 İngilizce SFT örneği. Titus: Qwen 3.6-35B-A3B/500 bin üzeri satır/LoRA. Seneca yaklaşık 100 saat eğitim bildiriyor.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "Trendyol/Trendyol-Cybersecurity-LLM-v2-70B-Q4_K_M: baa4c86f44f94ff62060373f677599eca4accddf / 2025-10-20T11:22:27.000Z; Trendyol/Qwen3-14B-BaronLLM-v2-Q8: 8ccf289c05c2d6cc1e12af301eaf79bb354e9bb4 / 2025-08-20T13:53:48.000Z; AlicanKiraz0/BaronLLM-v2-OffensiveSecurityLLM-Q8: 3210379c9a970e96057b084597859864719a80b3 / 2025-08-21T00:08:19.000Z; AlicanKiraz0/Seneca-Cybersecurity-LLM-Q4_K_M-GGUF: 23bdbd2e6d64a3f7d7177271ab4591e50ce83736 / 2025-03-15T02:35:53.000Z; AlicanKiraz0/Titus-CybersecurityLLM-v1.0-Q4_K_M-No-MTP-GGUF: d073d8bf57c645476c9f97fb504982c1e7e6bf27 / 2026-06-01T18:29:34.000Z; AlicanKiraz0/Titus-CybersecurityLLM-v1.0-mlx-4Bit: f6b616d45418da91985fe6d621324941a6b49f16 / 2026-05-27T17:50:50.000Z",
+      "try_it": "Kamu model deposunda kullanım yolu var; ağırlık indirilmedi, kurulmadı veya çalıştırılmadı.",
+      "demo_url": null,
+      "independent": "Somut sonuç paylaşan bağımsız kullanıcı deneyi bulunamadı. Titus dosya adı q 4_0, kart başlığı Q4_K_M: çelişki açık. Meta lisansı ile kart Apache etiketi de ağırlık lisansı garantisi olarak birleştirilmedi. Türkçe kalite her üye için ayrı bilinmeyen.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı.",
+        "Kaynakların sayı veya dosya tanımı çelişkileri açıklamada belirtildi."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/Trendyol/Trendyol-Cybersecurity-LLM-v2-70B-Q4_K_M",
+          "title": "Trendyol/Trendyol-Cybersecurity-LLM-v2-70B-Q4_K_M API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Trendyol/Trendyol-Cybersecurity-LLM-v2-70B-Q4_K_M/raw/main/README.md",
+          "title": "Trendyol/Trendyol-Cybersecurity-LLM-v2-70B-Q4_K_M model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Trendyol/Qwen3-14B-BaronLLM-v2-Q8",
+          "title": "Trendyol/Qwen3-14B-BaronLLM-v2-Q8 API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/AlicanKiraz0/BaronLLM-v2-OffensiveSecurityLLM-Q8",
+          "title": "AlicanKiraz0/BaronLLM-v2-OffensiveSecurityLLM-Q8 API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/AlicanKiraz0/BaronLLM-v2-OffensiveSecurityLLM-Q8/raw/main/README.md",
+          "title": "AlicanKiraz0/BaronLLM-v2-OffensiveSecurityLLM-Q8 model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/AlicanKiraz0/Seneca-Cybersecurity-LLM-Q4_K_M-GGUF",
+          "title": "AlicanKiraz0/Seneca-Cybersecurity-LLM-Q4_K_M-GGUF API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/AlicanKiraz0/Seneca-Cybersecurity-LLM-Q4_K_M-GGUF/raw/main/README.md",
+          "title": "AlicanKiraz0/Seneca-Cybersecurity-LLM-Q4_K_M-GGUF model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/AlicanKiraz0/Titus-CybersecurityLLM-v1.0-Q4_K_M-No-MTP-GGUF",
+          "title": "AlicanKiraz0/Titus-CybersecurityLLM-v1.0-Q4_K_M-No-MTP-GGUF API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/AlicanKiraz0/Titus-CybersecurityLLM-v1.0-Q4_K_M-No-MTP-GGUF/raw/main/README.md",
+          "title": "AlicanKiraz0/Titus-CybersecurityLLM-v1.0-Q4_K_M-No-MTP-GGUF model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/AlicanKiraz0/Titus-CybersecurityLLM-v1.0-mlx-4Bit",
+          "title": "AlicanKiraz0/Titus-CybersecurityLLM-v1.0-mlx-4Bit API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://huggingface.co/Trendyol/Trendyol-Cybersecurity-LLM-v2-70B-Q4_K_M/raw/main/README.md",
+            "https://huggingface.co/AlicanKiraz0/BaronLLM-v2-OffensiveSecurityLLM-Q8/raw/main/README.md",
+            "https://huggingface.co/AlicanKiraz0/Seneca-Cybersecurity-LLM-Q4_K_M-GGUF/raw/main/README.md",
+            "https://huggingface.co/AlicanKiraz0/Titus-CybersecurityLLM-v1.0-Q4_K_M-No-MTP-GGUF/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": [
+            "https://huggingface.co/api/models/Trendyol/Trendyol-Cybersecurity-LLM-v2-70B-Q4_K_M",
+            "https://huggingface.co/api/models/Trendyol/Qwen3-14B-BaronLLM-v2-Q8",
+            "https://huggingface.co/api/models/AlicanKiraz0/BaronLLM-v2-OffensiveSecurityLLM-Q8",
+            "https://huggingface.co/api/models/AlicanKiraz0/Seneca-Cybersecurity-LLM-Q4_K_M-GGUF",
+            "https://huggingface.co/api/models/AlicanKiraz0/Titus-CybersecurityLLM-v1.0-Q4_K_M-No-MTP-GGUF",
+            "https://huggingface.co/api/models/AlicanKiraz0/Titus-CybersecurityLLM-v1.0-mlx-4Bit"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Trendyol-Cybersecurity-LLM\" \"BaronLLM\" review",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"hilalkavas\" \"siber\" OR \"Titus\" \"AlicanKiraz0\"",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "Trendyol/Trendyol-Cybersecurity-LLM-v2-70B-Q4_K_M",
+          "url": "https://huggingface.co/Trendyol/Trendyol-Cybersecurity-LLM-v2-70B-Q4_K_M",
+          "status": "README ve API okundu; sha baa4c86f44f94ff62060373f677599eca4accddf; lastModified 2025-10-20T11:22:27.000Z"
+        },
+        {
+          "name": "Trendyol/Qwen3-14B-BaronLLM-v2-Q8",
+          "url": "https://huggingface.co/Trendyol/Qwen3-14B-BaronLLM-v2-Q8",
+          "status": "API kimliği doğrulandı; README ayrıntılı incelenmedi; sha 8ccf289c05c2d6cc1e12af301eaf79bb354e9bb4; lastModified 2025-08-20T13:53:48.000Z"
+        },
+        {
+          "name": "AlicanKiraz0/BaronLLM-v2-OffensiveSecurityLLM-Q8",
+          "url": "https://huggingface.co/AlicanKiraz0/BaronLLM-v2-OffensiveSecurityLLM-Q8",
+          "status": "README ve API okundu; sha 3210379c9a970e96057b084597859864719a80b3; lastModified 2025-08-21T00:08:19.000Z"
+        },
+        {
+          "name": "AlicanKiraz0/Seneca-Cybersecurity-LLM-Q4_K_M-GGUF",
+          "url": "https://huggingface.co/AlicanKiraz0/Seneca-Cybersecurity-LLM-Q4_K_M-GGUF",
+          "status": "README ve API okundu; sha 23bdbd2e6d64a3f7d7177271ab4591e50ce83736; lastModified 2025-03-15T02:35:53.000Z"
+        },
+        {
+          "name": "AlicanKiraz0/Titus-CybersecurityLLM-v1.0-Q4_K_M-No-MTP-GGUF",
+          "url": "https://huggingface.co/AlicanKiraz0/Titus-CybersecurityLLM-v1.0-Q4_K_M-No-MTP-GGUF",
+          "status": "README ve API okundu; sha d073d8bf57c645476c9f97fb504982c1e7e6bf27; lastModified 2026-06-01T18:29:34.000Z"
+        },
+        {
+          "name": "AlicanKiraz0/Titus-CybersecurityLLM-v1.0-mlx-4Bit",
+          "url": "https://huggingface.co/AlicanKiraz0/Titus-CybersecurityLLM-v1.0-mlx-4Bit",
+          "status": "API kimliği doğrulandı; README ayrıntılı incelenmedi; sha f6b616d45418da91985fe6d621324941a6b49f16; lastModified 2026-05-27T17:50:50.000Z"
+        },
+        {
+          "name": "hilalkavas siber-muhafiz",
+          "url": null,
+          "status": "Kesin kimlik çözülmedi"
+        }
+      ]
+    },
+    {
+      "record_id": 123,
+      "id": "ecloudtech/Erk-32B",
+      "name": "Erk-32B / Erk-14B (eCloud Tech)",
+      "category": "LLM-alan: diğer",
+      "kind": "model_family",
+      "creator": "eCloud Tech",
+      "plain": "İki boyutta main 29 Eylül 2026 tarihli v 2; önceki ağırlıklar v 1 etiketinde korunuyor. 32B Apache 2, 14B özel eCloud lisansı bildiriyor; ailede lisans aynı varsayılmamalı. Genel üretim kalitesi her görevde ölçülmüş değil. İndirme sayısı kalite puanı yapılmadı. Güncel kartlar eski sürümün yerini alan dalı açıkça gösteriyor. Ölçüm protokolleri değiştiği için eski tam-küme yüzdeleri temiz ve şık döndürmeli sonuçlarla doğrudan yarıştırılmadı.",
+      "claims": [
+        {
+          "text": "32Bv 2 temiz 652 TurkishMMLU sorusunda%71, 5; 14Bv 2 morfolojide%80.14B TurBLiMP%95, 2→%93, 7 geriliyor.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://huggingface.co/ecloudtech/Erk-32B/raw/main/README.md"
+        }
+      ],
+      "training": "32B: 1, 05B devam eğitimi tokenı, 423M talimat tokenı; v 2 ek eğitim/ağırlık karışımı.14Bv 2 hedefli morfoloji eğitimi.",
+      "version": "İki boyut main v 2 (29 Eylül 2026), v 1 etiketi korunuyor. API2 Ekim değişimi yeni eğitim tarihi sayılmaz.",
+      "revision": "ecloudtech/Erk-32B: b27855da49751558197b0899dbb2a1bd8f6de5ff / 2026-10-02T05:18:10.000Z; ecloudtech/Erk-14B: 8584b14a829d5cc803bc227f44e9012e36e8ad04 / 2026-10-02T05:18:08.000Z",
+      "try_it": "Kamu model deposunda kullanım yolu var; ağırlık indirilmedi, kurulmadı veya çalıştırılmadı.",
+      "demo_url": null,
+      "independent": "TurBLiMP bağımsız hazırlanmış veri olsa da buradaki ölçümü geliştirici yayımlıyor; bağımsız kullanıcı deneyi değildir. Kirlilik, şık döndürme ve güven aralığı yöntem ayrıntısıdır; üretim kabulü sayılmadı. Somut bağımsız olumlu/olumsuz kullanım testi bulunamadı; tek tohum sınırı geçerli.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/ecloudtech/Erk-32B",
+          "title": "ecloudtech/Erk-32B API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ecloudtech/Erk-32B/raw/main/README.md",
+          "title": "ecloudtech/Erk-32B model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ecloudtech",
+          "title": "https://huggingface.co/ecloudtech",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ecloudtech/Erk-14B",
+          "title": "ecloudtech/Erk-14B API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ecloudtech/Erk-14B/raw/main/README.md",
+          "title": "ecloudtech/Erk-14B model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://huggingface.co/ecloudtech/Erk-32B/raw/main/README.md",
+            "https://huggingface.co/ecloudtech",
+            "https://huggingface.co/ecloudtech/Erk-14B/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "İki boyut main v 2 (29 Eylül 2026), v 1 etiketi korunuyor. API2 Ekim değişimi yeni eğitim tarihi sayılmaz.",
+          "urls": [
+            "https://huggingface.co/api/models/ecloudtech/Erk-32B",
+            "https://huggingface.co/api/models/ecloudtech/Erk-14B"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Erk-32B\" \"Erk-14B\" review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "ecloudtech/Erk-32B",
+          "url": "https://huggingface.co/ecloudtech/Erk-32B",
+          "status": "README ve API okundu; sha b27855da49751558197b0899dbb2a1bd8f6de5ff; lastModified 2026-10-02T05:18:10.000Z"
+        },
+        {
+          "name": "ecloudtech/Erk-14B",
+          "url": "https://huggingface.co/ecloudtech/Erk-14B",
+          "status": "README ve API okundu; sha 8584b14a829d5cc803bc227f44e9012e36e8ad04; lastModified 2026-10-02T05:18:08.000Z"
+        }
+      ]
+    },
+    {
+      "record_id": 132,
+      "id": "Commencis/Commencis-LLM",
+      "name": "Commencis-LLM 7B (bankacılık)",
+      "category": "LLM-alan: vergi-finans",
+      "kind": "model",
+      "creator": "Commencis",
+      "plain": "Bankacılık ve finans için Türkçe Mistral uyarlaması kamuya açık yayımlanmış. Kapalı banka asistanı diye sınıflandırmak yanlış; depoda tam ağırlık dosyaları var. Kurumsal uygulamaların özel veri ve erişim şartları kamu checkpointinden ayrı.2024 tarihli olması kullanımdan kaldırıldığını kanıtlamaz. Doğrudan kart ile resmî geliştirici blogu okundu. Blogun MT-Bench benzeri karşılaştırması şirketin kendi çalışmasıdır; farklı kaynakta tekrar edilmesi bağımsız kullanıcı deneyimi üretmez.",
+      "claims": [
+        {
+          "text": "Türkçe akıcılığı ve bankacılık uzmanlaşması geliştirici iddiası; haberlerde tekrarlanması bağımsız doğrulama değil.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://huggingface.co/Commencis/Commencis-LLM/raw/main/README.md"
+        }
+      ],
+      "training": "Mistral 7B-Instruct-v 0.1, CulturaX filtreleri, sentetik bankacılık verisi; SFT ve ödül/RLHF aşamaları, üç epoch, rank 64, 1024 eğitim dizisi.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "Commencis/Commencis-LLM: 7d7f5a8d47767e71af4c1867fa612c468b59417f / 2024-03-19T14:12:59.000Z; Commencis/Commencis-LLM-GGUF: ccf2c6b7a7ebdc877dae9c424f501140f01e2e8f / 2024-03-19T13:59:28.000Z",
+      "try_it": "Kamu model deposunda kullanım yolu var; ağırlık indirilmedi, kurulmadı veya çalıştırılmadı.",
+      "demo_url": null,
+      "independent": "Modele özgü ayrıntılı kullanıcı deneyi bulunamadı. Kart halüsinasyon, dil değiştirme, tekrar, kod ve matematik sınırlarını sayıyor. GGUF kimliği doğrulandı; model bu araştırmada yüklenmedi. Farklı ticari Commencis ürünlerinin başarısı bu checkpointin kabulü olarak sunulmadı.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/Commencis/Commencis-LLM",
+          "title": "Commencis/Commencis-LLM API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Commencis/Commencis-LLM/raw/main/README.md",
+          "title": "Commencis/Commencis-LLM model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Commencis",
+          "title": "https://huggingface.co/Commencis",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Commencis/Commencis-LLM-GGUF",
+          "title": "Commencis/Commencis-LLM-GGUF API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.commencis.com/thoughts/commencis-introduces-its-purpose-built-turkish-fluent-llm-for-banking-and-finance-industry-a-detailed-overview/",
+          "title": "Commencis resmî geliştirici blogu",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://huggingface.co/Commencis/Commencis-LLM/raw/main/README.md",
+            "https://huggingface.co/Commencis"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": [
+            "https://huggingface.co/api/models/Commencis/Commencis-LLM",
+            "https://huggingface.co/api/models/Commencis/Commencis-LLM-GGUF"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Commencis-LLM\" review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "Commencis/Commencis-LLM",
+          "url": "https://huggingface.co/Commencis/Commencis-LLM",
+          "status": "README ve API okundu; sha 7d7f5a8d47767e71af4c1867fa612c468b59417f; lastModified 2024-03-19T14:12:59.000Z"
+        },
+        {
+          "name": "Commencis/Commencis-LLM-GGUF",
+          "url": "https://huggingface.co/Commencis/Commencis-LLM-GGUF",
+          "status": "API kimliği doğrulandı; README ayrıntılı incelenmedi; sha ccf2c6b7a7ebdc877dae9c424f501140f01e2e8f; lastModified 2024-03-19T13:59:28.000Z"
+        }
+      ]
+    },
+    {
+      "record_id": 148,
+      "id": "catalog-148",
+      "name": "Diyanet dijital dinî asistanı",
+      "category": "LLM-alan: diğer",
+      "kind": "unknown",
+      "creator": "Diyanet İşleri Başkanlığına atfedilen; kimlik çözülemedi",
+      "plain": "Katalogdaki dijital dinî asistan iddiası kesin ürün sayfasına veya model kimliğine bağlanamadı. Diyanet Dijital içerik portalı var; portalın varlığı üretici asistanın yayında olduğunu göstermez. Resmî dergideki yapay zekâ yazıları da ürün duyurusu değil. Başka kuruluşların dinî asistanları Diyanet ürünü diye eşleştirilmedi.",
+      "claims": [
+        {
+          "text": "Doğrudan desteklenen resmî yetenek veya sürüm iddiası bulunamadı.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://dijital.diyanet.gov.tr/"
+        }
+      ],
+      "training": "Eğitim, taban model, veri ve parametre doğrulanmadı. Kurumsal dinî içerik hizmetleri açık checkpoint sayılmadı.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "Kamu model hash bilgisi doğrulanmadı. Kontrol tarihi, kaynak yayın veya eğitim tarihi değildir.",
+      "try_it": "Kesin model veya demo kimliği çözülemedi; benzer isimli başka uygulamaya yönlendirilmedi.",
+      "demo_url": null,
+      "independent": "Diyanet alanı, dijital portal, asistan terimleri ve sosyal/video araması kontrol edildi; sayfa ile somut kullanıcı deneyi bulunamadı. Ürün adının eksikliği kimlik çözümünü sınırlıyor. Bulunamama sonucu ürünün hiç var olmadığı veya kapatıldığı iddiasına dönüştürülmedi. Başka bir kaynakta kesin ad ve resmî duyuru ortaya çıkarsa kayıt yeniden değerlendirilmeli.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı.",
+        "Eğitim/veri/lisans veya kesin kimlik bilgisi eksik."
+      ],
+      "sources": [
+        {
+          "url": "https://dijital.diyanet.gov.tr/",
+          "title": "Diyanet Dijital içerik portalı",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://dijital.diyanet.gov.tr/"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "not_applicable",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "Diyanet dijital dini asistan yapay zeka deneyim youtube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "site:diyanet.gov.tr \"yapay zeka\" \"asistan\"",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "identity_unresolved",
+      "members": [
+        {
+          "name": "Diyanet dijital dinî asistanı",
+          "url": "https://dijital.diyanet.gov.tr/",
+          "status": "Kontrol edilen ana kayıt; model checkpoint kimliği olduğu varsayılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 151,
+      "id": "catalog-151",
+      "name": "GİBİ (dijital vergi asistanı)",
+      "category": "LLM-alan: vergi-finans",
+      "kind": "product",
+      "creator": "Gelir İdaresi Başkanlığı",
+      "plain": "GİBİ genel vergisel bilgi ve elektronik hizmetlere yönlendirme sağlayan dijital asistan. Kişiye veya olaya özgü bağlayıcı özelge veren açık model değil. Resmî2025 faaliyet raporu açılışı 23 Ocak 2023 bildiriyor. Eski haberin sayfa üstündeki güncel takvimi yayın tarihi sanılmadı. Kullanım kapsamı kişiye özel olmayan sınırlı genel bilgi olarak açıklanıyor.",
+      "claims": [
+        {
+          "text": "Resmî metin 18 Mart 2025 ten itibaren VİMER takip cevaplarına erişimi açıklıyor.7/24 hizmet kapsamı doğruluk garantisi değil.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://www.politikam.com/gelir-idaresi-baskanligi-yeni-dijital-vergi-asistani-gibiyi-tanitti"
+        }
+      ],
+      "training": "Kurum makine öğrenmesi diyor; taban model, ağırlık, parametre ve eğitim verisi açıklanmıyor.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "Kamu model hash bilgisi doğrulanmadı. Kontrol tarihi, kaynak yayın veya eğitim tarihi değildir.",
+      "try_it": "Ürün/kurum sayfası erişim yoludur; hesap açılmadı, özel belge yüklenmedi ve dış iletişim yapılmadı.",
+      "demo_url": null,
+      "independent": "Bağımsız özgün sorgu/cevap ölçümü bulunamadı. Genel GİB işlem şikâyetleri GİBİ kalitesine mal edilmedi. Resmî iletişim metni arama dizininde okunabildi, doğrudan açılışta metin dönmedi; erişim farkı kaydedildi. Kurum sayfasındaki bağlantının varlığı canlı sorgu başarısı gibi sunulmadı.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://www.politikam.com/gelir-idaresi-baskanligi-yeni-dijital-vergi-asistani-gibiyi-tanitti",
+          "title": "https://www.politikam.com/gelir-idaresi-baskanligi-yeni-dijital-vergi-asistani-gibiyi-tanitti",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://edirne.gib.gov.tr/iletisim/dijital-vergi-asistani-gibi",
+          "title": "GİB resmî kullanım kapsamı; arama dizin metni okundu",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://www.politikam.com/gelir-idaresi-baskanligi-yeni-dijital-vergi-asistani-gibiyi-tanitti",
+            "https://edirne.gib.gov.tr/iletisim/dijital-vergi-asistani-gibi"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"GİBİ\" kullanıcı yorum şikayet youtube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "site:gib.gov.tr \"GİBİ\" dijital vergi asistanı",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "GİBİ (dijital vergi asistanı)",
+          "url": "https://www.politikam.com/gelir-idaresi-baskanligi-yeni-dijital-vergi-asistani-gibiyi-tanitti",
+          "status": "Kontrol edilen ana kayıt; model checkpoint kimliği olduğu varsayılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 152,
+      "id": "catalog-152",
+      "name": "GİB yapay zekâ destekli e-özelge projesi",
+      "category": "LLM-alan: vergi-finans",
+      "kind": "product",
+      "creator": "GİB; TED Üniversitesi/WTECHIN konsorsiyumu",
+      "plain": "E-özelge görevlilerin benzer özelgeleri bulması ve taslak üretmesi için tanımlanmış kurumsal geliştirme projesi. Teknik ister teslim veya canlı kabul raporu değil. İndirilebilir vergi checkpointi olarak sunulmamalı. Mevcut özelge süreciyle gelecekteki AI katmanı ayrılıyor. Önerilen metne kullanıcı müdahalesi ve personel değerlendirmesi öngörülüyor.",
+      "claims": [
+        {
+          "text": "%85 üstü doğru getirme, bin eşzamanlı kullanıcıda ortalama 5 saniye hedef; gerçekleşmiş başarı değil.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://tubitak.gov.tr/sites/default/files/2025-02/GIB_Teknik_Ister_Dokumani.pdf"
+        }
+      ],
+      "training": "İster 17.534 ana/141.721 alt özelge, yaklaşık 2GB veri, açık model ince ayarı ve RAG öngörüyor; veri güvenlik sözleşmesiyle sağlanacak.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "Kamu model hash bilgisi doğrulanmadı. Kontrol tarihi, kaynak yayın veya eğitim tarihi değildir.",
+      "try_it": "Ürün/kurum sayfası erişim yoludur; hesap açılmadı, özel belge yüklenmedi ve dış iletişim yapılmadı.",
+      "demo_url": null,
+      "independent": "Üniversite proje kaydı ve konsorsiyum sosyal paylaşımı bulundu; bunlar ilerleme beyanı, bağımsız deneyim değil. Başka özelge arama ürünleri bu resmî projeyle karıştırılmadı. Canlı kabul, nihai seçilmiş model ve yayımlanmış ağırlık bulunamadı. Kurum içi verilere erişim denenmedi.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://tubitak.gov.tr/sites/default/files/2025-02/GIB_Teknik_Ister_Dokumani.pdf",
+          "title": "https://tubitak.gov.tr/sites/default/files/2025-02/GIB_Teknik_Ister_Dokumani.pdf",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://avesis.tedu.edu.tr/proje/5b6962c9-152c-4704-990c-5ecfc3d714c4/yapay-zeka-destekli-ozelge-cevaplama-sistemi",
+          "title": "TEDÜ proje kimliği",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://tubitak.gov.tr/sites/default/files/2025-02/GIB_Teknik_Ister_Dokumani.pdf",
+            "https://avesis.tedu.edu.tr/proje/5b6962c9-152c-4704-990c-5ecfc3d714c4/yapay-zeka-destekli-ozelge-cevaplama-sistemi"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"e-Özelge\" yapay zeka deneyim youtube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"GİB\" \"e-özelge\" \"yapay zeka\"",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "GİB yapay zekâ destekli e-özelge projesi",
+          "url": "https://tubitak.gov.tr/sites/default/files/2025-02/GIB_Teknik_Ister_Dokumani.pdf",
+          "status": "Kontrol edilen ana kayıt; model checkpoint kimliği olduğu varsayılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 153,
+      "id": "catalog-153",
+      "name": "VDK-RAS, SARP, KAŞİF, VEDAS, KURGAN risk ve denetim araçları",
+      "category": "LLM-alan: vergi-finans",
+      "kind": "tool",
+      "creator": "Hazine ve Maliye Bakanlığı/Vergi Denetim Kurulu",
+      "plain": "Beş farklı idari risk ve denetim aracı grupluyor. VDK-RAS risk, SARP sahte belge, VEDAS denetim, KURGAN kuruluş gözetimi olarak kaynaklarda geçiyor; KAŞİF takip/analiz kapsamında anılıyor. Her biri sohbet modeli veya indirilebilir checkpoint değil. Meslek kaynaklarının toplu AI nitelemesi bütün bileşenlerin LLM mimarisini kanıtlamıyor.",
+      "claims": [
+        {
+          "text": "KURGAN resmî URLsi doğrulandı; JavaScript kabuğu içerik sunmadı. Meslek sunumları adları açıklıyor.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://www.alomaliye.com/2026/04/14/sadece-insanlar-degil-yapay-zekada-hata-yapabilir-vergi-denetiminde-yapay-zeka-donemi/"
+        }
+      ],
+      "training": "Her aracın eğitim verisi, mimarisi ve sürümü ayrı teknik belgeyle açıklanmış değil. Kurumsal veri analizi, üretici dil modeli eğitimi anlamına gelmez.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "Kamu model hash bilgisi doğrulanmadı. Kontrol tarihi, kaynak yayın veya eğitim tarihi değildir.",
+      "try_it": "Ürün/kurum sayfası erişim yoludur; hesap açılmadı, özel belge yüklenmedi ve dış iletişim yapılmadı.",
+      "demo_url": null,
+      "independent": "Mali müşavir yazısı yanlış risk işaretleme ve insan denetimi gereğini tartışıyor; kurum içi kontrollü performans testi değil. Hassas sistemlere erişim denenmedi. Bağımsız yanlış pozitif oranı bulunamadı. Eleştirel değerlendirme kullanıcı kalite ölçümüyle aynı kategoriye konulmadı.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://www.alomaliye.com/2026/04/14/sadece-insanlar-degil-yapay-zekada-hata-yapabilir-vergi-denetiminde-yapay-zeka-donemi/",
+          "title": "https://www.alomaliye.com/2026/04/14/sadece-insanlar-degil-yapay-zekada-hata-yapabilir-vergi-denetiminde-yapay-zeka-donemi/",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "inaccessible"
+        },
+        {
+          "url": "https://vdk.hmb.gov.tr/kurgan",
+          "title": "KURGAN resmî sayfa; JavaScript kabuğu",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "inaccessible"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://www.alomaliye.com/2026/04/14/sadece-insanlar-degil-yapay-zekada-hata-yapabilir-vergi-denetiminde-yapay-zeka-donemi/",
+            "https://vdk.hmb.gov.tr/kurgan"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "not_applicable",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"VDK\" \"KURGAN\" \"SARP\" yapay zeka",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "VDK-RAS",
+          "url": null,
+          "status": "Adı meslek kaynaklarında; ayrı model kartı yok"
+        },
+        {
+          "name": "SARP",
+          "url": null,
+          "status": "Adı meslek kaynaklarında; ayrı model kartı yok"
+        },
+        {
+          "name": "KAŞİF",
+          "url": null,
+          "status": "Adı meslek kaynaklarında; ayrı model kartı yok"
+        },
+        {
+          "name": "VEDAS",
+          "url": null,
+          "status": "Adı meslek kaynaklarında; ayrı model kartı yok"
+        },
+        {
+          "name": "KURGAN",
+          "url": "https://vdk.hmb.gov.tr/kurgan",
+          "status": "Adı meslek kaynaklarında; ayrı model kartı yok"
+        }
+      ]
+    },
+    {
+      "record_id": 154,
+      "id": "catalog-154",
+      "name": "UYAP AI Karar Destek Sistemi",
+      "category": "LLM-alan: hukuk",
+      "kind": "product",
+      "creator": "Adalet Bakanlığına atfedilen UYAP AI projesi",
+      "plain": "Haberlerde yargısal bilgi arama ve karar desteği olarak anlatılıyor. Nihai kararın hâkim ve savcıda kalacağı vurgulanıyor. Açık model deposu veya indirilebilir eğitim çıktısı bulunamadı. UYAP portalının erişilebilirliği AI modülünün herkese açıldığı anlamına gelmez. Üçüncü taraf UYAP entegrasyonlu ürünler aynı sistem değil.",
+      "claims": [
+        {
+          "text": "Mayıs 2026 haberindeki 30 milyon karar/saniyeler iddiası kurum açıklaması aktarımı; bağımsız hız/doğruluk testi değil.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://www.gzt.com/gundem/adalet-bakani-akin-gurlek-30-milyon-emsal-karari-saniyeler-icinde-tarayan-yapay-zeka-sistemi-basliyor-teknoloji-haberleri-4223178"
+        }
+      ],
+      "training": "Nihai temel model, eğitim ve veri sürümü kamu teknik kartıyla doğrulanmadı. Haber sayıları token/eğitim örneği kabul edilmedi.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "Kamu model hash bilgisi doğrulanmadı. Kontrol tarihi, kaynak yayın veya eğitim tarihi değildir.",
+      "try_it": "Ürün/kurum sayfası erişim yoludur; hesap açılmadı, özel belge yüklenmedi ve dış iletişim yapılmadı.",
+      "demo_url": null,
+      "independent": "Resmî alan ve sosyal/video/kullanıcı araması yapıldı; tam bu sistemin doğrudan kullanıcı deneyi bulunamadı. Eylül toplantı haberi geliştirme değerlendirmesini anlatıyor; canlı genel dağıtım kabulü çıkarılmadı. Resmî teknik sürüm kaydı eksikliği açık kaldı. Yayına hazırlanma ifadesi çalışan kamu demosu gibi sunulmadı.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://www.gzt.com/gundem/adalet-bakani-akin-gurlek-30-milyon-emsal-karari-saniyeler-icinde-tarayan-yapay-zeka-sistemi-basliyor-teknoloji-haberleri-4223178",
+          "title": "https://www.gzt.com/gundem/adalet-bakani-akin-gurlek-30-milyon-emsal-karari-saniyeler-icinde-tarayan-yapay-zeka-sistemi-basliyor-teknoloji-haberleri-4223178",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://www.gzt.com/gundem/adalet-bakani-akin-gurlek-30-milyon-emsal-karari-saniyeler-icinde-tarayan-yapay-zeka-sistemi-basliyor-teknoloji-haberleri-4223178"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"UYAP AI\" kullanıcı yorum youtube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "site:adalet.gov.tr \"yapay zeka\" \"30 milyon\"",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "UYAP AI Karar Destek Sistemi",
+          "url": "https://www.gzt.com/gundem/adalet-bakani-akin-gurlek-30-milyon-emsal-karari-saniyeler-icinde-tarayan-yapay-zeka-sistemi-basliyor-teknoloji-haberleri-4223178",
+          "status": "Kontrol edilen ana kayıt; model checkpoint kimliği olduğu varsayılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 155,
+      "id": "catalog-155",
+      "name": "Adalet Bakanlığı Yapay Zeka ve Veri Analitiği Şube Müdürlüğü; Kararcı (Adana Bölge Adliyesi, TÜBİTAK Mükemmeliyet Ödülü)",
+      "category": "LLM-alan: hukuk",
+      "kind": "tool",
+      "creator": "Adalet Bakanlığı; Kararcı adlı ayrı ekip",
+      "plain": "Şube müdürlüğü organizasyon birimi; model adı değil. Kararcı ise Adana bağlantılı ayrı karar yazımı ve araştırma ürünü. Hâkim veya savcıların ekipte bulunması Bakanlığın aynı sistemi olduğunu göstermez. Bu kimlikleri birleştirmek kamu sistemiyle özel ürünün karışmasına yol açar. İki farklı kaynak zinciri üyeler alanına işlendi.",
+      "claims": [
+        {
+          "text": "Eylül 2025 haberi şube kuruluşu aktarıyor. Kararcı iş yükü azaltma iddiası ve ödül haberi kalite benchmarkı değil.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://www.cnbce.com/teknoloji/adalet-bakani-yilmaz-tunc-duyurdu-yapay-zeka-ve-veri-analitigi-sube-mudurlugu-kuruldu-h17505"
+        }
+      ],
+      "training": "Şube için model eğitimi açıklanmıyor. Kararcı profili karar desteği, tekerrür, ihbar bulma anlatıyor; açık ağırlık/eğitim doğrulanmadı.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "Kamu model hash bilgisi doğrulanmadı. Kontrol tarihi, kaynak yayın veya eğitim tarihi değildir.",
+      "try_it": "Ürün/kurum sayfası erişim yoludur; hesap açılmadı, özel belge yüklenmedi ve dış iletişim yapılmadı.",
+      "demo_url": null,
+      "independent": "LinkedIn şirket profili Kararcı web adresi ve özel şirket kimliğini gösteriyor. Bağımsız kullanıcı sonucu bulunamadı. Bakanlık haberi Kararcıya resmî kamu erişimi vermiyor. Haberlerdeki sanal yargıç başlığı otomatik karar yetkisi anlamında kullanılmadı; nihai karar sorumluluğu çıkarım yapılmadan ayrıldı.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://www.cnbce.com/teknoloji/adalet-bakani-yilmaz-tunc-duyurdu-yapay-zeka-ve-veri-analitigi-sube-mudurlugu-kuruldu-h17505",
+          "title": "https://www.cnbce.com/teknoloji/adalet-bakani-yilmaz-tunc-duyurdu-yapay-zeka-ve-veri-analitigi-sube-mudurlugu-kuruldu-h17505",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/company/kararci",
+          "title": "Kararcı şirket profili",
+          "type": "social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.dha.com.tr/yerel-haberler/adana/tubitak-odullu-sanal-yargic-kararci-yuzlerce-2715568",
+          "title": "Kararcı geliştirici açıklaması",
+          "type": "news",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://www.cnbce.com/teknoloji/adalet-bakani-yilmaz-tunc-duyurdu-yapay-zeka-ve-veri-analitigi-sube-mudurlugu-kuruldu-h17505"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Profil/tanıtım yolu bulundu; video izlenmiş veya bağımsız kalite ölçülmüş sayılmadı.",
+          "urls": [
+            "https://tr.linkedin.com/company/kararci"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "not_applicable",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Kararcı\" \"Adana\" yapay zeka deneyim",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"UYAP AI\" \"Kararcı\" site:adalet.gov.tr",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "Yapay Zeka ve Veri Analitiği Şube Müdürlüğü",
+          "url": null,
+          "status": "Kurum birimi; model değil"
+        },
+        {
+          "name": "Kararcı",
+          "url": "https://tr.linkedin.com/company/kararci",
+          "status": "Ayrı özel ürün; profil kimliği"
+        }
+      ]
+    },
+    {
+      "record_id": 157,
+      "id": "catalog-157",
+      "name": "Lexpera LEXI",
+      "category": "LLM-alan: hukuk",
+      "kind": "product",
+      "creator": "On İki Levha Yayıncılık/LEXPERA",
+      "plain": "LEXI LEXPERA hukuk içeriğinde araştırma ve analiz sağlayan ticari asistan. Güncel sayfa LEXI2.0 kullanıyor. Kanun veya içtihat koleksiyonuna göre kapsam seçimi anlatılıyor. Bu sorgunun sınırlandırılabildiğini gösterir; her cevabın hukuken doğru olduğunu kanıtlamaz. Üyelik/giriş bağlantısı var; hesap açılmadı ve belge yüklenmedi. Eski arayüzün açıklamalarının yerine güncel 2.0 sunumu esas alındı. Hizmetin varlığı ile canlı kullanıcı girdisinde başarılı yanıt verme ayrı durumlardır; ikincisi denenmedi.",
+      "claims": [
+        {
+          "text": "Tek pencerede araştırma, içtihat analizi, kanuna soru sorma üretici yetenek iddiaları.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://www.lexpera.com.tr/lexi-yapay-zeka"
+        }
+      ],
+      "training": "Alt model, eğitim, ağırlık lisansı, parametre açıklanmıyor. Hukuk içeriğiyle çalışma sıfırdan Türkçe model eğitimi demek değil.",
+      "version": "Güncel ürün sayfası LEXI2.0; kamu model revision yok.",
+      "revision": "Kamu model hash bilgisi doğrulanmadı. Kontrol tarihi, kaynak yayın veya eğitim tarihi değildir.",
+      "try_it": "Ürün/kurum sayfası erişim yoludur; hesap açılmadı, özel belge yüklenmedi ve dış iletişim yapılmadı.",
+      "demo_url": "https://www.lexpera.com.tr/lexi-yapay-zeka",
+      "independent": "Geliştirici sayfası ve yorum/video araması incelendi; karşı örnekli bağımsız kalite deneyi bulunamadı. Haber ve tanıtımdan kullanıcı memnuniyeti türetilmedi. Güncel sayfa yeni arayüzü gösteriyor; eski sürüm ayrı etkin ürün sayılmamalı. Kaynak sunma işlevi kaynakların sonucu gerçekten desteklediğinin bağımsız kontrolü değildir.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://www.lexpera.com.tr/lexi-yapay-zeka",
+          "title": "https://www.lexpera.com.tr/lexi-yapay-zeka",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://www.lexpera.com.tr/lexi-yapay-zeka"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "Güncel ürün sayfası LEXI2.0; kamu model revision yok.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"LEXI\" \"Lexpera\" yorum deneyim youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "Lexpera LEXI",
+          "url": "https://www.lexpera.com.tr/lexi-yapay-zeka",
+          "status": "Kontrol edilen ana kayıt; model checkpoint kimliği olduğu varsayılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 158,
+      "id": "catalog-158",
+      "name": "Apilex.ai",
+      "category": "LLM-alan: hukuk",
+      "kind": "product",
+      "creator": "Apilex; Cebrail Ergül,Kemal Tamer,Batuhan İpek",
+      "plain": "Hukuki araştırma, semantik karar arama, belge üretimi için ticari çalışma alanı. Güncel resmî site Agent özelliğini, Türkiye/Almanya/Fransa erişimini, İtalya/İspanyayı yaklaşan pazar olarak gösteriyor.2025 haberindeki tüm planlar gerçekleşmiş sayılmadı. Açık model değil. Kaynaklı analiz işlevi doğruluk garantisi olarak sunulmadı.",
+      "claims": [
+        {
+          "text": "Milyonlarca karar, semantik araştırma ve zaman tasarrufu geliştirici iddiaları; seçilmiş müşteri övgüleri pazarlama kaynağı.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://www.paradergi.com.tr/girisimcilik/2025/12/16/yerli-yapay-zeka-hukuk-asistani-avrupaya-aciliyor/amp"
+        }
+      ],
+      "training": "Kapalı altyapı ve hukuk içeriği anlatılıyor; kesin taban modeller, eğitim ve kamu ağırlıkları doğrulanmadı.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "Kamu model hash bilgisi doğrulanmadı. Kontrol tarihi, kaynak yayın veya eğitim tarihi değildir.",
+      "try_it": "Ürün/kurum sayfası erişim yoludur; hesap açılmadı, özel belge yüklenmedi ve dış iletişim yapılmadı.",
+      "demo_url": "https://www.apilex.ai/",
+      "independent": "Ekşide haftalardır kullandığını söyleyen kişiler sözleşme/emsal taramasından memnun. Şikayetvar İsmail metni hata, yavaşlık, alakasız sözleşme yorumu anlatıyor. Bunlar doğrulanmamış bireysel deneyimler; kontrollü test veya tüm kullanıcıları temsil etmiyor. Aynı kişinin iki şikâyeti iki bağımsız örnek sayılmadı. Gerçek metinler açıldı; yalnız başlık üzerinden hüküm kurulmadı.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://www.paradergi.com.tr/girisimcilik/2025/12/16/yerli-yapay-zeka-hukuk-asistani-avrupaya-aciliyor/amp",
+          "title": "https://www.paradergi.com.tr/girisimcilik/2025/12/16/yerli-yapay-zeka-hukuk-asistani-avrupaya-aciliyor/amp",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.apilex.ai/de",
+          "title": "Apilex güncel resmî ürün",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://eksisozluk.com/apilex--8010008",
+          "title": "Apilex gerçek kullanıcı anlatımları",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.sikayetvar.com/apilex-yapay-zeka-hukuk-asistani/apilex-yapay-zeka-hukuk-asistani-ilk-kuruldugu-gunden-bu-yana-dogru-duzgun-calismiyor",
+          "title": "Apilex İsmail hata ve yavaşlık şikâyeti",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://www.paradergi.com.tr/girisimcilik/2025/12/16/yerli-yapay-zeka-hukuk-asistani-avrupaya-aciliyor/amp",
+            "https://www.apilex.ai/de"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Gerçek mesaj metinleri okundu; bireysel anlatım kontrollü test değildir.",
+          "urls": [
+            "https://eksisozluk.com/apilex--8010008",
+            "https://www.sikayetvar.com/apilex-yapay-zeka-hukuk-asistani/apilex-yapay-zeka-hukuk-asistani-ilk-kuruldugu-gunden-bu-yana-dogru-duzgun-calismiyor"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Apilex\" kullanıcı deneyim yorum şikayet youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "Apilex.ai",
+          "url": "https://www.paradergi.com.tr/girisimcilik/2025/12/16/yerli-yapay-zeka-hukuk-asistani-avrupaya-aciliyor/amp",
+          "status": "Kontrol edilen ana kayıt; model checkpoint kimliği olduğu varsayılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 159,
+      "id": "catalog-159",
+      "name": "Leagle",
+      "category": "LLM-alan: hukuk",
+      "kind": "product",
+      "creator": "Leagle Teknoloji AŞ",
+      "plain": "Hukuki araştırma, belge analizi, Kasa, Word çalışma alanı sunan ticari platform. Güncel sayfa Claude MCP ve Word eklentisini de listeliyor. Eski haberin tek yerli model anlatımı güncel mimarinin tamamı sayılmamalı. Ürün ile kullandığı modeller ayrı kimlikler. Güncel kullanım koşulları Ağustos 2026 tarihini taşıyor.",
+      "claims": [
+        {
+          "text": "Kaynak doğrulanamayan bilginin sunulmadığı üretici iddiası; halüsinasyon yokluğu bağımsız testle doğrulanmadı.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://www.cumhuriyet.com.tr/is-dunyasi/turkiyedeki-hukukculara-ozel-yapay-zeka-asistani-2313871"
+        }
+      ],
+      "training": "Kamu ağırlık deposu, parametre ve ayrıntılı eğitim kartı bulunamadı. İki yıllık ArGe ifadesi veri lisansı/eğitim yöntemi kanıtı değil.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "Kamu model hash bilgisi doğrulanmadı. Kontrol tarihi, kaynak yayın veya eğitim tarihi değildir.",
+      "try_it": "Ürün/kurum sayfası erişim yoludur; hesap açılmadı, özel belge yüklenmedi ve dış iletişim yapılmadı.",
+      "demo_url": "https://leagleapp.com/tr",
+      "independent": "Ürün ve kullanım koşulları, kullanıcı/video araması kontrol edildi. Rehber sitenin yıldız puanı yöntem ve gerçek kullanıcı metni doğrulanmadan kullanılmadı. Somut bağımsız deneyim sınırlı; ücretsiz sınırlı plan bağlantısı var, hesap açılmadı. Kurucu açıklaması başka gazete tarafından aktarılınca bağımsız kalite ölçümü hâline gelmiyor.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://www.cumhuriyet.com.tr/is-dunyasi/turkiyedeki-hukukculara-ozel-yapay-zeka-asistani-2313871",
+          "title": "https://www.cumhuriyet.com.tr/is-dunyasi/turkiyedeki-hukukculara-ozel-yapay-zeka-asistani-2313871",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://leagleapp.com/tr",
+          "title": "Leagle güncel ürün",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://leagleapp.com/tr/terms-and-conditions",
+          "title": "Leagle kullanım koşulları",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://www.cumhuriyet.com.tr/is-dunyasi/turkiyedeki-hukukculara-ozel-yapay-zeka-asistani-2313871",
+            "https://leagleapp.com/tr",
+            "https://leagleapp.com/tr/terms-and-conditions"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Leagle\" hukuk kullanıcı deneyim yorum youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "Leagle",
+          "url": "https://www.cumhuriyet.com.tr/is-dunyasi/turkiyedeki-hukukculara-ozel-yapay-zeka-asistani-2313871",
+          "status": "Kontrol edilen ana kayıt; model checkpoint kimliği olduğu varsayılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 160,
+      "id": "catalog-160",
+      "name": "Turbo Law",
+      "category": "LLM-alan: hukuk",
+      "kind": "product",
+      "creator": "Turbo Law; Jay Sarmaz,Özgür Bora Gevrek",
+      "plain": "Karmaşık dava dosyalarını inceleme, kronoloji, taslak, araştırma, uzlaşmayı birleştiren ticari ürün. Doğru şirket sitesi turbolaw.ai. Turbolaw.com eski ABD belge/faturalama yazılımı ve farklı şirket; eşleştirilmedi. Türk kurucu olması Türk hukukuna eğitilmiş checkpoint anlamına gelmiyor. Güncel site bütünleşik dava çalışma alanını gösteriyor.",
+      "claims": [
+        {
+          "text": "Fact Graph ile kişiler, tarihler, belgeler arasında kaynaklı bağ kurma geliştirici iddiası.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://webrazzi.com/2026/10/02/yapay-zeka-destekli-hukuk-girisimi-turbo-law/"
+        }
+      ],
+      "training": "Haber görev başına model seçimi, ChatGPT/Claude/Gemini olasılığı anlatıyor. Açık ağırlık veya tek eğitim yöntemi yok.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "Kamu model hash bilgisi doğrulanmadı. Kontrol tarihi, kaynak yayın veya eğitim tarihi değildir.",
+      "try_it": "Ürün/kurum sayfası erişim yoludur; hesap açılmadı, özel belge yüklenmedi ve dış iletişim yapılmadı.",
+      "demo_url": "https://turbolaw.ai/",
+      "independent": "Resmî şirket profili ile ürün sayfası eşleşiyor. Bağımsız ayrıntılı kullanıcı deneyi bulunamadı; şirketin seçtiği müşteri ifadeleri ayrı değerlendirildi. Haber tanıtımı kabul testi değil. Demo talep formu var; iletişim gönderilmedi. Kamu checkpoint erişimi, tek model sürümü veya bütün hukuk sistemlerinde başarı bu sayfadan çıkarılmadı.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://webrazzi.com/2026/10/02/yapay-zeka-destekli-hukuk-girisimi-turbo-law/",
+          "title": "https://webrazzi.com/2026/10/02/yapay-zeka-destekli-hukuk-girisimi-turbo-law/",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://turbolaw.ai/",
+          "title": "Turbo Law güncel ürün",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.linkedin.com/company/turbolaw",
+          "title": "Turbo Law şirket profili",
+          "type": "social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://webrazzi.com/2026/10/02/yapay-zeka-destekli-hukuk-girisimi-turbo-law/",
+            "https://turbolaw.ai/"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Profil/tanıtım yolu bulundu; video izlenmiş veya bağımsız kalite ölçülmüş sayılmadı.",
+          "urls": [
+            "https://www.linkedin.com/company/turbolaw"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Turbo Law\" legal review youtube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Turbo Law\" \"Jay Sarmaz\" official",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "Turbo Law",
+          "url": "https://webrazzi.com/2026/10/02/yapay-zeka-destekli-hukuk-girisimi-turbo-law/",
+          "status": "Kontrol edilen ana kayıt; model checkpoint kimliği olduğu varsayılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 161,
+      "id": "catalog-161",
+      "name": "Paraşüt yapay zekâ modülleri (fiş okuma, raporlama, destek asistanı)",
+      "category": "LLM-alan: vergi-finans",
+      "kind": "product",
+      "creator": "Paraşüt",
+      "plain": "Tek açık model değil; ön muhasebe ürünündeki fiş okuma, raporlama, destek özellikleri. Görüntüden gider kaydı ve gelir-gider sorularını cevaplama farklı yollar. İşletmenin verisiyle hesaplama genel Türkçe model eğitildiğini göstermez. Üç özellik aynı temel modelin sürümleri sayılmadı. Kamu ürün sayfası kullanım senaryolarını doğruluyor.",
+      "claims": [
+        {
+          "text": "Net ciro/kâr soruları, fiş giderleştirme, hızlı destek üretici yetenek iddiaları; bağımsız doğruluk veya zaman ölçümü yok.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://www.parasut.com/yapay-zeka-ozellikleri"
+        }
+      ],
+      "training": "Taban model, eğitim verisi, parametre, ağırlık lisansı açıklanmıyor. OCR ve raporlama bileşenleri eşit varsayılmadı.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "Kamu model hash bilgisi doğrulanmadı. Kontrol tarihi, kaynak yayın veya eğitim tarihi değildir.",
+      "try_it": "Ürün/kurum sayfası erişim yoludur; hesap açılmadı, özel belge yüklenmedi ve dış iletişim yapılmadı.",
+      "demo_url": "https://www.parasut.com/yapay-zeka-ozellikleri",
+      "independent": "Genel Paraşüt şikâyetleri ve tanıtımlar bulundu; belirli AI modülünün giriş/çıktısını belgeleyen karşılaştırma ayrılamadı. Genel müşteri hizmeti şikâyeti AI kalitesine dönüştürülmedi. Deneme bağlantısı yalnız erişim yolu; şirket verisi yüklenmedi. Muhasebe sonucunun mevzuata uygunluğu ürün tanıtımından doğrulanmış kabul edilmedi; gerçek işlem testi yapılmadı.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://www.parasut.com/yapay-zeka-ozellikleri",
+          "title": "https://www.parasut.com/yapay-zeka-ozellikleri",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://www.parasut.com/yapay-zeka-ozellikleri"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Paraşüt\" \"yapay zeka\" yorum şikayet youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "Paraşüt yapay zekâ modülleri (fiş okuma, raporlama, destek asistanı)",
+          "url": "https://www.parasut.com/yapay-zeka-ozellikleri",
+          "status": "Kontrol edilen ana kayıt; model checkpoint kimliği olduğu varsayılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 162,
+      "id": "catalog-162",
+      "name": "Logo dijital danışman (Logo Cloud / Logo Edge)",
+      "category": "LLM-alan: vergi-finans",
+      "kind": "product",
+      "creator": "Logo Yazılım",
+      "plain": "Dijital danışman ürün desteği kanalı. Logo Base, Cloud, Edge daha geniş platform ve hibrit dağıtım yapıları; aynı model değil. Platform AI vizyonu tüm müşteri sürümlerinde aynı asistanın aktif olduğunu göstermez. Katalogdaki birleşik ad ayrımı gizliyordu. Resmî rapor destek kanalını web ve bulut servislerinde tanımlıyor.",
+      "claims": [
+        {
+          "text": "Soru yanıtlama destek kanalı ve AURA platform vizyonu üretici açıklaması; bağımsız performans sonucu değil.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://www.ekonomigazetesi.com/sirket-haberleri/logo-yazilim-base-platformuyla-yeni-bir-teknoloji-ekosistemi-kuruyor-88238"
+        }
+      ],
+      "training": "Açık model, parametre, eğitim ve hash yok. Bulut/kurum içi birlikteliği tamamen yerel eğitim veya verinin hiç aktarılmaması anlamına gelmez.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "Kamu model hash bilgisi doğrulanmadı. Kontrol tarihi, kaynak yayın veya eğitim tarihi değildir.",
+      "try_it": "Ürün/kurum sayfası erişim yoludur; hesap açılmadı, özel belge yüklenmedi ve dış iletişim yapılmadı.",
+      "demo_url": null,
+      "independent": "ERP9.45 entegrasyonu eğitim videosu bulundu; ürün eğitimi bağımsız kalite deneyi değil. Video özeti asıl video izlenmiş gibi sunulmadı. Modül bazlı bağımsız olumlu/olumsuz test bulunamadı. Müşteri ürünü ve sürümüne göre dağıtım değişebilir; tek kamu model sürümü olarak numaralandırılmadı. Güncel kullanım bu araştırmada açılmadı.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://www.ekonomigazetesi.com/sirket-haberleri/logo-yazilim-base-platformuyla-yeni-bir-teknoloji-ekosistemi-kuruyor-88238",
+          "title": "https://www.ekonomigazetesi.com/sirket-haberleri/logo-yazilim-base-platformuyla-yeni-bir-teknoloji-ekosistemi-kuruyor-88238",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://cdn.logo.com.tr/files/logocomtr/Uploads/Documents/logo-entegre-faaliyet-raporu-24.pdf",
+          "title": "Logo resmî faaliyet raporu",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=sD1dXd972Kk",
+          "title": "Logo dijital danışman entegrasyonu; video izlenmedi",
+          "type": "social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://www.ekonomigazetesi.com/sirket-haberleri/logo-yazilim-base-platformuyla-yeni-bir-teknoloji-ekosistemi-kuruyor-88238",
+            "https://cdn.logo.com.tr/files/logocomtr/Uploads/Documents/logo-entegre-faaliyet-raporu-24.pdf"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Profil/tanıtım yolu bulundu; video izlenmiş veya bağımsız kalite ölçülmüş sayılmadı.",
+          "urls": [
+            "https://www.youtube.com/watch?v=sD1dXd972Kk"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "searched_not_found",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Logo\" \"dijital danışman\" deneyim youtube",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "site:logo.com.tr \"dijital danışman\"",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "Logo dijital danışman (Logo Cloud / Logo Edge)",
+          "url": "https://www.ekonomigazetesi.com/sirket-haberleri/logo-yazilim-base-platformuyla-yeni-bir-teknoloji-ekosistemi-kuruyor-88238",
+          "status": "Kontrol edilen ana kayıt; model checkpoint kimliği olduğu varsayılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 163,
+      "id": "WiroAI/WiroAI-Finance-Llama-8B",
+      "name": "WiroAI-Finance (Qwen/Llama/Gemma 1,5B–9B), BIST-LLM-8B-Turkish-Finance (SarpBnlcn), turkish-finance-qwen3b, FinLM-8B-TR",
+      "category": "LLM-alan: vergi-finans",
+      "kind": "model_family",
+      "creator": "WiroAI;SarpBnlcn;furkancekic;mrcuren",
+      "plain": "Farklı yayıncıların finans modelleri. Wiro Qwen 7B örneği İngilizce; Türk şirketi olması Türkçe kalite kanıtı değil. BIST şirket oranlarına, FinLM verilen bilanço kalemlerinden hesap ve yoruma odaklanıyor. Qwen 3 b adı Qwen 2.5-3B tabanını gizleyebilir. Yedi erişilebilir üyenin kimliği kontrol edildi; Wiro dört boyutun metadata/kart başlıkları ayrı okundu.",
+      "claims": [
+        {
+          "text": "FinLM geliştiricisi hesap hatası, verilmeyen değer uydurma, ciddi genel yetenek kaybı kabul ediyor.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://huggingface.co/WiroAI/WiroAI-Finance-Llama-8B/raw/main/README.md"
+        }
+      ],
+      "training": "Wiro 500 bin üzeri Finance-Instruct örneğiyle LoRA/SFT. BIST Llama 3.1-8B QLoRA. FinLM Qwen 3-8B ve 89 şirket KAP tablolarından türetilmiş veri.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "WiroAI/WiroAI-Finance-Llama-8B: 004bf65f8aa3cafde6b75d59d86915aadb0c489d / 2025-01-31T02:10:39.000Z; WiroAI/WiroAI-Finance-Qwen-7B: 2e994e9a65cce73b38aeb82fcaa73c047cbb159b / 2025-01-31T02:09:57.000Z; WiroAI/WiroAI-Finance-Gemma-9B: 508d7486c6c657fd7f355331ebb316a7f628cd08 / 2025-01-31T01:50:51.000Z; WiroAI/WiroAI-Finance-Qwen-1.5B: f79cfbc65f90691b879f1a3960bf02a89f998ae6 / 2025-01-31T02:10:17.000Z; SarpBnlcn/BIST-LLM-8B-Turkish-Finance: 474c8b96dda4e9327ca9cfb2f1ab9fda7b129cde / 2026-03-09T18:38:28.000Z; furkancekic/turkish-finance-qwen3b: f565577858ac3510080fb691e0dfbf31f3949ab1 / 2026-04-02T09:17:52.000Z; mrcuren/FinLM-8B-TR: 5bcc12765251b0b95167f0e90fe89f98c8d59ec5 / 2026-08-03T07:53:10.000Z",
+      "try_it": "Kamu model deposunda kullanım yolu var; ağırlık indirilmedi, kurulmadı veya çalıştırılmadı.",
+      "demo_url": null,
+      "independent": "Bağımsız kullanıcı testi bulunamadı. LLM üretimi eğitim yorumları gerçek KAP tablosuyla eşit güvenilirlikte değil. Güncel fiyat/portföy başarısı çıkarılmadı. Boş Qwen 3 b kartına eğitim ayrıntısı eklenmedi. Wiro ailesinin genel Türkçe modelleri finans ailesiyle aynı kabul edilmedi.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/WiroAI/WiroAI-Finance-Llama-8B",
+          "title": "WiroAI/WiroAI-Finance-Llama-8B API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/WiroAI/WiroAI-Finance-Llama-8B/raw/main/README.md",
+          "title": "WiroAI/WiroAI-Finance-Llama-8B model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/WiroAI/WiroAI-Finance-Qwen-7B",
+          "title": "WiroAI/WiroAI-Finance-Qwen-7B API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/WiroAI/WiroAI-Finance-Qwen-7B/raw/main/README.md",
+          "title": "WiroAI/WiroAI-Finance-Qwen-7B model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/WiroAI/WiroAI-Finance-Gemma-9B",
+          "title": "WiroAI/WiroAI-Finance-Gemma-9B API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/WiroAI/WiroAI-Finance-Gemma-9B/raw/main/README.md",
+          "title": "WiroAI/WiroAI-Finance-Gemma-9B model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/WiroAI/WiroAI-Finance-Qwen-1.5B",
+          "title": "WiroAI/WiroAI-Finance-Qwen-1.5B API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/WiroAI/WiroAI-Finance-Qwen-1.5B/raw/main/README.md",
+          "title": "WiroAI/WiroAI-Finance-Qwen-1.5B model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/SarpBnlcn/BIST-LLM-8B-Turkish-Finance",
+          "title": "SarpBnlcn/BIST-LLM-8B-Turkish-Finance API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/SarpBnlcn/BIST-LLM-8B-Turkish-Finance/raw/main/README.md",
+          "title": "SarpBnlcn/BIST-LLM-8B-Turkish-Finance model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/furkancekic/turkish-finance-qwen3b",
+          "title": "furkancekic/turkish-finance-qwen3b API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/furkancekic/turkish-finance-qwen3b/raw/main/README.md",
+          "title": "furkancekic/turkish-finance-qwen3b model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/mrcuren/FinLM-8B-TR",
+          "title": "mrcuren/FinLM-8B-TR API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/mrcuren/FinLM-8B-TR/raw/main/README.md",
+          "title": "mrcuren/FinLM-8B-TR model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://huggingface.co/WiroAI/WiroAI-Finance-Llama-8B/raw/main/README.md",
+            "https://huggingface.co/WiroAI/WiroAI-Finance-Qwen-7B/raw/main/README.md",
+            "https://huggingface.co/WiroAI/WiroAI-Finance-Gemma-9B/raw/main/README.md",
+            "https://huggingface.co/WiroAI/WiroAI-Finance-Qwen-1.5B/raw/main/README.md",
+            "https://huggingface.co/SarpBnlcn/BIST-LLM-8B-Turkish-Finance/raw/main/README.md",
+            "https://huggingface.co/furkancekic/turkish-finance-qwen3b/raw/main/README.md",
+            "https://huggingface.co/mrcuren/FinLM-8B-TR/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": [
+            "https://huggingface.co/api/models/WiroAI/WiroAI-Finance-Llama-8B",
+            "https://huggingface.co/api/models/WiroAI/WiroAI-Finance-Qwen-7B",
+            "https://huggingface.co/api/models/WiroAI/WiroAI-Finance-Gemma-9B",
+            "https://huggingface.co/api/models/WiroAI/WiroAI-Finance-Qwen-1.5B",
+            "https://huggingface.co/api/models/SarpBnlcn/BIST-LLM-8B-Turkish-Finance",
+            "https://huggingface.co/api/models/furkancekic/turkish-finance-qwen3b",
+            "https://huggingface.co/api/models/mrcuren/FinLM-8B-TR"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"WiroAI\" finance OR \"BIST-LLM-8B-Turkish-Finance\" OR \"FinLM-8B-TR\" review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "WiroAI/WiroAI-Finance-Llama-8B",
+          "url": "https://huggingface.co/WiroAI/WiroAI-Finance-Llama-8B",
+          "status": "README ve API okundu; sha 004bf65f8aa3cafde6b75d59d86915aadb0c489d; lastModified 2025-01-31T02:10:39.000Z"
+        },
+        {
+          "name": "WiroAI/WiroAI-Finance-Qwen-7B",
+          "url": "https://huggingface.co/WiroAI/WiroAI-Finance-Qwen-7B",
+          "status": "README ve API okundu; sha 2e994e9a65cce73b38aeb82fcaa73c047cbb159b; lastModified 2025-01-31T02:09:57.000Z"
+        },
+        {
+          "name": "WiroAI/WiroAI-Finance-Gemma-9B",
+          "url": "https://huggingface.co/WiroAI/WiroAI-Finance-Gemma-9B",
+          "status": "README ve API okundu; sha 508d7486c6c657fd7f355331ebb316a7f628cd08; lastModified 2025-01-31T01:50:51.000Z"
+        },
+        {
+          "name": "WiroAI/WiroAI-Finance-Qwen-1.5B",
+          "url": "https://huggingface.co/WiroAI/WiroAI-Finance-Qwen-1.5B",
+          "status": "README ve API okundu; sha f79cfbc65f90691b879f1a3960bf02a89f998ae6; lastModified 2025-01-31T02:10:17.000Z"
+        },
+        {
+          "name": "SarpBnlcn/BIST-LLM-8B-Turkish-Finance",
+          "url": "https://huggingface.co/SarpBnlcn/BIST-LLM-8B-Turkish-Finance",
+          "status": "README ve API okundu; sha 474c8b96dda4e9327ca9cfb2f1ab9fda7b129cde; lastModified 2026-03-09T18:38:28.000Z"
+        },
+        {
+          "name": "furkancekic/turkish-finance-qwen3b",
+          "url": "https://huggingface.co/furkancekic/turkish-finance-qwen3b",
+          "status": "README ve API okundu; sha f565577858ac3510080fb691e0dfbf31f3949ab1; lastModified 2026-04-02T09:17:52.000Z"
+        },
+        {
+          "name": "mrcuren/FinLM-8B-TR",
+          "url": "https://huggingface.co/mrcuren/FinLM-8B-TR",
+          "status": "README ve API okundu; sha 5bcc12765251b0b95167f0e90fe89f98c8d59ec5; lastModified 2026-08-03T07:53:10.000Z"
+        }
+      ]
+    },
+    {
+      "record_id": 164,
+      "id": "catalog-164",
+      "name": "Mali Asistan MVP (rea-dev)",
+      "category": "LLM-alan: vergi-finans",
+      "kind": "product",
+      "creator": "rea-dev",
+      "plain": "Mali Asistan MVP kamu Hugging Face Space; model deposu değil. Profil vergi mevzuatı sorgulama arayüzü gösteriyor. API SLEEPING: uygulama uyuyor, silinmiş veya kapatılmış sonucu çıkmıyor. Uyandırma ve canlı soru gönderme yapılmadı. Domain READY ile runtime SLEEPING farklı alanlar; birleştirilip çalışan cevap hizmeti gibi sunulmadı.",
+      "claims": [
+        {
+          "text": "Doğrulanan şey hizmet kimliği ve durum; yanıt kalitesi/mevzuat güncelliği başarısı kurulmadı.",
+          "evidence": "Geliştirici/kurumun kendi açıklaması veya ölçümü; bağımsız deney olarak kabul edilmedi.",
+          "source": "https://huggingface.co/rea-dev"
+        }
+      ],
+      "training": "SDK docker. Alt model, RAG indeksi, eğitim ve güncelleme yöntemi doğrulanmadı. Vergi arayüzü özel model eğitimi kanıtı değil.",
+      "version": "API runtime SLEEPING; lastModified 2025-11-29; sha 5 cfa 02 a 0 a 319 eae 75 e 3 ffd 93 ffc 9 a 108 ceaad 63 c. Uyku, kapatma duyurusu değildir.",
+      "revision": "Kamu model hash bilgisi doğrulanmadı. Kontrol tarihi, kaynak yayın veya eğitim tarihi değildir.",
+      "try_it": "Ürün/kurum sayfası erişim yoludur; hesap açılmadı, özel belge yüklenmedi ve dış iletişim yapılmadı.",
+      "demo_url": "https://huggingface.co/spaces/rea-dev/mali-asistan-mvp",
+      "independent": "Tam Space adı ve geliştirici profiliyle web/sosyal araması yapıldı; bağımsız deneyim bulunamadı. Uyku tek başına elenme gerekçesi değil. Erişilebilir depo ve demo URLsi korunmalı. Son değişim Kasım 2025; bu tarih terk edilme duyurusu veya yeni eğitim tarihi sayılmadı. Hesap veya özel mali belge kullanılmadı.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/rea-dev",
+          "title": "https://huggingface.co/rea-dev",
+          "type": "developer",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        },
+        {
+          "url": "https://huggingface.co/api/spaces/rea-dev/mali-asistan-mvp",
+          "title": "Mali Asistan Space API",
+          "type": "version",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Kart/ürün/kurum kaynakları kontrol edildi; kaynak erişim kapsamı sources içinde ayrıdır.",
+          "urls": [
+            "https://huggingface.co/rea-dev"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "API runtime SLEEPING; lastModified 2025-11-29; sha 5 cfa 02 a 0 a 319 eae 75 e 3 ffd 93 ffc 9 a 108 ceaad 63 c. Uyku, kapatma duyurusu değildir.",
+          "urls": [
+            "https://huggingface.co/api/spaces/rea-dev/mali-asistan-mvp"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"mali-asistan-mvp\" OR \"TR-EduVSum\" OR \"MufassirQAS\"",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "Mali Asistan MVP (rea-dev)",
+          "url": "https://huggingface.co/rea-dev",
+          "status": "Kontrol edilen ana kayıt; model checkpoint kimliği olduğu varsayılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 165,
+      "id": "catalog-165",
+      "name": "Alan modeli bulunamayanlar: eğitim (TR-EduVSum veri seti), din (MufassirQAS RAG robotu), kamu yönetimi",
+      "category": "LLM-alan: diğer",
+      "kind": "unknown",
+      "creator": "Birden fazla çalışma;kesin kimlikler çözülemedi",
+      "plain": "Tek model ailesi değil; model bulunamadığına ilişkin katalog notu. Eğitimde video özetleme veri kümesi, dinde RAG robotu, kamu yönetimi alanı birlikte sayılmış. Veri kümesi, bilgi getirme sistemi, eğitilmiş checkpoint farklı varlıklar. Kesin kamu kimliği doğrulanamayan adlara URL uydurulmadı; benzer ürünlerle eşleştirilmedi.",
+      "claims": [],
+      "training": "TR-EduVSum veri kartı, MufassirQAS proje deposu bu aramada doğrulanamadı. Kamu yönetiminin hiç modeli yoktur sonucuna varılamaz.",
+      "version": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+      "revision": "Kamu model hash bilgisi doğrulanmadı. Kontrol tarihi, kaynak yayın veya eğitim tarihi değildir.",
+      "try_it": "Kesin model veya demo kimliği çözülemedi; benzer isimli başka uygulamaya yönlendirilmedi.",
+      "demo_url": null,
+      "independent": "Tam adlar, sosyal/video/deneyim terimleri sonuç vermedi. Bu yalnız sorgulanan adların kanıt boşluğunu gösterir; tüm Türkçe eğitim, din, kamu çalışmalarının yokluğunu kanıtlamaz. Kimlik için özgün yayıncı veya birincil duyuru gerekir. Bulunamama kapatma veya geri çekilme kanıtı sayılmadı. Açık kalan adların durumu üyeler listesinde ayrı gösteriliyor.",
+      "unknowns": [
+        "Bağımsız alan doğruluğu ve gerçek kullanım kabulü doğrulanmadı.",
+        "Eğitim/veri/lisans veya kesin kimlik bilgisi eksik."
+      ],
+      "sources": [],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "searched_not_found",
+          "note": "Kesin geliştirici model/ürün kimliği bulunamadı.",
+          "urls": []
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Ad/alan odaklı aramada somut bağımsız olumlu/olumsuz deneyim bulunamadı. Tanıtım ve indirmeler kalite yorumu sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Geliştirici, sosyal/video ve deneyim odaklı aramada ayrıca kullanılabilir sonuç bulunamadı; sorgu kapsamı sınırlıdır.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "not_applicable",
+          "note": "Kontrol edilen kamu kaynakları ve bağlı sürümler kapsamı; lastModified yeni eğitim tarihi sayılmaz. Tüm olası sonraki sürümler için en son garantisi verilmez.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"TR-EduVSum\" \"MufassirQAS\" review youtube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "identity_unresolved",
+      "members": [
+        {
+          "name": "TR-EduVSum",
+          "url": null,
+          "status": "Veri kümesi adı; kesin kimlik bulunamadı"
+        },
+        {
+          "name": "MufassirQAS",
+          "url": null,
+          "status": "RAG adı; kesin kimlik bulunamadı"
+        },
+        {
+          "name": "Kamu yönetimi",
+          "url": null,
+          "status": "Belirli model adı yok"
+        }
+      ]
+    }
+  ]
+}

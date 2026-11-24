@@ -1,0 +1,163 @@
+[
+  {
+    "record_id": 1,
+    "name": "Kumru-2B / Kumru-2B-Base",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/vngrs/Kumru-2B",
+    "dossier": "arastirma/tam-tarama/kayitlar/001.json"
+  },
+  {
+    "record_id": 2,
+    "name": "Kumru-7B (7,4B)",
+    "category": "LLM-genel",
+    "url": "https://webrazzi.com/2025/10/10/vngrs-den-7-4-milyar-parametreli-turkce-llm-kumru/",
+    "dossier": "arastirma/tam-tarama/kayitlar/002.json"
+  },
+  {
+    "record_id": 3,
+    "name": "Turkish-Gemma-9b-T1 / v0.1",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-Gemma-9b-T1",
+    "dossier": "arastirma/tam-tarama/kayitlar/003.json"
+  },
+  {
+    "record_id": 4,
+    "name": "Turkish-Gemma-4b-T1-Scout",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-Gemma-4b-T1-Scout",
+    "dossier": "arastirma/tam-tarama/kayitlar/004.json"
+  },
+  {
+    "record_id": 5,
+    "name": "Turkish-Llama-8b (v0.1 / Instruct / DPO)",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1",
+    "dossier": "arastirma/tam-tarama/kayitlar/005.json"
+  },
+  {
+    "record_id": 6,
+    "name": "turkish-gpt2 ailesi (large 774M, medium, instruct varyantları) = cosmosGPT",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/ytu-ce-cosmos/turkish-gpt2-large",
+    "dossier": "arastirma/tam-tarama/kayitlar/006.json"
+  },
+  {
+    "record_id": 7,
+    "name": "tr-Qwen2.5-0.5B-SFT-v1",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/ytu-ce-cosmos/tr-Qwen2.5-0.5B-SFT-v1",
+    "dossier": "arastirma/tam-tarama/kayitlar/007.json"
+  },
+  {
+    "record_id": 8,
+    "name": "Trendyol-LLM-8B-T1",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/Trendyol/Trendyol-LLM-8B-T1",
+    "dossier": "arastirma/tam-tarama/kayitlar/008.json"
+  },
+  {
+    "record_id": 9,
+    "name": "Trendyol-LLM-Asure-12B",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/Trendyol/Trendyol-LLM-Asure-12B",
+    "dossier": "arastirma/tam-tarama/kayitlar/009.json"
+  },
+  {
+    "record_id": 10,
+    "name": "Turkcell-LLM-7b-v1",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/TURKCELL/Turkcell-LLM-7b-v1",
+    "dossier": "arastirma/tam-tarama/kayitlar/010.json"
+  },
+  {
+    "record_id": 11,
+    "name": "Kocdigital-LLM-8b-v0.1",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/KOCDIGITAL/Kocdigital-LLM-8b-v0.1",
+    "dossier": "arastirma/tam-tarama/kayitlar/011.json"
+  },
+  {
+    "record_id": 12,
+    "name": "asafaya/kanarya-2b (ve kanarya-750m)",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/asafaya/kanarya-2b",
+    "dossier": "arastirma/tam-tarama/kayitlar/012.json"
+  },
+  {
+    "record_id": 13,
+    "name": "TURNA (1,14B, T5 kodlayıcı-çözücü)",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/boun-tabi-LMG/TURNA",
+    "dossier": "arastirma/tam-tarama/kayitlar/013.json"
+  },
+  {
+    "record_id": 14,
+    "name": "VBART (Small/Medium/Large/XLarge + özetleme, parafraz, QAQG)",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/vngrs/VBART-Large-Base",
+    "dossier": "arastirma/tam-tarama/kayitlar/014.json"
+  },
+  {
+    "record_id": 15,
+    "name": "SambaLingo-Turkish-Chat/Base, Orbina/Orbita-v0.1",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/sambanovasystems/SambaLingo-Turkish-Chat",
+    "dossier": "arastirma/tam-tarama/kayitlar/015.json"
+  },
+  {
+    "record_id": 16,
+    "name": "cere-llama-3-8b-tr (Cerebrum Tech)",
+    "category": "LLM-genel",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/016.json"
+  },
+  {
+    "record_id": 17,
+    "name": "Flow-Drafter-Qwen3.5-4B/9B/27B (+ -tr)",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/ytu-ce-cosmos/Flow-Drafter-Qwen3.5-4B",
+    "dossier": "arastirma/tam-tarama/kayitlar/017.json"
+  },
+  {
+    "record_id": 18,
+    "name": "Kizagan-E4B-Turkish-Reasoning-Model",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/AlicanKiraz0/Kizagan-E4B-Turkish-Reasoning-Model",
+    "dossier": "arastirma/tam-tarama/kayitlar/018.json"
+  },
+  {
+    "record_id": 19,
+    "name": "mertkayacs/Karar-4B",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/mertkayacs/Karar-4B",
+    "dossier": "arastirma/tam-tarama/kayitlar/019.json"
+  },
+  {
+    "record_id": 20,
+    "name": "Küçük/fikir modeller (Qwen3.5-2B-Turkish-SFT, qwen3.5-4b-turkish-sft, MiniCPM5-1B-Turkish, gemma-3-1b-turkish-recipes, Llama-3.1-8B-Turkish)",
+    "category": "LLM-genel",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/020.json"
+  },
+  {
+    "record_id": 21,
+    "name": "Kumru türevleri (Kumru-2B-EPDK-Instruct, Kumru-2B-turkish-reasoning, Kumru-2B-SFT, Kara-Kumru-v1.0-2B)",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/AlicanKiraz0/Kara-Kumru-v1.0-2B",
+    "dossier": "arastirma/tam-tarama/kayitlar/021.json"
+  },
+  {
+    "record_id": 22,
+    "name": "BİLGE (TÜBİTAK BİLGEM; 1B, 9B sıfırdan, 27B CPT, 122B geliştiriliyor)",
+    "category": "LLM-genel",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/022.json"
+  },
+  {
+    "record_id": 23,
+    "name": "HAVELSAN MAIN (MAIN GPT) 9B",
+    "category": "LLM-genel",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/023.json"
+  }
+]

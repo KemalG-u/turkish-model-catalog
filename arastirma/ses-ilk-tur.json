@@ -1,0 +1,483 @@
+{
+  "checked_at": "2026-10-23",
+  "models": [
+    {
+      "id": "openai/whisper-large-v3",
+      "name": "Whisper large-v3",
+      "category": "Sesi yazıya çevirme",
+      "creator": "OpenAI; model kartına Hugging Face ekibi de katkı vermiş.",
+      "plain": "Türkçe dahil birçok dilde konuşmayı yazıya çevirir. Konuşmayı İngilizceye çevirme özelliği de vardır; Türkçeye özel bir model değildir.",
+      "claims": [
+        {
+          "text": "Birçok dilde önceki large-v2 sürümünden %10–20 daha az hata yaptığı söyleniyor.",
+          "evidence": "Geliştirici bunu iki açık test kümesine dayandırıyor. Bu göreli azalma, her Türkçe kayıtta aynı kazancı sağlayacağı anlamına gelmez.",
+          "source": "https://github.com/openai/whisper/discussions/1762"
+        },
+        {
+          "text": "Gürültü, aksan ve teknik terimlerde başarılı olması hedefleniyor.",
+          "evidence": "Model kartı bu gücü anlatırken diller arasında başarı farkını, tekrarları ve seste olmayan sözler yazma riskini de kabul ediyor.",
+          "source": "https://huggingface.co/openai/whisper-large-v3"
+        }
+      ],
+      "training": "Yaklaşık 5 milyon saat sesle eğitilmiş; bunun büyük bölümünün yazısını önceki model üretmiş. Türkçe seslerin ne kadar yer tuttuğu ve tüm kayıtların listesi açıklanmamış.",
+      "version": "Large-v3 Kasım 2023’te duyuruldu; model deposunun son değişimi 12 Ağustos 2024. Resmi yazılımda daha sonra turbo ve Haziran 2025 güncellemeleri var; bunlar bu modelin yeni ağırlıkları demek değil.",
+      "try_it": "Bilgisayarda kullanma ve uzun kayıtları parçalara ayırma örnekleri var. Bu turda kurulmadı veya çalıştırılmadı; çalışan bir web demosu doğrulanmadı.",
+      "independent": "Bağımsız Calm-Whisper araştırması, konuşma olmayan seslerde uydurma yazı üretme sorununu inceliyor. Türkçe üzerine başka bir makale aramada bulundu, ancak sayfasına erişilemediği için sonuçları alınmadı; resmi duyuru okundu, YouTube veya X videosu izlenmedi.",
+      "unknowns": [
+        "Kemal’in sesi, mikrofonu ve özel terimleriyle denenmedi.",
+        "Sessizlikte ve aynı anda konuşan kişilerde güvenilirliği burada ölçülmedi.",
+        "Model kartı ile resmi kodun lisans etiketleri farklı; kullanılacak dağıtım ayrıca kontrol edilmeli."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/openai/whisper-large-v3",
+          "title": "Whisper large-v3 model kartı",
+          "type": "geliştirici/model-kartı",
+          "date": "2024-08-12",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://huggingface.co/api/models/openai/whisper-large-v3",
+          "title": "Hugging Face sürüm ve tarihler",
+          "type": "repo-api",
+          "date": "2024-08-12",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://github.com/openai/whisper/discussions/1762",
+          "title": "large-v3 resmi duyuru",
+          "type": "geliştirici-duyurusu",
+          "date": "2023-11-06",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://github.com/openai/whisper/blob/main/CHANGELOG.md",
+          "title": "Whisper değişiklik günlüğü",
+          "type": "geliştirici-kod",
+          "date": "2025-06-25",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://www.isca-archive.org/interspeech_2025/wang25b_interspeech.html",
+          "title": "Calm-Whisper",
+          "type": "bağımsız-birincil-araştırma",
+          "date": "2025",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://www.mdpi.com/2079-9292/13/21/4227",
+          "title": "Türkçe LoRA değerlendirmesi; tam metin erişilemedi",
+          "type": "erişim-sınırlı",
+          "date": "2024",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "revision": "06f233fe06e710322aca913c1bc4249a0d71fce1",
+      "demo_url": null
+    },
+    {
+      "id": "ysdede/whisper-khanacademy-large-v3-turbo-tr",
+      "name": "Khan Academy Türkçe Whisper turbo uyarlaması",
+      "category": "Sesi yazıya çevirme",
+      "creator": "ysdede",
+      "plain": "Ders anlatımı ve eğitim terimleri için uyarlanmış Türkçe ses tanıma modeli. Genel konuşmada en iyi olduğu söylenmiyor.",
+      "claims": [
+        {
+          "text": "Khan Academy’nin Türkçe dersleriyle ek eğitim yapılmış.",
+          "evidence": "Geliştirici kelime hata oranını yaklaşık %15,70 veriyor. Bu, yanlış yazılan, atlanan veya eklenen kelimeleri sayar; testin ayrıntıları eksik.",
+          "source": "https://huggingface.co/ysdede/whisper-khanacademy-large-v3-turbo-tr"
+        },
+        {
+          "text": "Genel Türkçede özgün large-v3’ten üstün değil.",
+          "evidence": "Geliştirici günlük konuşmada özgün modelin daha iyi olabileceğini açıkça söylüyor; hedefi ders terimleri ve anlatım biçimi.",
+          "source": "https://huggingface.co/ysdede/whisper-khanacademy-large-v3-turbo-tr/discussions/1"
+        },
+        {
+          "text": "Dönüştürülmüş CT2 sürümü daha hızlı kullanım için öneriliyor.",
+          "evidence": "Geliştirici bunu faster-whisper ve WhisperX araçlarıyla öneriyor. Kaç kat hızlandığını gösteren ortak bir ölçüm yok.",
+          "source": "https://huggingface.co/ysdede/whisper-khanacademy-large-v3-turbo-tr/discussions/1"
+        }
+      ],
+      "training": "Whisper large-v3-turbo üzerine Khan Academy Türkçe verileriyle ek eğitim yapılmış. Eğitim süresi, konuşmacı ayrımı ve test cümlelerinin eğitimden çıkarılıp çıkarılmadığı açıklanmamış.",
+      "version": "Depo Aralık 2024’te açılmış, son değişimi 23 Nisan 2025. CT2 aynı modelin başka çalıştırma biçimi; yeni eğitim gördüğü anlamına gelmiyor.",
+      "try_it": "Bilgisayarda çalıştırma örnekleri ve örnek çalışma defteri bağlantısı var; OpenAI’nin standart yükleme komutu bu özel modeli açmıyor. Web demosu doğrulanmadı, model çalıştırılmadı.",
+      "independent": "Bir kullanıcı kendi kaydında WhisperX’in daha iyi sonuç verdiğini yazmış. Ses, ayar ve hata sayısı paylaşılmadığından bu yorum genel bir sıralama kurdurmaz; blog, YouTube ve X aramalarında ayrıca ayrıntılı dış inceleme bulunamadı.",
+      "unknowns": [
+        "Modelin açıklama ve kullanım sınırı bölümleri tamamlanmamış.",
+        "Son eğitim satırı, tablodaki en düşük hata sonucu değil.",
+        "Başka modellerle aynı kayıtlarda yapılmış açık bir karşılaştırma gösterilmemiş."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/ysdede/whisper-khanacademy-large-v3-turbo-tr",
+          "title": "Khan Academy model kartı",
+          "type": "geliştirici/model-kartı",
+          "date": "2025-04-23",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://huggingface.co/ysdede/whisper-khanacademy-large-v3-turbo-tr/discussions/1",
+          "title": "How to? Geliştirici yanıtı ve kullanıcı deneyimi",
+          "type": "geliştirici-ve-kullanıcı",
+          "date": "2025-04-23/2025-04-25",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://huggingface.co/ysdede/whisper-khanacademy-large-v3-turbo-tr-ct2/tree/main",
+          "title": "CT2 dosyaları",
+          "type": "geliştirici-dağıtımı",
+          "date": null,
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ysdede/whisper-khanacademy-large-v3-turbo-tr",
+          "title": "Hugging Face sürüm ve tarihler",
+          "type": "repo-api",
+          "date": "2025-04-23",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "revision": "81c4c2d0137bd97a3940c5aaae77dfa7dfdb06bf",
+      "demo_url": null
+    },
+    {
+      "id": "turkmedstt/whisper-large-v3-turkish-general",
+      "name": "TurkMedSTT M1 genel Türkçe",
+      "category": "Sesi yazıya çevirme",
+      "creator": "Muhammed Kumcu ve Nur Yağmur Tuncer / TurkMedSTT",
+      "plain": "Whisper large-v3’ün genel Türkçeye uyarlanmış sürümü. Tıbbi konuşma için hazırlanan M2, ayrı modeldir.",
+      "claims": [
+        {
+          "text": "320 gerçek Türkçe kayıtta temel modelden daha az hata yapmış.",
+          "evidence": "Geliştirici deneyinde kelime hatası %12,13’ten %7,92’ye düşüyor; bu yaklaşık %34,7 göreli azalma. Kayıtların sonuçları eşit ağırlıkla ortalanmış; dış doğrulama değil.",
+          "source": "https://huggingface.co/turkmedstt/whisper-large-v3-turkish-general"
+        },
+        {
+          "text": "Yaklaşık 140 saat dengelenmiş Türkçe sesle uyarlanmış.",
+          "evidence": "Üç açık kaynaktan veri seçilmiş, test cümleleri eğitimden çıkarılmış. Bazı kaynaklarda konuşmacı bilgisi olmadığından aynı kişinin iki tarafta bulunması tam engellenemiyor.",
+          "source": "https://github.com/muhammedkumcu/turkmedstt/blob/main/docs/DATA_PIPELINE.md"
+        },
+        {
+          "text": "M2’nin tıbbi eğitimi genel Türkçe kazanımını büyük ölçüde korumuş.",
+          "evidence": "Aynı kayıtlarda kelime hatası %7,95. Bu yakın sonuç, M2’nin her işte daha iyi olduğunu göstermez.",
+          "source": "https://huggingface.co/turkmedstt/whisper-large-v3-turkish-general"
+        }
+      ],
+      "training": "Hazır Whisper modeli, Common Voice, ISSAI ve OpenSLR kayıtlarıyla küçük ek ayarlar öğrenerek uyarlanmış. Bu ayarlar modele birleştirilmiş; ham eğitim sesleri yeniden paylaşılmıyor.",
+      "version": "M1 genel Türkçe, M2 ise bunun üzerine tıbbi eğitim eklenen sürüm. İncelenen M1 deposunun son değişimi 16 Haziran 2026; kontrol geliştiricinin depoları ve tanıtımıyla sınırlı.",
+      "try_it": "Bilgisayarda çalıştırma örnekleri ve bir web demosuna bağlantı var. Demo kullanılmadı; ses gönderilmedi ve kurulum yapılmadı.",
+      "independent": "Başka bir geliştirici modeli küçük dosyalara dönüştürmüş; yalnız kısa Portekizce ve İngilizce örneklerle kontrol yaptığını yazıyor. Bu, Türkçe başarısını doğrulamıyor; geliştiricinin kişisel tanıtımı aynı sonuçları tekrar ediyor, hedefli aramalarda ayrıntılı bağımsız Türkçe deney bulunamadı.",
+      "unknowns": [
+        "320 gerçek kaydın sesleri yayımlanmamış; deneyi aynen tekrarlamak sınırlı.",
+        "Konuşmacı ayrımı, noktalama ve zaman damgaları ayrıca ölçülmemiş.",
+        "Klinik kullanım doğrulanmamış; M1 ile M2 karıştırılmamalı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/turkmedstt/whisper-large-v3-turkish-general",
+          "title": "M1 model kartı",
+          "type": "geliştirici/model-kartı",
+          "date": "2026-06-16",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://github.com/muhammedkumcu/turkmedstt",
+          "title": "TurkMedSTT kod ve yöntem",
+          "type": "geliştirici-kod",
+          "date": null,
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://github.com/muhammedkumcu/turkmedstt/blob/main/docs/DATA_PIPELINE.md",
+          "title": "140 saat veri reçetesi",
+          "type": "geliştirici-yöntem",
+          "date": null,
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://muhammedkumcu.com/",
+          "title": "Geliştirici proje tanıtımı",
+          "type": "geliştirici-profili",
+          "date": "2026",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://huggingface.co/joaozaokk/whisper-large-v3-turkish-general-ggml",
+          "title": "GGML dönüşüm; ham açıklama okundu",
+          "type": "bağımsız-dağıtım",
+          "date": null,
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://huggingface.co/api/models/turkmedstt/whisper-large-v3-turkish-general",
+          "title": "Hugging Face sürüm ve tarihler",
+          "type": "repo-api",
+          "date": "2026-06-16",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "revision": "ec03ccfcedc0cc1c553b47a607086f2bd7a386b2",
+      "demo_url": null
+    },
+    {
+      "id": "freyavoice/Freya-TTS",
+      "name": "FreyaTTS-small (eski depo adı Freya-TTS)",
+      "category": "Metni seslendirme",
+      "creator": "Freya: Ahmet Erdem Pamuk, Ömer Yentür, Ahmet Tunga Bayrak, Yavuz Alp Sencer Öztürk, Mustafa Yavuz",
+      "plain": "Türkçe yazıyı tek hedef sesle okuyan açık küçük model. Ticari FreyaTTS-large ayrı üründür.",
+      "claims": [
+        {
+          "text": "Türkçe karakterlerden ses üretir.",
+          "evidence": "Konuşma kuralları yazmak yerine örneklerden öğrenir; sesin son biçimini hazır bir ses çözücü oluşturur.",
+          "source": "https://huggingface.co/freyavoice/Freya-TTS"
+        },
+        {
+          "text": "495 cümlede kelime hatası %8, harf hatası %3 bildiriliyor.",
+          "evidence": "Geliştirici kartında yedi açık model arasında üçüncü. Sesler telefon bandına daraltılıp Whisper ile yazıya çevrilmiş; ölçüm, insanın ne duyduğuyla tamamen aynı değil.",
+          "source": "https://huggingface.co/freyavoice/Freya-TTS"
+        },
+        {
+          "text": "Küçük modeller arasında doğal konuştuğu söyleniyor.",
+          "evidence": "Raporun ikinci sürümünde 24 dinleyiciyle puan 3,68/5; XTTS-v2 3,82. Belirsizlik aralıkları örtüşüyor, kesin üstünlük yok; proje sayfasında eski yedi dinleyici ifadesi kalmış.",
+          "source": "https://arxiv.org/html/2607.09530v2"
+        },
+        {
+          "text": "Belirli cihazlarda gerçek zamandan hızlı çalışıyor.",
+          "evidence": "Geliştirici RTX 4090’da bir saniyelik sesi yaklaşık 0,11 saniyede, M3 işlemcide 0,70 saniyede ürettiğini bildiriyor. Kemal’in bilgisayarı ölçülmedi.",
+          "source": "https://github.com/freyavoiceai/FreyaTTS"
+        }
+      ],
+      "training": "İç Türkçe ses arşiviyle eğitilip izinli profesyonel bir sese ve kısa cevaplara uyarlanmış. Arşivin tamamı ve saat sayısı açık değil.",
+      "version": "Açık sürüm 0.1.0; model deposu 27 Temmuz, kod deposu 3 Ağustos 2026’da değişmiş. Raporun ikinci sürümü 22 Temmuz tarihli; ticari büyük model bunun devamı sayılmadı.",
+      "try_it": "Proje sayfasında seçilmiş ses örnekleri, kod deposunda yerel kullanım anlatımı var. Sesler dinlenmedi, model çalıştırılmadı; ses seçimini değiştiren rastgelelik ayarı sonucu etkileyebilir.",
+      "independent": "Rakip PatientDesk aynı 495 cümleyi üç kez üreterek %12,02 kelime hatası bulmuş. Telefon bandı ve aynı yazıya çevirici kullanılmış; sürüm ve üretim farkları çözülmeden %8 iddiası yanlış sayılamaz. Özet siteleri yeni deney sayılmadı, doğrulanmış video bulunamadı.",
+      "unknowns": [
+        "%8 ile %12,02 farkının nedeni çözülmedi.",
+        "Rapor ve proje sayfasındaki dinleyici sayıları uyuşmuyor.",
+        "Test verisinin lisansı CC BY 4.0; proje sayfasındaki Apache-2.0 ifadesiyle ayrım netleştirilmeli."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/freyavoice/Freya-TTS",
+          "title": "Freya-small model kartı",
+          "type": "geliştirici/model-kartı",
+          "date": "2026-07-27",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://github.com/freyavoiceai/FreyaTTS",
+          "title": "Kod ve kullanım",
+          "type": "geliştirici-kod",
+          "date": "2026-08-03",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://freyatts.freyavoice.ai/",
+          "title": "Proje tanıtımı ve örnekler",
+          "type": "geliştirici-duyurusu",
+          "date": null,
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://arxiv.org/html/2607.09530v2",
+          "title": "Freya teknik rapor v2",
+          "type": "geliştirici-araştırma",
+          "date": "2026-07-22",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://huggingface.co/datasets/freyavoice/freya-tr-eval",
+          "title": "Freya-TR-Eval",
+          "type": "geliştirici-değerlendirme",
+          "date": null,
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://github.com/freyavoiceai/FreyaTTS/blob/main/eval/benchmark.py",
+          "title": "Ölçüm kodu",
+          "type": "geliştirici-yöntem",
+          "date": null,
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://speech.patientdesk.ai/en/benchmarks",
+          "title": "PatientDesk yeniden koşumu",
+          "type": "bağımsız-rakip-deneyi",
+          "date": "2026-10-07",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://huggingface.co/api/models/freyavoice/Freya-TTS",
+          "title": "Hugging Face sürüm ve tarihler",
+          "type": "repo-api",
+          "date": "2026-07-27",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "revision": "d124e07493615208f58bdd21d432736849ee4230",
+      "demo_url": "https://freyatts.freyavoice.ai/"
+    },
+    {
+      "id": "ahakan/okur-tts",
+      "name": "Okur v1.0",
+      "category": "Metni seslendirme",
+      "creator": "Ahmet Hakan Beşel",
+      "plain": "Yazıyı tek sesle okuyan küçük Türkçe model. Sayıları ve bazı eksik şapkalı harfleri düzeltir, tarayıcıda çalışma hedefler.",
+      "claims": [
+        {
+          "text": "Küçük boyutta ve tarayıcıda çalışabilir.",
+          "evidence": "Birden fazla bilgisayar ve tarayıcı çalışma yolu yayımlanmış; bu turda denenmedi.",
+          "source": "https://huggingface.co/ahakan/okur-tts"
+        },
+        {
+          "text": "Sayı, tarih, para ve sıra sayılarını okumaya hazırlar.",
+          "evidence": "Aynı ön hazırlığın farklı programlama dillerinde eşleştiği söyleniyor. Bağlamsız ‘kar’ ve yabancı kelimeler hâlâ zor.",
+          "source": "https://github.com/ahmethakanbesel/okur-tts"
+        },
+        {
+          "text": "Kelime hatası %1,81; örtüşen cümleler çıkarılınca %1,64.",
+          "evidence": "495 cümlede sistem başına tek üretim yapılmış. Eğitim kaynağında da görülen 89 cümle çıkarılmış; kalanlarda harf hatası %0,36.",
+          "source": "https://huggingface.co/ahakan/okur-tts"
+        },
+        {
+          "text": "Bazı cihazlarda gerçek zamandan çok hızlı.",
+          "evidence": "Geliştirici sekiz işlemci çekirdeğinde 28 kat, M4 tarayıcıda 24 kat, M4 grafik işlemcisinde 67 kat hız bildiriyor. Aynı tabloda Piper daha hızlı.",
+          "source": "https://huggingface.co/ahakan/okur-tts"
+        },
+        {
+          "text": "Az kelime hatası, en doğal ses demek değil.",
+          "evidence": "Kendi dört modellik tablosunda otomatik doğallık puanı en düşük; EMA daha az kelime hatası yapıyor. Freya’nın farklı ses bandındaki sonucu doğrudan kıyaslanamaz.",
+          "source": "https://github.com/ahmethakanbesel/okur-tts"
+        }
+      ],
+      "training": "Açık Türkçe kayıtlarla sıfırdan geliştirilmiş, sonra tek sese uyarlanıp daha az işlem adımıyla çalışacak biçimde küçültülmüş. Tasarım EMA Lightning açıklamasından esinleniyor ve hazır ses işleme bileşenleri kullanıyor.",
+      "version": "Sürüm 1.0; model ve kod depolarının son değişimi 9 Ekim 2026. Bu kaynakların dışında yeni resmi devam doğrulanmadı.",
+      "try_it": "Tarayıcı demosu ve bilgisayarda kullanım örnekleri var; çalıştırılmadı. Model CC BY 4.0, kod Apache-2.0 lisanslı.",
+      "independent": "Model ve yazar adıyla yapılan blog, YouTube, X, Reddit aramalarında ayrıntılı bağımsız deney veya ayrı duyuru bulunamadı. Profil kopyaları kullanım kanıtı sayılmadı.",
+      "unknowns": [
+        "298 saat denilen toplamla kaynak tablosunun 294 saati uyuşmuyor.",
+        "Otomatik doğallık puanı Türkçe dinleyici değerlendirmesi değil.",
+        "Tam kayıt örtüşmesi ve ISSAI kayıtlarının kökeni ayrıca doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/ahakan/okur-tts",
+          "title": "Okur model kartı",
+          "type": "geliştirici/model-kartı",
+          "date": "2026-10-09",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://github.com/ahmethakanbesel/okur-tts",
+          "title": "README, kıyas sınırları ve kullanım",
+          "type": "geliştirici-kod",
+          "date": "2026-10-09",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://huggingface.co/spaces/ahakan/okur-tts",
+          "title": "Belgelenmiş demo; çalıştırılmadı",
+          "type": "geliştirici-demo",
+          "date": null,
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ahakan/okur-tts",
+          "title": "Hugging Face sürüm ve tarihler",
+          "type": "repo-api",
+          "date": "2026-10-09",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "revision": "0c1ae1a9c5e7bcaa46bdff732bc7182c9ae7bd70",
+      "demo_url": "https://huggingface.co/spaces/ahakan/okur-tts"
+    },
+    {
+      "id": "kaanhgunay/pocket-tts-tr",
+      "name": "Pocket TTS Turkish v0.1 Base",
+      "category": "Metni seslendirme",
+      "creator": "Kaan Han Günay",
+      "plain": "Türkçe yazıyı sese çeviren, verilen örnek sese benzeyebilen temel model. Küçük Pocket sürümüyle aynı boyutta sayılmamalı.",
+      "claims": [
+        {
+          "text": "Türkçe cümleler, uzun kelimeler ve eklerde iyi sonuç hedefliyor.",
+          "evidence": "Geliştirici sayı, tarih ve noktalama başarısını da anlatıyor; ancak karşılaştırmalı hata veya dinleme puanı vermiyor.",
+          "source": "https://huggingface.co/kaanhgunay/pocket-tts-tr"
+        },
+        {
+          "text": "400 binden fazla temizlenmiş ses örneğiyle eğitilmiş.",
+          "evidence": "Geliştiricinin LinkedIn duyurusu; metin temizleme ve sesle eşleştirme çalışmalarını açıklıyor. Dış doğrulama yok.",
+          "source": "https://tr.linkedin.com/posts/kaan-han-g%C3%BCnay_kaanhgunaypocket-tts-tr-hugging-face-activity-7504162129936179201-gqLP"
+        },
+        {
+          "text": "Örnek ses verilerek benzer ses karakteri üretilebilir.",
+          "evidence": "Kartta kullanım yolu var. Duygu, gülme, nefes ve uzun içerikte karakter tutarlılığı ise gelecek hedefleri.",
+          "source": "https://huggingface.co/kaanhgunay/pocket-tts-tr"
+        },
+        {
+          "text": "Türkçe ile İngilizce arasında geçiş desteklenmiyor.",
+          "evidence": "İlk hecede kısa ses kusuru oluşabildiği de açıklanmış. Daha küçük ve hızlı sürümler henüz plan olarak anlatılıyor.",
+          "source": "https://huggingface.co/kaanhgunay/pocket-tts-tr"
+        }
+      ],
+      "training": "Kyutai Pocket TTS üzerine Türkçe sesli kitap kayıtlarıyla uyarlanmış. Eğitim ve testin ayrıldığı söyleniyor; kaynak arşivin 2.724 saati bu modelin gerçekten kullandığı miktar diye kabul edilmedi.",
+      "version": "Sürüm v0.1-base; depo 2 Eylül 2026’da değişmiş. Karttaki sürüm etiketi, deponun gerçek etiket listesinde görünmüyor; başka yazarın wite-tech modeli bunun resmi devamı değil.",
+      "try_it": "Bilgisayarda örnek sesle çalıştırma anlatılıyor; sürüm yolu uyuşmazlığı nedeniyle komutun aynen çalışacağı doğrulanmadı. Web demosu bulunmadı; kurulum ve ses gönderimi yapılmadı.",
+      "independent": "ToBe SAID geliştiricisi AppleVis’te bu büyük modelin kendi VoiceOver kullanımında fazla bellek istediğini ve yavaş kaldığını söylüyor. Sayısal ölçüm yok; her bilgisayarda çalışamaz anlamına gelmez. Türkçe kullanıcı yalnız deneme teklif etmiş; LinkedIn duyurusu okundu, doğrulanabilir YouTube veya X videosu bulunamadı.",
+      "unknowns": [
+        "Kalite, hız ve bellek ihtiyacı için sayısal sonuç yok.",
+        "Tam eğitim tarifi, kullanılan saat ve konuşmacı sayısı açıklanmamış.",
+        "Sürüm etiketi sorunu çözülmedi; yeni KIRAAT verisiyle yeniden eğitildiği kanıtlanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/kaanhgunay/pocket-tts-tr",
+          "title": "Pocket Türkçe model kartı",
+          "type": "geliştirici/model-kartı",
+          "date": "2026-09-02",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/kaan-han-g%C3%BCnay_kaanhgunaypocket-tts-tr-hugging-face-activity-7504162129936179201-gqLP",
+          "title": "Kaan Han Günay duyurusu",
+          "type": "geliştirici-duyurusu",
+          "date": "kesin gün görünmüyor; göreli 1 ay",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://applevis.com/comment/215077",
+          "title": "ToBe SAID büyük model dağıtım tartışması",
+          "type": "bağımsız-uygulama-geliştiricisi",
+          "date": "2026-09-22",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://huggingface.co/api/models/kaanhgunay/pocket-tts-tr",
+          "title": "Hugging Face sürüm/tarihler",
+          "type": "repo-api",
+          "date": "2026-09-02",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "url": "https://huggingface.co/api/models/kaanhgunay/pocket-tts-tr/refs",
+          "title": "Hugging Face etiket/dal listesi",
+          "type": "repo-api",
+          "date": null,
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "revision": "e5aa490d9aa6075cf047e4286fb57cecb99aa1ed",
+      "demo_url": null
+    }
+  ],
+  "search_notes": [
+    "Kamuya açık metinler okundu. Model veya ses dosyası indirilmedi; kurulum, model çalıştırma, ödeme, hesap açma, iletişim ve yayın yapılmadı.",
+    "Kontrol tarihi 23 Ekim 2026. Kaynak tarihleri yayın veya depo değişim tarihidir; tarih yoksa null yazıldı. Depo değişimi mutlaka modelin yeniden eğitildiği anlamına gelmez.",
+    "Tam model adları ve yazarlarıyla blog, YouTube, X, Reddit ve inceleme aramaları yapıldı. Sonuç bulunmaması internette hiç içerik olmadığı veya modelin kötü olduğu anlamına gelmez.",
+    "Model kartlarının ham metinleri, depo sürüm kayıtları, kod açıklamaları ve rapor metni okundu. Ekran görüntüsü alınmadı, ses örnekleri dinlenmedi.",
+    "MDPI makalesi erişim hatası verdi. JoaoZaokk sayfası web aracında açılmadı; aynı deponun ham açıklama metni okunabildi.",
+    "Kelime ve harf hatası, insanın verdiği doğallık puanı, bilgisayarın tahmin ettiği doğallık ve hız farklı ölçülerdir. Farklı sesler, cihazlar ve yöntemlerden çıkan sonuçlar tek sıralamaya çevrilmedi.",
+    "Freya’nın ikinci raporu esas alındı; eski proje metnindeki fark korundu. Ölçüm kodu yöntemi açıklar, tek başına yayımlanan sonucu kanıtlamaz.",
+    "Kullanıcı yorumu ve rakip geliştirici deneyi ayrı kanıttır; tanıtım örneği kullanıcı kabulü sayılmadı. Her modelin sürüm kontrolü incelenen depolarla sınırlıdır; küresel en son garantisi verilmez."
+  ]
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "record_id": 146,
+    "name": "BILGEM-AI veri setleri (BILGE-Wiki-Tr-Plus, Synthetic-Math/-Stories/-Web, Bilge-Tiny-MathQs)",
+    "category": "Veri seti",
+    "url": "https://huggingface.co/BILGEM-AI",
+    "dossier": "arastirma/tam-tarama/kayitlar/146.json"
+  },
+  {
+    "record_id": 166,
+    "name": "Gazi TTS veri seti makalesi (2023, ~12 saat 38 dk)",
+    "category": "Veri seti",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/166.json"
+  },
+  {
+    "record_id": 168,
+    "name": "Whisper-Medium/Large-v3 LoRA ve çıkarım odaklı ince ayar (ScienceDirect 2026)",
+    "category": "Yöntem/makale",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2215098626002314",
+    "dossier": "arastirma/tam-tarama/kayitlar/168.json"
+  },
+  {
+    "record_id": 174,
+    "name": "CMI rehberli TTS ile kod karışımlı konuşma sentezi (2606.19381)",
+    "category": "Yöntem/makale",
+    "url": "https://arxiv.org/abs/2606.19381",
+    "dossier": "arastirma/tam-tarama/kayitlar/174.json"
+  },
+  {
+    "record_id": 175,
+    "name": "Bayesçi çarpanlarına ayrılmış uyarlama (2606.21990)",
+    "category": "Yöntem/makale",
+    "url": "https://arxiv.org/abs/2606.21990",
+    "dossier": "arastirma/tam-tarama/kayitlar/175.json"
+  },
+  {
+    "record_id": 176,
+    "name": "Whisper yumuşak komut istemi (2506.21576) ve AsyncSwitch (2506.14190)",
+    "category": "Yöntem/makale",
+    "url": "https://arxiv.org/pdf/2506.21576",
+    "dossier": "arastirma/tam-tarama/kayitlar/176.json"
+  },
+  {
+    "record_id": 177,
+    "name": "ASR sonrası LLM ile hata düzeltme (GER; 2307.04172, 2409.09554)",
+    "category": "Yöntem/makale",
+    "url": "https://arxiv.org/abs/2307.04172",
+    "dossier": "arastirma/tam-tarama/kayitlar/177.json"
+  },
+  {
+    "record_id": 178,
+    "name": "Türkçe-İngilizce kod geçişi tespiti, metin (W-NUT 2018, Yirmibeşoğlu ve Eryiğit)",
+    "category": "Yöntem/makale",
+    "url": "https://preview.aclanthology.org/setup/W18-6115",
+    "dossier": "arastirma/tam-tarama/kayitlar/178.json"
+  },
+  {
+    "record_id": 179,
+    "name": "Morfolojik belirsizlik giderme (Özer ve Korkmaz, 2022) ve noktalama makaleleri (IEEE 2023 ELECTRA %83,9; Yüzüler ve Sakar, ASR için noktalama 2025)",
+    "category": "Yöntem/makale",
+    "url": "https://aj.tubitak.gov.tr/elektrik/issues/elk-22-30-5/elk-30-5-15-2201-134.pdf",
+    "dossier": "arastirma/tam-tarama/kayitlar/179.json"
+  },
+  {
+    "record_id": 180,
+    "name": "SIGTURK 2026 bildirileri (OCRTurk, RAGTurk, TR-EduVSum, sözcük biçimbilim/tokenizasyon, morfoloji farkında sözdizim)",
+    "category": "Yöntem/makale",
+    "url": "https://aclanthology.org/volumes/2026.sigturk-1/",
+    "dossier": "arastirma/tam-tarama/kayitlar/180.json"
+  },
+  {
+    "record_id": 181,
+    "name": "Türk dilleri ve Türkçe kaynak taramaları (Turkic Language Modeling survey, UBMK 2025; Resources for Turkish NLP, 2022)",
+    "category": "Yöntem/makale",
+    "url": "https://arxiv.org/pdf/2204.05042",
+    "dossier": "arastirma/tam-tarama/kayitlar/181.json"
+  },
+  {
+    "record_id": 182,
+    "name": "TurkishMMLU",
+    "category": "Değerlendirme seti",
+    "url": "https://arxiv.org/abs/2407.12402",
+    "dossier": "arastirma/tam-tarama/kayitlar/182.json"
+  },
+  {
+    "record_id": 183,
+    "name": "TR-MMLU",
+    "category": "Değerlendirme seti",
+    "url": "https://arxiv.org/abs/2501.00593",
+    "dossier": "arastirma/tam-tarama/kayitlar/183.json"
+  },
+  {
+    "record_id": 184,
+    "name": "TurkBench (SIGTURK 2026)",
+    "category": "Değerlendirme seti",
+    "url": "https://arxiv.org/html/2601.07020v2",
+    "dossier": "arastirma/tam-tarama/kayitlar/184.json"
+  },
+  {
+    "record_id": 185,
+    "name": "TurBLiMP (EMNLP 2025)",
+    "category": "Değerlendirme seti",
+    "url": "https://arxiv.org/html/2506.13487v2",
+    "dossier": "arastirma/tam-tarama/kayitlar/185.json"
+  },
+  {
+    "record_id": 186,
+    "name": "METU LLM Benchmark (ODTÜ NLP)",
+    "category": "Değerlendirme seti",
+    "url": "https://nlp.ceng.metu.edu.tr/project-turkish-llm-benchmark.html",
+    "dossier": "arastirma/tam-tarama/kayitlar/186.json"
+  },
+  {
+    "record_id": 187,
+    "name": "Mizan Turkish Evaluation Leaderboard (newmindai; embedding)",
+    "category": "Değerlendirme seti",
+    "url": "https://newmindai-mizan.hf.space/",
+    "dossier": "arastirma/tam-tarama/kayitlar/187.json"
+  },
+  {
+    "record_id": 188,
+    "name": "FLEURS Türkçe (test 743 klip)",
+    "category": "Veri seti",
+    "url": "https://huggingface.co/datasets/google/fleurs",
+    "dossier": "arastirma/tam-tarama/kayitlar/188.json"
+  },
+  {
+    "record_id": 189,
+    "name": "Turkish Broadcast News (Boğaziçi, LDC2012S06)",
+    "category": "Veri seti",
+    "url": "https://catalog.ldc.upenn.edu/LDC2012S06",
+    "dossier": "arastirma/tam-tarama/kayitlar/189.json"
+  },
+  {
+    "record_id": 190,
+    "name": "MUSCAT (bilimsel konuşma ve kod karışımı)",
+    "category": "Veri seti",
+    "url": "https://arxiv.org/abs/2604.15929",
+    "dossier": "arastirma/tam-tarama/kayitlar/190.json"
+  }
+]

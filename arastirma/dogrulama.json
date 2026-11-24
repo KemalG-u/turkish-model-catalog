@@ -1,0 +1,21 @@
+{
+  "catalog_records": 190,
+  "source_cards": 190,
+  "awaiting_card": 0,
+  "source_count": 789,
+  "research_status_counts": {
+    "documented": 44,
+    "limited": 88,
+    "identity_unresolved": 5,
+    "non_model": 53
+  },
+  "original_unchanged": true,
+  "javascript_syntax": "PASS",
+  "browser_visual_and_interaction": "NOT_VERIFIED: file URL navigation was blocked by browser security policy",
+  "check_date": "2026-10-23",
+  "partial": false,
+  "active_records": 190,
+  "updated_cards": 9,
+  "removed_whole_records": 0,
+  "active_source_count": 744
+}

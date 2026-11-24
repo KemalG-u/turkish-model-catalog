@@ -1,0 +1,422 @@
+{
+  "107": [
+    {
+      "url": "https://huggingface.co/Ba2han/Liquid-Turkish-MiniOCR-V0.2/raw/main/README.md",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/Ba2han/Liquid-Turkish-MiniOCR-V0.2/raw/main/README.md",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/c630ad9dba7daa93263e.json"
+    },
+    {
+      "url": "https://huggingface.co/api/models/Ba2han/Liquid-Turkish-MiniOCR-V0.2",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/api/models/Ba2han/Liquid-Turkish-MiniOCR-V0.2",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/4c68f15374c0afaac6fa.json"
+    },
+    {
+      "url": "https://huggingface.co/Trendyol/Trendyol-Vision-Flash/raw/main/README.md",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/Trendyol/Trendyol-Vision-Flash/raw/main/README.md",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/36373eb15178f28d8e2b.json"
+    },
+    {
+      "url": "https://huggingface.co/api/models/Trendyol/Trendyol-Vision-Flash",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/api/models/Trendyol/Trendyol-Vision-Flash",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/c64f6d55df1ae155cdfc.json"
+    },
+    {
+      "url": "https://huggingface.co/Trendyol/Trendyol-Vision-Master/raw/main/README.md",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/Trendyol/Trendyol-Vision-Master/raw/main/README.md",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/20af92c90765e6f257b1.json"
+    },
+    {
+      "url": "https://huggingface.co/selimc/turkish-colpali/raw/main/README.md",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/selimc/turkish-colpali/raw/main/README.md",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/c8350a46858ce8f92f96.json"
+    },
+    {
+      "url": "https://huggingface.co/turgutguvercin/pix2struct-turkish-receipts/raw/main/README.md",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/turgutguvercin/pix2struct-turkish-receipts/raw/main/README.md",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/e3c1fc768400c6b8f305.json"
+    },
+    {
+      "url": "https://tesseract-ocr.github.io/tessdoc/Data-Files-in-different-versions.html",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://tesseract-ocr.github.io/tessdoc/Data-Files-in-different-versions.html",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/ec34bb5b3bd46606d402.json"
+    }
+  ],
+  "108": [
+    {
+      "url": "https://huggingface.co/kranidiotis/ottoman-ocr-qwen2.5-vl-7b/raw/main/README.md",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/kranidiotis/ottoman-ocr-qwen2.5-vl-7b/raw/main/README.md",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/bd8dd308c56d7f79e130.json"
+    },
+    {
+      "url": "https://huggingface.co/bilirkesi/osmanlica-v1/raw/main/README.md",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/bilirkesi/osmanlica-v1/raw/main/README.md",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/b57a20869cc4793f9f72.json"
+    }
+  ],
+  "109": [
+    {
+      "url": "https://docs.livekit.io/agents/logic/turns/turn-detector/",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://docs.livekit.io/agents/logic/turns/turn-detector/",
+      "error": null,
+      "truncated": true,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/954994236b1a14001fbf.json"
+    },
+    {
+      "url": "https://livekit.com/blog/solving-end-of-turn-detection",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://livekit.com/blog/solving-end-of-turn-detection",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/6d7a5b80b0c694fca093.json"
+    },
+    {
+      "url": "https://huggingface.co/SeaBenSea/hubert-large-turkish-speech-emotion-recognition/raw/main/README.md",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/SeaBenSea/hubert-large-turkish-speech-emotion-recognition/raw/main/README.md",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/df713ce7e1a07d8d8b5d.json"
+    },
+    {
+      "url": "https://huggingface.co/speechbrain/lang-id-voxlingua107-ecapa/raw/main/README.md",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/speechbrain/lang-id-voxlingua107-ecapa/raw/main/README.md",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/2665d2e266b569670498.json"
+    }
+  ],
+  "110": [
+    {
+      "url": "https://community.mozilladatacollective.com/",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://community.mozilladatacollective.com/",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/ee8bbbbacf4f104d9542.json"
+    }
+  ],
+  "111": [
+    {
+      "url": "https://issai.nu.edu.kz/ru/turkic-asr-rus/",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://issai.nu.edu.kz/ru/turkic-asr-rus/",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/d69904795470dd370755.json"
+    },
+    {
+      "url": "https://huggingface.co/datasets/issai/Turkish_Speech_Corpus/raw/main/README.md",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/datasets/issai/Turkish_Speech_Corpus/raw/main/README.md",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/78b6506585a4a7247feb.json"
+    },
+    {
+      "url": "https://huggingface.co/api/datasets/issai/Turkish_Speech_Corpus",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/api/datasets/issai/Turkish_Speech_Corpus",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/5c869f707e20be0dfbde.json"
+    }
+  ],
+  "112": [
+    {
+      "url": "https://api.github.com/repos/NTRLab/MediaSpeech",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://api.github.com/repos/NTRLab/MediaSpeech",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/b5e9a4fb6adce4141dba.json"
+    }
+  ],
+  "122": [
+    {
+      "url": "https://www.e-cloud.web.tr/project/turkmorfbench",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://www.e-cloud.web.tr/project/turkmorfbench",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/cf0ce6536c0436669412.json"
+    },
+    {
+      "url": "https://huggingface.co/collections/boun-tabilab/tabibench",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/collections/boun-tabilab/tabibench",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/09281781974af8008e6b.json"
+    }
+  ],
+  "115": [
+    {
+      "url": "https://huggingface.co/datasets/ytu-ce-cosmos/Cosmos-Turkish-Corpus-v1.0/raw/main/README.md",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/datasets/ytu-ce-cosmos/Cosmos-Turkish-Corpus-v1.0/raw/main/README.md",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/da36d9f1cbf34f1b44a5.json"
+    },
+    {
+      "url": "https://huggingface.co/api/datasets/ytu-ce-cosmos/Cosmos-Turkish-Corpus-v1.0",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/api/datasets/ytu-ce-cosmos/Cosmos-Turkish-Corpus-v1.0",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/9d77a292ceffb4bcdc49.json"
+    }
+  ],
+  "116": [
+    {
+      "url": "https://huggingface.co/datasets/boun-tabilab/turkish_parliamentary_data/raw/main/README.md",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/datasets/boun-tabilab/turkish_parliamentary_data/raw/main/README.md",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/d3954813e67489e88428.json"
+    },
+    {
+      "url": "https://huggingface.co/api/datasets/boun-tabilab/turkish_parliamentary_data",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/api/datasets/boun-tabilab/turkish_parliamentary_data",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/9d22118d327c15bddb99.json"
+    }
+  ],
+  "117": [
+    {
+      "url": "https://raw.githubusercontent.com/GGLAB-KU/gecturk/main/README.md",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://raw.githubusercontent.com/GGLAB-KU/gecturk/main/README.md",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/f180f83f68d61d931893.json"
+    },
+    {
+      "url": "https://api.github.com/repos/GGLAB-KU/gecturk",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://api.github.com/repos/GGLAB-KU/gecturk",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/f97c22436022412e3143.json"
+    },
+    {
+      "url": "https://api.github.com/repos/GGLAB-KU/gecturk/issues?state=all&per_page=5",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://api.github.com/repos/GGLAB-KU/gecturk/issues?state=all&per_page=5",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/9e1a2e1436ec7a5eb990.json"
+    }
+  ],
+  "119": [
+    {
+      "url": "https://raw.githubusercontent.com/KUIS-AI/cetvel/main/README.md",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://raw.githubusercontent.com/KUIS-AI/cetvel/main/README.md",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/b0292c5a1661aef97fd7.json"
+    },
+    {
+      "url": "https://api.github.com/repos/KUIS-AI/cetvel",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://api.github.com/repos/KUIS-AI/cetvel",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/066573f3d3a85cc4be9f.json"
+    }
+  ],
+  "125": [
+    {
+      "url": "https://arxiv.org/abs/2502.11572",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2502.11572",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/4dd2dfb53259df37e13a.json"
+    }
+  ],
+  "126": [
+    {
+      "url": "https://raw.githubusercontent.com/kesimeg/awesome-turkish-language-models/main/README.md",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://raw.githubusercontent.com/kesimeg/awesome-turkish-language-models/main/README.md",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/58632ec619274e8242fd.json"
+    },
+    {
+      "url": "https://api.github.com/repos/kesimeg/awesome-turkish-language-models",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://api.github.com/repos/kesimeg/awesome-turkish-language-models",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/6583835025627be096f9.json"
+    }
+  ],
+  "146": [
+    {
+      "url": "https://huggingface.co/api/datasets?author=BILGEM-AI&sort=lastModified&direction=-1&limit=20",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/api/datasets?author=BILGEM-AI&sort=lastModified&direction=-1&limit=20",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/8c349346d72d906c5510.json"
+    }
+  ],
+  "166": [
+    {
+      "url": "https://www.mdpi.com/2079-9292/12/8/1900",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://www.mdpi.com/2079-9292/12/8/1900",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/01bdeaaadb6c9dcbba5c.json"
+    }
+  ],
+  "176": [
+    {
+      "url": "https://arxiv.org/abs/2506.14190",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2506.14190",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/9698761911281290622f.json"
+    }
+  ],
+  "177": [
+    {
+      "url": "https://arxiv.org/abs/2409.09554",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2409.09554",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/f47ddf7748fe123dbf28.json"
+    }
+  ],
+  "178": [
+    {
+      "url": "https://aclanthology.org/W18-6115/",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://aclanthology.org/W18-6115/",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/02389022b010555f1023.json"
+    }
+  ],
+  "179": [
+    {
+      "url": "https://journals.tubitak.gov.tr/elektrik/vol30/iss5/15/",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://journals.tubitak.gov.tr/elektrik/vol30/iss5/15/",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/f02ceec04f7f92a085e9.json"
+    }
+  ],
+  "182": [
+    {
+      "url": "https://github.com/ArdaYuksel/TurkishMMLU",
+      "checked_at": "2026-10-23",
+      "status": 404,
+      "resolved_url": null,
+      "error": "HTTP Error 404: Not Found",
+      "truncated": null,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/b9e8c0713ed19ecdd311.json"
+    }
+  ],
+  "185": [
+    {
+      "url": "https://github.com/ezgibasar/TurBLiMP",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://github.com/ezgibasar/TurBLiMP",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/b6d8dc870de470259c13.json"
+    },
+    {
+      "url": "https://github.com/EleutherAI/lm-evaluation-harness/blob/main/lm_eval/tasks/turblimp/README.md",
+      "checked_at": "2026-10-23",
+      "status": 200,
+      "resolved_url": "https://github.com/EleutherAI/lm-evaluation-harness/blob/main/lm_eval/tasks/turblimp/README.md",
+      "error": null,
+      "truncated": false,
+      "cache_file": "arastirma/tam-tarama/kaynaklar/7427af370ec56f010afb.json"
+    }
+  ]
+}

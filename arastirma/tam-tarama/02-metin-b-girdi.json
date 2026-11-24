@@ -1,0 +1,156 @@
+[
+  {
+    "record_id": 24,
+    "name": "T3 AI (Baykar / T3 Vakfı)",
+    "category": "LLM-genel",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/024.json"
+  },
+  {
+    "record_id": 127,
+    "name": "Kaggle Models Türkçe (emirhangazi/turkish-t5, yagizfiratt/bankbert-turkish, cohere-labs/tiny-aya, google/universal-sentence-encoder, qwen-lm/qwen3-asr)",
+    "category": "LLM-genel",
+    "url": "https://www.kaggle.com/models/qwen-lm/qwen3-asr",
+    "dossier": "arastirma/tam-tarama/kayitlar/127.json"
+  },
+  {
+    "record_id": 128,
+    "name": "Trendyol-LLM-7b base/chat v0.1, v1.0, dpo-v1.0, v1.8",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/Trendyol/Trendyol-LLM-7b-chat-v1.8",
+    "dossier": "arastirma/tam-tarama/kayitlar/128.json"
+  },
+  {
+    "record_id": 129,
+    "name": "Llama-3-Trendyol-LLM-8b-chat-v2.0",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/Trendyol/Llama-3-Trendyol-LLM-8b-chat-v2.0",
+    "dossier": "arastirma/tam-tarama/kayitlar/129.json"
+  },
+  {
+    "record_id": 130,
+    "name": "Trendyol-LLM-7B-chat-v4.1.0",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/Trendyol/Trendyol-LLM-7B-chat-v4.1.0",
+    "dossier": "arastirma/tam-tarama/kayitlar/130.json"
+  },
+  {
+    "record_id": 131,
+    "name": "WiroAI turkish-llm-9b / -8b / OpenR1-Qwen-7B-Turkish",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/WiroAI/wiroai-turkish-llm-9b",
+    "dossier": "arastirma/tam-tarama/kayitlar/131.json"
+  },
+  {
+    "record_id": 133,
+    "name": "VeriUS-LLM-8b-v0.2",
+    "category": "LLM-genel",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/133.json"
+  },
+  {
+    "record_id": 134,
+    "name": "İşGPT (İş Bankası)",
+    "category": "LLM-genel",
+    "url": "https://www.isbank.com.tr/bankamizi-taniyin/is-bankasindan-ilk-turkce-buyuk-dil-modeli-isgpt",
+    "dossier": "arastirma/tam-tarama/kayitlar/134.json"
+  },
+  {
+    "record_id": 135,
+    "name": "Akbank LLM (adı yok)",
+    "category": "LLM-genel",
+    "url": "https://www.akbank.com/haberler/akbank-gelistirdigi-buyuk-dil-modeli-ile-gelecegin-bankacilik-dilinden-konusuyor",
+    "dossier": "arastirma/tam-tarama/kayitlar/135.json"
+  },
+  {
+    "record_id": 136,
+    "name": "KoçGPT (Koç Grubu)",
+    "category": "LLM-genel",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/136.json"
+  },
+  {
+    "record_id": 137,
+    "name": "Kumru VLM (VNGRS + BtcTurk)",
+    "category": "LLM-genel",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/137.json"
+  },
+  {
+    "record_id": 138,
+    "name": "Turkcell + TÜBİTAK BİLGEM sektör modeli (çok kipli çağrı merkezi asistanı)",
+    "category": "LLM-genel",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/138.json"
+  },
+  {
+    "record_id": 139,
+    "name": "Turkish-LLM-7B / 14B / 32B-Instruct (ogulcanaydogan)",
+    "category": "LLM-genel",
+    "url": "https://github.com/ogulcanaydogan/Turkish-LLM",
+    "dossier": "arastirma/tam-tarama/kayitlar/139.json"
+  },
+  {
+    "record_id": 140,
+    "name": "SykoLLM (SykoSLM)",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/SykoSLM/SykoLLM-V3.2-Thinking-Beta-Instruct",
+    "dossier": "arastirma/tam-tarama/kayitlar/140.json"
+  },
+  {
+    "record_id": 141,
+    "name": "Bireysel genel ince ayarlar (Omni-31B-Turkish-Reasoning, Gemma4-Turkish-26B-A4B, Kebap-1.0, malhajar Mistral-7B-Turkish/MedTurk, Tuguberk, suayptalha Kumru-2B-turkish-reasoning)",
+    "category": "LLM-genel",
+    "url": "https://www.yerel.ai/yerel-modeller",
+    "dossier": "arastirma/tam-tarama/kayitlar/141.json"
+  },
+  {
+    "record_id": 142,
+    "name": "MODA (SIGTURK 2026; Qwen2.5-7B tabanlı Türkçe LLM)",
+    "category": "LLM-genel",
+    "url": "https://aclanthology.org/2026.sigturk-1.17",
+    "dossier": "arastirma/tam-tarama/kayitlar/142.json"
+  },
+  {
+    "record_id": 143,
+    "name": "Huseyin/teknofest-2025-turkish-edu (Teknofest yarışma modeli)",
+    "category": "LLM-genel",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/143.json"
+  },
+  {
+    "record_id": 145,
+    "name": "TDK büyük dil modeli + Ulusal Türkiye Derlemi",
+    "category": "LLM-genel",
+    "url": "https://www.cnbce.com/teknoloji/tdk-yapay-zekaya-turkce-ogretecek-1-milyon-kelimelik-sozluk-buyuk-dil-modeli-ve-derlem-hazirlaniyor-h12344",
+    "dossier": "arastirma/tam-tarama/kayitlar/145.json"
+  },
+  {
+    "record_id": 147,
+    "name": "MEBİ / KANKA, EBA Öğrenci Asistanı",
+    "category": "LLM-genel",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/147.json"
+  },
+  {
+    "record_id": 149,
+    "name": "e-Devlet yapay zekâ asistanı",
+    "category": "LLM-genel",
+    "url": "https://gazeteoksijen.com/turkiye/e-devlete-yapay-zeka-geliyor-282703",
+    "dossier": "arastirma/tam-tarama/kayitlar/149.json"
+  },
+  {
+    "record_id": 150,
+    "name": "Türkçe Büyük Dil Temel Modeli Sektörel Uyarlama Çağrısı; Ortak Türk Dilleri LLM (2027); KAMAG 1007 Kamu Yapay Zekâ Ekosistemi; 2026–2030 YZ Eylem Planı",
+    "category": "LLM-genel",
+    "url": "https://webrazzi.com/2026/08/18/turkiye-nin-2026-2030-yapay-zek-eylem-plani-yururluge-girdi/",
+    "dossier": "arastirma/tam-tarama/kayitlar/150.json"
+  },
+  {
+    "record_id": 167,
+    "name": "BOUN turna_* ince ayarlı 15 model (özet, NER, NLI…)",
+    "category": "LLM-genel",
+    "url": "https://huggingface.co/boun-tabi-LMG",
+    "dossier": "arastirma/tam-tarama/kayitlar/167.json"
+  }
+]

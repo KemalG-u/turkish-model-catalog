@@ -1,0 +1,3840 @@
+{
+  "checked_at": "2026-10-23",
+  "records": [
+    {
+      "record_id": 79,
+      "id": "ytu-ce-cosmos/modernbert-tr-base",
+      "name": "ytu-ce-cosmos/modernbert-tr-base (+ -1k)",
+      "category": "Kodlayıcı-BERT",
+      "kind": "model_family",
+      "creator": "YTÜ COSMOS",
+      "plain": "ModernBERT mimarisindeki yaklaşık149 milyon parametreli Türkçe kodlayıcıdır; metin üretmek yerine sınıflama ve etiketleme gibi görevler için temsil çıkarır. Ana8K model ile kısa bağlamlı ara checkpoint aynı sürüm değildir. Resmî blog dört named revision ve ağırlık ortalama soyunu açıklıyor.",
+      "claims": [
+        {
+          "text": "Resmî karşılaştırmada donmuş kodlayıcı değerlendirmesinde lider; TabiBench ve TrGLUE sonuçları farklı liderler gösteriyor.47 görev ortalama sırası her görevde birincilik değildir.",
+          "evidence": "Geliştiricinin kendi değerlendirmesi; bu araştırmada model çalıştırılmadı.",
+          "source": "https://cosmos-ytu.github.io/modernbert-tr/"
+        }
+      ],
+      "training": "Sıfırdan eğitim; Türkçe, İngilizce ve kod karışımı.1K aşaması200B token, ardından kısa decay ve devam dalları;8K uzatma50B token. Nihai ana model iki1K dalından toplam%50,8K dalından%50 ağırlık ortalamasıdır.",
+      "version": "Kontrol edilen ana deponun lastModified zamanı 2026-07-19T13:37:44.000Z; bu tarih yeni eğitim veya yeni ağırlık kanıtı değildir. Geliştirici listesinin görülen kapsamı dışında en son sürüm garantisi verilmez.",
+      "revision": "d16b9da8f7dc0eadf8946255ee5f38042bdf59c2",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Tam adla geliştirici, bağımsız olumlu/olumsuz deneyim ve sosyal/video araması yapıldı; okunabilen, bu kesin modele bağlanan bağımsız saha deneyimi bulunamadı. Geliştirici ölçümü kullanıcı yorumu sayılmadı.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/modernbert-tr-base",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-base/raw/main/README.md",
+          "title": "ytu-ce-cosmos/modernbert-tr-base (+ -1k)",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/modernbert-tr-base/discussions",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://cosmos-ytu.github.io/modernbert-tr/",
+          "title": "ModernBERT-TR resmî teknik blog",
+          "type": "developer_blog",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos",
+          "title": "Geliştiricinin resmî Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/ytu-cosmos_modernbert-tr-g%C3%B6zl%C3%BC%C4%9F%C3%BCn%C3%BC-takt%C4%B1-daha-uza%C4%9F%C4%B1-activity-7484894906310639617-aAVl",
+          "title": "COSMOS ModernBERT-TR resmî aile duyurusu",
+          "type": "social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://youtu.be/62EuyPf0g5o",
+          "title": "ModenBERT-TR’yi Tanıtıyoruz! video başlığı",
+          "type": "video",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-base/raw/main/README.md",
+            "https://cosmos-ytu.github.io/modernbert-tr/",
+            "https://huggingface.co/ytu-ce-cosmos"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Tam adla olumlu ve olumsuz deneyim arandı; okunabilir kesin model deneyimi saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Resmî LinkedIn duyurusunun gövdesi okundu. YouTube bağlantısı açıldı; yalnız başlık/sayfa kabuğu geldi, video/transkript izlenmedi. Bağımsız deneyim değildir.",
+          "urls": [
+            "https://tr.linkedin.com/posts/ytu-cosmos_modernbert-tr-g%C3%B6zl%C3%BC%C4%9F%C3%BCn%C3%BC-takt%C4%B1-daha-uza%C4%9F%C4%B1-activity-7484894906310639617-aAVl",
+            "https://youtu.be/62EuyPf0g5o"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/ytu-ce-cosmos/modernbert-tr-base",
+            "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/ytu-ce-cosmos/modernbert-tr-base/discussions"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "ModernBERT TR ytu cosmos official blog review issues YouTube X",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "modernbert-tr-base",
+          "url": "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-base",
+          "status": "README/API ve resmî blog okundu."
+        },
+        {
+          "name": "modernbert-tr-base-1k ve diğer ara revisions",
+          "url": "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-base-1k",
+          "status": "Geliştirici listesinde görüldü; ayrı model kartı bütünü incelenmedi."
+        }
+      ]
+    },
+    {
+      "record_id": 80,
+      "id": "boun-tabilab/TabiBERT",
+      "name": "boun-tabilab/TabiBERT",
+      "category": "Kodlayıcı-BERT",
+      "kind": "model",
+      "creator": "Boğaziçi Üniversitesi TABILAB ve VNGRS araştırmacıları",
+      "plain": "TabiBERT, Türkçe görevler için8192 token bağlamlı ModernBERT kodlayıcısıdır. Model kartı ile güncel makale sürümü aynı rakamları vermiyor: Ocak kartı77.58/28 görev derken6 Ekim2026 tarihli arXiv v4 özeti77.28/27 veri kümesi bildiriyor. İki sonuç birleştirilerek güncel tek skor üretilmedi.",
+      "claims": [
+        {
+          "text": "Güncel v4 özeti TabiBench77.28, BERTurk75.66 ve mmBERT78.98 bildiriyor; beş kategoride Türkçe modeller arasında liderlik tüm modellere karşı genel birincilik değildir.",
+          "evidence": "Geliştiricinin kendi değerlendirmesi; bu araştırmada model çalıştırılmadı.",
+          "source": "https://arxiv.org/abs/2512.23065"
+        }
+      ],
+      "training": "Sıfırdan1 trilyon örneklenmiş token; güncel v4 özeti86.58B tokenlık çok alanlı kaynak havuzu bildiriyor. Kaynak havuz büyüklüğü, tekrarlarla görülen eğitim token sayısından ayrıdır. Önce1024, sonra8192 bağlam kullanılıyor.",
+      "version": "Model API lastModified2026-01-05; makale arXiv2512.23065v4,2026-10-06 tarihinde revize edilmiş. Yeni makale yeni ağırlık anlamına gelmez.",
+      "revision": "36d24bfae8d67f7b1f7d0827fc43076e4a1c3e9f",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Tam adla geliştirici, bağımsız olumlu/olumsuz deneyim ve sosyal/video araması yapıldı; okunabilen, bu kesin modele bağlanan bağımsız saha deneyimi bulunamadı. Geliştirici ölçümü kullanıcı yorumu sayılmadı.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık.",
+        "Kart ile makalenin metrik/protokol revizyonu ayrıntılı karşılaştırılmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/boun-tabilab/TabiBERT",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/boun-tabilab/TabiBERT/raw/main/README.md",
+          "title": "boun-tabilab/TabiBERT",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=boun-tabilab&sort=lastModified&direction=-1&limit=40",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/boun-tabilab/TabiBERT/discussions",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://arxiv.org/abs/2512.23065",
+          "title": "TabiBERT güncel makale v4",
+          "type": "paper",
+          "date": "2026-10-06",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/boun-tabilab",
+          "title": "Geliştiricinin resmî Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/boun-tabilab/TabiBERT/raw/main/README.md",
+            "https://huggingface.co/boun-tabilab"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Tam adla olumlu ve olumsuz deneyim arandı; okunabilir kesin model deneyimi saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/boun-tabilab/TabiBERT",
+            "https://huggingface.co/api/models?author=boun-tabilab&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/boun-tabilab/TabiBERT/discussions"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"TabiBERT\" official release blog YouTube X",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "TabiBERT",
+          "url": "https://huggingface.co/boun-tabilab/TabiBERT",
+          "status": "Model kartı/API ve makale v4 özeti okundu."
+        }
+      ]
+    },
+    {
+      "record_id": 81,
+      "id": "moganai/MoganBERT-TR",
+      "name": "moganai/MoganBERT-TR",
+      "category": "Kodlayıcı-BERT",
+      "kind": "model",
+      "creator": "Furkan Yılmaz, Habibe Aleyna Taşdemir ve Muhammed Faruk Gözay / Mogan AI",
+      "plain": "MoganBERT-TR,149 milyon parametreli ve8192 bağlamlı Türkçe temel kodlayıcıdır. Geliştirici ham kodlayıcının doğrudan kosinüs benzerliği için uygun olmadığını açıkça belirtiyor; MoganBERT-Embed ve Mogan-ColBERT-TR ayrı görev modelleridir. Bu ayrım temel modelin arama sistemine hazır olduğu izlenimini önler.",
+      "claims": [
+        {
+          "text": "Makale TrGLUE78.41 ve TabiBench77.73 bildiriyor. Temel model ile embedding öğrenci modelinin68.30 MTEB ortalaması farklı çıktılara aittir.",
+          "evidence": "Geliştiricinin kendi değerlendirmesi; bu araştırmada model çalıştırılmadı.",
+          "source": "https://arxiv.org/abs/2608.25768"
+        }
+      ],
+      "training": "237.3B token üzerinde sıfırdan eğitim. İlk%16.6 bölüm nedensel dil modelleme, kalanı maskeli dil modelleme; metin karışımı%73 Türkçe,%17 İngilizce,%10 kod. Temel eğitim ve uzun bağlam/decay dalları ayrı.",
+      "version": "Kontrol edilen ana deponun lastModified zamanı 2026-09-24T01:53:26.000Z; bu tarih yeni eğitim veya yeni ağırlık kanıtı değildir. Geliştirici listesinin görülen kapsamı dışında en son sürüm garantisi verilmez.",
+      "revision": "6b4ecd5d04196649e5460cc52fc096a44ed6d894",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Tam adla geliştirici, bağımsız olumlu/olumsuz deneyim ve sosyal/video araması yapıldı; okunabilen, bu kesin modele bağlanan bağımsız saha deneyimi bulunamadı. Geliştirici ölçümü kullanıcı yorumu sayılmadı.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık.",
+        "Tek seed sonuçlarındaki küçük farklardan kesin üstünlük çıkarılmaz."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/moganai/MoganBERT-TR",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/moganai/MoganBERT-TR/raw/main/README.md",
+          "title": "moganai/MoganBERT-TR",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=moganai&sort=lastModified&direction=-1&limit=40",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/moganai/MoganBERT-TR/discussions",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.25768",
+          "title": "MoganBert-TR teknik makale",
+          "type": "paper",
+          "date": "2026-08-26",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/moganai",
+          "title": "Geliştiricinin resmî Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/moganai/MoganBERT-TR/raw/main/README.md",
+            "https://huggingface.co/moganai"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Tam adla olumlu ve olumsuz deneyim arandı; okunabilir kesin model deneyimi saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/moganai/MoganBERT-TR",
+            "https://huggingface.co/api/models?author=moganai&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/moganai/MoganBERT-TR/discussions"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"MoganBERT\" official blog YouTube X review",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "MoganBERT-TR",
+          "url": "https://huggingface.co/moganai/MoganBERT-TR",
+          "status": "Kart/API ve2026-08-26 tarihli makale özeti okundu."
+        },
+        {
+          "name": "MoganBERT-Embed ve Mogan-ColBERT-TR",
+          "url": "https://huggingface.co/moganai",
+          "status": "Geliştirici listesinde devam üyeleri görüldü; ayrı kart incelemesi açık."
+        }
+      ]
+    },
+    {
+      "record_id": 82,
+      "id": "newmindai/Mursit-Base",
+      "name": "newmindai/Mursit-Base / Mursit-Large (ModernBERT 155M / 403M)",
+      "category": "Kodlayıcı-BERT",
+      "kind": "model_family",
+      "creator": "NewMind AI",
+      "plain": "Bu kayıt iki temel maskeli dil modelini kapsıyor. Katalog bağlantısı yanlışlıkla retrieval türevine gidiyordu; Base ve Large resmî kartları ayrı okunarak kimlik düzeltildi. Base155M/1024 token, Large403M/2048 token özellikleriyle sınıflama ve NER için temel sağlar; retrieval sürümüyle aynı model değildir.",
+      "claims": [
+        {
+          "text": "Kartın MLM tablosu Base64.05 ve Large67.25 verirken üst özetleri57.62/60.76 gösteriyor; maskeleme tanımı ve revizyon uyuşmazlığı çözülmeden bunlar aynı skor gibi sunulamaz.",
+          "evidence": "Geliştiricinin kendi değerlendirmesi; bu araştırmada model çalıştırılmadı.",
+          "source": "https://huggingface.co/newmindai/Mursit-Base/raw/main/README.md"
+        }
+      ],
+      "training": "Her iki kart112.7B tokenlık Türkçe ağırlıklı hukuk ve genel metin havuzunda sıfırdan eğitim bildiriyor. Yargıtay, Danıştay, YÖKTEZ, FineWeb2 ve CulturaX kaynakları var. Kartların eğitim maskelemesi anlatımında%30 ile%15 ifadeleri birlikte bulunduğundan kesin tek oran seçilmedi.",
+      "version": "Base sha aedc579cac4124fb07a96d48643210f832afb1ed, lastModified2026-01-27T13:57:43Z; Large sha c24f2ac0c14cb8de5554872d8b4f456c2738f36d,2026-01-27T13:57:56Z. Metadata güncellemesi yeni eğitim kanıtı değildir.",
+      "revision": "Base:aedc579cac4124fb07a96d48643210f832afb1ed; Large:c24f2ac0c14cb8de5554872d8b4f456c2738f36d",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Tam adla geliştirici, bağımsız olumlu/olumsuz deneyim ve sosyal/video araması yapıldı; okunabilen, bu kesin modele bağlanan bağımsız saha deneyimi bulunamadı. Geliştirici ölçümü kullanıcı yorumu sayılmadı.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık.",
+        "Kart içindeki maskeleme ve özet/tablo uyuşmazlığının geliştirici açıklaması bulunamadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models?author=newmindai&sort=lastModified&direction=-1&limit=40",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/newmindai/Mursit-Base/raw/main/README.md",
+          "title": "Mursit-Base resmî kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/newmindai/Mursit-Base",
+          "title": "Mursit-Base revizyon API",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/newmindai/Mursit-Large/raw/main/README.md",
+          "title": "Mursit-Large resmî kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/newmindai/Mursit-Large",
+          "title": "Mursit-Large revizyon API",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/newmindai",
+          "title": "Geliştiricinin resmî Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.newmind.ai/journal/125/",
+          "title": "Mecellem Models resmî duyuru",
+          "type": "developer_blog",
+          "date": "2026-01-26",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/newmindai/Mursit-Base/raw/main/README.md",
+            "https://huggingface.co/newmindai/Mursit-Large/raw/main/README.md",
+            "https://huggingface.co/newmindai"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Tam adla olumlu ve olumsuz deneyim arandı; okunabilir kesin model deneyimi saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models?author=newmindai&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/newmindai/Mursit-Base",
+            "https://huggingface.co/api/models/newmindai/Mursit-Large"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Mursit\" \"NewMind\" official model release YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "Mursit-Base",
+          "url": "https://huggingface.co/newmindai/Mursit-Base",
+          "status": "Ayrı README ve kamu API okundu."
+        },
+        {
+          "name": "Mursit-Large",
+          "url": "https://huggingface.co/newmindai/Mursit-Large",
+          "status": "Ayrı README ve kamu API okundu."
+        }
+      ]
+    },
+    {
+      "record_id": 83,
+      "id": "KocLab-Bilkent/BERTurk-Legal",
+      "name": "KocLab-Bilkent/BERTurk-Legal",
+      "category": "Kodlayıcı-BERT",
+      "kind": "model",
+      "creator": "Koç Lab, Bilkent; Öztürk, Özçelik, Koç",
+      "plain": "BERTurk-Legal, Türkçe hukuk belgelerindeki temsil ve benzer karar bulma araştırmasına yönelik kodlayıcıdır. Etiketli karar arama eğitimiyle hazır bir hukuk danışmanı veya doğrulanmış sorgu sistemi değildir. Kamu kartı2023 SIU çalışmasına ve Yargıtay arama veri kümesine bağlantı veriyor.",
+      "claims": [
+        {
+          "text": "Geliştirici alan içi Yargıtay karar arama başarısını bildiriyor; kapsam dışı hukuk belgeleri ve güncel mevzuat doğruluğu bu iddiadan çıkmaz.",
+          "evidence": "Geliştiricinin kendi değerlendirmesi; bu araştırmada model çalıştırılmadı.",
+          "source": "https://huggingface.co/KocLab-Bilkent/BERTurk-Legal/raw/main/README.md"
+        }
+      ],
+      "training": "Hukuk alanına ait etiketsiz metinlerde maskeli dil modelleme uygulanmış. Kart bu alan uyarlamasını kendi kendine gözetimli öğrenme olarak tanımlar; okunan bölüm tam veri hacmi, donanım ve eğitim adımlarını kesinleştirmiyor.",
+      "version": "Kontrol edilen ana deponun lastModified zamanı 2024-11-15T10:08:59.000Z; bu tarih yeni eğitim veya yeni ağırlık kanıtı değildir. Geliştirici listesinin görülen kapsamı dışında en son sürüm garantisi verilmez.",
+      "revision": "0c76ee2a798072008cf5f3514e61f9238f1d9a71",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Gerçek discussion1 metninde kullanıcı AutoModelForTokenClassification ile yükleme hatası bildiriyor. Geliştirici SequenceClassification örneği ekleyip kartı güncellemiş. Bu bir kullanım sorunu ve yanıt kanıtıdır; hukukta kalite veya sorun tamamen giderildi kabulü değildir.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/KocLab-Bilkent/BERTurk-Legal",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/KocLab-Bilkent/BERTurk-Legal/raw/main/README.md",
+          "title": "KocLab-Bilkent/BERTurk-Legal",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=KocLab-Bilkent&sort=lastModified&direction=-1&limit=40",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/KocLab-Bilkent/BERTurk-Legal/discussions",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/KocLab-Bilkent/BERTurk-Legal/discussions/1",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/KocLab-Bilkent/BERTurk-Legal/discussions/1",
+          "title": "Yükleme örneği üzerine gerçek kullanıcı yazışması",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/KocLab-Bilkent",
+          "title": "Geliştiricinin resmî Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/KocLab-Bilkent/BERTurk-Legal/raw/main/README.md",
+            "https://huggingface.co/KocLab-Bilkent"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Kaynakta gerçek kullanıcı metni veya bağımsız deney koşulları okundu; başlık tek başına kalite kanıtı yapılmadı.",
+          "urls": [
+            "https://huggingface.co/api/models/KocLab-Bilkent/BERTurk-Legal/discussions/1"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/KocLab-Bilkent/BERTurk-Legal",
+            "https://huggingface.co/api/models?author=KocLab-Bilkent&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/KocLab-Bilkent/BERTurk-Legal/discussions",
+            "https://huggingface.co/api/models/KocLab-Bilkent/BERTurk-Legal/discussions/1"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"BERTurk-Legal\" review issues YouTube X",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "BERTurk-Legal",
+          "url": "https://huggingface.co/KocLab-Bilkent/BERTurk-Legal",
+          "status": "README/API ve gerçek discussion metni okundu."
+        }
+      ]
+    },
+    {
+      "record_id": 84,
+      "id": "dbmdz/bert-base-turkish-cased",
+      "name": "dbmdz/bert-base-turkish-cased / uncased / 128k (BERTurk) + ELECTRA/ConvBERT/DistilBERT",
+      "category": "Kodlayıcı-BERT",
+      "kind": "model_family",
+      "creator": "dbmdz / Bavyera Devlet Kütüphanesi; Stefan Schweter ve katkıcılar",
+      "plain": "BERTurk satırı birden çok Türkçe BERT ve diğer kodlayıcı mimarilerini topluyor; burada kesin incelenen üye bert-base-turkish-cased. Büyük/küçük harfli,128K sözlüklü, ELECTRA, ConvBERT ve DistilBERT üyelerinin eğitim, lisans ve kalite sonuçları tek karta yayılmadı.",
+      "claims": [
+        {
+          "text": "Resmî kart genel Türkçe ön eğitimini belgeler; tek bir evrensel görev skoru vermez.",
+          "evidence": "Geliştiricinin kendi değerlendirmesi; bu araştırmada model çalıştırılmadı.",
+          "source": "https://huggingface.co/dbmdz/bert-base-turkish-cased/raw/main/README.md"
+        }
+      ],
+      "training": "Cased kartı35GB ve yaklaşık4.4B token Türkçe veri, OSCAR/Wikipedia/OPUS ile ek korpuslar; TPUv3-8 üzerinde2 milyon eğitim adımı bildiriyor. Hazır sınıflandırıcı değil, aşağı görev için uyarlanan temel BERT ağırlığıdır.",
+      "version": "Kontrol edilen ana deponun lastModified zamanı 2025-06-12T13:11:08.000Z; bu tarih yeni eğitim veya yeni ağırlık kanıtı değildir. Geliştirici listesinin görülen kapsamı dışında en son sürüm garantisi verilmez.",
+      "revision": "b6e1de16c983e0f2c70664591ea3f22810072608",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Kamu discussion1 gerçek metninde TensorFlow register_load_context_function uyumsuzluğu görülüyor. Kullanıcının ortam sorunu bütün PyTorch kullanımlarının çalışmadığı anlamına gelmez. Bağımsız müşteri yorum sınıflama projesi bulundu; tekrar açma404 verdiğinden sonraki skor ayrıntıları doğrulanmadan kullanılmadı.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/dbmdz/bert-base-turkish-cased",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/dbmdz/bert-base-turkish-cased/raw/main/README.md",
+          "title": "dbmdz/bert-base-turkish-cased / uncased / 128k (BERTurk) + ELECTRA/ConvBERT/DistilBERT",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=dbmdz&sort=lastModified&direction=-1&limit=40",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/dbmdz/bert-base-turkish-cased/discussions",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/dbmdz/bert-base-turkish-cased/discussions/1",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/dbmdz/bert-base-turkish-cased/discussions/1",
+          "title": "TensorFlow uyumsuzluğu kullanıcı bildirimi",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/dbmdz",
+          "title": "Geliştiricinin resmî Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/dbmdz/bert-base-turkish-cased/raw/main/README.md",
+            "https://huggingface.co/dbmdz"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Kaynakta gerçek kullanıcı metni veya bağımsız deney koşulları okundu; başlık tek başına kalite kanıtı yapılmadı.",
+          "urls": [
+            "https://huggingface.co/api/models/dbmdz/bert-base-turkish-cased/discussions/1"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/dbmdz/bert-base-turkish-cased",
+            "https://huggingface.co/api/models?author=dbmdz&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/dbmdz/bert-base-turkish-cased/discussions",
+            "https://huggingface.co/api/models/dbmdz/bert-base-turkish-cased/discussions/1"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"BERTurk\" review problems YouTube X",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "bert-base-turkish-cased",
+          "url": "https://huggingface.co/dbmdz/bert-base-turkish-cased",
+          "status": "README/API ve discussion metni okundu."
+        },
+        {
+          "name": "uncased/128k/ELECTRA/ConvBERT/DistilBERT",
+          "url": "https://huggingface.co/dbmdz",
+          "status": "Aile listesi kısmen görüldü; her üyenin ayrı kartı açık."
+        }
+      ]
+    },
+    {
+      "record_id": 85,
+      "id": "catalog-85",
+      "name": "Diğer BERT/RoBERTa (YTÜ turkish-*-bert tiny–large, artiwise modernbert-base-tr-uncased, Trendyol tybert/tyroberta, Turkcell roberta, loodos, TurkishBERTweet, Geotrend, msbayindir legal)",
+      "category": "Kodlayıcı-BERT",
+      "kind": "model_family",
+      "creator": "Birden çok geliştirici; burada Artiwise AI doğrulandı",
+      "plain": "Bu geniş satır tek bir model kimliği değildir. Temsilci olarak artiwise-ai/modernbert-base-tr-uncased resmî kartı okundu. Türkçe CulturaX ile ModernBERT uyarlamasıdır;8192 bağlam, MIT lisans ve Türkçe küçük harfe dönüştürme uyarısı belgeli. YTÜ boyut ailesi, Trendyol, Turkcell, loodos, TurkishBERTweet, Geotrend ve hukuk türevleri ayrıca açık tutuldu.",
+      "claims": [
+        {
+          "text": "Kart bazı maskeli token testlerinde BERT tabanlı karşılaştırmalardan üstün sonuç bildiriyor; bu görev/protokol dışına taşınamaz.",
+          "evidence": "Geliştiricinin kendi değerlendirmesi; bu araştırmada model çalıştırılmadı.",
+          "source": "https://huggingface.co/artiwise-ai/modernbert-base-tr-uncased/raw/main/README.md"
+        }
+      ],
+      "training": "Artiwise, answerdotai/ModernBERT-base üzerinden192GB Türkçe CulturaX üzerinde devam eğitimi bildiriyor; sıfırdan eğitim değildir. Kart üç alanda farklı maskeleme oranlarıyla token tahminini ölçüyor. Bu ölçüm duygu sınıflama veya arama doğruluğuna eşit değildir.",
+      "version": "Temsilci Artiwise sha fe2ec5fcfd7afd1e0378d295dfd7fadfb55ea965; lastModified2025-05-16T11:49:10Z. Diğer üyelerin sürümleri tekleştirilmedi.",
+      "revision": "Artiwise:fe2ec5fcfd7afd1e0378d295dfd7fadfb55ea965",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Tam adla geliştirici, bağımsız olumlu/olumsuz deneyim ve sosyal/video araması yapıldı; okunabilen, bu kesin modele bağlanan bağımsız saha deneyimi bulunamadı. Geliştirici ölçümü kullanıcı yorumu sayılmadı.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/artiwise-ai/modernbert-base-tr-uncased/raw/main/README.md",
+          "title": "Artiwise Türkçe ModernBERT kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/artiwise-ai/modernbert-base-tr-uncased",
+          "title": "Artiwise canlı revizyon",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/artiwise-ai/modernbert-base-tr-uncased/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Tam adla olumlu ve olumsuz deneyim arandı; okunabilir kesin model deneyimi saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/artiwise-ai/modernbert-base-tr-uncased"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"artiwise\" \"modernbert\" review YouTube X",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "artiwise-ai/modernbert-base-tr-uncased",
+          "url": "https://huggingface.co/artiwise-ai/modernbert-base-tr-uncased",
+          "status": "README ve API okundu."
+        },
+        {
+          "name": "YTÜ tiny–large; Trendyol tybert/tyroberta; Turkcell roberta; loodos; TurkishBERTweet; Geotrend; msbayindir legal",
+          "url": null,
+          "status": "Ayrı kesin kimlik ve kart incelemeleri tamamlanmadı."
+        }
+      ]
+    },
+    {
+      "record_id": 86,
+      "id": "ytu-ce-cosmos/modernbert-tr-embed",
+      "name": "ytu-ce-cosmos/modernbert-tr-embed ve modernbert-tr-reranker",
+      "category": "Gömme/reranker",
+      "kind": "model_family",
+      "creator": "YTÜ COSMOS",
+      "plain": "İki ayrı150M model var: embed metni768 boyutlu vektöre çevirir; reranker sorgu-belge çiftlerini karşılaştırıp mevcut adayları yeniden sıralar. İkisinin README ve API kaynakları ayrı okundu. Embedding toplam ortalaması arama birinciliği değildir: karttaki68.14 genel ortalamaya karşı retrieval59.4; tabloda başka modellerin retrieval sonucu daha yüksek.",
+      "claims": [
+        {
+          "text": "Reranker kartı embedding ilk100 adayını max512 ile yeniden sıralamada altı görev ortalama+9.20 NDCG@10 puanı bildiriyor; blog farklı protokolde+8.38. İlk aşamada kaçan belge geri getirilemez.",
+          "evidence": "Geliştiricinin kendi değerlendirmesi; bu araştırmada model çalıştırılmadı.",
+          "source": "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-reranker/raw/main/README.md"
+        }
+      ],
+      "training": "Embed7.9M Türkçe pasajda Qwen3-Embedding-8B öğretmeninden damıtılmış, farklı görev uyarlamaları ortalanmış. Reranker Qwen3-Reranker-8B skorlarıyla Türkçe soru-cevap ve çevrilmiş karşı argümanlardan listwise öğreniyor.",
+      "version": "Embed sha855820e0079102805908d60d32cd9fd59c970b80,2026-07-31; reranker shad6aabbe061f1bf6cb796e317ecb6d9b8f7b96c54,2026-07-01. Resmî blog ve kartın farklı protokol sonuçları korunmuştur.",
+      "revision": "embed:855820e0079102805908d60d32cd9fd59c970b80; reranker:d6aabbe061f1bf6cb796e317ecb6d9b8f7b96c54",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Tam adla geliştirici, bağımsız olumlu/olumsuz deneyim ve sosyal/video araması yapıldı; okunabilen, bu kesin modele bağlanan bağımsız saha deneyimi bulunamadı. Geliştirici ölçümü kullanıcı yorumu sayılmadı.",
+      "unknowns": [
+        "Int8 reranker sıralamada kayıp yaratabilir; uzun metin eğitimi sınırlı. Bağımsız tekrar yok."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/modernbert-tr-embed",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-embed/raw/main/README.md",
+          "title": "ytu-ce-cosmos/modernbert-tr-embed ve modernbert-tr-reranker",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/modernbert-tr-embed/discussions",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-reranker/raw/main/README.md",
+          "title": "ModernBERT-TR Reranker kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/modernbert-tr-reranker",
+          "title": "Reranker revizyon API",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://cosmos-ytu.github.io/modernbert-tr/",
+          "title": "ModernBERT-TR teknik blog",
+          "type": "developer_blog",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos",
+          "title": "Geliştiricinin resmî Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/ytu-cosmos_modernbert-tr-g%C3%B6zl%C3%BC%C4%9F%C3%BCn%C3%BC-takt%C4%B1-daha-uza%C4%9F%C4%B1-activity-7484894906310639617-aAVl",
+          "title": "COSMOS ModernBERT-TR resmî aile duyurusu",
+          "type": "social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://youtu.be/62EuyPf0g5o",
+          "title": "ModenBERT-TR’yi Tanıtıyoruz! video başlığı",
+          "type": "video",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-embed/raw/main/README.md",
+            "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-reranker/raw/main/README.md",
+            "https://cosmos-ytu.github.io/modernbert-tr/",
+            "https://huggingface.co/ytu-ce-cosmos"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Tam adla olumlu ve olumsuz deneyim arandı; okunabilir kesin model deneyimi saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Resmî LinkedIn duyurusunun gövdesi okundu. YouTube bağlantısı açıldı; yalnız başlık/sayfa kabuğu geldi, video/transkript izlenmedi. Bağımsız deneyim değildir.",
+          "urls": [
+            "https://tr.linkedin.com/posts/ytu-cosmos_modernbert-tr-g%C3%B6zl%C3%BC%C4%9F%C3%BCn%C3%BC-takt%C4%B1-daha-uza%C4%9F%C4%B1-activity-7484894906310639617-aAVl",
+            "https://youtu.be/62EuyPf0g5o"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/ytu-ce-cosmos/modernbert-tr-embed",
+            "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/ytu-ce-cosmos/modernbert-tr-embed/discussions",
+            "https://huggingface.co/api/models/ytu-ce-cosmos/modernbert-tr-reranker"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"modernbert-tr-embed\" \"reranker\" review problems YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "documented",
+      "members": [
+        {
+          "name": "modernbert-tr-embed",
+          "url": "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-embed",
+          "status": "Ayrı kamu README/API okundu."
+        },
+        {
+          "name": "modernbert-tr-reranker",
+          "url": "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-reranker",
+          "status": "Ayrı kamu README/API okundu."
+        }
+      ]
+    },
+    {
+      "record_id": 87,
+      "id": "newmindai/Mursit-Large-TR-Retrieval",
+      "name": "newmindai/Mursit-Large-TR-Retrieval, Mursit-Embed-Qwen3-4B/1.7B-TR, TurkEmbed4STS/4Retrieval, ColmmBERT",
+      "category": "Gömme/reranker",
+      "kind": "model_family",
+      "creator": "NewMind AI",
+      "plain": "Kesin incelenen üye Mursit-Large-TR-Retrieval:403M parametreli,1024 boyutlu ve2048 bağlamlı Türkçe arama kodlayıcısı. Aynı ailedeki Qwen3 tabanlı1.7B/4B embedding, TurkEmbed ve ColmmBERT ayrı model ve amaçlardır; bir üyenin puanı diğerlerine aktarılmadı.",
+      "claims": [
+        {
+          "text": "Geliştirici17 görev MTEB56.87 ve hukuk46.56 bildiriyor; kendi tablosunda genel ortalamada embeddinggemma ve bge-m3 daha yüksek.",
+          "evidence": "Geliştiricinin kendi değerlendirmesi; bu araştırmada model çalıştırılmadı.",
+          "source": "https://huggingface.co/newmindai/Mursit-Large-TR-Retrieval/raw/main/README.md"
+        }
+      ],
+      "training": "112.7B tokenlık temel Mursit-Large üzerine920106 MS MARCO Türkçe üçlüsüyle CachedGISTEmbedLoss eğitimi; BGE-M3 rehber model ve4 H100 kullanımı bildiriliyor.",
+      "version": "Kontrol edilen ana deponun lastModified zamanı 2026-01-23T12:06:29.000Z; bu tarih yeni eğitim veya yeni ağırlık kanıtı değildir. Geliştirici listesinin görülen kapsamı dışında en son sürüm garantisi verilmez.",
+      "revision": "eb97c09f1dc97d531f8a42e9e8bb966f84e12768",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "RizgarOzan/turkish-rag-eval bağımsız deneyinde58 insan sorusu üzerinde hiyerarşik parçalarda nDCG@10 .781;296 soruluk çoğu LLM taslaklı geniş sette .613 ve e5-base arkasına düşüyor. Geniş set insan doğrulaması ve bazı önceki tablo provenance uyarıları açık. Sonuç gerçek kullanıcı araştırmasıdır, evrensel liderlik değildir.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/newmindai/Mursit-Large-TR-Retrieval",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/newmindai/Mursit-Large-TR-Retrieval/raw/main/README.md",
+          "title": "newmindai/Mursit-Large-TR-Retrieval, Mursit-Embed-Qwen3-4B/1.7B-TR, TurkEmbed4STS/4Retrieval, ColmmBERT",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=newmindai&sort=lastModified&direction=-1&limit=40",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/newmindai/Mursit-Large-TR-Retrieval/discussions",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/RizgarOzan/turkish-rag-eval",
+          "title": "Türkçe RAG bağımsız deney, veri ve sınırlar",
+          "type": "independent_experiment",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/newmindai",
+          "title": "Geliştiricinin resmî Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.newmind.ai/journal/125/",
+          "title": "Mecellem Models resmî duyuru",
+          "type": "developer_blog",
+          "date": "2026-01-26",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/newmindai/Mursit-Large-TR-Retrieval/raw/main/README.md",
+            "https://huggingface.co/newmindai"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Kaynakta gerçek kullanıcı metni veya bağımsız deney koşulları okundu; başlık tek başına kalite kanıtı yapılmadı.",
+          "urls": [
+            "https://github.com/RizgarOzan/turkish-rag-eval"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/newmindai/Mursit-Large-TR-Retrieval",
+            "https://huggingface.co/api/models?author=newmindai&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/newmindai/Mursit-Large-TR-Retrieval/discussions"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Mursit-Large-TR-Retrieval\" review issues YouTube X",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Mursit-Large-TR-Retrieval\" independent benchmark",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "Mursit-Large-TR-Retrieval",
+          "url": "https://huggingface.co/newmindai/Mursit-Large-TR-Retrieval",
+          "status": "README/API ve bağımsız deney README okundu."
+        },
+        {
+          "name": "Mursit-Embed-Qwen3-4B/1.7B-TR; TurkEmbed4STS/4Retrieval; ColmmBERT",
+          "url": "https://huggingface.co/newmindai",
+          "status": "Bazı kesin adlar model listesinde; ayrı kartlar açık."
+        }
+      ]
+    },
+    {
+      "record_id": 88,
+      "id": "catalog-88",
+      "name": "Diğer gömme/reranker (turkish-e5-large, magibu embeddingmagibu-200m, trmteb, Trendyol TY-ecomm-embed, bge-m3 TR ince ayarları, seroe reranker'lar, hukuk gömme: HukukcuApp, runelab kenning, msbayindir, Whis29; genel çok dilli e5/bge-m3/gte/jina/Qwen3-Embedding)",
+      "category": "Gömme/reranker",
+      "kind": "model_family",
+      "creator": "Çeşitli geliştiriciler; incelenen temsilci intfloat/Microsoft araştırmacıları",
+      "plain": "Tek kimliği olmayan geniş embedding/reranker listesinde intfloat/multilingual-e5-large kartı ve API incelendi. Model24 katman,1024 boyut ve512 token sınırıyla100 dili destekler; Türkçeye özel e5 türeviyle aynı ağırlık değildir. Kart düşük kaynaklı dillerde bozulma olabileceğini söylüyor; çok dillilik her alanda aynı kalite demek değildir.",
+      "claims": [
+        {
+          "text": "Kart100 dil desteğini ve düşük kaynaklı dillerde performans sınırlamasını birlikte bildirir; burada Türkçe birinciliği kanıtlanmadı.",
+          "evidence": "Geliştiricinin kendi değerlendirmesi; bu araştırmada model çalıştırılmadı.",
+          "source": "https://huggingface.co/intfloat/multilingual-e5-large/raw/main/README.md"
+        }
+      ],
+      "training": "XLM-R-large başlangıcından çok dilli zayıf gözetimli karşılaştırmalı ön eğitim; ardından etiketli çiftlerle ince ayar. Sorgu ve pasaj önekleri ile havuzlama/normalizasyon kullanımın parçasıdır; yalnız metni vektöre çevirmek aynı protokolü sağlamaz.",
+      "version": "Temsilci intfloat/multilingual-e5-large sha3d7cfbdacd47fdda877c5cd8a79fbcc4f2a574f3; lastModified2026-04-02T02:16:59Z. Alt ailelerin sürümleri ayrı açık.",
+      "revision": "3d7cfbdacd47fdda877c5cd8a79fbcc4f2a574f3",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Tam adla geliştirici, bağımsız olumlu/olumsuz deneyim ve sosyal/video araması yapıldı; okunabilen, bu kesin modele bağlanan bağımsız saha deneyimi bulunamadı. Geliştirici ölçümü kullanıcı yorumu sayılmadı.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık.",
+        "Özel Türkçe türevlerle genel E5 karşılaştırması açık."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/intfloat/multilingual-e5-large/raw/main/README.md",
+          "title": "Multilingual E5 Large resmî kart",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/intfloat/multilingual-e5-large",
+          "title": "E5 canlı revizyon",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/intfloat/multilingual-e5-large/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Tam adla olumlu ve olumsuz deneyim arandı; okunabilir kesin model deneyimi saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/intfloat/multilingual-e5-large"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"multilingual-e5\" Turkish experience problems YouTube X",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "intfloat/multilingual-e5-large",
+          "url": "https://huggingface.co/intfloat/multilingual-e5-large",
+          "status": "Temsilci README/API okundu."
+        },
+        {
+          "name": "turkish-e5-large; embeddingmagibu-200m; trmteb; TY-ecomm-embed; TR bge-m3; seroe; HukukcuApp; runelab; msbayindir; Whis29; gte/jina/Qwen3-Embedding",
+          "url": null,
+          "status": "Ayrı kimlik, resmî kart ve sürüm incelemeleri açık."
+        }
+      ]
+    },
+    {
+      "record_id": 89,
+      "id": "ytu-ce-cosmos/modernbert-tr-pii-ner",
+      "name": "ytu-ce-cosmos/modernbert-tr-pii-ner (+ guardrail, intent/slot, absa)",
+      "category": "NER-PII",
+      "kind": "model_family",
+      "creator": "YTÜ COSMOS",
+      "plain": "ModernBERT-TR PII-NER, kişisel veri parçalarını25 KVKK varlık kategorisi ve51 BIO etiketiyle bulur. Guardrail, niyet/slot ve ABSA başlıktaki ayrı görev modelleridir; burada yalnız PII-NER kartı ayrıntılı incelendi. Çıktı metin maskelemesine yardımcı olabilir; tek başına yasal uygunluk veya tüm kişisel veriyi yakalama garantisi değildir.",
+      "claims": [
+        {
+          "text": "Kart örtüşme micro-F2 için80.85±.19, yayımlanan checkpoint81.01 bildiriyor. Int8 sonuç71.90; nicemleme hız kazancının kaliteyi koruduğu varsayılamaz.",
+          "evidence": "Kamu kaynağının geliştirici iddiası; yerel model testi yapılmadı.",
+          "source": "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-pii-ner/raw/main/README.md"
+        }
+      ],
+      "training": "PDF, hukuk kararı, sentetik örnek ve OCR karışımından8014 aday;7763 tutulan örnek. Birden fazla modelin etiketleme paneli kullanılıyor; üç epoch ve üç seed bildiriliyor. İnsan denetimi ile otomatik etiketleme aynı kanıt türü değildir.",
+      "version": "Kontrol edilen ana deponun lastModified zamanı 2026-07-20T14:59:39.000Z; bu tarih yeni eğitim veya yeni ağırlık kanıtı değildir. Geliştirici listesinin görülen kapsamı dışında en son sürüm garantisi verilmez.",
+      "revision": "69b2563bf18126fc3285ac2c66371b483bb6d7ec",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Tam adla geliştirici, bağımsız olumlu/olumsuz deneyim ve sosyal/video araması yapıldı; okunabilen, bu kesin modele bağlanan bağımsız saha deneyimi bulunamadı. Geliştirici ölçümü kullanıcı yorumu sayılmadı.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık.",
+        "Değerlendirme örtüşmeli span ölçümü; katı tam eşleşme ve yanlış negatif maliyeti ayrı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/modernbert-tr-pii-ner",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-pii-ner/raw/main/README.md",
+          "title": "ytu-ce-cosmos/modernbert-tr-pii-ner (+ guardrail, intent/slot, absa)",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/modernbert-tr-pii-ner/discussions",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos",
+          "title": "Geliştiricinin resmî Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tr.linkedin.com/posts/ytu-cosmos_modernbert-tr-g%C3%B6zl%C3%BC%C4%9F%C3%BCn%C3%BC-takt%C4%B1-daha-uza%C4%9F%C4%B1-activity-7484894906310639617-aAVl",
+          "title": "COSMOS ModernBERT-TR resmî aile duyurusu",
+          "type": "social",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://youtu.be/62EuyPf0g5o",
+          "title": "ModenBERT-TR’yi Tanıtıyoruz! video başlığı",
+          "type": "video",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "discovery_only"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-pii-ner/raw/main/README.md",
+            "https://huggingface.co/ytu-ce-cosmos"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Tam adla olumlu ve olumsuz deneyim arandı; okunabilir kesin model deneyimi saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Resmî LinkedIn duyurusunun gövdesi okundu. YouTube bağlantısı açıldı; yalnız başlık/sayfa kabuğu geldi, video/transkript izlenmedi. Bağımsız deneyim değildir.",
+          "urls": [
+            "https://tr.linkedin.com/posts/ytu-cosmos_modernbert-tr-g%C3%B6zl%C3%BC%C4%9F%C3%BCn%C3%BC-takt%C4%B1-daha-uza%C4%9F%C4%B1-activity-7484894906310639617-aAVl",
+            "https://youtu.be/62EuyPf0g5o"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/ytu-ce-cosmos/modernbert-tr-pii-ner",
+            "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/ytu-ce-cosmos/modernbert-tr-pii-ner/discussions"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"modernbert-tr-pii-ner\" review issues YouTube X",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "modernbert-tr-pii-ner",
+          "url": "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-pii-ner",
+          "status": "README/API okundu."
+        },
+        {
+          "name": "modernbert-tr guardrail, intent/slot, absa",
+          "url": "https://huggingface.co/ytu-ce-cosmos",
+          "status": "Geliştirici listesi ve blog aileyi doğruluyor; ayrı görev kartları açık."
+        }
+      ]
+    },
+    {
+      "record_id": 90,
+      "id": "newmindai/gliner2.5-kvkk-tr-v2",
+      "name": "newmindai/gliner2.5-kvkk-tr-v2 (+ v1, mursit-kvkk, gliner-multi-v2.1-nemotron-pii-tr)",
+      "category": "NER-PII",
+      "kind": "model_family",
+      "creator": "NewMind AI",
+      "plain": "GLiNER2.5-KVKK-TR-v2,287M çok dilli tabandan Türkçe kişisel veri ve ilişki çıkarımına uyarlanmıştır. Şema118 varlık ve105 ilişki içerir. v1, Mursit tabanlı ve Nemotron-PII türevleri aynı yayımlanmış checkpoint değildir. Sentetik test başarısı gerçek evrak başarısıyla karıştırılmamalıdır.",
+      "claims": [
+        {
+          "text": "118 gerçek belge/1323 span ve21 ortak etiketli karma sette katı F1 76.8, esnek F1 81.3 bildiriliyor. Küçük gerçek set sonuçları sentetik puanlardan10–25 puan düşük olabilir.",
+          "evidence": "Kamu kaynağının geliştirici iddiası; yerel model testi yapılmadı.",
+          "source": "https://huggingface.co/newmindai/gliner2.5-kvkk-tr-v2/raw/main/README.md"
+        }
+      ],
+      "training": "Kart ilk aşamada100K gerçek hukuk cümlesiyle alan uyarlaması, ardından6K sentetik belgeyle şema eğitimi bildiriyor. Seçilen ikinci aşama checkpoint500; son adımın otomatik olarak en iyi olmadığı açık. Gerçek kişisel değerlendirme belgeleri eğitimde kullanılmamış.",
+      "version": "Kontrol edilen ana deponun lastModified zamanı 2026-09-15T12:46:57.000Z; bu tarih yeni eğitim veya yeni ağırlık kanıtı değildir. Geliştirici listesinin görülen kapsamı dışında en son sürüm garantisi verilmez.",
+      "revision": "ed6f23e310bb3353df2ef6d8ba8f54c6be8daf88",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Tam adla geliştirici, bağımsız olumlu/olumsuz deneyim ve sosyal/video araması yapıldı; okunabilen, bu kesin modele bağlanan bağımsız saha deneyimi bulunamadı. Geliştirici ölçümü kullanıcı yorumu sayılmadı.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık.",
+        "Şirket/kurum adları zor; tek cümle yerine paragraf/belge öneriliyor. Kütüphane uyumu çalıştırılarak doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/newmindai/gliner2.5-kvkk-tr-v2",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/newmindai/gliner2.5-kvkk-tr-v2/raw/main/README.md",
+          "title": "newmindai/gliner2.5-kvkk-tr-v2 (+ v1, mursit-kvkk, gliner-multi-v2.1-nemotron-pii-tr)",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=newmindai&sort=lastModified&direction=-1&limit=40",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/newmindai/gliner2.5-kvkk-tr-v2/discussions",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/newmindai",
+          "title": "Geliştiricinin resmî Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/newmindai/gliner2.5-kvkk-tr-v2/raw/main/README.md",
+            "https://huggingface.co/newmindai"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Tam adla olumlu ve olumsuz deneyim arandı; okunabilir kesin model deneyimi saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/newmindai/gliner2.5-kvkk-tr-v2",
+            "https://huggingface.co/api/models?author=newmindai&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/newmindai/gliner2.5-kvkk-tr-v2/discussions"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"gliner2.5-kvkk-tr-v2\" review issues YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "gliner2.5-kvkk-tr-v2",
+          "url": "https://huggingface.co/newmindai/gliner2.5-kvkk-tr-v2",
+          "status": "README/API okundu."
+        },
+        {
+          "name": "gliner2.5-kvkk-tr-v1; gliner2.5-mursit-kvkk-tr-v1; gliner-multi-v2.1-nemotron-pii-tr",
+          "url": "https://huggingface.co/newmindai",
+          "status": "Devam üyeleri listede kısmen doğrulandı; ayrı kartlar açık."
+        }
+      ]
+    },
+    {
+      "record_id": 91,
+      "id": "akdeniz27/bert-base-turkish-cased-ner",
+      "name": "Genel Türkçe NER/duygu/sınıflama/QA/özetleme (akdeniz27 NER, savasy, spaCy tr_core_news, btniq kvkk, OpenMed privacy-filter, TurkishBERTweet, tabularisai, mT5 özetleme…)",
+      "category": "NER-PII",
+      "kind": "model_family",
+      "creator": "Çeşitli geliştiriciler; kesin incelenen akdeniz27",
+      "plain": "Bu satır NER, duygu, sınıflama, soru-cevap ve özetleme gibi farklı işleri topluyor. Kesin kaynak akdeniz27/bert-base-turkish-cased-ner: kişi, kurum ve konum bulur; bütün KVKK verilerini veya özetleme görevini kapsamaz. Diğer görevleri bu modelin becerisi gibi göstermek yanlış olur.",
+      "claims": [
+        {
+          "text": "Kart değerlendirme F1 .9593 ve test genel F1 .9617 bildiriyor; yalnız PER/ORG/LOC şeması ve belirtilen test için geçerli.",
+          "evidence": "Kamu kaynağının geliştirici iddiası; yerel model testi yapılmadı.",
+          "source": "https://huggingface.co/akdeniz27/bert-base-turkish-cased-ner/raw/main/README.md"
+        }
+      ],
+      "training": "BERTurk-cased tabanı, gözden geçirilmiş Türkçe NER veri kümesiyle üç epoch,2e-5 öğrenme oranı ve512 token sınırında ince ayarlanmış. Yedi BIO etiketi kullanır. Veri alanı ve etiket şeması gerçek hukuk veya sağlık kişisel verisinden farklı olabilir.",
+      "version": "Kontrol edilen ana deponun lastModified zamanı 2024-06-18T09:42:03.000Z; bu tarih yeni eğitim veya yeni ağırlık kanıtı değildir. Geliştirici listesinin görülen kapsamı dışında en son sürüm garantisi verilmez.",
+      "revision": "99995f7d2be4b3a28c74f0d36ee97f8c04ee0571",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Tam adla geliştirici, bağımsız olumlu/olumsuz deneyim ve sosyal/video araması yapıldı; okunabilen, bu kesin modele bağlanan bağımsız saha deneyimi bulunamadı. Geliştirici ölçümü kullanıcı yorumu sayılmadı.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık.",
+        "Yeni NER üyeleri bulunması eski kartın kaldırıldığı anlamına gelmez; kalite karşılaştırması açık."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/akdeniz27/bert-base-turkish-cased-ner",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/akdeniz27/bert-base-turkish-cased-ner/raw/main/README.md",
+          "title": "Genel Türkçe NER/duygu/sınıflama/QA/özetleme (akdeniz27 NER, savasy, spaCy tr_core_news, btniq kvkk, OpenMed privacy-filter, TurkishBERTweet, tabularisai, mT5 özetleme…)",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=akdeniz27&sort=lastModified&direction=-1&limit=40",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/akdeniz27/bert-base-turkish-cased-ner/discussions",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/akdeniz27",
+          "title": "Geliştiricinin resmî Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/akdeniz27/bert-base-turkish-cased-ner/raw/main/README.md",
+            "https://huggingface.co/akdeniz27"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Tam adla olumlu ve olumsuz deneyim arandı; okunabilir kesin model deneyimi saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/akdeniz27/bert-base-turkish-cased-ner",
+            "https://huggingface.co/api/models?author=akdeniz27&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/akdeniz27/bert-base-turkish-cased-ner/discussions"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"akdeniz27\" NER review issues YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "akdeniz27/bert-base-turkish-cased-ner",
+          "url": "https://huggingface.co/akdeniz27/bert-base-turkish-cased-ner",
+          "status": "README/API okundu."
+        },
+        {
+          "name": "savasy; spaCy tr_core_news; btniq KVKK; OpenMed privacy-filter; TurkishBERTweet; tabularisai; mT5 özetleme",
+          "url": null,
+          "status": "Tek bir aile değil; ayrı kimlik/kart/sürüm incelemeleri tamamlanmadı."
+        },
+        {
+          "name": "akdeniz27/modernbert-tr-base-ner",
+          "url": "https://huggingface.co/akdeniz27/modernbert-tr-base-ner",
+          "status": "Daha yeni geliştirici üyesi listede görüldü; kartı burada incelenmedi."
+        }
+      ]
+    },
+    {
+      "record_id": 92,
+      "id": "TURKCELL/gibberish-sentence-detection-model-tr",
+      "name": "TURKCELL/gibberish-sentence-detection-model-tr (+ bert-offensive-lang-detection-tr)",
+      "category": "NER-PII",
+      "kind": "model_family",
+      "creator": "Turkcell",
+      "plain": "Kesin incelenen gibberish-sentence-detection-model-tr, Türkçe girdiyi anlamlı veya anlamsız olarak iki sınıfa ayırır. Başlıkta birlikte geçen offensive-lang modeli ayrı bir saldırgan dil sınıflandırıcısıdır; biri diğerinin yerine geçmez. Anlamsızlık kararı dilbilgisi düzeltmesi veya güvenlik filtresinin tamamı değildir.",
+      "claims": [
+        {
+          "text": "Resmî kart iki sınıflı anlamsız cümle tespitini belgeler; ölçülmüş Türkçe doğruluk veya hata oranı verilmedi.",
+          "evidence": "Kamu kaynağının geliştirici iddiası; yerel model testi yapılmadı.",
+          "source": "https://huggingface.co/TURKCELL/gibberish-sentence-detection-model-tr/raw/main/README.md"
+        }
+      ],
+      "training": "Kart dbmdz/bert-base-turkish-128k-uncased tabanını işaret ediyor. Okunan resmî içerikte eğitim veri dağılımı, etiketleme süreci ve sayısal test başarısı yeterince açıklanmamış; katalogdaki tahminler kanıta dönüştürülmedi.",
+      "version": "Kontrol edilen ana deponun lastModified zamanı 2024-02-05T09:59:50.000Z; bu tarih yeni eğitim veya yeni ağırlık kanıtı değildir. Geliştirici listesinin görülen kapsamı dışında en son sürüm garantisi verilmez.",
+      "revision": "a174d1caffa25ca0f7bbcdfba2004678d9a94d9b",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Tam adla geliştirici, bağımsız olumlu/olumsuz deneyim ve sosyal/video araması yapıldı; okunabilen, bu kesin modele bağlanan bağımsız saha deneyimi bulunamadı. Geliştirici ölçümü kullanıcı yorumu sayılmadı.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık.",
+        "README örnek model adı gibberish-detection-model-tr, kesin depo adı gibberish-sentence-detection-model-tr; örnek doğrudan çalıştırılmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/TURKCELL/gibberish-sentence-detection-model-tr",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/TURKCELL/gibberish-sentence-detection-model-tr/raw/main/README.md",
+          "title": "TURKCELL/gibberish-sentence-detection-model-tr (+ bert-offensive-lang-detection-tr)",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=TURKCELL&sort=lastModified&direction=-1&limit=40",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/TURKCELL/gibberish-sentence-detection-model-tr/discussions",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/TURKCELL",
+          "title": "Geliştiricinin resmî Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/TURKCELL/gibberish-sentence-detection-model-tr/raw/main/README.md",
+            "https://huggingface.co/TURKCELL"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Tam adla olumlu ve olumsuz deneyim arandı; okunabilir kesin model deneyimi saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/TURKCELL/gibberish-sentence-detection-model-tr",
+            "https://huggingface.co/api/models?author=TURKCELL&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/TURKCELL/gibberish-sentence-detection-model-tr/discussions"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"TURKCELL\" gibberish model review issues YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "TURKCELL/gibberish-sentence-detection-model-tr",
+          "url": "https://huggingface.co/TURKCELL/gibberish-sentence-detection-model-tr",
+          "status": "README/API okundu."
+        },
+        {
+          "name": "TURKCELL/bert-offensive-lang-detection-tr",
+          "url": "https://huggingface.co/TURKCELL/bert-offensive-lang-detection-tr",
+          "status": "Resmî listede görüldü; ayrı kart incelemesi açık."
+        }
+      ]
+    },
+    {
+      "record_id": 93,
+      "id": "Horizon-Labs/punctuation-restoration-small",
+      "name": "Horizon-Labs/punctuation-restoration-small ve -base (mmBERT)",
+      "category": "Noktalama-yazım-morfoloji",
+      "kind": "model_family",
+      "creator": "Horizon Labs",
+      "plain": "Small, mmBERT tabanlı140M modeldir;88 dilde nokta, virgül, soru, iki nokta ve tire ekler. Kelimeleri veya büyük/küçük harfi değiştirmez. Base307M kardeşi ayrı ağırlıktır. ONNX ve tarayıcı örnekleri belgeli; bir dağıtım biçiminin bulunması Türkçe doğruluğunun kabul edildiğini göstermez.",
+      "claims": [
+        {
+          "text": "v1.1 TED25 dil konuşma F1 değerini .772→.786 ve küçük harfte .688→.706 yükseltiyor; bunlar Türkçe tekil skor değildir. Int8/fp32 %99.96 etiket uyumu doğruluk oranı değildir.",
+          "evidence": "Kamu kaynağının geliştirici iddiası; yerel model testi yapılmadı.",
+          "source": "https://huggingface.co/Horizon-Labs/punctuation-restoration-small/raw/main/README.md"
+        }
+      ],
+      "training": "1.168.626 web penceresi,119M kelime ve v1.1 için Qwen3.8-27B üretimi49.144 konuşma tarzı pencere. Sentetik konuşma örnekleri gerçek ses kayıtları değildir. İki epoch ve test dışı checkpoint seçimi bildiriliyor.",
+      "version": "Small v1.0:2026-10-03; v1.1:2026-10-09. API shaee31fdfc5304f876ea3b0dd72d30eda7e940b2b1. Base kartı ayrı incelenmedi; tüm aile için en yeni garanti yok.",
+      "revision": "ee31fdfc5304f876ea3b0dd72d30eda7e940b2b1",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": "https://huggingface.co/spaces/Horizon-Labs/punctuation-restoration",
+      "independent": "Tam adla geliştirici, bağımsız olumlu/olumsuz deneyim ve sosyal/video araması yapıldı; okunabilen, bu kesin modele bağlanan bağımsız saha deneyimi bulunamadı. Geliştirici ölçümü kullanıcı yorumu sayılmadı.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/Horizon-Labs/punctuation-restoration-small",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Horizon-Labs/punctuation-restoration-small/raw/main/README.md",
+          "title": "Horizon-Labs/punctuation-restoration-small ve -base (mmBERT)",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=Horizon-Labs&sort=lastModified&direction=-1&limit=40",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Horizon-Labs/punctuation-restoration-small/discussions",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Horizon-Labs",
+          "title": "Geliştiricinin resmî Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/Horizon-Labs/punctuation-restoration-small/raw/main/README.md",
+            "https://huggingface.co/Horizon-Labs"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Tam adla olumlu ve olumsuz deneyim arandı; okunabilir kesin model deneyimi saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/Horizon-Labs/punctuation-restoration-small",
+            "https://huggingface.co/api/models?author=Horizon-Labs&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/Horizon-Labs/punctuation-restoration-small/discussions"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Horizon-Labs\" punctuation restoration review YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "punctuation-restoration-small",
+          "url": "https://huggingface.co/Horizon-Labs/punctuation-restoration-small",
+          "status": "README/API ve changelog okundu."
+        },
+        {
+          "name": "punctuation-restoration-base",
+          "url": "https://huggingface.co/Horizon-Labs/punctuation-restoration-base",
+          "status": "Small kartında307M kardeş olarak belgeli; ayrı inceleme açık."
+        }
+      ]
+    },
+    {
+      "record_id": 94,
+      "id": "ytu-ce-cosmos/turkish-base-bert-punctuation-correction",
+      "name": "ytu-ce-cosmos/turkish-base-bert-punctuation-correction + capitalization-correction",
+      "category": "Noktalama-yazım-morfoloji",
+      "kind": "model_family",
+      "creator": "YTÜ COSMOS; Saoud, Alomeyr, Amasyalı ve Kesgin",
+      "plain": "Türkçe noktalama düzeltici ve büyük harf düzeltici iki ayrı token etiketleme modelidir. Punctuation kartı ikisini birleştiren örnek kod sunuyor. Tekil kartta gösterilen temiz çıktı geliştirici örneğidir; bağımsız kullanım veya gerçek zamanlı dikte kabulü sayılmadı.",
+      "claims": [
+        {
+          "text": "Örnek ön işlem I harfini Türkçeye göre küçültür, apostrof ve tireyi boşluğa çevirir; özgün yazının birebir korunması beklenemez.",
+          "evidence": "Kamu kaynağının geliştirici iddiası; yerel model testi yapılmadı.",
+          "source": "https://huggingface.co/ytu-ce-cosmos/turkish-base-bert-punctuation-correction/raw/main/README.md"
+        }
+      ],
+      "training": "Kart Türkçe BERT tabanını ve2024 ASYU çalışmasını işaret ediyor; okunan README eğitim veri hacmi, split ve sayısal test tablosunu vermiyor. Bu nedenle katalogdaki olası başarı bilgisi burada doğrulanmış eğitim sonucu yapılmadı.",
+      "version": "Kontrol edilen ana deponun lastModified zamanı 2024-12-03T18:00:09.000Z; bu tarih yeni eğitim veya yeni ağırlık kanıtı değildir. Geliştirici listesinin görülen kapsamı dışında en son sürüm garantisi verilmez.",
+      "revision": "2a8e5e4896130a1bc70974ca4dc4c0412f913a21",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Tam adla geliştirici, bağımsız olumlu/olumsuz deneyim ve sosyal/video araması yapıldı; okunabilen, bu kesin modele bağlanan bağımsız saha deneyimi bulunamadı. Geliştirici ölçümü kullanıcı yorumu sayılmadı.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık.",
+        "Örnekte tokenizer kısa depo adıyla çağrılıyor; sınır indeksleri ve boş girdi davranışı bu araştırmada çalıştırılmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/turkish-base-bert-punctuation-correction",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos/turkish-base-bert-punctuation-correction/raw/main/README.md",
+          "title": "ytu-ce-cosmos/turkish-base-bert-punctuation-correction + capitalization-correction",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/turkish-base-bert-punctuation-correction/discussions",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos",
+          "title": "Geliştiricinin resmî Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/ytu-ce-cosmos/turkish-base-bert-punctuation-correction/raw/main/README.md",
+            "https://huggingface.co/ytu-ce-cosmos"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Tam adla olumlu ve olumsuz deneyim arandı; okunabilir kesin model deneyimi saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/ytu-ce-cosmos/turkish-base-bert-punctuation-correction",
+            "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/ytu-ce-cosmos/turkish-base-bert-punctuation-correction/discussions"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"turkish-base-bert-punctuation-correction\" review issues YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "turkish-base-bert-punctuation-correction",
+          "url": "https://huggingface.co/ytu-ce-cosmos/turkish-base-bert-punctuation-correction",
+          "status": "README/API okundu."
+        },
+        {
+          "name": "turkish-base-bert-capitalization-correction",
+          "url": "https://huggingface.co/ytu-ce-cosmos/turkish-base-bert-capitalization-correction",
+          "status": "Kesin kimliği ortak kullanım kodunda doğrulandı; ayrı README/API açık."
+        }
+      ]
+    },
+    {
+      "record_id": 95,
+      "id": "uygarkurt/bert-restore-punctuation-turkish",
+      "name": "uygarkurt/bert-restore-punctuation-turkish (+ electra, convbert)",
+      "category": "Noktalama-yazım-morfoloji",
+      "kind": "model_family",
+      "creator": "Uygar Kurt ve Aykut Çayır",
+      "plain": "UBMK2023 çalışmasına ait Türkçe noktalama ailesi nokta, virgül ve soru işareti tahmin eder. BERT kartı üç modelin veri ve sonuç tablosunu birlikte sunar. Bu, ELECTRA ve ConvBERT ağırlıklarının ayrı ayrı bu ortamda incelendiği veya test edildiği anlamına gelmez.",
+      "claims": [
+        {
+          "text": "BERT genel F1 .8371; nokta .9600, virgül .6321, soru .9194. ELECTRA genel .8393 ve ConvBERT .8379 aynı geliştirici tablosunda; özellikle virgül zayıf.",
+          "evidence": "Kamu kaynağının geliştirici iddiası; yerel model testi yapılmadı.",
+          "source": "https://huggingface.co/uygarkurt/bert-restore-punctuation-turkish/raw/main/README.md"
+        }
+      ],
+      "training": "Eğitim1.471.806, doğrulama180.326 ve test182.487 örnek. Nokta ve virgül sayıları soru işaretlerinden belirgin fazla; noktalama başarısı tek bir genel sayıdan ibaret değildir. Geliştiricinin kod deposu eğitim yapılandırmasına bağlantı sağlar.",
+      "version": "Kontrol edilen ana deponun lastModified zamanı 2023-10-31T13:21:17.000Z; bu tarih yeni eğitim veya yeni ağırlık kanıtı değildir. Geliştirici listesinin görülen kapsamı dışında en son sürüm garantisi verilmez.",
+      "revision": "dd8b9481ed3b3c05110d7e041ecbeb6a1c23b8b0",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Tam adla geliştirici, bağımsız olumlu/olumsuz deneyim ve sosyal/video araması yapıldı; okunabilen, bu kesin modele bağlanan bağımsız saha deneyimi bulunamadı. Geliştirici ölçümü kullanıcı yorumu sayılmadı.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/uygarkurt/bert-restore-punctuation-turkish",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/uygarkurt/bert-restore-punctuation-turkish/raw/main/README.md",
+          "title": "uygarkurt/bert-restore-punctuation-turkish (+ electra, convbert)",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=uygarkurt&sort=lastModified&direction=-1&limit=40",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/uygarkurt/bert-restore-punctuation-turkish/discussions",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/uygarkurt/Turkish-Punctuation-Restoration",
+          "title": "Resmî kod, eğitim ve YouTube sunumu başlığı",
+          "type": "developer_repository",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/uygarkurt",
+          "title": "Geliştiricinin resmî Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/uygarkurt/bert-restore-punctuation-turkish/raw/main/README.md",
+            "https://github.com/uygarkurt/Turkish-Punctuation-Restoration",
+            "https://huggingface.co/uygarkurt"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Tam adla olumlu ve olumsuz deneyim arandı; okunabilir kesin model deneyimi saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Resmî README YouTube Paper Presentation başlığını doğruluyor; video izlenmedi, sunum bağımsız deneyim sayılmadı.",
+          "urls": [
+            "https://github.com/uygarkurt/Turkish-Punctuation-Restoration"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/uygarkurt/bert-restore-punctuation-turkish",
+            "https://huggingface.co/api/models?author=uygarkurt&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/uygarkurt/bert-restore-punctuation-turkish/discussions"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"uygarkurt\" punctuation restoration review issues YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "bert-restore-punctuation-turkish",
+          "url": "https://huggingface.co/uygarkurt/bert-restore-punctuation-turkish",
+          "status": "README/API okundu."
+        },
+        {
+          "name": "electra-restore-punctuation-turkish ve convbert-restore-punctuation-turkish",
+          "url": "https://huggingface.co/uygarkurt",
+          "status": "Kesin adlar kart ve sürüm listesinde; ayrı kartlar açık."
+        }
+      ]
+    },
+    {
+      "record_id": 96,
+      "id": "1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase",
+      "name": "1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase",
+      "category": "Noktalama-yazım-morfoloji",
+      "kind": "model",
+      "creator": "1-800-BAD-CODE",
+      "plain": "XLM-RoBERTa tabanlı47 dilli model noktalama, büyük harf ve cümle sınırını aynı geçişte üretir. ONNX/SentencePiece dosyaları ve punctuators sarmalayıcısı belgeli. Bu birleşik görev küçük bir noktalamadan fazlasını değiştirir; girdi sözcükleri ve çıktı cümle sınırları ayrı gözlenmelidir.",
+      "claims": [
+        {
+          "text": "Kart47 dilde üç işlevi belgeler; kullanıcı sohbet örneği cümle sınırı hatasını, geliştirici yanıtı alan farkını gösterir.",
+          "evidence": "Kamu kaynağının geliştirici iddiası; yerel model testi yapılmadı.",
+          "source": "https://huggingface.co/1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase/raw/main/README.md"
+        }
+      ],
+      "training": "Resmî README kullanım ve etiketleme biçimini ayrıntılandırır; okunan bölüm tam eğitim korpusu, Türkçe payı ve ayrı Türkçe test skoru sağlamadı. Çok dilli örnek çıktı Türkçe saha değerlendirmesine çevrilmedi.",
+      "version": "Kontrol edilen ana deponun lastModified zamanı 2023-07-15T20:42:28.000Z; bu tarih yeni eğitim veya yeni ağırlık kanıtı değildir. Geliştirici listesinin görülen kapsamı dışında en son sürüm garantisi verilmez.",
+      "revision": "d1769a597ce8dfaa070d436bc67d4ee761f58884",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Discussion1 gerçek metninde kullanıcı sohbet kaydının virgülle biten parçalara bölündüğünü gösteriyor. Geliştirici haber verisine yakın başarı ile konuşma alanındaki düşüşü kabul ediyor ve sabit SBD eşiğini açıklıyor. Bu somut alan farkı, tüm diller için evrensel hata oranı değildir.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase/raw/main/README.md",
+          "title": "1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=1-800-BAD-CODE&sort=lastModified&direction=-1&limit=40",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase/discussions",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase/discussions/1",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase/discussions/1",
+          "title": "Sohbet metninde cümle bölme sorunu",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/1-800-BAD-CODE",
+          "title": "Geliştiricinin resmî Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase/raw/main/README.md",
+            "https://huggingface.co/1-800-BAD-CODE"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Kaynakta gerçek kullanıcı metni veya bağımsız deney koşulları okundu; başlık tek başına kalite kanıtı yapılmadı.",
+          "urls": [
+            "https://huggingface.co/api/models/1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase/discussions/1"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase",
+            "https://huggingface.co/api/models?author=1-800-BAD-CODE&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase/discussions",
+            "https://huggingface.co/api/models/1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase/discussions/1"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"1-800-BAD-CODE\" punctuators issues review YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "xlm-roberta_punctuation_fullstop_truecase",
+          "url": "https://huggingface.co/1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase",
+          "status": "README/API ve gerçek discussion okundu."
+        },
+        {
+          "name": "punct_cap_seg_47_language",
+          "url": "https://huggingface.co/1-800-BAD-CODE/punct_cap_seg_47_language",
+          "status": "Geliştirici listesinde ek üye; halef olduğu kesinleştirilmedi."
+        }
+      ]
+    },
+    {
+      "record_id": 97,
+      "id": "obulat/zeyrek",
+      "name": "Zeyrek (Python) ve zemberek-python",
+      "category": "Noktalama-yazım-morfoloji",
+      "kind": "tool",
+      "creator": "Onur Bulat ve katkıcılar; Zemberek kısmi portu",
+      "plain": "Zeyrek bir dil üretim modeli değil, Türkçe sözcük çözümleme ve kök/lemma çıkarma Python aracıdır. Zemberek işlevlerinin bir kısmını taşır; zemberek-python ile aynı paket değildir. README alpha durumunu ve API değişebileceğini açıkça bildiriyor. Bir sözcüğe birden fazla çözüm döndürmesi hata olmak zorunda değildir.",
+      "claims": [
+        {
+          "text": "README aracı kısmi Zemberek portu ve alpha API olarak tanımlar.",
+          "evidence": "Resmî kamu kaynak iddiası; bu araştırmada çalıştırılmadı.",
+          "source": "https://github.com/obulat/zeyrek"
+        }
+      ],
+      "training": "Sinir ağı ön eğitimi uygulanmaz; sözlük, biçimbilim kuralları ve çözümleyici kullanılır. README örneği olası çözümlemeleri döndürür; bağlamdan tek doğru anlamı seçen tam bir ayrıştırıcı olarak sunulmadı. MIT lisanslıdır.",
+      "version": "Resmî GitHub API archived=false; ana commit527113f48dfa2d5ec48f913a6411f2ed35491bcc,2024-07-14. Issue42 kullanıcısı0.1.3/Python3.14.6 ortamını bildiriyor; bu sürümün burada çalıştığı doğrulanmadı.",
+      "revision": "527113f48dfa2d5ec48f913a6411f2ed35491bcc",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "2026-07-31 tarihli açık issue42, okumak ardından okunmak sorgulanınca çözümün Unk olmasını yeniden üretim koduyla bildiriyor. Issue41 UD biçiminin bazı sonuçlarda varsayılan biçime dönmesini gösteriyor. Bunlar gerçek kullanıcı raporları; önerilen yama uygulanmadı ve hata bağımsız tekrarlanmadı.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık."
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/obulat/zeyrek",
+          "title": "Zeyrek (Python) ve zemberek-python",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/obulat/zeyrek",
+          "title": "Zeyrek canlı depo metadata",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/obulat/zeyrek/commits?per_page=1",
+          "title": "Zeyrek ana commit",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/obulat/zeyrek/issues/42",
+          "title": "Çağrı sırasına bağlı edilgen çözümleme hatası",
+          "type": "community",
+          "date": "2026-07-31",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://github.com/obulat/zeyrek"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Kaynakta gerçek kullanıcı metni veya bağımsız deney koşulları okundu; başlık tek başına kalite kanıtı yapılmadı.",
+          "urls": [
+            "https://github.com/obulat/zeyrek/issues/42"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://api.github.com/repos/obulat/zeyrek",
+            "https://api.github.com/repos/obulat/zeyrek/commits?per_page=1"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Zeyrek\" \"Zemberek\" morphology problems review YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "obulat/zeyrek",
+          "url": "https://github.com/obulat/zeyrek",
+          "status": "README, repo/commit API ve issue gövdeleri okundu."
+        },
+        {
+          "name": "zemberek-python",
+          "url": null,
+          "status": "Ayrı paket; kesin kimlik ve kart incelemesi açık."
+        }
+      ]
+    },
+    {
+      "record_id": 98,
+      "id": "google-research/turkish-morphology",
+      "name": "google-research/turkish-morphology, TRmorph",
+      "category": "Noktalama-yazım-morfoloji",
+      "kind": "tool",
+      "creator": "Google Research katkıcıları; resmî Google ürünü değil",
+      "plain": "İki ayrı Türkçe biçimbilim aracı var. Google Research deposu19 Nisan2026 arşivlenmiş; TRmorph xfst/lexc kolu kamuya açık ve archived=false. TRmorph README eski SFST kolunun artık geliştirilmediğini, yeniden yazılmış xfst/foma kolunun tercih edilmesini söyler.2015 tarihli etkin geliştirme ifadesi2026 bakım garantisi değildir.",
+      "claims": [
+        {
+          "text": "Resmî depo47.202 sözcüklük sözlüğü belgeler; GitHub güncel durumu archived=true.",
+          "evidence": "Resmî kamu kaynak iddiası; bu araştırmada çalıştırılmadı.",
+          "source": "https://github.com/google-research/turkish-morphology"
+        },
+        {
+          "text": "TRmorph README xfst/lexc yeniden yazımı önerir; SFST kolu artık geliştirilmiyor.",
+          "evidence": "Geliştiricinin resmî bakım/kol açıklaması.",
+          "source": "https://raw.githubusercontent.com/coltekin/TRmorph/master/README.md"
+        }
+      ],
+      "training": "Google aracı47.202 sözcük, FST ve Thrax ses bilgisi kuralları kullanır. TRmorph sözlük ve sonlu durum kurallarıyla çözümleme, kök, segmentasyon ve bilinmeyen sözcük tahmini sunar; sinir ağı ön eğitimi değildir. Yeni TRmorph kolu MIT lisanslıdır.",
+      "version": "Google archived=true, ana commit2022-03-15. TRmorph archived=false,pushed_at2023-09-23; ana dal commit2018-12-18. Repo push zamanı farklı daldan gelebilir; yeni yayın tarihi diye sunulmadı.",
+      "revision": "Google:83d4b967dc09ff947d15a4b20a81dd328c2c4f81; TRmorph:fbceb1133fbdc51bd63693d448b7cb75672e2256",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Issue12 Python3.10 Colab üzerinde _PyGen_Send sembol hatası, issue11 Windows/OpenFST yükleme sorunu bildiriyor. İkinci kullanıcı sonuçları olumlu değerlendirirken platform engelini belirtiyor. Raporların kurulum bağlamı var; burada doğrulama/onarım yapılmadı.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık."
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/google-research/turkish-morphology",
+          "title": "google-research/turkish-morphology, TRmorph",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/google-research/turkish-morphology",
+          "title": "Arşivli depo metadata",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/google-research/turkish-morphology/commits?per_page=1",
+          "title": "Ana commit metadata",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/google-research/turkish-morphology/issues/12",
+          "title": "Colab Python3.10 uyumsuzluğu",
+          "type": "community",
+          "date": "2024-05-07",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/google-research/turkish-morphology/issues/11",
+          "title": "Windows kullanımı ve kullanıcı değerlendirmesi",
+          "type": "community",
+          "date": "2024-03-20",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/coltekin/TRmorph/master/README.md",
+          "title": "TRmorph resmî README, yeni/eski kol ayrımı",
+          "type": "developer_repository",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/coltekin/TRmorph",
+          "title": "TRmorph depo durumu",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/coltekin/TRmorph/commits?per_page=1",
+          "title": "TRmorph ana commit",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://github.com/google-research/turkish-morphology",
+            "https://raw.githubusercontent.com/coltekin/TRmorph/master/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Kaynakta gerçek kullanıcı metni veya bağımsız deney koşulları okundu; başlık tek başına kalite kanıtı yapılmadı.",
+          "urls": [
+            "https://github.com/google-research/turkish-morphology/issues/12",
+            "https://github.com/google-research/turkish-morphology/issues/11"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://api.github.com/repos/google-research/turkish-morphology",
+            "https://api.github.com/repos/google-research/turkish-morphology/commits?per_page=1",
+            "https://api.github.com/repos/coltekin/TRmorph",
+            "https://api.github.com/repos/coltekin/TRmorph/commits?per_page=1"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"turkish-morphology\" \"TRmorph\" review issues YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "google-research/turkish-morphology",
+          "url": "https://github.com/google-research/turkish-morphology",
+          "status": "README, arşiv uyarısı, API/commit ve gerçek issue metinleri okundu."
+        },
+        {
+          "name": "coltekin/TRmorph xfst/lexc kolu",
+          "url": "https://github.com/coltekin/TRmorph",
+          "status": "README/API ve ana commit okundu; archived=false. Eski SFST kolu geliştirilmiyor."
+        }
+      ]
+    },
+    {
+      "record_id": 99,
+      "id": "ahmetaa/zemberek-nlp",
+      "name": "Zemberek-NLP (Java; 1372★)",
+      "category": "Noktalama-yazım-morfoloji",
+      "kind": "tool",
+      "creator": "Ahmet A. Akın, Mehmet D. Akın ve katkıcılar",
+      "plain": "Java tabanlı Türkçe NLP araç takımıdır; morfoloji, belirsizlik giderme, sözcük üretimi, token/cümle bölme, yazım önerisi, normalizasyon, NER ve sınıflama modülleri içerir. Tek model değildir. README yavaş bakım modunu bildirir; eski yayımlanmış sürüm bulunması kaynak deponun kaldırıldığı veya kullanılamadığı anlamına gelmez.",
+      "claims": [
+        {
+          "text": "Geliştirici yavaş bakım modunu ve0.17.1 dağıtımını açıkça bildirir.",
+          "evidence": "Resmî kamu kaynak iddiası; bu araştırmada çalıştırılmadı.",
+          "source": "https://github.com/ahmetaa/zemberek-nlp"
+        }
+      ],
+      "training": "Çeşitli kural, sözlük ve istatistiksel bileşenler vardır; bütün paket için tek parametre veya tek eğitim korpusu verilmez. Hangi modül kullanılacaksa o modülün veri ve model koşulları ayrı değerlendirilir. LICENSE metni Apache2.0 olarak okundu.",
+      "version": "README son dağıtım0.17.1,2019-07-23 diyor; canlı GitHub API archived=false, ana commit037202c7e18b977c95181a76db05cb1e95846554,2026-10-04. Commit güncelliği yeni Maven sürümü değildir.",
+      "revision": "037202c7e18b977c95181a76db05cb1e95846554",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Bağımsız kullanım ve sorun araması yapıldı. Bu dar taramada okunabilen kesin sürümlü olumlu/olumsuz kalite deneyimi saptanmadı; API ilk üç kaydı PR olduğu için bunlar kullanıcı kalite yorumu yapılmadı. Yıldız sayısı model doğruluğu kanıtı değildir.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık."
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/ahmetaa/zemberek-nlp",
+          "title": "Zemberek-NLP (Java; 1372★)",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ahmetaa/zemberek-nlp/master/LICENSE",
+          "title": "Zemberek Apache2 lisansı",
+          "type": "license",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/ahmetaa/zemberek-nlp",
+          "title": "Zemberek güncel depo durumu",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/ahmetaa/zemberek-nlp/commits?per_page=1",
+          "title": "Zemberek ana commit",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://github.com/ahmetaa/zemberek-nlp"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Tam adla olumlu ve olumsuz deneyim arandı; okunabilir kesin model deneyimi saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://api.github.com/repos/ahmetaa/zemberek-nlp",
+            "https://api.github.com/repos/ahmetaa/zemberek-nlp/commits?per_page=1"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"zemberek-nlp\" review slow maintenance YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "zemberek-nlp",
+          "url": "https://github.com/ahmetaa/zemberek-nlp",
+          "status": "README/LICENSE, API ve ana commit okundu."
+        }
+      ]
+    },
+    {
+      "record_id": 100,
+      "id": "vngrs-ai/vnlp",
+      "name": "VNLP (VNGRS: düzeltici, deasciifier, sayı→kelime, NER, POS, kök bulma)",
+      "category": "Noktalama-yazım-morfoloji",
+      "kind": "tool",
+      "creator": "VNGRS; Melikşah Türker, Erdi Arı ve Aydın Han",
+      "plain": "VNLP Türkçe metin araçlarını bir Python paketinde toplar: yazım/deasciification/sayı normalizasyonu, cümle bölme, kök ve POS, NER, bağımlılık ve duygu analizi. Tek görev modeli değildir. Özetleme ve yeniden anlatım README tarafından demo/API alanına ayrılmış; tüm becerilerin pakette aynı biçimde geldiği varsayılmadı.",
+      "claims": [
+        {
+          "text": "Resmî README araç kapsamını ve demo ayrımını belgeler; buradan bütün görevlerde en iyi kalite sonucu çıkarılamaz.",
+          "evidence": "Resmî kamu kaynak iddiası; bu araştırmada çalıştırılmadı.",
+          "source": "https://github.com/vngrs-ai/vnlp"
+        }
+      ],
+      "training": "Bileşenlere göre ayrı eğitim ve algoritmalar var; README tek ortak eğitim sayısı vermiyor. FastText, Word2Vec ve SentencePiece bileşenleri listeleniyor. Depo lisansı AGPL3.0; eski haberlerdeki ücretsiz ifadesi bu lisansın koşullarını kaldırmaz.",
+      "version": "Resmî API archived=false; ana commit73265d820c0bda86517153327fd435e171afd75a,2025-09-11. Commit tarihi paket dağıtım sürümü veya gerçek kurulum kabulü sayılmadı.",
+      "revision": "73265d820c0bda86517153327fd435e171afd75a",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": "https://demo.vnlp.io",
+      "independent": "2025-03-29 issue18 kullanıcı metni TensorFlow/Keras bağımlılık çatışması ve RecursionError bildiriyor. Kendi Colab geçici çözümü sonrasında çoğu işlev çalışırken correct_typos None döndüğünü yazıyor. Kapalı issue olması her ortamda giderildi kanıtı değildir; Webrazzi haberi deneyim değil tanıtım niteliğinde.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık."
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/vngrs-ai/vnlp",
+          "title": "VNLP (VNGRS: düzeltici, deasciifier, sayı→kelime, NER, POS, kök bulma)",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/vngrs-ai/vnlp",
+          "title": "VNLP repo metadata",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/vngrs-ai/vnlp/commits?per_page=1",
+          "title": "VNLP ana commit",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/vngrs-ai/vnlp/issues/18",
+          "title": "Bağımlılık ve düzeltici davranışı bildirimi",
+          "type": "community",
+          "date": "2025-03-29",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://github.com/vngrs-ai/vnlp"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Kaynakta gerçek kullanıcı metni veya bağımsız deney koşulları okundu; başlık tek başına kalite kanıtı yapılmadı.",
+          "urls": [
+            "https://github.com/vngrs-ai/vnlp/issues/18"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://api.github.com/repos/vngrs-ai/vnlp",
+            "https://api.github.com/repos/vngrs-ai/vnlp/commits?per_page=1"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"VNLP\" Turkish NLP issues review YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "vngrs-ai/vnlp",
+          "url": "https://github.com/vngrs-ai/vnlp",
+          "status": "README, repo/commit API ve gerçek issue18 okundu."
+        }
+      ]
+    },
+    {
+      "record_id": 101,
+      "id": "asimokby/Turkish-GEC",
+      "name": "Yazım/GEC modelleri (orkungedik turkish-spell-based, charformer; karakastarik bert spelling; miraykoksal byt5; yeniguno mbart50; berkaycancunnuk mt5/byt5; Ersoy-Yıldız mT5 GEC)",
+      "category": "Noktalama-yazım-morfoloji",
+      "kind": "tool",
+      "creator": "Turkish-GEC araştırma ekibi / asimokby",
+      "plain": "Katalogdaki geniş yazım/GEC listesiyle verilen bağlantı aynı kapsamda değil: Turkish-GEC, makalenin veri, kod ve mT5 model bağlantılarını toplayan araştırma deposu. Tek başına çalıştırılan bir model ağırlığı sayılmadı. İki kesin model kimliği README bağlantılarından ayrıştırıldı; diğer yazarların Charformer/ByT5/mBART türleri açık kaldı.",
+      "claims": [
+        {
+          "text": "Kendi web testinde GPT-GEC F0.5 62.8, film yorumunda37.6; aynı modelin alanlar arasında ciddi farkı var. Tweet testinde OSCAR-GEC79.0.",
+          "evidence": "Resmî kamu kaynak iddiası; bu araştırmada çalıştırılmadı.",
+          "source": "https://github.com/asimokby/Turkish-GEC"
+        }
+      ],
+      "training": "OSCAR-GEC2.3 milyon ve GPT-GEC100 bin sentetik eğitim cümlesi; değerlendirmede insan işaretli web, tweet ve film yorumu kümeleri var. Türkçe yazım sözlüğü ayrı veri kaynağıdır. Veri kümesi, model ağırlığı ve makale birbirine karıştırılmadı.",
+      "version": "Repo archived=false; ana commita447fc43744764ac1a45f2a4c68e43ddec5fa7bc,2024-05-27. Model depolarının kesin ağırlık revizyonları ayrıca okunmadı.",
+      "revision": "a447fc43744764ac1a45f2a4c68e43ddec5fa7bc",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Tam adla geliştirici, bağımsız olumlu/olumsuz deneyim ve sosyal/video araması yapıldı; okunabilen, bu kesin modele bağlanan bağımsız saha deneyimi bulunamadı. Geliştirici ölçümü kullanıcı yorumu sayılmadı.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık.",
+        "Repo API lisans alanı null; bağlı model ve verinin lisansları ayrıca doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/asimokby/Turkish-GEC",
+          "title": "Yazım/GEC modelleri (orkungedik turkish-spell-based, charformer; karakastarik bert spelling; miraykoksal byt5; yeniguno mbart50; berkaycancunnuk mt5/byt5; Ersoy-Yıldız mT5 GEC)",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/asimokby/Turkish-GEC",
+          "title": "Turkish-GEC depo durumu",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/asimokby/Turkish-GEC/commits?per_page=1",
+          "title": "Turkish-GEC ana commit",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://github.com/asimokby/Turkish-GEC"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Tam adla olumlu ve olumsuz deneyim arandı; okunabilir kesin model deneyimi saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://api.github.com/repos/asimokby/Turkish-GEC",
+            "https://api.github.com/repos/asimokby/Turkish-GEC/commits?per_page=1"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Turkish-GEC\" \"Organic Data-Driven\" official release",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "Turkish-GEC kod/veri/makale deposu",
+          "url": "https://github.com/asimokby/Turkish-GEC",
+          "status": "README ve repo/commit API okundu."
+        },
+        {
+          "name": "asimokby/Turkish-OSCAR-GEC-v0 ve Turkish-GPT-GEC-v0",
+          "url": "https://huggingface.co/asimokby/Turkish-OSCAR-GEC-v0",
+          "status": "Kesin kimlikler resmî README bağlantılarında; ayrı kart incelemesi açık."
+        },
+        {
+          "name": "orkungedik, karakastarik, miraykoksal, yeniguno, berkaycancunnuk, Ersoy-Yıldız modelleri",
+          "url": null,
+          "status": "Başka aileler; ayrı kesin kartlar ve sürümler açık."
+        }
+      ]
+    },
+    {
+      "record_id": 102,
+      "id": "catalog-102",
+      "name": "Diğer: StarlangSoftware TurkishSpellChecker-Py (GPL-3.0), emres turkish-deasciifier (lisans yok), hunspell-tr, turkish-stemmer-python, segment-any-text/sat-3l-sm (cümle bölme, MIT)",
+      "category": "Noktalama-yazım-morfoloji",
+      "kind": "tool",
+      "creator": "Çeşitli geliştiriciler; incelenen temsilci Starlang Software",
+      "plain": "Bu satır yazım denetimi, ASCII harf düzeltme, kök bulma ve cümle bölmeyi bir araya getiriyor. Temsilci TurkishSpellChecker-Py resmî README ve API okundu; sözlük ve biçimbilim çözümleyicisiyle basit veya NGram yazım önerisi verir. Diğer araçların işlev/lisansı bu temsilciden türetilmedi.",
+      "claims": [
+        {
+          "text": "Resmî araç basit ve NGram destekli yazım düzeltme yollarını belgeler; her Türkçe yanlışın doğru düzeltileceğini ölçmez.",
+          "evidence": "Resmî kamu kaynak iddiası; bu araştırmada çalıştırılmadı.",
+          "source": "https://github.com/StarlangSoftware/TurkishSpellChecker-Py"
+        }
+      ],
+      "training": "Büyük sinir ağı ön eğitimi değil; FsmMorphologicalAnalyzer ve isteğe bağlı korpustan öğrenilen NGram kullanılır. Hazır NGram yükleme ve Laplace yumuşatma örnekleri vardır. README Python3.13+ gereksinimini bildiriyor; örnek çıktı bağımsız kalite testi değildir.",
+      "version": "Temsilci archived=false; ana commit5049b3cea2f8f668a9b6726cc312b98d08e21ac7,2026-05-30; API GPL3.0 lisansını gösterir. Diğer üyelerin tarih ve lisansları açık.",
+      "revision": "5049b3cea2f8f668a9b6726cc312b98d08e21ac7",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Gerçek issue7 kullanıcısı suffixes/pronunciations dosyaları eksikliğiyle çalıştıramadığını bildiriyor;2025-08-22 açılmış ve kapalı. Issue6 Colab import yardım sorusu içeriyor. Bunlar kuruluma ilişkin deneyim; genel düzeltme kalitesi için olumlu/olumsuz ölçüm bulunamadı.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık."
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/StarlangSoftware/TurkishSpellChecker-Py",
+          "title": "Turkish Spell Checker resmî README",
+          "type": "developer_repository",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/StarlangSoftware/TurkishSpellChecker-Py",
+          "title": "GPL3 ve güncel repo durumu",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/StarlangSoftware/TurkishSpellChecker-Py/commits?per_page=1",
+          "title": "Ana commit",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/StarlangSoftware/TurkishSpellChecker-Py/issues/7",
+          "title": "Eksik veri dosyaları kullanıcı bildirimi",
+          "type": "community",
+          "date": "2025-08-22",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://github.com/StarlangSoftware/TurkishSpellChecker-Py"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Kaynakta gerçek kullanıcı metni veya bağımsız deney koşulları okundu; başlık tek başına kalite kanıtı yapılmadı.",
+          "urls": [
+            "https://github.com/StarlangSoftware/TurkishSpellChecker-Py/issues/7"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://api.github.com/repos/StarlangSoftware/TurkishSpellChecker-Py",
+            "https://api.github.com/repos/StarlangSoftware/TurkishSpellChecker-Py/commits?per_page=1"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"TurkishSpellChecker-Py\" review issues video",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "StarlangSoftware/TurkishSpellChecker-Py",
+          "url": "https://github.com/StarlangSoftware/TurkishSpellChecker-Py",
+          "status": "README/API, commit ve issue gövdeleri okundu."
+        },
+        {
+          "name": "emres turkish-deasciifier; hunspell-tr; turkish-stemmer-python; segment-any-text/sat-3l-sm",
+          "url": null,
+          "status": "Ayrı görev ve lisanslar; bu pakette ayrı kart incelemesi açık."
+        }
+      ]
+    },
+    {
+      "record_id": 103,
+      "id": "ysdede/trnorm",
+      "name": "ysdede/trnorm (ASR için Türkçe metin normalleştirme)",
+      "category": "Noktalama-yazım-morfoloji",
+      "kind": "tool",
+      "creator": "ysdede",
+      "plain": "TRNorm, ASR çıktısı ve referansını karşılaştırmadan önce Türkçe sayıları, sıra sayılarını ve simgeleri ortak biçime getiren Python aracıdır. Yeni bir konuşma tanıma modeli değildir; genel Türkçe düzelticinin tamamı olarak da tanımlanmıyor. Aynı normalizasyonun iki tarafa uygulanması karşılaştırma protokolünün parçasıdır.",
+      "claims": [
+        {
+          "text": "README amacı daha adil ASR değerlendirmesi olarak sınırlar; normalize edilmiş WER iyileşmesi tek başına tanıyıcı ağırlıklarının iyileştiğini göstermez.",
+          "evidence": "Resmî kamu kaynak iddiası; bu araştırmada çalıştırılmadı.",
+          "source": "https://github.com/ysdede/trnorm"
+        }
+      ],
+      "training": "Model eğitimi uygulanmaz; sayıdan yazıya, Roma sayıları, yüzde/para simgeleri, Türkçe harf büyütme-küçültme ve ekleme kuralları var. WER/CER/Levenshtein yardımcıları belgeli. Şapka ve noktalama silen eski normalize_text yolu ayrı tutulmalı; bilgi kaybı metriği değiştirebilir.",
+      "version": "Resmî repo API archived=false; ana commit0c159ce52f4d2971146b729fbdc1d618957f6826,2025-04-07. Bu tarih model eğitimi veya ayrı PyPI sürümünün son yayımlanma tarihi değildir.",
+      "revision": "0c159ce52f4d2971146b729fbdc1d618957f6826",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Tam adla geliştirici, bağımsız olumlu/olumsuz deneyim ve sosyal/video araması yapıldı; okunabilen, bu kesin modele bağlanan bağımsız saha deneyimi bulunamadı. Geliştirici ölçümü kullanıcı yorumu sayılmadı.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık.",
+        "Sayı/tarih/özel isim dönüşümlerinin kullanıcı metnindeki kabulü burada denenmedi; bağımsız insan deneyimi bulunamadı."
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/ysdede/trnorm",
+          "title": "ysdede/trnorm (ASR için Türkçe metin normalleştirme)",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/ysdede/trnorm",
+          "title": "TRNorm depo metadata",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/ysdede/trnorm/commits?per_page=1",
+          "title": "TRNorm ana commit",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://github.com/ysdede/trnorm"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Tam adla olumlu ve olumsuz deneyim arandı; okunabilir kesin model deneyimi saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://api.github.com/repos/ysdede/trnorm",
+            "https://api.github.com/repos/ysdede/trnorm/commits?per_page=1"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"trnorm\" ysdede review issues YouTube X",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "ysdede/trnorm",
+          "url": "https://github.com/ysdede/trnorm",
+          "status": "README, repo/commit API okundu."
+        }
+      ]
+    },
+    {
+      "record_id": 104,
+      "id": "Helsinki-NLP/opus-mt-tc-big-tr-en",
+      "name": "Helsinki-NLP/opus-mt-tc-big-tr-en / en-tr, opus-mt-tr-en",
+      "category": "Çeviri",
+      "kind": "model_family",
+      "creator": "Helsinki-NLP / OPUS-MT araştırmacıları",
+      "plain": "İncelenen tc-big-tr-en Türkçeden İngilizceye Marian transformer-big çeviri modelidir; en-tr ters yön ve eski opus-mt-tr-en ayrı ağırlıklardır. Cümle çevirisi örnekleri ve test çevirileri bağlantılıdır. Bir yöndeki başarının ters yöne taşınması doğru değildir.",
+      "claims": [
+        {
+          "text": "Kart Tatoeba BLEU57.6, FLORES10137.6 ve haber testlerinde29–32 bandı bildiriyor; test alanı farklılığı belirgin.",
+          "evidence": "Resmî kamu kaynak iddiası; bu araştırmada çalıştırılmadı.",
+          "source": "https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-tr-en/raw/main/README.md"
+        }
+      ],
+      "training": "OPUS kaynaklı opusTCv20210807+bt veri, SentencePiece32K kaynak/hedef sözlükleri ve2022-03-17 model yayını belgeli. Karttaki CC-BY4.0 lisansı atıf koşulunu içerir; araç kütüphanesi lisansıyla ağırlık lisansı aynı kabul edilmedi.",
+      "version": "Kontrol edilen ana deponun lastModified zamanı 2023-11-28T09:30:38.000Z; bu tarih yeni eğitim veya yeni ağırlık kanıtı değildir. Geliştirici listesinin görülen kapsamı dışında en son sürüm garantisi verilmez.",
+      "revision": "2261c8fc7b1af59caee87f8ff0ecf3fbccfe8391",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "HF discussion5 ve GitHub issue96 anlamsız/tekrarlı connect çıktısını gerçek kodla bildiriyor. HF geliştiricisi PR4 düzeltmesini birleştirdiğini yazmış; kullanıcı teşekkür ediyor. Güncel API revizyonunun bu geçmiş sorunla aynı olmadığı korunuyor; burada güncel ağırlık çalıştırılarak hata tekrar kontrol edilmedi.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/Helsinki-NLP/opus-mt-tc-big-tr-en",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-tr-en/raw/main/README.md",
+          "title": "Helsinki-NLP/opus-mt-tc-big-tr-en / en-tr, opus-mt-tr-en",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=Helsinki-NLP&sort=lastModified&direction=-1&limit=40",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Helsinki-NLP/opus-mt-tc-big-tr-en/discussions",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Helsinki-NLP/opus-mt-tc-big-tr-en/discussions/5",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://github.com/Helsinki-NLP/OPUS-MT-train/issues/96",
+          "title": "Tekrarlı bozuk çıktı gerçek kullanıcı kodu",
+          "type": "community",
+          "date": "2023-11-27",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Helsinki-NLP/opus-mt-tc-big-tr-en/discussions/5",
+          "title": "Hata ve geliştirici düzeltme yanıtı",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Helsinki-NLP",
+          "title": "Geliştiricinin resmî Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-tr-en/raw/main/README.md",
+            "https://huggingface.co/Helsinki-NLP"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Kaynakta gerçek kullanıcı metni veya bağımsız deney koşulları okundu; başlık tek başına kalite kanıtı yapılmadı.",
+          "urls": [
+            "https://github.com/Helsinki-NLP/OPUS-MT-train/issues/96",
+            "https://huggingface.co/api/models/Helsinki-NLP/opus-mt-tc-big-tr-en/discussions/5"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/Helsinki-NLP/opus-mt-tc-big-tr-en",
+            "https://huggingface.co/api/models?author=Helsinki-NLP&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/Helsinki-NLP/opus-mt-tc-big-tr-en/discussions",
+            "https://huggingface.co/api/models/Helsinki-NLP/opus-mt-tc-big-tr-en/discussions/5"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"opus-mt-tc-big-tr-en\" review issues YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "opus-mt-tc-big-tr-en",
+          "url": "https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-tr-en",
+          "status": "README/API ve gerçek hata/yazışma okundu."
+        },
+        {
+          "name": "opus-mt-tc-big-en-tr; opus-mt-tr-en; opus-mt_tiny_tur-eng",
+          "url": "https://huggingface.co/Helsinki-NLP",
+          "status": "Ayrı yön/eski/yeni küçük üyeler; liste kısmen görüldü, kartları açık."
+        }
+      ]
+    },
+    {
+      "record_id": 105,
+      "id": "facebook/nllb-200-distilled-600M",
+      "name": "facebook/nllb-200-distilled-600M (+1.3B, 3.3B); google/madlad400-3b-mt; mBART-50",
+      "category": "Çeviri",
+      "kind": "model_family",
+      "creator": "Meta / NLLB ekibi; diğer aileler ayrı",
+      "plain": "İncelenen NLLB-200 distilled600M,200 dil arasında tek cümle çevirisine yönelik araştırma modelidir.1.3B/3.3B NLLB, MADLAD400 ve mBART50 aynı aile bile değildir. NLLB kartı üretim, belge çevirisi ve hukuk/tıp alanını amaç dışı sayar; CC-BY-NC ticari kullanım kısıtı ayrıca korunur.",
+      "claims": [
+        {
+          "text": "Resmî kart araştırma ve tek cümle kullanımını,512 token eğitim sınırını açıklar; sertifikalı çeviri doğruluğu iddiası yok.",
+          "evidence": "Resmî kamu kaynak iddiası; bu araştırmada çalıştırılmadı.",
+          "source": "https://huggingface.co/facebook/nllb-200-distilled-600M/raw/main/README.md"
+        }
+      ],
+      "training": "Çok dilli paralel ve Common Crawl tek dilli metinler; veri seçimi ve eğitim ayrıntıları makaleye yönlendirilmiş. Eğitim girdileri512 tokenı aşmaz; uzun belgeyi aynı biçimde çevirmek kalite kaybı yaratabilir. FLORES200, BLEU/spBLEU/chrF++ ve insan XSTS değerlendirmeleri belirtiliyor.",
+      "version": "Kontrol edilen ana deponun lastModified zamanı 2024-02-14T17:18:36.000Z; bu tarih yeni eğitim veya yeni ağırlık kanıtı değildir. Geliştirici listesinin görülen kapsamı dışında en son sürüm garantisi verilmez.",
+      "revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Discussion25 gerçek kullanıcıları birkaç sayfayı nasıl çevireceklerini soruyor; başka kullanıcı Moğolca→İngilizce300 kelimede aşırı yavaş, bir-iki satırda iyi olduğunu bildiriyor. Bu hem olumlu hem olumsuz, farklı dil/uzunluk koşullu deneyimdir; Türkçe kalite ölçümü değildir.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/facebook/nllb-200-distilled-600M",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/facebook/nllb-200-distilled-600M/raw/main/README.md",
+          "title": "facebook/nllb-200-distilled-600M (+1.3B, 3.3B); google/madlad400-3b-mt; mBART-50",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=facebook&sort=lastModified&direction=-1&limit=40",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/facebook/nllb-200-distilled-600M/discussions",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/facebook/nllb-200-distilled-600M/discussions/48",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/facebook/nllb-200-distilled-600M/discussions/46",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/facebook/nllb-200-distilled-600M/discussions/25",
+          "title": "Uzun metinde hız ve kısa metin deneyimi",
+          "type": "community",
+          "date": "2024-01-10",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/facebook",
+          "title": "Geliştiricinin resmî Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/facebook/nllb-200-distilled-600M/raw/main/README.md",
+            "https://huggingface.co/facebook"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Kaynakta gerçek kullanıcı metni veya bağımsız deney koşulları okundu; başlık tek başına kalite kanıtı yapılmadı.",
+          "urls": [
+            "https://huggingface.co/facebook/nllb-200-distilled-600M/discussions/25"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/facebook/nllb-200-distilled-600M",
+            "https://huggingface.co/api/models?author=facebook&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/facebook/nllb-200-distilled-600M/discussions",
+            "https://huggingface.co/api/models/facebook/nllb-200-distilled-600M/discussions/48",
+            "https://huggingface.co/api/models/facebook/nllb-200-distilled-600M/discussions/46"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"nllb-200-distilled-600M\" Turkish translation problems review YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "facebook/nllb-200-distilled-600M",
+          "url": "https://huggingface.co/facebook/nllb-200-distilled-600M",
+          "status": "README/API ve uzun metin discussion gövdesi okundu."
+        },
+        {
+          "name": "NLLB1.3B/3.3B; google/madlad400-3b-mt; mBART50",
+          "url": null,
+          "status": "Ayrı kimlik ve kart/sürüm kontrolleri açık."
+        }
+      ]
+    },
+    {
+      "record_id": 106,
+      "id": "tencent/HY-MT1.5-1.8B",
+      "name": "Tencent HY-MT1.5-1.8B/7B, Hy-MT2; Seed-X; NiuTrans LMT-60",
+      "category": "Çeviri",
+      "kind": "model_family",
+      "creator": "Tencent Hunyuan; Seed-X ve NiuTrans ayrı geliştiriciler",
+      "plain": "HY-MT1.5-1.8B ve güncel devam Hy-MT2-1.8B kartları ayrı okundu. Tencent21 Mayıs2026 tarihinde2 ailesini1.8B,7B ve30B-A3B boyutlarında yayımlamış; eski1.5 artık en güncel diye gösterilmemeli. Seed-X ve NiuTrans LMT-60 bu incelemenin dışında kalan ayrı ailelerdir.",
+      "claims": [
+        {
+          "text": "Hy-MT2 geliştiricisi1.8B modelin bazı ticari API ortalamalarını geçtiğini iddia eder; Türkçe özel veya bütün görevlerde üstünlük değildir.",
+          "evidence": "Resmî kamu kaynak iddiası; bu araştırmada çalıştırılmadı.",
+          "source": "https://huggingface.co/tencent/Hy-MT2-1.8B/raw/main/README.md"
+        }
+      ],
+      "training": "1.5 kartı33 dil ve5 varyasyon, terim müdahalesi, bağlam ve biçim korumalı çeviriyi tanımlar.2 kartı benzer kapsamda daha güçlü talimat izleme ve IFMTBench sunar; açılan bölüm eğitim korpusu/step ayrıntısını kesinleştirmiyor.",
+      "version": "1.5 sha dbad03788f49709801014c95d481a514c272ca52,lastModified2026-01-01; Hy-MT2-1.8B sha9a341cd1b679d3efd23b46e847b01745a71ed792,2026-05-26. Resmî2 aile yayın tarihi2026-05-21.",
+      "revision": "1.5:dbad03788f49709801014c95d481a514c272ca52; 2:9a341cd1b679d3efd23b46e847b01745a71ed792",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "1.5 discussion6 kullanıcısı önerilen ayarlarla SGLang üzerinde Japoncadan Vietnamcaya çevirinin gereksiz tekrar ve anlam ayrıntısı kattığını gösteriyor. Bu gerçek örnek Türkçe testi değildir;2 sürümünde aynı sorunun sürüp sürmediği incelenmedi.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık.",
+        "Hy-MT2 Türkçe bağımsız saha karşılaştırması bulunamadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/tencent/HY-MT1.5-1.8B",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/tencent/HY-MT1.5-1.8B/raw/main/README.md",
+          "title": "Tencent HY-MT1.5-1.8B/7B, Hy-MT2; Seed-X; NiuTrans LMT-60",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=tencent&sort=lastModified&direction=-1&limit=40",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/tencent/HY-MT1.5-1.8B/discussions",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/tencent/HY-MT1.5-1.8B/discussions/7",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/tencent/HY-MT1.5-1.8B/discussions/6",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/tencent/Hy-MT2-1.8B/raw/main/README.md",
+          "title": "Hy-MT2 resmî güncel kart",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/tencent/Hy-MT2-1.8B",
+          "title": "Hy-MT2 güncel API",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/tencent/HY-MT1.5-1.8B/discussions/6",
+          "title": "Aşırı açıklamalı çeviri kullanıcı örneği",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/tencent",
+          "title": "Geliştiricinin resmî Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/tencent/HY-MT1.5-1.8B/raw/main/README.md",
+            "https://huggingface.co/tencent/Hy-MT2-1.8B/raw/main/README.md",
+            "https://huggingface.co/tencent"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Kaynakta gerçek kullanıcı metni veya bağımsız deney koşulları okundu; başlık tek başına kalite kanıtı yapılmadı.",
+          "urls": [
+            "https://huggingface.co/api/models/tencent/HY-MT1.5-1.8B/discussions/6"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/tencent/HY-MT1.5-1.8B",
+            "https://huggingface.co/api/models?author=tencent&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/tencent/HY-MT1.5-1.8B/discussions",
+            "https://huggingface.co/api/models/tencent/HY-MT1.5-1.8B/discussions/7",
+            "https://huggingface.co/api/models/tencent/HY-MT1.5-1.8B/discussions/6",
+            "https://huggingface.co/api/models/tencent/Hy-MT2-1.8B"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"HY-MT1.5\" \"HY-MT2\" review issues YouTube Turkish",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "HY-MT1.5-1.8B",
+          "url": "https://huggingface.co/tencent/HY-MT1.5-1.8B",
+          "status": "README/API ve gerçek discussion6 okundu."
+        },
+        {
+          "name": "Hy-MT2-1.8B",
+          "url": "https://huggingface.co/tencent/Hy-MT2-1.8B",
+          "status": "Güncel resmî README/API okundu."
+        },
+        {
+          "name": "1.5/2 büyük varyantlar; Seed-X; NiuTrans LMT-60",
+          "url": null,
+          "status": "Ayrı kart ve revizyon incelemeleri açık."
+        }
+      ]
+    },
+    {
+      "record_id": 172,
+      "id": "sigturk-2026-SindBERT",
+      "name": "SindBERT (SIGTURK 2026; RoBERTa base/large)",
+      "category": "Kodlayıcı-BERT",
+      "kind": "paper",
+      "creator": "Raphael Schmitt ve Stefan Schweter",
+      "plain": "Bu katalog bağlantısı model deposuna değil, SIGTURK2026 SindBERT makalesine gidiyor. Makale Türkçe RoBERTa base ve large ağırlıklarının varlığını bildirir; kesin model depoları ve canlı ağırlık hashleri bu sayfadan doğrulanmadı. Bu nedenle burada tür makale, bağlı modeller ise ayrı üyeler olarak kaydedildi.",
+      "claims": [
+        {
+          "text": "Makale large modelin dört görevin ikisinde en iyi sonucu verdiğini, boyut büyümesinin tutarlı genel kazanç sağlamadığını söyler.",
+          "evidence": "Resmî kamu kaynak iddiası; bu araştırmada çalıştırılmadı.",
+          "source": "https://aclanthology.org/2026.sigturk-1.1"
+        }
+      ],
+      "training": "312GB Türkçe mC4, OSCAR23 ve Wikipedia üzerinde sıfırdan RoBERTa ön eğitimi. POS, NER, saldırgan dil ve TurBLiMP dilbilgisel kabul testleri değerlendirilmiş. Makalenin araştırma açıklaması bağımsız kullanıcı deneyimi değildir.",
+      "version": "ACL Anthology2026.sigturk-1.1,Mart2026, sayfa1–13, DOI10.18653/v1/2026.sigturk-1.1. Makale tarihi model deposunun son ağırlık revizyonu değildir.",
+      "revision": "ACL2026.sigturk-1.1; model SHA doğrulanmadı.",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "Tam adla olumlu/olumsuz deneyim ve sosyal/video arandı. Pith otomatik yapay zekâ hakem yazısı keşfedildi; gerçek insan kullanımı veya yeniden çalıştırma sayılmadı. Bağımsız uygulama kabulü ve Türkçe sahadaki hata örnekleri bulunamadı.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık."
+      ],
+      "sources": [
+        {
+          "url": "https://aclanthology.org/2026.sigturk-1.1",
+          "title": "SindBERT (SIGTURK 2026; RoBERTa base/large)",
+          "type": "paper",
+          "date": "2026-03",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://aclanthology.org/2026.sigturk-1.1"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Tam adla olumlu ve olumsuz deneyim arandı; okunabilir kesin model deneyimi saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://aclanthology.org/2026.sigturk-1.1"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"SindBERT\" review issues YouTube",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "SindBERT base ve large",
+          "url": "https://aclanthology.org/2026.sigturk-1.1/",
+          "status": "Makale özetinde belgeli; ayrı ağırlık kartları/API açık."
+        }
+      ]
+    },
+    {
+      "record_id": 173,
+      "id": "BAAI/bge-m3",
+      "name": "BAAI/bge-m3 ve embeddinggemma-300m",
+      "category": "Gömme/reranker",
+      "kind": "model_family",
+      "creator": "BAAI / FlagEmbedding; Google DeepMind",
+      "plain": "İki farklı embedding ailesi var. BGE-M3 kartı yoğun, seyrek ve çok vektörlü aramayı1024 boyut ve8192 bağlamla birleştirir. EmbeddingGemma300M kartının raw dosyası401 verdi; API erişilebilir. Güncel Google resmî kartı EmbeddingGemma2 devamını doğruluyor;300M modeli artık en güncel diye sunulmamalı.",
+      "claims": [
+        {
+          "text": "BGE-M3 geliştiricisi2024-07-01 tarihinde MIRACL ölçümünde aynı kimlikli pasajların yanlış elenmesini düzelttiğini açıklıyor; eski/yeni skorlar aynı protokol değildir.",
+          "evidence": "Resmî kamu kaynak iddiası; bu araştırmada çalıştırılmadı.",
+          "source": "https://huggingface.co/BAAI/bge-m3/raw/main/README.md"
+        }
+      ],
+      "training": "BGE-M3, XLM-R tabanından uzun bağlam ve karşılaştırmalı çok dilli arama eğitimine uzanır;100+ dil desteği her Türkçe alanda aynı kalite demek değildir. EmbeddingGemma2 toplam740M, seçilebilir270M metin/170M görsel/300M ses parçaları ve768 boyut ortak uzay bildirir.",
+      "version": "BGE-M3 sha5617a9f61b028005a4858fdac845db406aefb181,2024-07-03. Gemma300M sha57c266a740f537b4dc058e1b0cda161fd15afa75,2025-09-25. Gemma2 sha914f7f89142e33e77833254d9c9b90c3cef7303b,2026-10-06.",
+      "revision": "bge:5617a9f61b028005a4858fdac845db406aefb181; Gemma2:914f7f89142e33e77833254d9c9b90c3cef7303b",
+      "try_it": "Kaynakta belgelenen kullanım yolu incelendi; model indirilmedi, çalıştırılmadı, yerel donanım kabulü yapılmadı.",
+      "demo_url": null,
+      "independent": "OpenWebUI gerçek kullanıcı başlığında Gemma için encode/batch hataları, küçük boyuta göre olumlu kalite ve başka kullanıcıda düşük retrieval birlikte var. Bunlar ortam/önek koşullu, Türkçe olmayan deneyimler; BGE-M3 için aynı başlıkta çalışan entegrasyon bildiriliyor.",
+      "unknowns": [
+        "Türkçe kullanım alanında bağımsız tekrar ve gerçek kullanıcı kabulü açık."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/BAAI/bge-m3",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/BAAI/bge-m3/raw/main/README.md",
+          "title": "BAAI/bge-m3 ve embeddinggemma-300m",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=BAAI&sort=lastModified&direction=-1&limit=40",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/BAAI/bge-m3/discussions",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/BAAI/bge-m3/discussions/152",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/BAAI/bge-m3/discussions/151",
+          "title": "Kamu depo metadata ve sürüm listesi",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/google/embeddinggemma-300m/raw/main/README.md",
+          "title": "EmbeddingGemma300M raw kart erişimi",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "inaccessible"
+        },
+        {
+          "url": "https://huggingface.co/api/models/google/embeddinggemma-300m",
+          "title": "EmbeddingGemma300M API",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://ai.google.dev/gemma/docs/embeddinggemma/model_card_2?hl=en",
+          "title": "EmbeddingGemma2 resmî model kartı",
+          "type": "model_card",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/google/embeddinggemma-2",
+          "title": "EmbeddingGemma2 API",
+          "type": "metadata",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.reddit.com/r/OpenWebUI/comments/1na4b5n",
+          "title": "EmbeddingGemma olumlu/olumsuz gerçek kullanıcı başlığı",
+          "type": "community",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/BAAI",
+          "title": "Geliştiricinin resmî Hub profili",
+          "type": "developer_profile",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Aşağıdaki resmî kamu kaynaklarıyla sınırlı kontrol.",
+          "urls": [
+            "https://huggingface.co/BAAI/bge-m3/raw/main/README.md",
+            "https://ai.google.dev/gemma/docs/embeddinggemma/model_card_2?hl=en",
+            "https://huggingface.co/BAAI"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Kaynakta gerçek kullanıcı metni veya bağımsız deney koşulları okundu; başlık tek başına kalite kanıtı yapılmadı.",
+          "urls": [
+            "https://www.reddit.com/r/OpenWebUI/comments/1na4b5n"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Arama YouTube/X/video terimleriyle yapıldı; kesin modele ait okunabilir deneyim saptanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Metadata ve varsa geliştirici model listesi kapsamı; değişiklik zamanı eğitim tarihi değildir.",
+          "urls": [
+            "https://huggingface.co/api/models/BAAI/bge-m3",
+            "https://huggingface.co/api/models?author=BAAI&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/BAAI/bge-m3/discussions",
+            "https://huggingface.co/api/models/BAAI/bge-m3/discussions/152",
+            "https://huggingface.co/api/models/BAAI/bge-m3/discussions/151",
+            "https://huggingface.co/api/models/google/embeddinggemma-300m",
+            "https://huggingface.co/api/models/google/embeddinggemma-2"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"bge-m3\" Turkish review problems YouTube X",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"embeddinggemma-300m\" Turkish review problems YouTube X",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "site:ai.google.dev embeddinggemma 2 October 2026",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "BAAI/bge-m3",
+          "url": "https://huggingface.co/BAAI/bge-m3",
+          "status": "README/API okundu."
+        },
+        {
+          "name": "google/embeddinggemma-300m",
+          "url": "https://huggingface.co/google/embeddinggemma-300m",
+          "status": "API okundu; raw README401 erişilemedi."
+        },
+        {
+          "name": "google/embeddinggemma-2",
+          "url": "https://huggingface.co/google/embeddinggemma-2",
+          "status": "Devam sürümü resmî Google kartı ve API okundu."
+        }
+      ]
+    }
+  ]
+}

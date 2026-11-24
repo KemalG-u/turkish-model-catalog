@@ -1,0 +1,212 @@
+[
+  {
+    "record_id": 79,
+    "name": "ytu-ce-cosmos/modernbert-tr-base (+ -1k)",
+    "category": "Kodlayıcı-BERT",
+    "url": "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-base",
+    "dossier": "arastirma/tam-tarama/kayitlar/079.json"
+  },
+  {
+    "record_id": 80,
+    "name": "boun-tabilab/TabiBERT",
+    "category": "Kodlayıcı-BERT",
+    "url": "https://huggingface.co/boun-tabilab/TabiBERT",
+    "dossier": "arastirma/tam-tarama/kayitlar/080.json"
+  },
+  {
+    "record_id": 81,
+    "name": "moganai/MoganBERT-TR",
+    "category": "Kodlayıcı-BERT",
+    "url": "https://huggingface.co/moganai/MoganBERT-TR",
+    "dossier": "arastirma/tam-tarama/kayitlar/081.json"
+  },
+  {
+    "record_id": 82,
+    "name": "newmindai/Mursit-Base / Mursit-Large (ModernBERT 155M / 403M)",
+    "category": "Kodlayıcı-BERT",
+    "url": "https://huggingface.co/newmindai/Mursit-Large-TR-Retrieval",
+    "dossier": "arastirma/tam-tarama/kayitlar/082.json"
+  },
+  {
+    "record_id": 83,
+    "name": "KocLab-Bilkent/BERTurk-Legal",
+    "category": "Kodlayıcı-BERT",
+    "url": "https://huggingface.co/KocLab-Bilkent/BERTurk-Legal",
+    "dossier": "arastirma/tam-tarama/kayitlar/083.json"
+  },
+  {
+    "record_id": 84,
+    "name": "dbmdz/bert-base-turkish-cased / uncased / 128k (BERTurk) + ELECTRA/ConvBERT/DistilBERT",
+    "category": "Kodlayıcı-BERT",
+    "url": "https://huggingface.co/dbmdz/bert-base-turkish-cased",
+    "dossier": "arastirma/tam-tarama/kayitlar/084.json"
+  },
+  {
+    "record_id": 85,
+    "name": "Diğer BERT/RoBERTa (YTÜ turkish-*-bert tiny–large, artiwise modernbert-base-tr-uncased, Trendyol tybert/tyroberta, Turkcell roberta, loodos, TurkishBERTweet, Geotrend, msbayindir legal)",
+    "category": "Kodlayıcı-BERT",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/085.json"
+  },
+  {
+    "record_id": 86,
+    "name": "ytu-ce-cosmos/modernbert-tr-embed ve modernbert-tr-reranker",
+    "category": "Gömme/reranker",
+    "url": "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-embed",
+    "dossier": "arastirma/tam-tarama/kayitlar/086.json"
+  },
+  {
+    "record_id": 87,
+    "name": "newmindai/Mursit-Large-TR-Retrieval, Mursit-Embed-Qwen3-4B/1.7B-TR, TurkEmbed4STS/4Retrieval, ColmmBERT",
+    "category": "Gömme/reranker",
+    "url": "https://huggingface.co/newmindai/Mursit-Large-TR-Retrieval",
+    "dossier": "arastirma/tam-tarama/kayitlar/087.json"
+  },
+  {
+    "record_id": 88,
+    "name": "Diğer gömme/reranker (turkish-e5-large, magibu embeddingmagibu-200m, trmteb, Trendyol TY-ecomm-embed, bge-m3 TR ince ayarları, seroe reranker'lar, hukuk gömme: HukukcuApp, runelab kenning, msbayindir, Whis29; genel çok dilli e5/bge-m3/gte/jina/Qwen3-Embedding)",
+    "category": "Gömme/reranker",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/088.json"
+  },
+  {
+    "record_id": 89,
+    "name": "ytu-ce-cosmos/modernbert-tr-pii-ner (+ guardrail, intent/slot, absa)",
+    "category": "NER-PII",
+    "url": "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-pii-ner",
+    "dossier": "arastirma/tam-tarama/kayitlar/089.json"
+  },
+  {
+    "record_id": 90,
+    "name": "newmindai/gliner2.5-kvkk-tr-v2 (+ v1, mursit-kvkk, gliner-multi-v2.1-nemotron-pii-tr)",
+    "category": "NER-PII",
+    "url": "https://huggingface.co/newmindai/gliner2.5-kvkk-tr-v2",
+    "dossier": "arastirma/tam-tarama/kayitlar/090.json"
+  },
+  {
+    "record_id": 91,
+    "name": "Genel Türkçe NER/duygu/sınıflama/QA/özetleme (akdeniz27 NER, savasy, spaCy tr_core_news, btniq kvkk, OpenMed privacy-filter, TurkishBERTweet, tabularisai, mT5 özetleme…)",
+    "category": "NER-PII",
+    "url": "https://huggingface.co/akdeniz27/bert-base-turkish-cased-ner",
+    "dossier": "arastirma/tam-tarama/kayitlar/091.json"
+  },
+  {
+    "record_id": 92,
+    "name": "TURKCELL/gibberish-sentence-detection-model-tr (+ bert-offensive-lang-detection-tr)",
+    "category": "NER-PII",
+    "url": "https://huggingface.co/TURKCELL/gibberish-sentence-detection-model-tr",
+    "dossier": "arastirma/tam-tarama/kayitlar/092.json"
+  },
+  {
+    "record_id": 93,
+    "name": "Horizon-Labs/punctuation-restoration-small ve -base (mmBERT)",
+    "category": "Noktalama-yazım-morfoloji",
+    "url": "https://huggingface.co/Horizon-Labs/punctuation-restoration-small",
+    "dossier": "arastirma/tam-tarama/kayitlar/093.json"
+  },
+  {
+    "record_id": 94,
+    "name": "ytu-ce-cosmos/turkish-base-bert-punctuation-correction + capitalization-correction",
+    "category": "Noktalama-yazım-morfoloji",
+    "url": "https://huggingface.co/ytu-ce-cosmos/turkish-base-bert-punctuation-correction",
+    "dossier": "arastirma/tam-tarama/kayitlar/094.json"
+  },
+  {
+    "record_id": 95,
+    "name": "uygarkurt/bert-restore-punctuation-turkish (+ electra, convbert)",
+    "category": "Noktalama-yazım-morfoloji",
+    "url": "https://huggingface.co/uygarkurt/bert-restore-punctuation-turkish",
+    "dossier": "arastirma/tam-tarama/kayitlar/095.json"
+  },
+  {
+    "record_id": 96,
+    "name": "1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase",
+    "category": "Noktalama-yazım-morfoloji",
+    "url": "https://huggingface.co/1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase",
+    "dossier": "arastirma/tam-tarama/kayitlar/096.json"
+  },
+  {
+    "record_id": 97,
+    "name": "Zeyrek (Python) ve zemberek-python",
+    "category": "Noktalama-yazım-morfoloji",
+    "url": "https://github.com/obulat/zeyrek",
+    "dossier": "arastirma/tam-tarama/kayitlar/097.json"
+  },
+  {
+    "record_id": 98,
+    "name": "google-research/turkish-morphology, TRmorph",
+    "category": "Noktalama-yazım-morfoloji",
+    "url": "https://github.com/google-research/turkish-morphology",
+    "dossier": "arastirma/tam-tarama/kayitlar/098.json"
+  },
+  {
+    "record_id": 99,
+    "name": "Zemberek-NLP (Java; 1372★)",
+    "category": "Noktalama-yazım-morfoloji",
+    "url": "https://github.com/ahmetaa/zemberek-nlp",
+    "dossier": "arastirma/tam-tarama/kayitlar/099.json"
+  },
+  {
+    "record_id": 100,
+    "name": "VNLP (VNGRS: düzeltici, deasciifier, sayı→kelime, NER, POS, kök bulma)",
+    "category": "Noktalama-yazım-morfoloji",
+    "url": "https://github.com/vngrs-ai/vnlp",
+    "dossier": "arastirma/tam-tarama/kayitlar/100.json"
+  },
+  {
+    "record_id": 101,
+    "name": "Yazım/GEC modelleri (orkungedik turkish-spell-based, charformer; karakastarik bert spelling; miraykoksal byt5; yeniguno mbart50; berkaycancunnuk mt5/byt5; Ersoy-Yıldız mT5 GEC)",
+    "category": "Noktalama-yazım-morfoloji",
+    "url": "https://github.com/asimokby/Turkish-GEC",
+    "dossier": "arastirma/tam-tarama/kayitlar/101.json"
+  },
+  {
+    "record_id": 102,
+    "name": "Diğer: StarlangSoftware TurkishSpellChecker-Py (GPL-3.0), emres turkish-deasciifier (lisans yok), hunspell-tr, turkish-stemmer-python, segment-any-text/sat-3l-sm (cümle bölme, MIT)",
+    "category": "Noktalama-yazım-morfoloji",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/102.json"
+  },
+  {
+    "record_id": 103,
+    "name": "ysdede/trnorm (ASR için Türkçe metin normalleştirme)",
+    "category": "Noktalama-yazım-morfoloji",
+    "url": "https://github.com/ysdede/trnorm",
+    "dossier": "arastirma/tam-tarama/kayitlar/103.json"
+  },
+  {
+    "record_id": 104,
+    "name": "Helsinki-NLP/opus-mt-tc-big-tr-en / en-tr, opus-mt-tr-en",
+    "category": "Çeviri",
+    "url": "https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-tr-en",
+    "dossier": "arastirma/tam-tarama/kayitlar/104.json"
+  },
+  {
+    "record_id": 105,
+    "name": "facebook/nllb-200-distilled-600M (+1.3B, 3.3B); google/madlad400-3b-mt; mBART-50",
+    "category": "Çeviri",
+    "url": "https://huggingface.co/facebook/nllb-200-distilled-600M",
+    "dossier": "arastirma/tam-tarama/kayitlar/105.json"
+  },
+  {
+    "record_id": 106,
+    "name": "Tencent HY-MT1.5-1.8B/7B, Hy-MT2; Seed-X; NiuTrans LMT-60",
+    "category": "Çeviri",
+    "url": "https://huggingface.co/tencent/HY-MT1.5-1.8B",
+    "dossier": "arastirma/tam-tarama/kayitlar/106.json"
+  },
+  {
+    "record_id": 172,
+    "name": "SindBERT (SIGTURK 2026; RoBERTa base/large)",
+    "category": "Kodlayıcı-BERT",
+    "url": "https://aclanthology.org/2026.sigturk-1.1",
+    "dossier": "arastirma/tam-tarama/kayitlar/172.json"
+  },
+  {
+    "record_id": 173,
+    "name": "BAAI/bge-m3 ve embeddinggemma-300m",
+    "category": "Gömme/reranker",
+    "url": "https://huggingface.co/BAAI/bge-m3",
+    "dossier": "arastirma/tam-tarama/kayitlar/173.json"
+  }
+]

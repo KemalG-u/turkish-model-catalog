@@ -1,0 +1,2141 @@
+{
+  "checked_at": "2026-10-23",
+  "records": [
+    {
+      "record_id": 107,
+      "id": "ytu-ce-cosmos/Turkish-LLaVA-v0.1",
+      "name": "OCR/görüntü-dil modelleri (Ba2han MiniOCR, Turkish-LLaVA, Trendyol-Vision, turkish-colpali, Tesseract tur, pix2struct-turkish-receipts)",
+      "category": "OCR-görüntü",
+      "kind": "model_family",
+      "creator": "YTÜ COSMOS / Trendyol / bireyler",
+      "plain": "Görsel sohbet, belge arama, fiş okuma ve klasik OCR farklı işlerdir; bu satır bunları bir araya getiriyor.",
+      "claims": [
+        {
+          "text": "LLaVA, Türkçe görsel talimat izlemeyi hedefliyor.",
+          "evidence": "Çevrilmiş görsel-metin ve kitap kapağı örnekleriyle uyarlama; ortak Türkçe OCR puanı doğrulanmadı.",
+          "source": "https://huggingface.co/ytu-ce-cosmos/Turkish-LLaVA-v0.1"
+        },
+        {
+          "text": "Trendyol Flash/Master ürün görselinden kategori, özellik ve katalog denetimi için uyarlanmış.",
+          "evidence": "Flash düşük gecikme, Master zor katalog işleri için konumlanıyor; genel belge OCR üstünlüğü iddiası değil.",
+          "source": "https://huggingface.co/Trendyol/Trendyol-Vision-Flash"
+        },
+        {
+          "text": "Turkish-ColPali, Türkçe belgeyi görsel ve yazısal özelliklerle bulmayı amaçlıyor.",
+          "evidence": "Bu model yazı dökme yerine belge getirme işine ait.",
+          "source": "https://huggingface.co/selimc/turkish-colpali"
+        },
+        {
+          "text": "Pix2Struct fiş prototipi mağaza, tarih, tutar ve ürün alanlarını çıkarma hedefliyor.",
+          "evidence": "Yazar uzun/karmaşık fişte düşüş ve sık mağaza adını uydurma riskini kabul ediyor.",
+          "source": "https://huggingface.co/turgutguvercin/pix2struct-turkish-receipts"
+        }
+      ],
+      "training": "LLaVA, Türkçeye çevrilmiş görsel-metin ve kitap kapağı örnekleriyle; Trendyol ailesi kendi katalog verisiyle uyarlanmış. Fiş prototipi yaklaşık 1.100 özel fişle eğitilmiş.",
+      "version": "Kontrol edilen depo: ytu-ce-cosmos/Turkish-LLaVA-v0.1; son dosya değişimi 2024-12-03T18:05:39.000Z. Bu tarih yeni eğitim demek değildir. Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2024-12-03T18:05:39.000Z. Ek kaynak son değişimi: 2026-04-15T07:00:55.000Z. Ek kaynak son değişimi: 2026-08-14T07:00:10.000Z.",
+      "revision": "befcb57091ba65a50e001576c2be05eb8a91ffaf",
+      "try_it": "LLaVA lmdeploy; MiniOCR Transformers; ColPali kendi belge arama akışı; Tesseract Türkçe dil dosyası. Aynı alt görevde kıyaslanmalı.",
+      "demo_url": null,
+      "independent": "LLaVA discussion/4 kullanıcısı kısa/devrik yanıtlar, talimat uyumsuzluğu ve çalışma motoru uyarıları bildiriyor. Bu tek kullanıcı kaydı kontrollü kalite sıralaması değil.",
+      "unknowns": [
+        "MiniOCR V0.2 bulundu; tüm görüntü görevlerinin ortak kazananı sayılamaz. Fiş geliştiricisi uzun fişte düşüş ve yaygın mağaza adını uydurma riskini kabul ediyor."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-LLaVA-v0.1",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-LLaVA-v0.1/raw/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/ytu-ce-cosmos",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-LLaVA-v0.1/discussions",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "topluluk",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-LLaVA-v0.1/discussions/5",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "topluluk",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-LLaVA-v0.1/discussions/4",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "topluluk",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Ba2han/Liquid-Turkish-MiniOCR-V0.2/raw/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Ba2han/Liquid-Turkish-MiniOCR-V0.2",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Trendyol/Trendyol-Vision-Flash/raw/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/Trendyol/Trendyol-Vision-Flash",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/Trendyol/Trendyol-Vision-Master/raw/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/selimc/turkish-colpali/raw/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/turgutguvercin/pix2struct-turkish-receipts/raw/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://tesseract-ocr.github.io/tessdoc/Data-Files-in-different-versions.html",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Model/kurum/yayın kaynağı ve yukarıda belirtilen kapsam okundu. Arşiv notu yeni kanıt sayılmadı.",
+          "urls": [
+            "https://huggingface.co/ytu-ce-cosmos/Turkish-LLaVA-v0.1/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "LLaVA discussion/4 kullanıcısı kısa/devrik yanıtlar, talimat uyumsuzluğu ve çalışma motoru uyarıları bildiriyor. Bu tek kullanıcı kaydı kontrollü kalite sıralaması değil.",
+          "urls": [
+            "https://huggingface.co/ytu-ce-cosmos/Turkish-LLaVA-v0.1/discussions/5",
+            "https://huggingface.co/ytu-ce-cosmos/Turkish-LLaVA-v0.1/discussions/4"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "İsim/kimlik ile hedefli aramada bağımsız ayrıntılı video deneyi doğrulanmadı; video izlenmedi.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol edilen depo: ytu-ce-cosmos/Turkish-LLaVA-v0.1; son dosya değişimi 2024-12-03T18:05:39.000Z. Bu tarih yeni eğitim demek değildir. Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2024-12-03T18:05:39.000Z. Ek kaynak son değişimi: 2026-04-15T07:00:55.000Z. Ek kaynak son değişimi: 2026-08-14T07:00:10.000Z.",
+          "urls": [
+            "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-LLaVA-v0.1",
+            "https://huggingface.co/api/models?author=ytu-ce-cosmos&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-LLaVA-v0.1/discussions",
+            "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-LLaVA-v0.1/discussions/5",
+            "https://huggingface.co/api/models/ytu-ce-cosmos/Turkish-LLaVA-v0.1/discussions/4",
+            "https://huggingface.co/api/models/Ba2han/Liquid-Turkish-MiniOCR-V0.2",
+            "https://huggingface.co/api/models/Trendyol/Trendyol-Vision-Flash"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Turkish-LLaVA-v0.1\" (review OR youtube OR site:x.com)",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Ba2han\" \"MiniOCR\" huggingface",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"Trendyol-Vision\" huggingface model",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"turkish-colpali\" huggingface",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"pix2struct-turkish-receipts\"",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "ytu-ce-cosmos/Turkish-LLaVA-v0.1",
+          "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-LLaVA-v0.1",
+          "status": "kaynak kartı okundu; çalıştırılmadı"
+        },
+        {
+          "name": "Ba2han/Liquid-Turkish-MiniOCR-V0.2",
+          "url": "https://huggingface.co/Ba2han/Liquid-Turkish-MiniOCR-V0.2",
+          "status": "kaynak kartı okundu; çalıştırılmadı"
+        },
+        {
+          "name": "Trendyol/Trendyol-Vision-Flash",
+          "url": "https://huggingface.co/Trendyol/Trendyol-Vision-Flash",
+          "status": "kaynak kartı okundu; çalıştırılmadı"
+        },
+        {
+          "name": "Trendyol/Trendyol-Vision-Master",
+          "url": "https://huggingface.co/Trendyol/Trendyol-Vision-Master",
+          "status": "kaynak kartı okundu; çalıştırılmadı"
+        },
+        {
+          "name": "selimc/turkish-colpali",
+          "url": "https://huggingface.co/selimc/turkish-colpali",
+          "status": "kaynak kartı okundu; çalıştırılmadı"
+        },
+        {
+          "name": "turgutguvercin/pix2struct-turkish-receipts",
+          "url": "https://huggingface.co/turgutguvercin/pix2struct-turkish-receipts",
+          "status": "kaynak kartı okundu; çalıştırılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 108,
+      "id": "OttomanNLP/Azra-1-Mini-0.8b",
+      "name": "Osmanlıca OCR/transliterasyon (Azra-1-Mini 0,8B Apache; kranidiotis ottoman-ocr-qwen2.5-vl-7b; enesyila Qwen4B; bilirkesi osmanlica-v1; Bucolin HisTR/OTA-BOUN; Yılandiloğlu tarihsel MLM; Osmanlica.com)",
+      "category": "OCR-görüntü",
+      "kind": "model_family",
+      "creator": "** Gökhan Usta, Oğuz Alpoğlu, Fatih Günaydın",
+      "plain": "Osmanlıca satır görüntüsünü metne çevirme modelleri; güncel Türkçe belge okuma ile ayrı sınanmalı.",
+      "claims": [
+        {
+          "text": "Azra kartı Nesih için %80,23, el yazısı Rika için %67,08 karakter doğruluğu bildiriyor. Satır görüntüsü için tasarlanmış; tam sayfa doğrudan kullanımında düşüş olabilir.",
+          "evidence": "Kaynak/yazar beyanı; bu laboratuvarda yeniden ölçülmedi.",
+          "source": "https://huggingface.co/OttomanNLP/Azra-1-Mini-0.8b/raw/main/README.md"
+        },
+        {
+          "text": "kranidiotis modeli Osmanlıca belge okuma uyarlaması olarak tanıtılıyor.",
+          "evidence": "İlgili model kartı okundu; bu laboratuvarda denenmedi.",
+          "source": "https://huggingface.co/kranidiotis/ottoman-ocr-qwen2.5-vl-7b"
+        },
+        {
+          "text": "bilirkesi/osmanlica-v1, Osmanlıca–güncel Türkçe yazı çevrimi hattı olarak tanıtılıyor.",
+          "evidence": "Yazı çevrimi ile görüntüden metin okuma aynı görev değildir.",
+          "source": "https://huggingface.co/bilirkesi/osmanlica-v1"
+        }
+      ],
+      "training": "Azra kartı Qwen3.5 tabanlı görsel uyarlama anlatıyor; listedeki diğer Osmanlıca modeller aynı eğitim veya veriyle geliştirilmiş sayılmaz.",
+      "version": "Kontrol edilen depo: OttomanNLP/Azra-1-Mini-0.8b; son dosya değişimi 2026-08-07T11:52:33.000Z. Bu tarih yeni eğitim demek değildir. Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2026-08-07T11:52:33.000Z.",
+      "revision": "7c1c429e9f3d3bad1d59b6ef802264f694b171be",
+      "try_it": "Önce satırları ayırıp geliştiricinin gösterdiği görsel-model yolunu kullanmak gerekir. Bu turda satır veya sayfa işlenmedi.",
+      "demo_url": null,
+      "independent": "Hedefli Azra/OttomanNLP aramasında bağımsız, girdisi ve sürümü belli kullanım testi doğrulanmadı; profil aynaları deney sayılmadı.",
+      "unknowns": [
+        "Ham test dosyaları, satır bölme etkisi ve bütün aile üyelerinin kimliği ayrıca doğrulanmalı. Yazarın kıyası bağımsız tekrar değil."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/OttomanNLP/Azra-1-Mini-0.8b",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/OttomanNLP/Azra-1-Mini-0.8b/raw/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/OttomanNLP",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=OttomanNLP&sort=lastModified&direction=-1&limit=40",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/OttomanNLP/Azra-1-Mini-0.8b/discussions",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "topluluk",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/kranidiotis/ottoman-ocr-qwen2.5-vl-7b/raw/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/bilirkesi/osmanlica-v1/raw/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Model/kurum/yayın kaynağı ve yukarıda belirtilen kapsam okundu. Arşiv notu yeni kanıt sayılmadı.",
+          "urls": [
+            "https://huggingface.co/OttomanNLP/Azra-1-Mini-0.8b/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "searched_not_found",
+          "note": "Hedefli Azra/OttomanNLP aramasında bağımsız, girdisi ve sürümü belli kullanım testi doğrulanmadı; profil aynaları deney sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "İsim/kimlik ile hedefli aramada bağımsız ayrıntılı video deneyi doğrulanmadı; video izlenmedi.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol edilen depo: OttomanNLP/Azra-1-Mini-0.8b; son dosya değişimi 2026-08-07T11:52:33.000Z. Bu tarih yeni eğitim demek değildir. Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2026-08-07T11:52:33.000Z.",
+          "urls": [
+            "https://huggingface.co/api/models/OttomanNLP/Azra-1-Mini-0.8b",
+            "https://huggingface.co/api/models?author=OttomanNLP&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/OttomanNLP/Azra-1-Mini-0.8b/discussions"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Azra-1-Mini\" (OttomanNLP OR review OR youtube)",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"kranidiotis\" \"ottoman-ocr\"",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"bilirkesi\" \"osmanlica-v1\"",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "OttomanNLP/Azra-1-Mini-0.8b",
+          "url": "https://huggingface.co/OttomanNLP/Azra-1-Mini-0.8b",
+          "status": "kaynak kartı okundu; çalıştırılmadı"
+        },
+        {
+          "name": "kranidiotis/ottoman-ocr-qwen2.5-vl-7b",
+          "url": "https://huggingface.co/kranidiotis/ottoman-ocr-qwen2.5-vl-7b",
+          "status": "kaynak kartı okundu; çalıştırılmadı"
+        },
+        {
+          "name": "bilirkesi/osmanlica-v1",
+          "url": "https://huggingface.co/bilirkesi/osmanlica-v1",
+          "status": "kaynak kartı okundu; çalıştırılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 109,
+      "id": "livekit/turn-detector",
+      "name": "Ses-diğer (hubert-large-turkish-speech-emotion-recognition, wav2vec2 cinsiyet sınıflama, speechbrain lang-id-voxlingua107-ecapa, mms-lid, livekit/turn-detector)",
+      "category": "Ses-diğer",
+      "kind": "model_family",
+      "creator": "LiveKit / SeaBenSea / SpeechBrain; farklı görevlerde farklı geliştiriciler",
+      "plain": "Konuşma bitti mi, hangi dil veya duygu var gibi farklı ses görevleri aynı satırda; ayrı yarışlar gerekir.",
+      "claims": [
+        {
+          "text": "LiveKit, yazıya çevrilmiş konuşmanın anlamından konuşma sırasının bittiğini tahmin eder; doğrudan ses tanıma veya yalnız sessizlik algılama modeli değildir.",
+          "evidence": "Kaynak/yazar beyanı; bu laboratuvarda yeniden ölçülmedi.",
+          "source": "https://huggingface.co/livekit/turn-detector/raw/main/README.md"
+        },
+        {
+          "text": "17 Haziran 2026 duyurusundaki LiveKit v1, konuşmayı doğrudan dinleyen ses kodlayıcıları ekliyor; eski metin tabanlı HF modeliyle aynı sürüm değil.",
+          "evidence": "Resmî blog ve güncel belgeler Türkçe dahil 14 dil desteği söylüyor. Bu laboratuvarda ölçülmedi.",
+          "source": "https://livekit.com/blog/solving-end-of-turn-detection"
+        }
+      ],
+      "training": "LiveKit kartı Qwen2.5 tabanı ve çok dilli öğretmen-öğrenci uyarlamasını açıklıyor. HuBERT duygu ve konuşmacı/dil sınıflayıcıları ayrı modellerdir.",
+      "version": "Kontrol edilen depo: livekit/turn-detector; son dosya değişimi 2026-02-11T15:04:40.000Z. Bu tarih yeni eğitim demek değildir. Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2026-02-11T15:04:40.000Z. Resmî 17 Haziran 2026 duyurusu ses+anlam birleştiren v1/v1-mini devamını açıklıyor. Eski HF metin modeli sonucu bu sürüme taşınmaz.",
+      "revision": "fba34c38ad5d30a63ebb83a9e6bf271cf4c91d67",
+      "try_it": "LiveKit Agents bütünleştirme belgesi mevcut; duygu ve dil tanıma için ilgili sınıflandırıcının kendi girdisi kullanılmalı.",
+      "demo_url": null,
+      "independent": "LiveKit discussion/4 kullanıcısı v0.1.0-intl sürümünün aynı testlerinde v0.2.0-intl’den özellikle Türkçede iyi olduğunu yazıyor; örnek ve sayısal sonuç paylaşılmamış. Bu eski kullanıcı karşılaştırması yeni ses tabanlı v1 sürümünü sınamıyor.",
+      "unknowns": [
+        "İngilizce-only varyant kullanımdan kaldırılmış; çok dilli öneriliyor. Güncel sürümün Türkçede daha iyi olduğu kendi testimizle doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/models/livekit/turn-detector",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/livekit/turn-detector/raw/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/livekit",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models?author=livekit&sort=lastModified&direction=-1&limit=40",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/livekit/turn-detector/discussions",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "topluluk",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/livekit/turn-detector/discussions/5",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "topluluk",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/models/livekit/turn-detector/discussions/4",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "topluluk",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://docs.livekit.io/agents/logic/turns/turn-detector/",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://livekit.com/blog/solving-end-of-turn-detection",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/SeaBenSea/hubert-large-turkish-speech-emotion-recognition/raw/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/speechbrain/lang-id-voxlingua107-ecapa/raw/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Model/kurum/yayın kaynağı ve yukarıda belirtilen kapsam okundu. Arşiv notu yeni kanıt sayılmadı.",
+          "urls": [
+            "https://huggingface.co/livekit/turn-detector/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "LiveKit discussion/4 kullanıcısı v0.1.0-intl sürümünün aynı testlerinde v0.2.0-intl’den özellikle Türkçede iyi olduğunu yazıyor; örnek ve sayısal sonuç paylaşılmamış. Bu eski kullanıcı karşılaştırması yeni ses tabanlı v1 sürümünü sınamıyor.",
+          "urls": [
+            "https://huggingface.co/livekit/turn-detector/discussions/5",
+            "https://huggingface.co/livekit/turn-detector/discussions/4"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Geliştiricinin v1 blog duyurusu ve güncel belge okundu; video izlenmedi.",
+          "urls": [
+            "https://livekit.com/blog/solving-end-of-turn-detection"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol edilen depo: livekit/turn-detector; son dosya değişimi 2026-02-11T15:04:40.000Z. Bu tarih yeni eğitim demek değildir. Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2026-02-11T15:04:40.000Z. Resmî 17 Haziran 2026 duyurusu ses+anlam birleştiren v1/v1-mini devamını açıklıyor. Eski HF metin modeli sonucu bu sürüme taşınmaz.",
+          "urls": [
+            "https://huggingface.co/api/models/livekit/turn-detector",
+            "https://huggingface.co/api/models?author=livekit&sort=lastModified&direction=-1&limit=40",
+            "https://huggingface.co/api/models/livekit/turn-detector/discussions",
+            "https://huggingface.co/api/models/livekit/turn-detector/discussions/5",
+            "https://huggingface.co/api/models/livekit/turn-detector/discussions/4"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"livekit\" \"turn-detector\" Turkish (review OR blog OR youtube)",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"SeaBenSea\" \"hubert\" (review OR youtube OR blog)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "livekit/turn-detector",
+          "url": "https://huggingface.co/livekit/turn-detector",
+          "status": "kaynak kartı okundu; çalıştırılmadı"
+        },
+        {
+          "name": "SeaBenSea/hubert-large-turkish-speech-emotion-recognition",
+          "url": "https://huggingface.co/SeaBenSea/hubert-large-turkish-speech-emotion-recognition",
+          "status": "kaynak kartı okundu; çalıştırılmadı"
+        },
+        {
+          "name": "speechbrain/lang-id-voxlingua107-ecapa",
+          "url": "https://huggingface.co/speechbrain/lang-id-voxlingua107-ecapa",
+          "status": "kaynak kartı okundu; çalıştırılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 110,
+      "id": "catalog-110",
+      "name": "Common Voice 25 Türkçe (135 saat)",
+      "category": "Veri seti",
+      "kind": "dataset",
+      "creator": "Mozilla",
+      "plain": "Common Voice gönüllülerin okuduğu ses ve karşılık gelen metinlerden oluşan veri kaynağıdır; hazır model değildir.",
+      "claims": [
+        {
+          "text": "Mozilla’nın güncel duyurusu Scripted Speech v27 ve Spontaneous Speech v5’in yayımlandığını söylüyor; katalogdaki v25 güncel ana sürüm değil.",
+          "evidence": "Kaynak/yazar beyanı; bu laboratuvarda yeniden ölçülmedi.",
+          "source": "https://community.mozilladatacollective.com/"
+        }
+      ],
+      "training": "İnsanların ses katkıları ve doğrulamasıyla oluşturulur. Türkçe alt kümenin toplam, doğrulanmış ve sınav saatleri ayrı sayılmalı.",
+      "version": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez.",
+      "revision": null,
+      "try_it": "Önce Mozilla Data Collective içindeki Türkçe sürüm kartını ve erişim koşullarını oku; ses indirilmedi.",
+      "demo_url": null,
+      "independent": "Topluluk paylaşımları bulundu; bunlar v27 Türkçe alt kümenin temizliğini veya model başarısını kanıtlamıyor.",
+      "unknowns": [
+        "v27 Türkçe saat ve bölünme ayrıntısı bu turda sabitlenemedi; eski 135 saat sayısı yeni sürüme taşınmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://community.mozilladatacollective.com/",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Model/kurum/yayın kaynağı ve yukarıda belirtilen kapsam okundu. Arşiv notu yeni kanıt sayılmadı.",
+          "urls": [
+            "https://community.mozilladatacollective.com/"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "not_applicable",
+          "note": "Topluluk paylaşımları bulundu; bunlar v27 Türkçe alt kümenin temizliğini veya model başarısını kanıtlamıyor.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "checked",
+          "note": "Mozilla Data Collective duyuru sayfasında v27/v5 yayını okundu. Bağımsız Türkçe kalite deneyi veya izlenmiş video değil.",
+          "urls": [
+            "https://community.mozilladatacollective.com/"
+          ]
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "Common Voice 25 Turkish dataset release Mozilla 2026",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "site.community.mozilladatacollective.com \"v27\" \"Spontaneous\"",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "(\"MediaSpeech\" OR \"ISSAI Turkish Speech Corpus\" OR \"Common Voice v27\") (review OR issue OR blog OR youtube)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 111,
+      "id": "catalog-111",
+      "name": "ISSAI Turkish Speech Corpus (218 saat; Kaggle'da Turkish_Speech_Corpus ~218 saat)",
+      "category": "Veri seti",
+      "kind": "dataset",
+      "creator": "ISSAI",
+      "plain": "ISSAI Turkish Speech Corpus, ses tanıma araştırması için Türkçe ses ve yazı veri kümesidir.",
+      "claims": [
+        {
+          "text": "Kurum 218,2 saat ve 186.171 sözce bildiriyor; bu rakam modelin doğruluk puanı değil.",
+          "evidence": "Kaynak/yazar beyanı; bu laboratuvarda yeniden ölçülmedi.",
+          "source": "https://issai.nu.edu.kz/ru/turkic-asr-rus/"
+        }
+      ],
+      "training": "Nazarbayev Üniversitesi ISSAI’nin Türk dilleri ses tanıma çalışmasında oluşturulmuş; makale ve veri bağlantıları açık.",
+      "version": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2025-02-13T12:28:52.000Z.",
+      "revision": "d79ea01392882322e8f46657cb635236af25b6d4",
+      "try_it": "Kurumun proje sayfası ve HF veri kartı erişim yolu sağlıyor; veri indirilmedi.",
+      "demo_url": null,
+      "independent": "Bu kart veri kaynağını tanıtır. Veriyle eğitilmiş modellerin birbirinden farklı sonuçları veri kümesinin tek başarı puanı sayılamaz.",
+      "unknowns": [
+        "Kurum CC BY 4.0 derken HF kartında MIT etiketi var; kullanmadan önce gerçek veri koşulları uzlaştırılmalı."
+      ],
+      "sources": [
+        {
+          "url": "https://issai.nu.edu.kz/ru/turkic-asr-rus/",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/datasets/issai/Turkish_Speech_Corpus/raw/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/datasets/issai/Turkish_Speech_Corpus",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Model/kurum/yayın kaynağı ve yukarıda belirtilen kapsam okundu. Arşiv notu yeni kanıt sayılmadı.",
+          "urls": [
+            "https://issai.nu.edu.kz/ru/turkic-asr-rus/"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "not_applicable",
+          "note": "Bu kart veri kaynağını tanıtır. Veriyle eğitilmiş modellerin birbirinden farklı sonuçları veri kümesinin tek başarı puanı sayılamaz.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Kayıt adını veya konu kimliğini içeren birleşik hedefli sorgu yapıldı. İlave, sürümü belli bağımsız video/kullanım deneyi doğrulanamadı. Bu sınırlı tarama; video izlenmedi.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2025-02-13T12:28:52.000Z.",
+          "urls": [
+            "https://huggingface.co/api/datasets/issai/Turkish_Speech_Corpus"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "ISSAI Turkish Speech Corpus 218 hours official",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "(\"MediaSpeech\" OR \"ISSAI Turkish Speech Corpus\" OR \"Common Voice v27\") (review OR issue OR blog OR youtube)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "issai/Turkish_Speech_Corpus",
+          "url": "https://huggingface.co/datasets/issai/Turkish_Speech_Corpus",
+          "status": "kaynak kartı okundu; çalıştırılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 112,
+      "id": "catalog-112",
+      "name": "MediaSpeech (10 saat)",
+      "category": "Veri seti",
+      "kind": "dataset",
+      "creator": "(belirsiz)",
+      "plain": "Medya kayıtlarından çıkarılmış Türkçe ve başka dillerde ses tanıma sınav verisi.",
+      "claims": [
+        {
+          "text": "OpenSLR her dil için 10 saat; Türkçe dahil dört dilde medya videosundan kısa, insanlarca yazıya geçirilmiş bölümler bildiriyor.",
+          "evidence": "Kaynak/yazar beyanı; bu laboratuvarda yeniden ölçülmedi.",
+          "source": "https://openslr.org/108/"
+        }
+      ],
+      "training": "NTRLab MediaSpeech; YouTube kaynaklı medya, insan yazımı ve ön/son işleme.",
+      "version": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2022-07-22T13:05:36Z.",
+      "revision": null,
+      "try_it": "OpenSLR SLR108 ve GitHub kullanım/değerlendirme bağlantıları mevcut; ses arşivleri indirilmedi.",
+      "demo_url": null,
+      "independent": "Bağımsız Türkçe veri temizliği incelemesi bu turda doğrulanmadı; kaynak makale ve yayımlanan veri tarifi incelendi.",
+      "unknowns": [
+        "CC BY 4.0 beyanı mevcut. Haber/medya konuşması günlük dikteyi veya gürültülü mikrofonu tek başına temsil etmez."
+      ],
+      "sources": [
+        {
+          "url": "https://openslr.org/108/",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/NTRLab/MediaSpeech",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Model/kurum/yayın kaynağı ve yukarıda belirtilen kapsam okundu. Arşiv notu yeni kanıt sayılmadı.",
+          "urls": [
+            "https://openslr.org/108/"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "not_applicable",
+          "note": "Bağımsız Türkçe veri temizliği incelemesi bu turda doğrulanmadı; kaynak makale ve yayımlanan veri tarifi incelendi.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Kayıt adını veya konu kimliğini içeren birleşik hedefli sorgu yapıldı. İlave, sürümü belli bağımsız video/kullanım deneyi doğrulanamadı. Bu sınırlı tarama; video izlenmedi.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2022-07-22T13:05:36Z.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "(\"MediaSpeech\" OR \"ISSAI Turkish Speech Corpus\" OR \"Common Voice v27\") (review OR issue OR blog OR youtube)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": []
+    },
+    {
+      "record_id": 113,
+      "id": "catalog-113",
+      "name": "TurkishTaxRulings (~120 bin örnek; Mizan embedding tablosunda retrieval görevi)",
+      "category": "Veri seti",
+      "kind": "dataset",
+      "creator": "(belirsiz; Mizan embedding tablosunda geçiyor)",
+      "plain": "Vergi özelgeleri içinde ilgili belgeyi bulmayı sınayan görev; vergi sorularına cevap veren bir model değil.",
+      "claims": [
+        {
+          "text": "Mizan veri açıklaması TurkishTaxRulings’i yaklaşık 120 bin kayıtlık vergi düzenlemesi belge getirme görevi olarak listeliyor.",
+          "evidence": "Kaynak/yazar beyanı; bu laboratuvarda yeniden ölçülmedi.",
+          "source": "https://newmindai-mizan.hf.space/"
+        }
+      ],
+      "training": "NewMind Mizan ölçüm sisteminin görev tanımı; vergi belgeleri ve ilgili sorguların eşleşmesi önemlidir.",
+      "version": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez.",
+      "revision": null,
+      "try_it": "Mizan’ın veri bilgisi ve görev puanları incelenebilir. Sohbet cevabıyla aynı puan sütununda kıyaslanmaz.",
+      "demo_url": null,
+      "independent": "Mizan sonuçları sistem sahibinin ölçümüdür; vergi doğruluğunun bağımsız uzman kabulü değildir.",
+      "unknowns": [
+        "Doğrudan bağımsız veri dağıtımı, sorgu/altın belge listesi ve sürüm sabitlemesi bu turda doğrulanmadı."
+      ],
+      "sources": [
+        {
+          "url": "https://newmindai-mizan.hf.space/",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Model/kurum/yayın kaynağı ve yukarıda belirtilen kapsam okundu. Arşiv notu yeni kanıt sayılmadı.",
+          "urls": [
+            "https://newmindai-mizan.hf.space/"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "not_applicable",
+          "note": "Mizan sonuçları sistem sahibinin ölçümüdür; vergi doğruluğunun bağımsız uzman kabulü değildir.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Kayıt adını veya konu kimliğini içeren birleşik hedefli sorgu yapıldı. İlave, sürümü belli bağımsız video/kullanım deneyi doğrulanamadı. Bu sınırlı tarama; video izlenmedi.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "TurkishTaxRulings NewMind Mizan dataset",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "(\"TurkishTaxRulings\" OR \"Mizan Turkish\" OR \"Cosmos-Turkish-Corpus-v1.0\") (review OR issue OR youtube)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 114,
+      "id": "catalog-114",
+      "name": "SIGTURK 2026 ortak görevi (EN→TR STEM terimli çeviri; 10.157 uzman onaylı terim çifti)",
+      "category": "Değerlendirme seti",
+      "kind": "benchmark",
+      "creator": "Ali Gebeşçe, Abdulfattah Safa, Ege Uğur Amasya, Gözde Gül Şahin",
+      "plain": "İngilizce–Türkçe bilimsel terimleri tespit etme ve çeviri hatalarını düzeltme ortak sınavı.",
+      "claims": [
+        {
+          "text": "Yazarlar 3.300 cümle çifti ve 10.157 uzman doğrulamalı terim bağlantısı sunuyor; küçük uyarlanmış modeller belirli son düzeltme görevinde güçlü sonuç verebiliyor.",
+          "evidence": "Kaynak/yazar beyanı; bu laboratuvarda yeniden ölçülmedi.",
+          "source": "https://aclanthology.org/2026.sigturk-1.20"
+        }
+      ],
+      "training": "Terim tespiti, uzman yönlendirmeli düzeltme ve uçtan uca düzeltme ayrı alt görevler; veri uzmanlarla etiketlenmiş.",
+      "version": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez.",
+      "revision": null,
+      "try_it": "Ortak görev makalesi ve paylaşılan kod/veri akışı üzerinden aynı alt görev kurulabilir.",
+      "demo_url": null,
+      "independent": "Bu, katılımcıların ortak sınavıdır. Sosyal paylaşım sayısı yeni bağımsız tekrar oluşturmaz; kendi koşumuz yok.",
+      "unknowns": [
+        "Bir alt görevdeki 4B başarısı bütün Türkçe işleri için genel model üstünlüğü sayılmaz; insan uzman farkı terim düzeltmede sürüyor."
+      ],
+      "sources": [
+        {
+          "url": "https://aclanthology.org/2026.sigturk-1.20",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Model/kurum/yayın kaynağı ve yukarıda belirtilen kapsam okundu. Arşiv notu yeni kanıt sayılmadı.",
+          "urls": [
+            "https://aclanthology.org/2026.sigturk-1.20"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "not_applicable",
+          "note": "Bu, katılımcıların ortak sınavıdır. Sosyal paylaşım sayısı yeni bağımsız tekrar oluşturmaz; kendi koşumuz yok.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "not_searched",
+          "note": "Bu kaynak kartında sosyal video ayrı incelenmedi; yayın, veri veya ölçüm belgesi odaklı tarama yapıldı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez.",
+          "urls": []
+        }
+      ],
+      "searches": [],
+      "research_status": "non_model",
+      "members": []
+    },
+    {
+      "record_id": 115,
+      "id": "catalog-115",
+      "name": "Cosmos-Turkish-Corpus-v1.0 ve 9 başka veri seti (YTÜ COSMOS)",
+      "category": "Veri seti",
+      "kind": "dataset",
+      "creator": "YTÜ COSMOS",
+      "plain": "Türkçe ön eğitim için web metni derlemi; hazır sohbet modeli değil.",
+      "claims": [
+        {
+          "text": "COSMOS kartı yaklaşık 15 milyar token ve yaklaşık 9 milyon metin kaydı sunuyor. URL tekrarları ayıklanmış; içerik tekrarları için ek temizlik gerekebileceği açıkça yazıyor.",
+          "evidence": "Kaynak/yazar beyanı; bu laboratuvarda yeniden ölçülmedi.",
+          "source": "https://huggingface.co/datasets/ytu-ce-cosmos/Cosmos-Turkish-Corpus-v1.0/raw/main/README.md"
+        }
+      ],
+      "training": "Forum, haber, Wikipedia ve başka Türkçe web kaynaklarından toplanmış.",
+      "version": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2025-12-02T15:05:34.000Z.",
+      "revision": "8c9a64084b6cc2665462971d860d599b574d82ea",
+      "try_it": "HF veri kartı ve sütun tanımı okunabilir; büyük veri dosyaları indirilmedi.",
+      "demo_url": null,
+      "independent": "Kurumun “rekabetçi sonuç” beyanı ham verinin temiz veya her eğitimde yararlı olduğunu tek başına kanıtlamaz.",
+      "unknowns": [
+        "Satırdaki diğer dokuz veri kümesi tek tek isimlendirilmemiş; yalnız doğrulanan Cosmos-Turkish-Corpus-v1.0 bu kartta somutlaştırıldı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/ytu-ce-cosmos/Cosmos-Turkish-Corpus-v1.0/raw/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/datasets/ytu-ce-cosmos/Cosmos-Turkish-Corpus-v1.0",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Model/kurum/yayın kaynağı ve yukarıda belirtilen kapsam okundu. Arşiv notu yeni kanıt sayılmadı.",
+          "urls": [
+            "https://huggingface.co/datasets/ytu-ce-cosmos/Cosmos-Turkish-Corpus-v1.0/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "not_applicable",
+          "note": "Kurumun “rekabetçi sonuç” beyanı ham verinin temiz veya her eğitimde yararlı olduğunu tek başına kanıtlamaz.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Kayıt adını veya konu kimliğini içeren birleşik hedefli sorgu yapıldı. İlave, sürümü belli bağımsız video/kullanım deneyi doğrulanamadı. Bu sınırlı tarama; video izlenmedi.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2025-12-02T15:05:34.000Z.",
+          "urls": [
+            "https://huggingface.co/api/datasets/ytu-ce-cosmos/Cosmos-Turkish-Corpus-v1.0"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "site.huggingface.co/ytu-ce-cosmos Cosmos Turkish Corpus v1.0",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "(\"TurkishTaxRulings\" OR \"Mizan Turkish\" OR \"Cosmos-Turkish-Corpus-v1.0\") (review OR issue OR youtube)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": [
+        {
+          "name": "ytu-ce-cosmos/Cosmos-Turkish-Corpus-v1.0",
+          "url": "https://huggingface.co/datasets/ytu-ce-cosmos/Cosmos-Turkish-Corpus-v1.0",
+          "status": "kaynak kartı okundu; çalıştırılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 116,
+      "id": "catalog-116",
+      "name": "turkish_parliamentary_data (TBMM tutanakları, BOUN TABILAB)",
+      "category": "Veri seti",
+      "kind": "dataset",
+      "creator": "Boğaziçi TABILAB",
+      "plain": "TBMM ve tarihsel yasama tutanaklarından metin derlemi; ses tanıma modeli değildir.",
+      "claims": [
+        {
+          "text": "GNACT kartı 1920’den günümüze on yasama kurumunu, Osmanlıca ve güncel Türkçeyi kapsadığını belirtiyor.",
+          "evidence": "Kaynak/yazar beyanı; bu laboratuvarda yeniden ölçülmedi.",
+          "source": "https://huggingface.co/datasets/boun-tabilab/turkish_parliamentary_data/raw/main/README.md"
+        }
+      ],
+      "training": "Sayfalardan optik metin okuma yoluyla çıkarılmış metin; tam oturum, sayfa ve yalnız TBMM düzenleri var.",
+      "version": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2026-03-30T18:44:28.000Z.",
+      "revision": "748b7872b0e0db9bfca6c09a70c8ecd11262ffa2",
+      "try_it": "HF kartındaki hazır veri yükleme örnekleri ve alanlara göre filtreleme yolu kullanılabilir.",
+      "demo_url": null,
+      "independent": "Bu turda bağımsız metin doğruluğu incelemesi doğrulanmadı; metin örnekleri ürün kabul testinden geçirilmedi.",
+      "unknowns": [
+        "CC BY-NC-SA 4.0 etiketi ve tarihsel OCR hataları dikkate alınmalı. Arşiv metnini güncel mevzuat gibi kullanmamak gerekir."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/boun-tabilab/turkish_parliamentary_data/raw/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/datasets/boun-tabilab/turkish_parliamentary_data",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Model/kurum/yayın kaynağı ve yukarıda belirtilen kapsam okundu. Arşiv notu yeni kanıt sayılmadı.",
+          "urls": [
+            "https://huggingface.co/datasets/boun-tabilab/turkish_parliamentary_data/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "not_applicable",
+          "note": "Bu turda bağımsız metin doğruluğu incelemesi doğrulanmadı; metin örnekleri ürün kabul testinden geçirilmedi.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Kayıt adını veya konu kimliğini içeren birleşik hedefli sorgu yapıldı. İlave, sürümü belli bağımsız video/kullanım deneyi doğrulanamadı. Bu sınırlı tarama; video izlenmedi.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2026-03-30T18:44:28.000Z.",
+          "urls": [
+            "https://huggingface.co/api/datasets/boun-tabilab/turkish_parliamentary_data"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "site.huggingface.co boun tabilab turkish_parliamentary_data",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "(\"GECTurk\" OR \"NoisyWikiTr\" OR \"turkish_parliamentary_data\") (review OR issue OR blog)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "boun-tabilab/turkish_parliamentary_data",
+          "url": "https://huggingface.co/datasets/boun-tabilab/turkish_parliamentary_data",
+          "status": "kaynak kartı okundu; çalıştırılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 117,
+      "id": "catalog-117",
+      "name": "NoisyWikiTr (Gazi) ve GECTurk (GGLAB-KU)",
+      "category": "Veri seti",
+      "kind": "dataset",
+      "creator": "Gazi Üniversitesi / GGLAB-KU",
+      "plain": "Türkçe yazım/dilbilgisi hatası üretme ve düzeltme veri kaynağı; GECTurk ile NoisyWikiTr ayrı işler.",
+      "claims": [
+        {
+          "text": "GECTurk, 25 uzman kuralıyla yaklaşık 138 bin sentetik cümle sunuyor; ayrıca elle etiketlenmiş film yorumu sınavı var.",
+          "evidence": "Kaynak/yazar beyanı; bu laboratuvarda yeniden ölçülmedi.",
+          "source": "https://github.com/GGLAB-KU/gecturk/"
+        }
+      ],
+      "training": "Doğru cümlelere tersine çevrilebilir hata kuralları uygulanıyor; farklı model aileleriyle hata tespiti ve düzeltme denenmiş.",
+      "version": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2024-02-16T12:11:27Z.",
+      "revision": null,
+      "try_it": "Resmî depo veri, ağırlık ve çalıştırma tarifine bağlantı veriyor; bu turda kod çalıştırılmadı.",
+      "demo_url": null,
+      "independent": "Depodaki kullanıcı, elle oluşturulmuş etiket kümesinin kapsama sınırını Özbekçe uyarlama bağlamında soruyor. Bu, Türkçe kalite puanı değil anlamlı yöntem eleştirisi.",
+      "unknowns": [
+        "Kural tabanlı sentetik hatalar gerçek konuşma tanıma hatalarının tamamını temsil etmez. NoisyWikiTr kimliği bu birleşik satırda ayrıca açık."
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/GGLAB-KU/gecturk/",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/GGLAB-KU/gecturk/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/GGLAB-KU/gecturk",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/GGLAB-KU/gecturk/issues?state=all&per_page=5",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "topluluk",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Model/kurum/yayın kaynağı ve yukarıda belirtilen kapsam okundu. Arşiv notu yeni kanıt sayılmadı.",
+          "urls": [
+            "https://github.com/GGLAB-KU/gecturk/"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Depodaki kullanıcı, elle oluşturulmuş etiket kümesinin kapsama sınırını Özbekçe uyarlama bağlamında soruyor. Bu, Türkçe kalite puanı değil anlamlı yöntem eleştirisi.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Kayıt adını veya konu kimliğini içeren birleşik hedefli sorgu yapıldı. İlave, sürümü belli bağımsız video/kullanım deneyi doğrulanamadı. Bu sınırlı tarama; video izlenmedi.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2024-02-16T12:11:27Z.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "(\"GECTurk\" OR \"NoisyWikiTr\" OR \"turkish_parliamentary_data\") (review OR issue OR blog)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": []
+    },
+    {
+      "record_id": 118,
+      "id": "byan/cs-fleurs",
+      "name": "CS-FLEURS (kod karışımı konuşma)",
+      "category": "Veri seti",
+      "kind": "dataset",
+      "creator": "akademik",
+      "plain": "Dillerin aynı konuşmada karıştığı sesleri sınamak için insan okuması ve sentetik ses alt kümeleri.",
+      "claims": [
+        {
+          "text": "Kart 52 dilde 113 dil çifti ve yaklaşık 300 saat bildiriyor; tüm alt kümeler gerçek insan okuması değil.",
+          "evidence": "Kaynak/yazar beyanı; bu laboratuvarda yeniden ölçülmedi.",
+          "source": "https://huggingface.co/datasets/byan/cs-fleurs/raw/main/README.md"
+        }
+      ],
+      "training": "Read-Test insan okuması; XTTS ve MMS alt kümeleri farklı sentetik üretim yöntemleri kullanıyor.",
+      "version": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez.",
+      "revision": null,
+      "try_it": "Önce alt kümenin dil çiftini ve gerçek/sentetik niteliğini seç; geliştirici artık sınav için özellikle read bölümünü öneriyor.",
+      "demo_url": null,
+      "independent": "discussion/3 kullanıcısı sentetik seslerde eksik dil bölümleri ve gürültü bildiriyor. Geliştirici read bölümünü sınav için önceliklendirmeyi kabul ediyor; Türkçe özelinde hata kanıtı değil.",
+      "unknowns": [
+        "Kartta CC BY 4.0 ile ticari olmayan kullanım ifadeleri birlikte; lisans açık değil. Türkçe alt kümenin kapsamı ayrı sabitlenmeli."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/datasets/byan/cs-fleurs",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "inaccessible"
+        },
+        {
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/raw/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/byan",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/datasets/byan/cs-fleurs/discussions",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "topluluk",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/datasets/byan/cs-fleurs/discussions/4",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "topluluk",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/datasets/byan/cs-fleurs/discussions/3",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "topluluk",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Model/kurum/yayın kaynağı ve yukarıda belirtilen kapsam okundu. Arşiv notu yeni kanıt sayılmadı.",
+          "urls": [
+            "https://huggingface.co/datasets/byan/cs-fleurs/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "discussion/3 kullanıcısı sentetik seslerde eksik dil bölümleri ve gürültü bildiriyor. Geliştirici read bölümünü sınav için önceliklendirmeyi kabul ediyor; Türkçe özelinde hata kanıtı değil.",
+          "urls": [
+            "https://huggingface.co/datasets/byan/cs-fleurs/discussions/4",
+            "https://huggingface.co/datasets/byan/cs-fleurs/discussions/3"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "not_searched",
+          "note": "Bu kaynak kartında sosyal video ayrı incelenmedi; yayın, veri veya ölçüm belgesi odaklı tarama yapıldı.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez.",
+          "urls": [
+            "https://huggingface.co/api/datasets/byan/cs-fleurs",
+            "https://huggingface.co/api/datasets/byan/cs-fleurs/discussions",
+            "https://huggingface.co/api/datasets/byan/cs-fleurs/discussions/4",
+            "https://huggingface.co/api/datasets/byan/cs-fleurs/discussions/3"
+          ]
+        }
+      ],
+      "searches": [],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "byan/cs-fleurs",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs",
+          "status": "kaynak kartı okundu; çalıştırılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 119,
+      "id": "catalog-119",
+      "name": "Cetvel (KUIS-AI; 23 görev, 33 sıfır-atış sonuç dosyası)",
+      "category": "Değerlendirme seti",
+      "kind": "benchmark",
+      "creator": "KUIS AI",
+      "plain": "Türkçe dil modelleri için birden fazla görevi ortak düzende sınayan Cetvel değerlendirme aracı.",
+      "claims": [
+        {
+          "text": "Resmî depo soru yanıtlama, çıkarım, sınıflandırma, çeviri, özet ve dilbilgisi düzeltme görevlerini bir araya getiriyor.",
+          "evidence": "Kaynak/yazar beyanı; bu laboratuvarda yeniden ölçülmedi.",
+          "source": "https://github.com/KUIS-AI/Cetvel"
+        }
+      ],
+      "training": "KUIS-AI çalışması mevcut veri kümelerini görev bazlı ölçülerle birleştiriyor; hazır sohbet modeli değil.",
+      "version": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2026-02-27T10:50:41Z.",
+      "revision": null,
+      "try_it": "lm-evaluation-harness tabanlı çalıştırma, örnek komut ve örnek çıktı kayıtları belgelenmiş.",
+      "demo_url": null,
+      "independent": "Depo açık ve yöntem okunabilir; bu turda sonuçlar yeniden üretilmedi, bağımsız kullanıcı kabulü yapılmadı.",
+      "unknowns": [
+        "Sonuç aynı model sürümü, istem ve görev listesiyle okunmalı. Bir geliştiricinin kendi Cetvel koşumu, resmî deponun bağımsız ölçümüyle aynı şey değildir."
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/KUIS-AI/Cetvel",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/KUIS-AI/cetvel/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/KUIS-AI/cetvel",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Model/kurum/yayın kaynağı ve yukarıda belirtilen kapsam okundu. Arşiv notu yeni kanıt sayılmadı.",
+          "urls": [
+            "https://github.com/KUIS-AI/Cetvel"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "not_applicable",
+          "note": "Depo açık ve yöntem okunabilir; bu turda sonuçlar yeniden üretilmedi, bağımsız kullanıcı kabulü yapılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Kayıt adını veya konu kimliğini içeren birleşik hedefli sorgu yapıldı. İlave, sürümü belli bağımsız video/kullanım deneyi doğrulanamadı. Bu sınırlı tarama; video izlenmedi.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2026-02-27T10:50:41Z.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "(\"Cetvel\" OR \"Turkish Transcription Leaderboard\" OR \"Turkish TTS Arena\") (review OR usage OR youtube OR blog)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": []
+    },
+    {
+      "record_id": 120,
+      "id": "EmreAkgul/Turkish-transcription-leaderboard",
+      "name": "EmreAkgul/Turkish-transcription-leaderboard (FLEURS-TR; benchmark.csv) ve ysdede turkish_asr_leaderboard",
+      "category": "Değerlendirme seti",
+      "kind": "benchmark",
+      "creator": "EmreAkgul / ysdede",
+      "plain": "Türkçe ses tanıma modellerinin ortak FLEURS sınavı sonuçlarını gösteren tablo.",
+      "claims": [
+        {
+          "text": "Emre Akgul kartı Türkçe FLEURS test bölümünde doğruluk ve süre sonuçlarını gösterdiğini açıklıyor.",
+          "evidence": "Kaynak/yazar beyanı; bu laboratuvarda yeniden ölçülmedi.",
+          "source": "https://huggingface.co/spaces/EmreAkgul/Turkish-transcription-leaderboard/raw/main/README.md"
+        }
+      ],
+      "training": "Ayrı değerlendirme deposundan sonuç sunar; tabloyu açmak model çalıştırmak değildir.",
+      "version": "Kontrol edilen depo: EmreAkgul/Turkish-transcription-leaderboard; son dosya değişimi 2026-09-21T21:29:40.000Z. Bu tarih yeni eğitim demek değildir. Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2026-09-21T21:29:40.000Z.",
+      "revision": "c3be62a314ddefb8b288880484a2b079cd99c79c",
+      "try_it": "HF Space ve kaynak değerlendirme kodu incelenebilir; ysdede tablosu ayrı kaynak olarak ele alınmalı.",
+      "demo_url": null,
+      "independent": "Bu tablo modeller için dış ölçüm kaynağı olabilir; her satırın sürümü ve ölçüm tarifi kontrol edilmeden genel kazanan çıkarmadık.",
+      "unknowns": [
+        "Ortak veri adı motor, ses normalizasyonu ve donanımın aynı olduğunu tek başına garanti etmez. Konuşma türü okuma ağırlıklı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/spaces/EmreAkgul/Turkish-transcription-leaderboard",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/spaces/EmreAkgul/Turkish-transcription-leaderboard/raw/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/EmreAkgul",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/spaces/EmreAkgul/Turkish-transcription-leaderboard/discussions",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "topluluk",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Model/kurum/yayın kaynağı ve yukarıda belirtilen kapsam okundu. Arşiv notu yeni kanıt sayılmadı.",
+          "urls": [
+            "https://huggingface.co/spaces/EmreAkgul/Turkish-transcription-leaderboard/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "not_applicable",
+          "note": "Bu tablo modeller için dış ölçüm kaynağı olabilir; her satırın sürümü ve ölçüm tarifi kontrol edilmeden genel kazanan çıkarmadık.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Kayıt adını veya konu kimliğini içeren birleşik hedefli sorgu yapıldı. İlave, sürümü belli bağımsız video/kullanım deneyi doğrulanamadı. Bu sınırlı tarama; video izlenmedi.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol edilen depo: EmreAkgul/Turkish-transcription-leaderboard; son dosya değişimi 2026-09-21T21:29:40.000Z. Bu tarih yeni eğitim demek değildir. Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2026-09-21T21:29:40.000Z.",
+          "urls": [
+            "https://huggingface.co/api/spaces/EmreAkgul/Turkish-transcription-leaderboard",
+            "https://huggingface.co/api/spaces/EmreAkgul/Turkish-transcription-leaderboard/discussions"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "(\"Cetvel\" OR \"Turkish Transcription Leaderboard\" OR \"Turkish TTS Arena\") (review OR usage OR youtube OR blog)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "EmreAkgul/Turkish-transcription-leaderboard",
+          "url": "https://huggingface.co/spaces/EmreAkgul/Turkish-transcription-leaderboard",
+          "status": "kaynak kartı okundu; çalıştırılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 121,
+      "id": "EmreAkgul/turkish-tts-arena",
+      "name": "Freya-TR-Eval, TR-Zor (TTS değerlendirme), EmreAkgul turkish-tts-arena",
+      "category": "Değerlendirme seti",
+      "kind": "benchmark",
+      "creator": "Freya Voice / ozguradmin / EmreAkgul",
+      "plain": "Hazır ses örneklerini model adını gizleyerek dinleyip karşılaştırma aracı.",
+      "claims": [
+        {
+          "text": "Arena kartı önceden üretilmiş seslerde kimliği doğrulanmış A/B oyu ve Elo puanı sunuyor; sayfada yeni ses üretimi çalışmıyor.",
+          "evidence": "Kaynak/yazar beyanı; bu laboratuvarda yeniden ölçülmedi.",
+          "source": "https://huggingface.co/spaces/EmreAkgul/turkish-tts-arena/raw/main/README.md"
+        }
+      ],
+      "training": "Önceden üretilmiş ortak örnekler ve sırayla güncellenen tercih puanları; Freya-TR-Eval ile TR-Zor farklı kaynaklardır.",
+      "version": "Kontrol edilen depo: EmreAkgul/turkish-tts-arena; son dosya değişimi 2026-09-19T12:54:52.000Z. Bu tarih yeni eğitim demek değildir. Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2026-09-19T12:54:52.000Z.",
+      "revision": "2da599f9c9db0f749d1245dab9ae692e03bf4129",
+      "try_it": "Kör dinleme ve örnek veri kümesi için arena açılabilir. Bu turda ses dinlenmedi veya oy gönderilmedi.",
+      "demo_url": null,
+      "independent": "Ahenk geliştiricisi tartışmada kendi modelinin eklenmesini istiyor; bu bağımsız kullanıcı yorumu değil geliştirici duyurusu.",
+      "unknowns": [
+        "Az oy alan modellerin geçici puanları kesin sıralama değil. Kişinin istediği metni anında okutma demosu sanılmamalı."
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/api/spaces/EmreAkgul/turkish-tts-arena",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/spaces/EmreAkgul/turkish-tts-arena/raw/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/EmreAkgul",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/spaces/EmreAkgul/turkish-tts-arena/discussions",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "topluluk",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/api/spaces/EmreAkgul/turkish-tts-arena/discussions/1",
+          "title": "Depo kimliği/sürüm kaydı",
+          "type": "topluluk",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Model/kurum/yayın kaynağı ve yukarıda belirtilen kapsam okundu. Arşiv notu yeni kanıt sayılmadı.",
+          "urls": [
+            "https://huggingface.co/spaces/EmreAkgul/turkish-tts-arena/raw/main/README.md"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "checked",
+          "note": "Ahenk geliştiricisi tartışmada kendi modelinin eklenmesini istiyor; bu bağımsız kullanıcı yorumu değil geliştirici duyurusu.",
+          "urls": [
+            "https://huggingface.co/spaces/EmreAkgul/turkish-tts-arena/discussions/1"
+          ]
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Kayıt adını veya konu kimliğini içeren birleşik hedefli sorgu yapıldı. İlave, sürümü belli bağımsız video/kullanım deneyi doğrulanamadı. Bu sınırlı tarama; video izlenmedi.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol edilen depo: EmreAkgul/turkish-tts-arena; son dosya değişimi 2026-09-19T12:54:52.000Z. Bu tarih yeni eğitim demek değildir. Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2026-09-19T12:54:52.000Z.",
+          "urls": [
+            "https://huggingface.co/api/spaces/EmreAkgul/turkish-tts-arena",
+            "https://huggingface.co/api/spaces/EmreAkgul/turkish-tts-arena/discussions",
+            "https://huggingface.co/api/spaces/EmreAkgul/turkish-tts-arena/discussions/1"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "(\"Cetvel\" OR \"Turkish Transcription Leaderboard\" OR \"Turkish TTS Arena\") (review OR usage OR youtube OR blog)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": [
+        {
+          "name": "EmreAkgul/turkish-tts-arena",
+          "url": "https://huggingface.co/spaces/EmreAkgul/turkish-tts-arena",
+          "status": "kaynak kartı okundu; çalıştırılmadı"
+        }
+      ]
+    },
+    {
+      "record_id": 122,
+      "id": "catalog-122",
+      "name": "MTEB-Turkish, TrGLUE / TabiBench, TurkMorfBench, OCRTurk",
+      "category": "Değerlendirme seti",
+      "kind": "benchmark",
+      "creator": "Deniz Yılmaz, Evren Ayberk Munis, Çağrı Toraman, Süha Kağan Köse, Burak Aktaş, Mehmet Can Baytekin, Bilge Kaan Görür",
+      "plain": "Belge okuma, Türkçe anlama, belge arama ve ek bilgisi için farklı sınavlar; tek ortak puanları yok.",
+      "claims": [
+        {
+          "text": "OCRTurk makalesi 180 Türkçe belge ve üç zorluk düzeyi bildiriyor. Yedi OCR sisteminde PaddleOCR çoğu öğe ölçüsünde güçlü; şekiller ve belge türleri ayrı sonuç veriyor.",
+          "evidence": "Kaynak/yazar beyanı; bu laboratuvarda yeniden ölçülmedi.",
+          "source": "https://arxiv.org/abs/2602.03693"
+        },
+        {
+          "text": "TabiBench, 28 Türkçe uyarlama veri kümesini bir araya getirdiğini açıklıyor.",
+          "evidence": "Resmî koleksiyon; bütün görevlerin tek kalite puanı yok.",
+          "source": "https://huggingface.co/collections/boun-tabilab/tabibench"
+        },
+        {
+          "text": "TurkMorfBench v3.8.0 Türkçe ek bilgisi için 466.517 tam, 1.836 çekirdek madde ve 14 görev grubu bildiriyor.",
+          "evidence": "Geliştirici sayfasının güncel kapsamı; bu laboratuvarda tekrar ölçülmedi.",
+          "source": "https://www.e-cloud.web.tr/project/turkmorfbench"
+        }
+      ],
+      "training": "OCRTurk akademik yazı, tez, slayt ve başka yazılardan oluşuyor; TabiBench, MTEB ve TurkMorfBench başka görevler ölçüyor.",
+      "version": "Resmî arXiv geçmişi: 3 Feb 2026. Bu makalenin revizyonudur; yeni bir model ağırlığı sayılmaz. TurkMorfBench resmî sayfası v3.8.0 gösteriyor; eski v2 kaydı yerine güncel kapsam okundu.",
+      "revision": null,
+      "try_it": "Her alt görev için ayrı sınav seç. TurkMorfBench resmî sayfası artık v3.8.0, 466.517 tam ve 1.836 çekirdek madde bildiriyor; eski v2/512 sayısı güncel kapsam değil.",
+      "demo_url": null,
+      "independent": "TurkMorfBench geliştiricisi eski sürümlerde cevap konumu ve altın cevap sorunları için düzeltmeler açıklıyor; bunlar bağımsız model kabulü sayılmaz.",
+      "unknowns": [
+        "OCRTurk sonucunu bütün görsel işlere taşımamalıyız. Birleşik satırdaki sınavların sürüm ve değerlendirme kuralları ayrı sabitlenmeli."
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2602.03693",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": "3 Feb 2026",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://www.e-cloud.web.tr/project/turkmorfbench",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://huggingface.co/collections/boun-tabilab/tabibench",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Model/kurum/yayın kaynağı ve yukarıda belirtilen kapsam okundu. Arşiv notu yeni kanıt sayılmadı.",
+          "urls": [
+            "https://arxiv.org/abs/2602.03693"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "not_applicable",
+          "note": "TurkMorfBench geliştiricisi eski sürümlerde cevap konumu ve altın cevap sorunları için düzeltmeler açıklıyor; bunlar bağımsız model kabulü sayılmaz.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Kayıt adını veya konu kimliğini içeren birleşik hedefli sorgu yapıldı. İlave, sürümü belli bağımsız video/kullanım deneyi doğrulanamadı. Bu sınırlı tarama; video izlenmedi.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Resmî arXiv geçmişi: 3 Feb 2026. Bu makalenin revizyonudur; yeni bir model ağırlığı sayılmaz. TurkMorfBench resmî sayfası v3.8.0 gösteriyor; eski v2 kaydı yerine güncel kapsam okundu.",
+          "urls": [
+            "https://arxiv.org/abs/2602.03693"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"MTEB-Turkish\" \"TabiBench\" benchmark",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "\"TurkMorfBench\"",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "(\"OCRTurk\" OR \"TabiBench\" OR \"TurBLiMP\") (review OR usage OR issue OR youtube)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 124,
+      "id": "catalog-124",
+      "name": "Sıfır-atış trie önyargılama (TTS ile terim okutulup Whisper'dan telaffuz varyantları toplanır; ışın aramasında ödül)",
+      "category": "Yöntem/makale",
+      "kind": "paper",
+      "creator": "Changsong Liu, Yizhou Peng, Eng Siong Chng",
+      "plain": "Nadir terimleri, modeli yeniden eğitmeden ses tanıma sırasında destekleme yöntemi.",
+      "claims": [
+        {
+          "text": "Yazarlar LibriSpeech üzerinde hedef terim kelime hatasında %43/%44 göreli azalma, diğer kelimelerde yaklaşık korunma bildiriyor.",
+          "evidence": "Kaynak/yazar beyanı; bu laboratuvarda yeniden ölçülmedi.",
+          "source": "https://arxiv.org/abs/2508.17796"
+        }
+      ],
+      "training": "Terimi farklı biçimlerde seslendirip Whisper’ın tanıdığı karşılıkları bir ön ek ağacına koyar; çözümleme sırasında bu adaylar desteklenir.",
+      "version": "Resmî arXiv geçmişi: 25 Aug 2025 (v1), last revised 2 Sep 2025 (this version, v2). Bu makalenin revizyonudur; yeni bir model ağırlığı sayılmaz.",
+      "revision": null,
+      "try_it": "Önce makaledeki sözlük, sentetik ses ve çözümleme kodu düzenini yeniden kurmak gerekir; hazır Türkçe model değildir.",
+      "demo_url": null,
+      "independent": "Makaleyi tekrar özetleyen sayfalar bağımsız deney sayılmadı; kendi tekrar koşumuz yok.",
+      "unknowns": [
+        "Sonuç İngilizce LibriSpeech’e ait. Türkçe ekli sözcük, terim ve mikrofon koşuluna aktarımı ölçülmedi."
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2508.17796",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": "25 Aug 2025 (v1), last revised 2 Sep 2025 (this version, v2)",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Model/kurum/yayın kaynağı ve yukarıda belirtilen kapsam okundu. Arşiv notu yeni kanıt sayılmadı.",
+          "urls": [
+            "https://arxiv.org/abs/2508.17796"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "not_applicable",
+          "note": "Makaleyi tekrar özetleyen sayfalar bağımsız deney sayılmadı; kendi tekrar koşumuz yok.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Kayıt adını veya konu kimliğini içeren birleşik hedefli sorgu yapıldı. İlave, sürümü belli bağımsız video/kullanım deneyi doğrulanamadı. Bu sınırlı tarama; video izlenmedi.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Resmî arXiv geçmişi: 25 Aug 2025 (v1), last revised 2 Sep 2025 (this version, v2). Bu makalenin revizyonudur; yeni bir model ağırlığı sayılmaz.",
+          "urls": [
+            "https://arxiv.org/abs/2508.17796"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Zero-shot Context Biasing\" \"Liu\" github",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "(\"2508.17796\" OR \"2309.09552\" OR \"2606.19381\" OR \"2606.21990\") (review OR github OR blog)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": []
+    },
+    {
+      "record_id": 125,
+      "id": "catalog-125",
+      "name": "CB-Whisper (2309.09552) ve önyargı talimatı ince ayarı (2502.11572)",
+      "category": "Yöntem/makale",
+      "kind": "paper",
+      "creator": "Yuang Li ve ortakları / Yash Jogi ve ortakları",
+      "plain": "Whisper’a özel ad ve terim desteği ekleyen iki ayrı araştırma yaklaşımı.",
+      "claims": [
+        {
+          "text": "2309.09552’nin güncel v4 başlığı KWS-Whisper’dır; anahtar sözcük bulma ve bağlamsal ses tanıma birlikte eğitiliyor.",
+          "evidence": "Kaynak/yazar beyanı; bu laboratuvarda yeniden ölçülmedi.",
+          "source": "https://arxiv.org/abs/2309.09552"
+        },
+        {
+          "text": "B-Whisper İngilizce eğitimle nadir terim tanımayı iyileştirmeyi ve başka dillere aktarımı araştırıyor.",
+          "evidence": "Ayrı yazar ve veriyle yapılmış ayrı çalışma; Türkçe başarı kanıtı değil.",
+          "source": "https://arxiv.org/abs/2502.11572"
+        }
+      ],
+      "training": "İlk çalışma Çince ve iç kod karışımı verilerini; ikinci çalışma İngilizce eğitimi ve başka dillere aktarımı anlatıyor.",
+      "version": "Resmî arXiv geçmişi: 17 Feb 2025 (v1), last revised 18 Feb 2025 (this version, v2). Bu makalenin revizyonudur; yeni bir model ağırlığı sayılmaz.",
+      "revision": null,
+      "try_it": "Her makalenin kendi yöntemi ve kontrol modeliyle denenmeli. Birini diğerinin yeni sürümü saymamak gerekir.",
+      "demo_url": null,
+      "independent": "Burada yazarların deneyleri var; bağımsız Türkçe kullanıcı kıyası veya bizim çalıştırmamız yok.",
+      "unknowns": [
+        "İlk katalogdaki CB-Whisper etiketi güncel başlıkla tam eşleşmiyor. Türkçe başarı iki özetten de kesin çıkarılamaz."
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2309.09552",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": "18 Sep 2023 (v1), last revised 6 Jun 2024 (this version, v4)",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://arxiv.org/abs/2502.11572",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": "17 Feb 2025 (v1), last revised 18 Feb 2025 (this version, v2)",
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Model/kurum/yayın kaynağı ve yukarıda belirtilen kapsam okundu. Arşiv notu yeni kanıt sayılmadı.",
+          "urls": [
+            "https://arxiv.org/abs/2309.09552"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "not_applicable",
+          "note": "Burada yazarların deneyleri var; bağımsız Türkçe kullanıcı kıyası veya bizim çalıştırmamız yok.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Kayıt adını veya konu kimliğini içeren birleşik hedefli sorgu yapıldı. İlave, sürümü belli bağımsız video/kullanım deneyi doğrulanamadı. Bu sınırlı tarama; video izlenmedi.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Resmî arXiv geçmişi: 17 Feb 2025 (v1), last revised 18 Feb 2025 (this version, v2). Bu makalenin revizyonudur; yeni bir model ağırlığı sayılmaz.",
+          "urls": [
+            "https://arxiv.org/abs/2309.09552",
+            "https://arxiv.org/abs/2502.11572"
+          ]
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"2502.11572\" Whisper",
+          "checked_at": "2026-10-23"
+        },
+        {
+          "query": "(\"2508.17796\" OR \"2309.09552\" OR \"2606.19381\" OR \"2606.21990\") (review OR github OR blog)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    },
+    {
+      "record_id": 126,
+      "id": "catalog-126",
+      "name": "Kaynak listeleri (kesimeg/awesome-turkish-language-models 102★, agmmnn/turkish-nlp-resources, turkish-nlp-suite, yerel.ai «44 Türk LLM» listesi)",
+      "category": "Veri seti",
+      "kind": "tool",
+      "creator": "topluluk",
+      "plain": "Türkçe model, veri, makale ve araçlara götüren seçilmiş bağlantı listesi.",
+      "claims": [
+        {
+          "text": "Depo kendisinin bütün Türkçe modelleri kapsamadığını, belirli katkısı olan örnekleri seçtiğini açıkça söylüyor.",
+          "evidence": "Kaynak/yazar beyanı; bu laboratuvarda yeniden ölçülmedi.",
+          "source": "https://github.com/kesimeg/awesome-turkish-language-models"
+        }
+      ],
+      "training": "Ege Kesim’in topluluk katkılı kürasyonu; model eğitimi veya standart kalite sınavı değil.",
+      "version": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2026-08-29T13:04:13Z.",
+      "revision": null,
+      "try_it": "Yeni aday bulmak için bağlantıları aç; her adayın asıl kaynağına dön.",
+      "demo_url": null,
+      "independent": "Katkı/issue akışı var; bağlantı önerileri kontrollü model kullanım testi sayılmadı.",
+      "unknowns": [
+        "Yıldız sayısı, listeye girme ve listede bulunmama kalite ölçüsü değildir. Listedeki üçüncü taraf tanıtımları yeniden doğrulanmalı."
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/kesimeg/awesome-turkish-language-models",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/kesimeg/awesome-turkish-language-models/main/README.md",
+          "title": "Geliştirici açıklaması",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        },
+        {
+          "url": "https://api.github.com/repos/kesimeg/awesome-turkish-language-models",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Model/kurum/yayın kaynağı ve yukarıda belirtilen kapsam okundu. Arşiv notu yeni kanıt sayılmadı.",
+          "urls": [
+            "https://github.com/kesimeg/awesome-turkish-language-models"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "not_applicable",
+          "note": "Katkı/issue akışı var; bağlantı önerileri kontrollü model kullanım testi sayılmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Kayıt adını veya konu kimliğini içeren birleşik hedefli sorgu yapıldı. İlave, sürümü belli bağımsız video/kullanım deneyi doğrulanamadı. Bu sınırlı tarama; video izlenmedi.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez. Ek kaynak son değişimi: 2026-08-29T13:04:13Z.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "(\"awesome-turkish-language-models\" OR \"yerel.ai\") (review OR deneyim OR youtube)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "non_model",
+      "members": []
+    },
+    {
+      "record_id": 144,
+      "id": "catalog-144",
+      "name": "Kaynak: yerel.ai «44 Türk LLM» listesi, dastechno, masqot listeleri",
+      "category": "Veri seti",
+      "kind": "tool",
+      "creator": "yayıncılar",
+      "plain": "Yerel model çalıştırma bağlantıları ve tanıtımları içeren üçüncü taraf katalog.",
+      "claims": [
+        {
+          "text": "Yerel.ai 44 Türk modelini tek komutla kullanma ve bazı kıyas puanları sunma iddiasında.",
+          "evidence": "Kaynak/yazar beyanı; bu laboratuvarda yeniden ölçülmedi.",
+          "source": "https://www.yerel.ai/yerel-modeller"
+        }
+      ],
+      "training": "Bu bir model eğitimi değil seçki ve dağıtım rehberi. Listedeki her GGUF ve model kartının kökeni ayrı.",
+      "version": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez.",
+      "revision": null,
+      "try_it": "Önce asıl model sayfasına ve lisansa git; komutlar bu turda çalıştırılmadı.",
+      "demo_url": null,
+      "independent": "Tanıtım sitelerinin birbirini tekrar etmesi bağımsız kullanıcı kanıtı oluşturmaz; sürümü belli dış koşum doğrulanmadı.",
+      "unknowns": [
+        "Örneğin Gemma için görülen Apache etiketi özgün Gemma koşullarıyla doğrudan eşitlenemez. “Ücretsiz” yerel donanım maliyetinin sıfır olduğu anlamına gelmez."
+      ],
+      "sources": [
+        {
+          "url": "https://www.yerel.ai/yerel-modeller",
+          "title": "Yayın / kurum / topluluk kaynağı",
+          "type": "birincil",
+          "date": null,
+          "checked_at": "2026-10-23",
+          "status": "read"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "developer",
+          "status": "checked",
+          "note": "Model/kurum/yayın kaynağı ve yukarıda belirtilen kapsam okundu. Arşiv notu yeni kanıt sayılmadı.",
+          "urls": [
+            "https://www.yerel.ai/yerel-modeller"
+          ]
+        },
+        {
+          "channel": "community",
+          "status": "not_applicable",
+          "note": "Tanıtım sitelerinin birbirini tekrar etmesi bağımsız kullanıcı kanıtı oluşturmaz; sürümü belli dış koşum doğrulanmadı.",
+          "urls": []
+        },
+        {
+          "channel": "social_video",
+          "status": "searched_not_found",
+          "note": "Kayıt adını veya konu kimliğini içeren birleşik hedefli sorgu yapıldı. İlave, sürümü belli bağımsız video/kullanım deneyi doğrulanamadı. Bu sınırlı tarama; video izlenmedi.",
+          "urls": []
+        },
+        {
+          "channel": "version",
+          "status": "checked",
+          "note": "Kontrol tarihi 23 Ekim 2026; bütün ekosistemde en yeni sürüm olduğu garanti edilmez.",
+          "urls": []
+        }
+      ],
+      "searches": [
+        {
+          "query": "(\"awesome-turkish-language-models\" OR \"yerel.ai\") (review OR deneyim OR youtube)",
+          "checked_at": "2026-10-23"
+        }
+      ],
+      "research_status": "limited",
+      "members": []
+    }
+  ]
+}

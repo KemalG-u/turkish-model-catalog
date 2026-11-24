@@ -1,0 +1,952 @@
+[
+  {
+    "ad": "Kumru-2B / Kumru-2B-Base",
+    "url": "https://huggingface.co/vngrs/Kumru-2B",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Kumru-7B (7,4B)",
+    "url": "https://webrazzi.com/2025/10/10/vngrs-den-7-4-milyar-parametreli-turkce-llm-kumru/",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Turkish-Gemma-9b-T1 / v0.1",
+    "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-Gemma-9b-T1",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Turkish-Gemma-4b-T1-Scout",
+    "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-Gemma-4b-T1-Scout",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Turkish-Llama-8b (v0.1 / Instruct / DPO)",
+    "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "turkish-gpt2 ailesi (large 774M, medium, instruct varyantları) = cosmosGPT",
+    "url": "https://huggingface.co/ytu-ce-cosmos/turkish-gpt2-large",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "tr-Qwen2.5-0.5B-SFT-v1",
+    "url": "https://huggingface.co/ytu-ce-cosmos/tr-Qwen2.5-0.5B-SFT-v1",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Trendyol-LLM-8B-T1",
+    "url": "https://huggingface.co/Trendyol/Trendyol-LLM-8B-T1",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Trendyol-LLM-Asure-12B",
+    "url": "https://huggingface.co/Trendyol/Trendyol-LLM-Asure-12B",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Turkcell-LLM-7b-v1",
+    "url": "https://huggingface.co/TURKCELL/Turkcell-LLM-7b-v1",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Kocdigital-LLM-8b-v0.1",
+    "url": "https://huggingface.co/KOCDIGITAL/Kocdigital-LLM-8b-v0.1",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "asafaya/kanarya-2b (ve kanarya-750m)",
+    "url": "https://huggingface.co/asafaya/kanarya-2b",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "TURNA (1,14B, T5 kodlayıcı-çözücü)",
+    "url": "https://huggingface.co/boun-tabi-LMG/TURNA",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "VBART (Small/Medium/Large/XLarge + özetleme, parafraz, QAQG)",
+    "url": "https://huggingface.co/vngrs/VBART-Large-Base",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "SambaLingo-Turkish-Chat/Base, Orbina/Orbita-v0.1",
+    "url": "https://huggingface.co/sambanovasystems/SambaLingo-Turkish-Chat",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "cere-llama-3-8b-tr (Cerebrum Tech)",
+    "url": "",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Flow-Drafter-Qwen3.5-4B/9B/27B (+ -tr)",
+    "url": "https://huggingface.co/ytu-ce-cosmos/Flow-Drafter-Qwen3.5-4B",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Kizagan-E4B-Turkish-Reasoning-Model",
+    "url": "https://huggingface.co/AlicanKiraz0/Kizagan-E4B-Turkish-Reasoning-Model",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "mertkayacs/Karar-4B",
+    "url": "https://huggingface.co/mertkayacs/Karar-4B",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Küçük/fikir modeller (Qwen3.5-2B-Turkish-SFT, qwen3.5-4b-turkish-sft, MiniCPM5-1B-Turkish, gemma-3-1b-turkish-recipes, Llama-3.1-8B-Turkish)",
+    "url": "",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Kumru türevleri (Kumru-2B-EPDK-Instruct, Kumru-2B-turkish-reasoning, Kumru-2B-SFT, Kara-Kumru-v1.0-2B)",
+    "url": "https://huggingface.co/AlicanKiraz0/Kara-Kumru-v1.0-2B",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "BİLGE (TÜBİTAK BİLGEM; 1B, 9B sıfırdan, 27B CPT, 122B geliştiriliyor)",
+    "url": "",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "HAVELSAN MAIN (MAIN GPT) 9B",
+    "url": "",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "T3 AI (Baykar / T3 Vakfı)",
+    "url": "",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Mecellem-Qwen3 1.7B-TR / 4B-TR",
+    "url": "https://huggingface.co/newmindai/Mecellem-Qwen3-1.7B-TR",
+    "tur": "LLM-alan: hukuk"
+  },
+  {
+    "ad": "newmindai/Muhakim (hukuk ödül modeli)",
+    "url": "https://huggingface.co/newmindai/Muhakim",
+    "tur": "LLM-alan: hukuk"
+  },
+  {
+    "ad": "Kumru-2B-Hukuk-Asistani",
+    "url": "https://huggingface.co/Cetin003/Kumru-2B-Hukuk-Asistani",
+    "tur": "LLM-alan: hukuk"
+  },
+  {
+    "ad": "AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM",
+    "url": "https://huggingface.co/AlicanKiraz0/Mizan-27B-Turkish-Legal-LLM-Q4_K_M-GGUF",
+    "tur": "LLM-alan: hukuk"
+  },
+  {
+    "ad": "Diğer hukuk ince ayarları (Qwen2.5-7B-Turkish-Legal-DoRA, hukuk-gemma/llama, webbrain-one tr-hukuk, OrionCAF/TurkishLaw 14B)",
+    "url": "",
+    "tur": "LLM-alan: hukuk"
+  },
+  {
+    "ad": "HukukBERT",
+    "url": "https://arxiv.org/abs/2604.04790",
+    "tur": "LLM-alan: hukuk"
+  },
+  {
+    "ad": "newmindai/Llama-3.1-8B-Instruct-tax-alpaca (+ ~20 alan LoRA'sı: kvkk, capital, fund, land, energy)",
+    "url": "https://huggingface.co/newmindai/Llama-3.1-8B-Instruct-tax-alpaca",
+    "tur": "LLM-alan: vergi-finans"
+  },
+  {
+    "ad": "Mihenk-LLM-14B-Turkish-Financial / v2-35B-A3B",
+    "url": "https://huggingface.co/AlicanKiraz0/Mihenk-LLM-14B-Turkish-Financial-Model",
+    "tur": "LLM-alan: vergi-finans"
+  },
+  {
+    "ad": "TULIP (finans sürekli ön eğitim 7–8B)",
+    "url": "https://arxiv.org/abs/2508.16243",
+    "tur": "LLM-alan: vergi-finans"
+  },
+  {
+    "ad": "Finans sınıflandırıcılar: FinTurkBERT (ff112), bankbert-turkish (Kaggle)",
+    "url": "https://huggingface.co/ff112/FinTurkBERT",
+    "tur": "LLM-alan: vergi-finans"
+  },
+  {
+    "ad": "TurkRadBERT, BioBERTurk, TurkishMedLLM, TUSGPT-TR-Medical-9B",
+    "url": "",
+    "tur": "LLM-alan: tıp"
+  },
+  {
+    "ad": "Siber güvenlik modelleri (Trendyol-Cybersecurity-LLM, BaronLLM, SenecaLLM, Titus; hilalkavas siber-muhafiz)",
+    "url": "",
+    "tur": "LLM-alan: diğer"
+  },
+  {
+    "ad": "openai/whisper-large-v3",
+    "url": "https://huggingface.co/openai/whisper-large-v3",
+    "tur": "ASR"
+  },
+  {
+    "ad": "openai/whisper-large-v3-turbo",
+    "url": "https://huggingface.co/openai/whisper-large-v3-turbo",
+    "tur": "ASR"
+  },
+  {
+    "ad": "turkmedstt/whisper-large-v3-turkish-general (+ -medical)",
+    "url": "https://huggingface.co/turkmedstt/whisper-large-v3-turkish-general",
+    "tur": "ASR"
+  },
+  {
+    "ad": "BuzzASR/turkish",
+    "url": "https://huggingface.co/BuzzASR/turkish",
+    "tur": "ASR"
+  },
+  {
+    "ad": "Qwen3-ASR-1.7B / 0.6B",
+    "url": "https://huggingface.co/Qwen/Qwen3-ASR-1.7B-hf",
+    "tur": "ASR"
+  },
+  {
+    "ad": "selimc/whisper-large-v3-turbo-turkish",
+    "url": "https://huggingface.co/selimc/whisper-large-v3-turbo-turkish",
+    "tur": "ASR"
+  },
+  {
+    "ad": "ysdede/whisper-khanacademy-large-v3-turbo-tr (+ ct2, tiny/base/small)",
+    "url": "https://huggingface.co/ysdede/whisper-khanacademy-large-v3-turbo-tr",
+    "tur": "ASR"
+  },
+  {
+    "ad": "mihuai/turkish-stt (v1) ve turkish-stt-66m-v2",
+    "url": "https://huggingface.co/mihuai/turkish-stt-66m-v2",
+    "tur": "ASR"
+  },
+  {
+    "ad": "erayyapagci/balbal-v1",
+    "url": "https://huggingface.co/erayyapagci/balbal-v1",
+    "tur": "ASR"
+  },
+  {
+    "ad": "duxx/turkish-stt-zipformer",
+    "url": "https://huggingface.co/duxx/turkish-stt-zipformer",
+    "tur": "ASR"
+  },
+  {
+    "ad": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+    "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+    "tur": "ASR"
+  },
+  {
+    "ad": "facebook/omniASR-LLM-7B ve CTC/LLM 300M–7B ailesi (Omnilingual)",
+    "url": "https://huggingface.co/facebook/omniASR-LLM-7B",
+    "tur": "ASR"
+  },
+  {
+    "ad": "microsoft/VibeVoice-ASR",
+    "url": "https://huggingface.co/microsoft/VibeVoice-ASR",
+    "tur": "ASR"
+  },
+  {
+    "ad": "RsGoksel/RsGoksel_ITU_Mainframe",
+    "url": "https://huggingface.co/RsGoksel/RsGoksel_ITU_Mainframe",
+    "tur": "ASR"
+  },
+  {
+    "ad": "Cosmobillian/turkish_whisper_for_noisy_datas_v1",
+    "url": "https://huggingface.co/Cosmobillian/turkish_whisper_for_noisy_datas_v1",
+    "tur": "ASR"
+  },
+  {
+    "ad": "ysdede/Phi-4-mm-inst-asr-turkish-unf",
+    "url": "https://huggingface.co/ysdede/Phi-4-mm-inst-asr-turkish-unf",
+    "tur": "ASR"
+  },
+  {
+    "ad": "Whisper ince ayar uzun kuyruğu (81 depo: samil24 v1–v7, alikanakar 13+, Huseyin/…-finetuned, telephony-cv17, emre/whisper-medium-turkish-2…)",
+    "url": "",
+    "tur": "ASR"
+  },
+  {
+    "ad": "wav2vec2 Türkçe ince ayarları (mpoyraz XLS-R-300m cv7/cv8, cahya, m3hrdadfi, ceyda, MMS-1b colab ~12)",
+    "url": "https://huggingface.co/mpoyraz/wav2vec2-xls-r-300m-cv7-turkish",
+    "tur": "ASR"
+  },
+  {
+    "ad": "Vosk Türkçe (vosk-model-small-tr)",
+    "url": "",
+    "tur": "ASR"
+  },
+  {
+    "ad": "facebook/mms-1b-all, seamless-m4t-v2-large",
+    "url": "https://huggingface.co/facebook/mms-1b-all",
+    "tur": "ASR"
+  },
+  {
+    "ad": "Cohere Transcribe 03-2026",
+    "url": "",
+    "tur": "ASR"
+  },
+  {
+    "ad": "Whisper GGUF/ggml sürümleri (handy-computer/whisper-*-gguf)",
+    "url": "https://huggingface.co/handy-computer/whisper-large-v3-turbo-gguf",
+    "tur": "ASR"
+  },
+  {
+    "ad": "TRWhisper (kagangungor)",
+    "url": "https://github.com/kagangungor/TRWhisper",
+    "tur": "ASR"
+  },
+  {
+    "ad": "Sestek Knovvu ASR",
+    "url": "",
+    "tur": "ASR"
+  },
+  {
+    "ad": "TBMM + TÜBİTAK tutanak ASR",
+    "url": "",
+    "tur": "ASR"
+  },
+  {
+    "ad": "Gazi Whisper + LoRA makalesi",
+    "url": "",
+    "tur": "ASR"
+  },
+  {
+    "ad": "canberkkkkkk/ema-lightning ve ema-tts",
+    "url": "https://huggingface.co/canberkkkkkk/ema-lightning",
+    "tur": "TTS"
+  },
+  {
+    "ad": "freyavoice/Freya-TTS",
+    "url": "https://huggingface.co/freyavoice/Freya-TTS",
+    "tur": "TTS"
+  },
+  {
+    "ad": "ozgurguler/ahenk-cep-tr (8,6M)",
+    "url": "https://huggingface.co/ozgurguler/ahenk-cep-tr",
+    "tur": "TTS"
+  },
+  {
+    "ad": "kadirnar/drifting-tts",
+    "url": "https://github.com/kadirnar/drifting-tts",
+    "tur": "TTS"
+  },
+  {
+    "ad": "Piper Türkçe sesleri (rhasspy tr_TR fahrettin/fettah; 99eren99; dcx514ai; DFKI; «Cem»)",
+    "url": "https://huggingface.co/rhasspy/piper-voices/tree/main/tr/tr_TR/fahrettin/medium",
+    "tur": "TTS"
+  },
+  {
+    "ad": "Trendyol/Trendyol-TTS",
+    "url": "https://huggingface.co/Trendyol/Trendyol-TTS",
+    "tur": "TTS"
+  },
+  {
+    "ad": "openbmb/VoxCPM2",
+    "url": "https://huggingface.co/openbmb/VoxCPM2",
+    "tur": "TTS"
+  },
+  {
+    "ad": "krmkayabasi/Anka-TTS",
+    "url": "https://huggingface.co/krmkayabasi/Anka-TTS",
+    "tur": "TTS"
+  },
+  {
+    "ad": "AlicanKiraz0/Kizagan-TTS-v1.0",
+    "url": "https://huggingface.co/AlicanKiraz0/Kizagan-TTS-v1.0",
+    "tur": "TTS"
+  },
+  {
+    "ad": "ozgurguler/ahenk-tts-tr (36M LoRA + 2B)",
+    "url": "https://huggingface.co/ozgurguler/ahenk-tts-tr",
+    "tur": "TTS"
+  },
+  {
+    "ad": "Patientdesk-AI/antalia (Antalia 1 ~300M, antalia-mini / Antalia-2 Mini 7,6M)",
+    "url": "https://huggingface.co/cloud0day3/antalia-1",
+    "tur": "TTS"
+  },
+  {
+    "ad": "Supertone/supertonic-3",
+    "url": "https://huggingface.co/Supertone/supertonic-3",
+    "tur": "TTS"
+  },
+  {
+    "ad": "ResembleAI/chatterbox (Multilingual V3)",
+    "url": "https://huggingface.co/ResembleAI/chatterbox",
+    "tur": "TTS"
+  },
+  {
+    "ad": "facebook/mms-tts-tur",
+    "url": "https://huggingface.co/facebook/mms-tts-tur",
+    "tur": "TTS"
+  },
+  {
+    "ad": "k2-fsa/OmniVoice",
+    "url": "https://huggingface.co/k2-fsa/OmniVoice",
+    "tur": "TTS"
+  },
+  {
+    "ad": "Diğer TTS (Orkhon, Orpheus-TR, Orpheus-KhanAcademy-TR 3B, kani-tts-400m-0.3-tr, DizgeTTS-Antalia, LLaSA, SpeechT5, XTTS-v2, Bark, atasoglu/turkish-tts-models koleksiyonu)",
+    "url": "",
+    "tur": "TTS"
+  },
+  {
+    "ad": "ytu-ce-cosmos/modernbert-tr-base (+ -1k)",
+    "url": "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-base",
+    "tur": "Kodlayıcı-BERT"
+  },
+  {
+    "ad": "boun-tabilab/TabiBERT",
+    "url": "https://huggingface.co/boun-tabilab/TabiBERT",
+    "tur": "Kodlayıcı-BERT"
+  },
+  {
+    "ad": "moganai/MoganBERT-TR",
+    "url": "https://huggingface.co/moganai/MoganBERT-TR",
+    "tur": "Kodlayıcı-BERT"
+  },
+  {
+    "ad": "newmindai/Mursit-Base / Mursit-Large (ModernBERT 155M / 403M)",
+    "url": "https://huggingface.co/newmindai/Mursit-Large-TR-Retrieval",
+    "tur": "Kodlayıcı-BERT"
+  },
+  {
+    "ad": "KocLab-Bilkent/BERTurk-Legal",
+    "url": "https://huggingface.co/KocLab-Bilkent/BERTurk-Legal",
+    "tur": "Kodlayıcı-BERT"
+  },
+  {
+    "ad": "dbmdz/bert-base-turkish-cased / uncased / 128k (BERTurk) + ELECTRA/ConvBERT/DistilBERT",
+    "url": "https://huggingface.co/dbmdz/bert-base-turkish-cased",
+    "tur": "Kodlayıcı-BERT"
+  },
+  {
+    "ad": "Diğer BERT/RoBERTa (YTÜ turkish-*-bert tiny–large, artiwise modernbert-base-tr-uncased, Trendyol tybert/tyroberta, Turkcell roberta, loodos, TurkishBERTweet, Geotrend, msbayindir legal)",
+    "url": "",
+    "tur": "Kodlayıcı-BERT"
+  },
+  {
+    "ad": "ytu-ce-cosmos/modernbert-tr-embed ve modernbert-tr-reranker",
+    "url": "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-embed",
+    "tur": "Gömme/reranker"
+  },
+  {
+    "ad": "newmindai/Mursit-Large-TR-Retrieval, Mursit-Embed-Qwen3-4B/1.7B-TR, TurkEmbed4STS/4Retrieval, ColmmBERT",
+    "url": "https://huggingface.co/newmindai/Mursit-Large-TR-Retrieval",
+    "tur": "Gömme/reranker"
+  },
+  {
+    "ad": "Diğer gömme/reranker (turkish-e5-large, magibu embeddingmagibu-200m, trmteb, Trendyol TY-ecomm-embed, bge-m3 TR ince ayarları, seroe reranker'lar, hukuk gömme: HukukcuApp, runelab kenning, msbayindir, Whis29; genel çok dilli e5/bge-m3/gte/jina/Qwen3-Embedding)",
+    "url": "",
+    "tur": "Gömme/reranker"
+  },
+  {
+    "ad": "ytu-ce-cosmos/modernbert-tr-pii-ner (+ guardrail, intent/slot, absa)",
+    "url": "https://huggingface.co/ytu-ce-cosmos/modernbert-tr-pii-ner",
+    "tur": "NER-PII"
+  },
+  {
+    "ad": "newmindai/gliner2.5-kvkk-tr-v2 (+ v1, mursit-kvkk, gliner-multi-v2.1-nemotron-pii-tr)",
+    "url": "https://huggingface.co/newmindai/gliner2.5-kvkk-tr-v2",
+    "tur": "NER-PII"
+  },
+  {
+    "ad": "Genel Türkçe NER/duygu/sınıflama/QA/özetleme (akdeniz27 NER, savasy, spaCy tr_core_news, btniq kvkk, OpenMed privacy-filter, TurkishBERTweet, tabularisai, mT5 özetleme…)",
+    "url": "https://huggingface.co/akdeniz27/bert-base-turkish-cased-ner",
+    "tur": "NER-PII"
+  },
+  {
+    "ad": "TURKCELL/gibberish-sentence-detection-model-tr (+ bert-offensive-lang-detection-tr)",
+    "url": "https://huggingface.co/TURKCELL/gibberish-sentence-detection-model-tr",
+    "tur": "NER-PII"
+  },
+  {
+    "ad": "Horizon-Labs/punctuation-restoration-small ve -base (mmBERT)",
+    "url": "https://huggingface.co/Horizon-Labs/punctuation-restoration-small",
+    "tur": "Noktalama-yazım-morfoloji"
+  },
+  {
+    "ad": "ytu-ce-cosmos/turkish-base-bert-punctuation-correction + capitalization-correction",
+    "url": "https://huggingface.co/ytu-ce-cosmos/turkish-base-bert-punctuation-correction",
+    "tur": "Noktalama-yazım-morfoloji"
+  },
+  {
+    "ad": "uygarkurt/bert-restore-punctuation-turkish (+ electra, convbert)",
+    "url": "https://huggingface.co/uygarkurt/bert-restore-punctuation-turkish",
+    "tur": "Noktalama-yazım-morfoloji"
+  },
+  {
+    "ad": "1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase",
+    "url": "https://huggingface.co/1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase",
+    "tur": "Noktalama-yazım-morfoloji"
+  },
+  {
+    "ad": "Zeyrek (Python) ve zemberek-python",
+    "url": "https://github.com/obulat/zeyrek",
+    "tur": "Noktalama-yazım-morfoloji"
+  },
+  {
+    "ad": "google-research/turkish-morphology, TRmorph",
+    "url": "https://github.com/google-research/turkish-morphology",
+    "tur": "Noktalama-yazım-morfoloji"
+  },
+  {
+    "ad": "Zemberek-NLP (Java; 1372★)",
+    "url": "https://github.com/ahmetaa/zemberek-nlp",
+    "tur": "Noktalama-yazım-morfoloji"
+  },
+  {
+    "ad": "VNLP (VNGRS: düzeltici, deasciifier, sayı→kelime, NER, POS, kök bulma)",
+    "url": "https://github.com/vngrs-ai/vnlp",
+    "tur": "Noktalama-yazım-morfoloji"
+  },
+  {
+    "ad": "Yazım/GEC modelleri (orkungedik turkish-spell-based, charformer; karakastarik bert spelling; miraykoksal byt5; yeniguno mbart50; berkaycancunnuk mt5/byt5; Ersoy-Yıldız mT5 GEC)",
+    "url": "https://github.com/asimokby/Turkish-GEC",
+    "tur": "Noktalama-yazım-morfoloji"
+  },
+  {
+    "ad": "Diğer: StarlangSoftware TurkishSpellChecker-Py (GPL-3.0), emres turkish-deasciifier (lisans yok), hunspell-tr, turkish-stemmer-python, segment-any-text/sat-3l-sm (cümle bölme, MIT)",
+    "url": "",
+    "tur": "Noktalama-yazım-morfoloji"
+  },
+  {
+    "ad": "ysdede/trnorm (ASR için Türkçe metin normalleştirme)",
+    "url": "https://github.com/ysdede/trnorm",
+    "tur": "Noktalama-yazım-morfoloji"
+  },
+  {
+    "ad": "Helsinki-NLP/opus-mt-tc-big-tr-en / en-tr, opus-mt-tr-en",
+    "url": "https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-tr-en",
+    "tur": "Çeviri"
+  },
+  {
+    "ad": "facebook/nllb-200-distilled-600M (+1.3B, 3.3B); google/madlad400-3b-mt; mBART-50",
+    "url": "https://huggingface.co/facebook/nllb-200-distilled-600M",
+    "tur": "Çeviri"
+  },
+  {
+    "ad": "Tencent HY-MT1.5-1.8B/7B, Hy-MT2; Seed-X; NiuTrans LMT-60",
+    "url": "https://huggingface.co/tencent/HY-MT1.5-1.8B",
+    "tur": "Çeviri"
+  },
+  {
+    "ad": "OCR/görüntü-dil modelleri (Ba2han MiniOCR, Turkish-LLaVA, Trendyol-Vision, turkish-colpali, Tesseract tur, pix2struct-turkish-receipts)",
+    "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-LLaVA-v0.1",
+    "tur": "OCR-görüntü"
+  },
+  {
+    "ad": "Osmanlıca OCR/transliterasyon (Azra-1-Mini 0,8B Apache; kranidiotis ottoman-ocr-qwen2.5-vl-7b; enesyila Qwen4B; bilirkesi osmanlica-v1; Bucolin HisTR/OTA-BOUN; Yılandiloğlu tarihsel MLM; Osmanlica.com)",
+    "url": "https://huggingface.co/OttomanNLP/Azra-1-Mini-0.8b",
+    "tur": "OCR-görüntü"
+  },
+  {
+    "ad": "Ses-diğer (hubert-large-turkish-speech-emotion-recognition, wav2vec2 cinsiyet sınıflama, speechbrain lang-id-voxlingua107-ecapa, mms-lid, livekit/turn-detector)",
+    "url": "https://huggingface.co/livekit/turn-detector",
+    "tur": "Ses-diğer"
+  },
+  {
+    "ad": "Common Voice 25 Türkçe (135 saat)",
+    "url": "",
+    "tur": "Veri seti"
+  },
+  {
+    "ad": "ISSAI Turkish Speech Corpus (218 saat; Kaggle'da Turkish_Speech_Corpus ~218 saat)",
+    "url": "",
+    "tur": "Veri seti"
+  },
+  {
+    "ad": "MediaSpeech (10 saat)",
+    "url": "https://openslr.org/108/",
+    "tur": "Veri seti"
+  },
+  {
+    "ad": "TurkishTaxRulings (~120 bin örnek; Mizan embedding tablosunda retrieval görevi)",
+    "url": "https://newmindai-mizan.hf.space/",
+    "tur": "Veri seti"
+  },
+  {
+    "ad": "SIGTURK 2026 ortak görevi (EN→TR STEM terimli çeviri; 10.157 uzman onaylı terim çifti)",
+    "url": "https://aclanthology.org/2026.sigturk-1.20",
+    "tur": "Değerlendirme seti"
+  },
+  {
+    "ad": "Cosmos-Turkish-Corpus-v1.0 ve 9 başka veri seti (YTÜ COSMOS)",
+    "url": "",
+    "tur": "Veri seti"
+  },
+  {
+    "ad": "turkish_parliamentary_data (TBMM tutanakları, BOUN TABILAB)",
+    "url": "",
+    "tur": "Veri seti"
+  },
+  {
+    "ad": "NoisyWikiTr (Gazi) ve GECTurk (GGLAB-KU)",
+    "url": "https://github.com/GGLAB-KU/gecturk/",
+    "tur": "Veri seti"
+  },
+  {
+    "ad": "CS-FLEURS (kod karışımı konuşma)",
+    "url": "https://huggingface.co/datasets/byan/cs-fleurs",
+    "tur": "Veri seti"
+  },
+  {
+    "ad": "Cetvel (KUIS-AI; 23 görev, 33 sıfır-atış sonuç dosyası)",
+    "url": "https://github.com/KUIS-AI/Cetvel",
+    "tur": "Değerlendirme seti"
+  },
+  {
+    "ad": "EmreAkgul/Turkish-transcription-leaderboard (FLEURS-TR; benchmark.csv) ve ysdede turkish_asr_leaderboard",
+    "url": "https://huggingface.co/spaces/EmreAkgul/Turkish-transcription-leaderboard",
+    "tur": "Değerlendirme seti"
+  },
+  {
+    "ad": "Freya-TR-Eval, TR-Zor (TTS değerlendirme), EmreAkgul turkish-tts-arena",
+    "url": "https://huggingface.co/spaces/EmreAkgul/turkish-tts-arena",
+    "tur": "Değerlendirme seti"
+  },
+  {
+    "ad": "MTEB-Turkish, TrGLUE / TabiBench, TurkMorfBench, OCRTurk",
+    "url": "https://arxiv.org/abs/2602.03693",
+    "tur": "Değerlendirme seti"
+  },
+  {
+    "ad": "Erk-32B / Erk-14B (eCloud Tech)",
+    "url": "https://huggingface.co/ecloudtech/Erk-32B",
+    "tur": "LLM-alan: diğer"
+  },
+  {
+    "ad": "Sıfır-atış trie önyargılama (TTS ile terim okutulup Whisper'dan telaffuz varyantları toplanır; ışın aramasında ödül)",
+    "url": "https://arxiv.org/abs/2508.17796",
+    "tur": "Yöntem/makale"
+  },
+  {
+    "ad": "CB-Whisper (2309.09552) ve önyargı talimatı ince ayarı (2502.11572)",
+    "url": "https://arxiv.org/abs/2309.09552",
+    "tur": "Yöntem/makale"
+  },
+  {
+    "ad": "Kaynak listeleri (kesimeg/awesome-turkish-language-models 102★, agmmnn/turkish-nlp-resources, turkish-nlp-suite, yerel.ai «44 Türk LLM» listesi)",
+    "url": "https://github.com/kesimeg/awesome-turkish-language-models",
+    "tur": "Veri seti"
+  },
+  {
+    "ad": "Kaggle Models Türkçe (emirhangazi/turkish-t5, yagizfiratt/bankbert-turkish, cohere-labs/tiny-aya, google/universal-sentence-encoder, qwen-lm/qwen3-asr)",
+    "url": "https://www.kaggle.com/models/qwen-lm/qwen3-asr",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Trendyol-LLM-7b base/chat v0.1, v1.0, dpo-v1.0, v1.8",
+    "url": "https://huggingface.co/Trendyol/Trendyol-LLM-7b-chat-v1.8",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Llama-3-Trendyol-LLM-8b-chat-v2.0",
+    "url": "https://huggingface.co/Trendyol/Llama-3-Trendyol-LLM-8b-chat-v2.0",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Trendyol-LLM-7B-chat-v4.1.0",
+    "url": "https://huggingface.co/Trendyol/Trendyol-LLM-7B-chat-v4.1.0",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "WiroAI turkish-llm-9b / -8b / OpenR1-Qwen-7B-Turkish",
+    "url": "https://huggingface.co/WiroAI/wiroai-turkish-llm-9b",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Commencis-LLM 7B (bankacılık)",
+    "url": "https://huggingface.co/Commencis/Commencis-LLM",
+    "tur": "LLM-alan: vergi-finans"
+  },
+  {
+    "ad": "VeriUS-LLM-8b-v0.2",
+    "url": "",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "İşGPT (İş Bankası)",
+    "url": "https://www.isbank.com.tr/bankamizi-taniyin/is-bankasindan-ilk-turkce-buyuk-dil-modeli-isgpt",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Akbank LLM (adı yok)",
+    "url": "https://www.akbank.com/haberler/akbank-gelistirdigi-buyuk-dil-modeli-ile-gelecegin-bankacilik-dilinden-konusuyor",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "KoçGPT (Koç Grubu)",
+    "url": "",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Kumru VLM (VNGRS + BtcTurk)",
+    "url": "",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Turkcell + TÜBİTAK BİLGEM sektör modeli (çok kipli çağrı merkezi asistanı)",
+    "url": "",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Turkish-LLM-7B / 14B / 32B-Instruct (ogulcanaydogan)",
+    "url": "https://github.com/ogulcanaydogan/Turkish-LLM",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "SykoLLM (SykoSLM)",
+    "url": "https://huggingface.co/SykoSLM/SykoLLM-V3.2-Thinking-Beta-Instruct",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Bireysel genel ince ayarlar (Omni-31B-Turkish-Reasoning, Gemma4-Turkish-26B-A4B, Kebap-1.0, malhajar Mistral-7B-Turkish/MedTurk, Tuguberk, suayptalha Kumru-2B-turkish-reasoning)",
+    "url": "https://www.yerel.ai/yerel-modeller",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "MODA (SIGTURK 2026; Qwen2.5-7B tabanlı Türkçe LLM)",
+    "url": "https://aclanthology.org/2026.sigturk-1.17",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Huseyin/teknofest-2025-turkish-edu (Teknofest yarışma modeli)",
+    "url": "",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Kaynak: yerel.ai «44 Türk LLM» listesi, dastechno, masqot listeleri",
+    "url": "https://www.yerel.ai/yerel-modeller",
+    "tur": "Veri seti"
+  },
+  {
+    "ad": "TDK büyük dil modeli + Ulusal Türkiye Derlemi",
+    "url": "https://www.cnbce.com/teknoloji/tdk-yapay-zekaya-turkce-ogretecek-1-milyon-kelimelik-sozluk-buyuk-dil-modeli-ve-derlem-hazirlaniyor-h12344",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "BILGEM-AI veri setleri (BILGE-Wiki-Tr-Plus, Synthetic-Math/-Stories/-Web, Bilge-Tiny-MathQs)",
+    "url": "https://huggingface.co/BILGEM-AI",
+    "tur": "Veri seti"
+  },
+  {
+    "ad": "MEBİ / KANKA, EBA Öğrenci Asistanı",
+    "url": "",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Diyanet dijital dinî asistanı",
+    "url": "",
+    "tur": "LLM-alan: diğer"
+  },
+  {
+    "ad": "e-Devlet yapay zekâ asistanı",
+    "url": "https://gazeteoksijen.com/turkiye/e-devlete-yapay-zeka-geliyor-282703",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Türkçe Büyük Dil Temel Modeli Sektörel Uyarlama Çağrısı; Ortak Türk Dilleri LLM (2027); KAMAG 1007 Kamu Yapay Zekâ Ekosistemi; 2026–2030 YZ Eylem Planı",
+    "url": "https://webrazzi.com/2026/08/18/turkiye-nin-2026-2030-yapay-zek-eylem-plani-yururluge-girdi/",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "GİBİ (dijital vergi asistanı)",
+    "url": "https://www.politikam.com/gelir-idaresi-baskanligi-yeni-dijital-vergi-asistani-gibiyi-tanitti",
+    "tur": "LLM-alan: vergi-finans"
+  },
+  {
+    "ad": "GİB yapay zekâ destekli e-özelge projesi",
+    "url": "https://tubitak.gov.tr/sites/default/files/2025-02/GIB_Teknik_Ister_Dokumani.pdf",
+    "tur": "LLM-alan: vergi-finans"
+  },
+  {
+    "ad": "VDK-RAS, SARP, KAŞİF, VEDAS, KURGAN risk ve denetim araçları",
+    "url": "https://www.alomaliye.com/2026/04/14/sadece-insanlar-degil-yapay-zekada-hata-yapabilir-vergi-denetiminde-yapay-zeka-donemi/",
+    "tur": "LLM-alan: vergi-finans"
+  },
+  {
+    "ad": "UYAP AI Karar Destek Sistemi",
+    "url": "https://www.gzt.com/gundem/adalet-bakani-akin-gurlek-30-milyon-emsal-karari-saniyeler-icinde-tarayan-yapay-zeka-sistemi-basliyor-teknoloji-haberleri-4223178",
+    "tur": "LLM-alan: hukuk"
+  },
+  {
+    "ad": "Adalet Bakanlığı Yapay Zeka ve Veri Analitiği Şube Müdürlüğü; Kararcı (Adana Bölge Adliyesi, TÜBİTAK Mükemmeliyet Ödülü)",
+    "url": "https://www.cnbce.com/teknoloji/adalet-bakani-yilmaz-tunc-duyurdu-yapay-zeka-ve-veri-analitigi-sube-mudurlugu-kuruldu-h17505",
+    "tur": "LLM-alan: hukuk"
+  },
+  {
+    "ad": "UYAP'ta sesle yazma (Google Dokümanlar → Sesle Yazma)",
+    "url": "https://rayp.adalet.gov.tr/resimler/33/dosya/sesli-yazma26-02-20258-59-am.pdf",
+    "tur": "ASR"
+  },
+  {
+    "ad": "Lexpera LEXI",
+    "url": "https://www.lexpera.com.tr/lexi-yapay-zeka",
+    "tur": "LLM-alan: hukuk"
+  },
+  {
+    "ad": "Apilex.ai",
+    "url": "https://www.paradergi.com.tr/girisimcilik/2025/12/16/yerli-yapay-zeka-hukuk-asistani-avrupaya-aciliyor/amp",
+    "tur": "LLM-alan: hukuk"
+  },
+  {
+    "ad": "Leagle",
+    "url": "https://www.cumhuriyet.com.tr/is-dunyasi/turkiyedeki-hukukculara-ozel-yapay-zeka-asistani-2313871",
+    "tur": "LLM-alan: hukuk"
+  },
+  {
+    "ad": "Turbo Law",
+    "url": "https://webrazzi.com/2026/10/02/yapay-zeka-destekli-hukuk-girisimi-turbo-law/",
+    "tur": "LLM-alan: hukuk"
+  },
+  {
+    "ad": "Paraşüt yapay zekâ modülleri (fiş okuma, raporlama, destek asistanı)",
+    "url": "https://www.parasut.com/yapay-zeka-ozellikleri",
+    "tur": "LLM-alan: vergi-finans"
+  },
+  {
+    "ad": "Logo dijital danışman (Logo Cloud / Logo Edge)",
+    "url": "https://www.ekonomigazetesi.com/sirket-haberleri/logo-yazilim-base-platformuyla-yeni-bir-teknoloji-ekosistemi-kuruyor-88238",
+    "tur": "LLM-alan: vergi-finans"
+  },
+  {
+    "ad": "WiroAI-Finance (Qwen/Llama/Gemma 1,5B–9B), BIST-LLM-8B-Turkish-Finance (SarpBnlcn), turkish-finance-qwen3b, FinLM-8B-TR",
+    "url": "https://huggingface.co/api/models?search=turkish%20finance&sort=downloads&limit=30",
+    "tur": "LLM-alan: vergi-finans"
+  },
+  {
+    "ad": "Mali Asistan MVP (rea-dev)",
+    "url": "https://huggingface.co/rea-dev",
+    "tur": "LLM-alan: vergi-finans"
+  },
+  {
+    "ad": "Alan modeli bulunamayanlar: eğitim (TR-EduVSum veri seti), din (MufassirQAS RAG robotu), kamu yönetimi",
+    "url": "",
+    "tur": "LLM-alan: diğer"
+  },
+  {
+    "ad": "Gazi TTS veri seti makalesi (2023, ~12 saat 38 dk)",
+    "url": "",
+    "tur": "Veri seti"
+  },
+  {
+    "ad": "BOUN turna_* ince ayarlı 15 model (özet, NER, NLI…)",
+    "url": "https://huggingface.co/boun-tabi-LMG",
+    "tur": "LLM-genel"
+  },
+  {
+    "ad": "Whisper-Medium/Large-v3 LoRA ve çıkarım odaklı ince ayar (ScienceDirect 2026)",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2215098626002314",
+    "tur": "Yöntem/makale"
+  },
+  {
+    "ad": "ahakan/okur-tts (Okur v1.0)",
+    "url": "https://huggingface.co/ahakan/okur-tts",
+    "tur": "TTS"
+  },
+  {
+    "ad": "kaanhgunay/pocket-tts-tr",
+    "url": "https://huggingface.co/kaanhgunay/pocket-tts-tr",
+    "tur": "TTS"
+  },
+  {
+    "ad": "marduk-ra/F5-TTS-Turkish",
+    "url": "https://huggingface.co/marduk-ra/F5-TTS-Turkish",
+    "tur": "TTS"
+  },
+  {
+    "ad": "SindBERT (SIGTURK 2026; RoBERTa base/large)",
+    "url": "https://aclanthology.org/2026.sigturk-1.1",
+    "tur": "Kodlayıcı-BERT"
+  },
+  {
+    "ad": "BAAI/bge-m3 ve embeddinggemma-300m",
+    "url": "https://huggingface.co/BAAI/bge-m3",
+    "tur": "Gömme/reranker"
+  },
+  {
+    "ad": "CMI rehberli TTS ile kod karışımlı konuşma sentezi (2606.19381)",
+    "url": "https://arxiv.org/abs/2606.19381",
+    "tur": "Yöntem/makale"
+  },
+  {
+    "ad": "Bayesçi çarpanlarına ayrılmış uyarlama (2606.21990)",
+    "url": "https://arxiv.org/abs/2606.21990",
+    "tur": "Yöntem/makale"
+  },
+  {
+    "ad": "Whisper yumuşak komut istemi (2506.21576) ve AsyncSwitch (2506.14190)",
+    "url": "https://arxiv.org/pdf/2506.21576",
+    "tur": "Yöntem/makale"
+  },
+  {
+    "ad": "ASR sonrası LLM ile hata düzeltme (GER; 2307.04172, 2409.09554)",
+    "url": "https://arxiv.org/abs/2307.04172",
+    "tur": "Yöntem/makale"
+  },
+  {
+    "ad": "Türkçe-İngilizce kod geçişi tespiti, metin (W-NUT 2018, Yirmibeşoğlu ve Eryiğit)",
+    "url": "https://preview.aclanthology.org/setup/W18-6115",
+    "tur": "Yöntem/makale"
+  },
+  {
+    "ad": "Morfolojik belirsizlik giderme (Özer ve Korkmaz, 2022) ve noktalama makaleleri (IEEE 2023 ELECTRA %83,9; Yüzüler ve Sakar, ASR için noktalama 2025)",
+    "url": "https://aj.tubitak.gov.tr/elektrik/issues/elk-22-30-5/elk-30-5-15-2201-134.pdf",
+    "tur": "Yöntem/makale"
+  },
+  {
+    "ad": "SIGTURK 2026 bildirileri (OCRTurk, RAGTurk, TR-EduVSum, sözcük biçimbilim/tokenizasyon, morfoloji farkında sözdizim)",
+    "url": "https://aclanthology.org/volumes/2026.sigturk-1/",
+    "tur": "Yöntem/makale"
+  },
+  {
+    "ad": "Türk dilleri ve Türkçe kaynak taramaları (Turkic Language Modeling survey, UBMK 2025; Resources for Turkish NLP, 2022)",
+    "url": "https://arxiv.org/pdf/2204.05042",
+    "tur": "Yöntem/makale"
+  },
+  {
+    "ad": "TurkishMMLU",
+    "url": "https://arxiv.org/abs/2407.12402",
+    "tur": "Değerlendirme seti"
+  },
+  {
+    "ad": "TR-MMLU",
+    "url": "https://arxiv.org/abs/2501.00593",
+    "tur": "Değerlendirme seti"
+  },
+  {
+    "ad": "TurkBench (SIGTURK 2026)",
+    "url": "https://arxiv.org/html/2601.07020v2",
+    "tur": "Değerlendirme seti"
+  },
+  {
+    "ad": "TurBLiMP (EMNLP 2025)",
+    "url": "https://arxiv.org/html/2506.13487v2",
+    "tur": "Değerlendirme seti"
+  },
+  {
+    "ad": "METU LLM Benchmark (ODTÜ NLP)",
+    "url": "https://nlp.ceng.metu.edu.tr/project-turkish-llm-benchmark.html",
+    "tur": "Değerlendirme seti"
+  },
+  {
+    "ad": "Mizan Turkish Evaluation Leaderboard (newmindai; embedding)",
+    "url": "https://newmindai-mizan.hf.space/",
+    "tur": "Değerlendirme seti"
+  },
+  {
+    "ad": "FLEURS Türkçe (test 743 klip)",
+    "url": "https://huggingface.co/datasets/google/fleurs",
+    "tur": "Veri seti"
+  },
+  {
+    "ad": "Turkish Broadcast News (Boğaziçi, LDC2012S06)",
+    "url": "https://catalog.ldc.upenn.edu/LDC2012S06",
+    "tur": "Veri seti"
+  },
+  {
+    "ad": "MUSCAT (bilimsel konuşma ve kod karışımı)",
+    "url": "https://arxiv.org/abs/2604.15929",
+    "tur": "Veri seti"
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "record_id": 63,
+    "name": "canberkkkkkk/ema-lightning ve ema-tts",
+    "category": "TTS",
+    "url": "https://huggingface.co/canberkkkkkk/ema-lightning",
+    "dossier": "arastirma/tam-tarama/kayitlar/063.json"
+  },
+  {
+    "record_id": 64,
+    "name": "freyavoice/Freya-TTS",
+    "category": "TTS",
+    "url": "https://huggingface.co/freyavoice/Freya-TTS",
+    "dossier": "arastirma/tam-tarama/kayitlar/064.json"
+  },
+  {
+    "record_id": 65,
+    "name": "ozgurguler/ahenk-cep-tr (8,6M)",
+    "category": "TTS",
+    "url": "https://huggingface.co/ozgurguler/ahenk-cep-tr",
+    "dossier": "arastirma/tam-tarama/kayitlar/065.json"
+  },
+  {
+    "record_id": 66,
+    "name": "kadirnar/drifting-tts",
+    "category": "TTS",
+    "url": "https://github.com/kadirnar/drifting-tts",
+    "dossier": "arastirma/tam-tarama/kayitlar/066.json"
+  },
+  {
+    "record_id": 67,
+    "name": "Piper Türkçe sesleri (rhasspy tr_TR fahrettin/fettah; 99eren99; dcx514ai; DFKI; «Cem»)",
+    "category": "TTS",
+    "url": "https://huggingface.co/rhasspy/piper-voices/tree/main/tr/tr_TR/fahrettin/medium",
+    "dossier": "arastirma/tam-tarama/kayitlar/067.json"
+  },
+  {
+    "record_id": 68,
+    "name": "Trendyol/Trendyol-TTS",
+    "category": "TTS",
+    "url": "https://huggingface.co/Trendyol/Trendyol-TTS",
+    "dossier": "arastirma/tam-tarama/kayitlar/068.json"
+  },
+  {
+    "record_id": 69,
+    "name": "openbmb/VoxCPM2",
+    "category": "TTS",
+    "url": "https://huggingface.co/openbmb/VoxCPM2",
+    "dossier": "arastirma/tam-tarama/kayitlar/069.json"
+  },
+  {
+    "record_id": 70,
+    "name": "krmkayabasi/Anka-TTS",
+    "category": "TTS",
+    "url": "https://huggingface.co/krmkayabasi/Anka-TTS",
+    "dossier": "arastirma/tam-tarama/kayitlar/070.json"
+  },
+  {
+    "record_id": 71,
+    "name": "AlicanKiraz0/Kizagan-TTS-v1.0",
+    "category": "TTS",
+    "url": "https://huggingface.co/AlicanKiraz0/Kizagan-TTS-v1.0",
+    "dossier": "arastirma/tam-tarama/kayitlar/071.json"
+  },
+  {
+    "record_id": 72,
+    "name": "ozgurguler/ahenk-tts-tr (36M LoRA + 2B)",
+    "category": "TTS",
+    "url": "https://huggingface.co/ozgurguler/ahenk-tts-tr",
+    "dossier": "arastirma/tam-tarama/kayitlar/072.json"
+  },
+  {
+    "record_id": 73,
+    "name": "Patientdesk-AI/antalia (Antalia 1 ~300M, antalia-mini / Antalia-2 Mini 7,6M)",
+    "category": "TTS",
+    "url": "https://huggingface.co/cloud0day3/antalia-1",
+    "dossier": "arastirma/tam-tarama/kayitlar/073.json"
+  },
+  {
+    "record_id": 74,
+    "name": "Supertone/supertonic-3",
+    "category": "TTS",
+    "url": "https://huggingface.co/Supertone/supertonic-3",
+    "dossier": "arastirma/tam-tarama/kayitlar/074.json"
+  },
+  {
+    "record_id": 75,
+    "name": "ResembleAI/chatterbox (Multilingual V3)",
+    "category": "TTS",
+    "url": "https://huggingface.co/ResembleAI/chatterbox",
+    "dossier": "arastirma/tam-tarama/kayitlar/075.json"
+  },
+  {
+    "record_id": 76,
+    "name": "facebook/mms-tts-tur",
+    "category": "TTS",
+    "url": "https://huggingface.co/facebook/mms-tts-tur",
+    "dossier": "arastirma/tam-tarama/kayitlar/076.json"
+  },
+  {
+    "record_id": 77,
+    "name": "k2-fsa/OmniVoice",
+    "category": "TTS",
+    "url": "https://huggingface.co/k2-fsa/OmniVoice",
+    "dossier": "arastirma/tam-tarama/kayitlar/077.json"
+  },
+  {
+    "record_id": 78,
+    "name": "Diğer TTS (Orkhon, Orpheus-TR, Orpheus-KhanAcademy-TR 3B, kani-tts-400m-0.3-tr, DizgeTTS-Antalia, LLaSA, SpeechT5, XTTS-v2, Bark, atasoglu/turkish-tts-models koleksiyonu)",
+    "category": "TTS",
+    "url": "",
+    "dossier": "arastirma/tam-tarama/kayitlar/078.json"
+  },
+  {
+    "record_id": 169,
+    "name": "ahakan/okur-tts (Okur v1.0)",
+    "category": "TTS",
+    "url": "https://huggingface.co/ahakan/okur-tts",
+    "dossier": "arastirma/tam-tarama/kayitlar/169.json"
+  },
+  {
+    "record_id": 170,
+    "name": "kaanhgunay/pocket-tts-tr",
+    "category": "TTS",
+    "url": "https://huggingface.co/kaanhgunay/pocket-tts-tr",
+    "dossier": "arastirma/tam-tarama/kayitlar/170.json"
+  },
+  {
+    "record_id": 171,
+    "name": "marduk-ra/F5-TTS-Turkish",
+    "category": "TTS",
+    "url": "https://huggingface.co/marduk-ra/F5-TTS-Turkish",
+    "dossier": "arastirma/tam-tarama/kayitlar/171.json"
+  }
+]
