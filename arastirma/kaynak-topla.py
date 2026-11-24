@@ -32,7 +32,7 @@ def fetch(url):
         if path.exists(): return json.loads(path.read_text(encoding='utf-8'))
         result={'url':url,'checked_at':DAY}
         try:
-            req=Request(url,headers={'User-Agent':'Kemal-Turkish-Model-Research/1.0','Accept':'application/json,text/plain,text/html'})
+            req=Request(url,headers={'User-Agent':'Turkish-Model-Catalog-Research/1.0','Accept':'application/json,text/plain,text/html'})
             with urlopen(req,timeout=22) as f:
                 ct=f.headers.get('Content-Type',''); result.update(status=f.status,resolved_url=f.url,content_type=ct)
                 if any(x in ct for x in ('pdf','audio/','image/','octet-stream')): result['error']='BINARY_NOT_FETCHED'

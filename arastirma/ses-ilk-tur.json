@@ -24,7 +24,7 @@
       "try_it": "Bilgisayarda kullanma ve uzun kayıtları parçalara ayırma örnekleri var. Bu turda kurulmadı veya çalıştırılmadı; çalışan bir web demosu doğrulanmadı.",
       "independent": "Bağımsız Calm-Whisper araştırması, konuşma olmayan seslerde uydurma yazı üretme sorununu inceliyor. Türkçe üzerine başka bir makale aramada bulundu, ancak sayfasına erişilemediği için sonuçları alınmadı; resmi duyuru okundu, YouTube veya X videosu izlenmedi.",
       "unknowns": [
-        "Kemal’in sesi, mikrofonu ve özel terimleriyle denenmedi.",
+        "Kullanıcının sesi, mikrofonu ve özel terimleriyle denenmedi.",
         "Sessizlikte ve aynı anda konuşan kişilerde güvenilirliği burada ölçülmedi.",
         "Model kartı ile resmi kodun lisans etiketleri farklı; kullanılacak dağıtım ayrıca kontrol edilmeli."
       ],
@@ -243,7 +243,7 @@
         },
         {
           "text": "Belirli cihazlarda gerçek zamandan hızlı çalışıyor.",
-          "evidence": "Geliştirici RTX 4090’da bir saniyelik sesi yaklaşık 0,11 saniyede, M3 işlemcide 0,70 saniyede ürettiğini bildiriyor. Kemal’in bilgisayarı ölçülmedi.",
+          "evidence": "Geliştirici RTX 4090’da bir saniyelik sesi yaklaşık 0,11 saniyede, M3 işlemcide 0,70 saniyede ürettiğini bildiriyor. Kullanıcının bilgisayarı ölçülmedi.",
           "source": "https://github.com/freyavoiceai/FreyaTTS"
         }
       ],

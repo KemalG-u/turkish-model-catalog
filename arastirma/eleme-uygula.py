@@ -1,4 +1,4 @@
-"""Kemal'in onayladığı eleme ölçütünü etkin sayfaya uygular; kaynak arşivini korur."""
+"""Onaylanmış eleme ölçütünü etkin sayfaya uygular; kaynak arşivini korur."""
 import json
 from pathlib import Path
 
