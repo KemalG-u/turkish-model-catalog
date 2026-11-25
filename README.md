@@ -4,6 +4,8 @@
 
 A source-backed catalog of **190 Turkish-relevant language-model, speech (ASR/TTS), NLP, dataset and benchmark entries**, with one research card per entry (what the developer claims, how it was trained, how to try it, independent evidence, open questions, source links), plus a single offline HTML page to browse it. The page and data are in Turkish.
 
+How this differs from [jev-teknik-arastirma](https://github.com/KemalG-u/jev-teknik-arastirma): that repository is a single write-up on one provider's decision API; this one is a broad catalog of Turkish-relevant models, datasets and benchmarks, with one research card per entry.
+
 Türkçe sürüm: [README.tr.md](README.tr.md)
 
 > **Snapshot: data collected October 2026; licenses and benchmark claims not re-verified.**

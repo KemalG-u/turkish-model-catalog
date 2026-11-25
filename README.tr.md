@@ -4,6 +4,8 @@
 
 **Türkçe ile ilgili 190 dil modeli, ses (ASR/TTS), NLP, veri seti ve değerlendirme kaynağının** kaynaklı kataloğu. Her kayıt için bir araştırma kartı var (geliştiricinin iddiası, nasıl eğitildiği, nasıl denenir, bağımsız kanıt, açık sorular, kaynak bağlantıları) ve hepsini gezmek için tek dosyalık, çevrimdışı çalışan bir HTML sayfası.
 
+[jev-teknik-arastirma](https://github.com/KemalG-u/jev-teknik-arastirma) deposundan farkı: o depo tek bir sağlayıcının karar API'si üzerine tek bir yazıdır; bu depo ise Türkçe ile ilgili modellerin, veri setlerinin ve ölçütlerin geniş bir kataloğudur, her kayıt için ayrı araştırma kartı vardır.
+
 English: [README.md](README.md)
 
 > **Anlık görüntü: veriler Ekim 2026'da toplandı; lisanslar ve ölçüm iddiaları yeniden doğrulanmadı.**
